@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servermanagement.Session
     id: azure-arm-servermanagement.Session
     name: Session
-    summary: "Session\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServerManagement.\rInitializes a new instance of the Session class."
+    summary: Class representing a Session.
     fullName: azure-arm-servermanagement.Session
     source:
       id: azure-arm-servermanagement.Session
       path: lib\services\servermanagement\lib\operations\session.js
-      startLine: 717
+      startLine: 708
       remote:
         branch: jsdoc
         path: lib\services\servermanagement\lib\operations\session.js
@@ -31,7 +31,7 @@ items:
     parent: azure-arm-servermanagement.Session
     name: Session(client)
     fullName: azure-arm-servermanagement.Session.Session(client)
-    summary: ''
+    summary: Create a Session.
     type: Constructor
     syntax:
       parameters:

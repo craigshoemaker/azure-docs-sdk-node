@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-datalake-analytics.ComputePolicies
     id: azure-arm-datalake-analytics.ComputePolicies
     name: ComputePolicies
-    summary: "ComputePolicies\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsAccountManagementClient.\rInitializes a new instance of the ComputePolicies class."
+    summary: Class representing a ComputePolicies.
     fullName: azure-arm-datalake-analytics.ComputePolicies
     source:
       id: azure-arm-datalake-analytics.ComputePolicies
       path: >-
         lib\services\dataLake.Analytics\lib\account\operations\computePolicies.js
-      startLine: 964
+      startLine: 955
       remote:
         branch: jsdoc
         path: >-
@@ -43,7 +43,7 @@ items:
     parent: azure-arm-datalake-analytics.ComputePolicies
     name: ComputePolicies(client)
     fullName: azure-arm-datalake-analytics.ComputePolicies.ComputePolicies(client)
-    summary: ''
+    summary: Create a ComputePolicies.
     type: Constructor
     syntax:
       parameters:

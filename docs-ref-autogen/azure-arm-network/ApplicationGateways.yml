@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.ApplicationGateways
     id: azure-arm-network.ApplicationGateways
     name: ApplicationGateways
-    summary: "ApplicationGateways\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the ApplicationGateways class."
+    summary: Class representing a ApplicationGateways.
     fullName: azure-arm-network.ApplicationGateways
     source:
       id: azure-arm-network.ApplicationGateways
       path: lib\services\networkManagement2\lib\operations\applicationGateways.js
-      startLine: 2636
+      startLine: 2625
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\applicationGateways.js
@@ -39,8 +39,8 @@ items:
         azure-arm-network.ApplicationGateways#listAvailableWafRuleSetsWithHttpOperationResponse
       - 'azure-arm-network.ApplicationGateways#listAvailableWafRuleSets'
       - >-
-        azure-arm-network.ApplicationGateways#listAvailableSslOptionsWithHttpOperationResponse
-      - 'azure-arm-network.ApplicationGateways#listAvailableSslOptions'
+        azure-arm-network.ApplicationGateways#availableSslOptionsWithHttpOperationResponse
+      - 'azure-arm-network.ApplicationGateways#availableSslOptions'
       - >-
         azure-arm-network.ApplicationGateways#listAvailableSslPredefinedPoliciesWithHttpOperationResponse
       - 'azure-arm-network.ApplicationGateways#listAvailableSslPredefinedPolicies'
@@ -77,7 +77,7 @@ items:
     parent: azure-arm-network.ApplicationGateways
     name: ApplicationGateways(client)
     fullName: azure-arm-network.ApplicationGateways.ApplicationGateways(client)
-    summary: ''
+    summary: Create a ApplicationGateways.
     type: Constructor
     syntax:
       parameters:
@@ -1339,14 +1339,14 @@ items:
     langs:
       - js
   - uid: >-
-      azure-arm-network.ApplicationGateways#listAvailableSslOptionsWithHttpOperationResponse
+      azure-arm-network.ApplicationGateways#availableSslOptionsWithHttpOperationResponse
     id: >-
-      azure-arm-network.ApplicationGateways#listAvailableSslOptionsWithHttpOperationResponse
+      azure-arm-network.ApplicationGateways#availableSslOptionsWithHttpOperationResponse
     parent: azure-arm-network.ApplicationGateways
-    name: listAvailableSslOptionsWithHttpOperationResponse(options)
+    name: availableSslOptionsWithHttpOperationResponse(options)
     summary: Lists available Ssl options for configuring Ssl policy.
     fullName: >-
-      azure-arm-network.ApplicationGateways.listAvailableSslOptionsWithHttpOperationResponse(options)
+      azure-arm-network.ApplicationGateways.availableSslOptionsWithHttpOperationResponse(options)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -1377,16 +1377,16 @@ items:
         type:
           - Promise
         description: A promise is returned
-      content: function listAvailableSslOptionsWithHttpOperationResponse(options)
+      content: function availableSslOptionsWithHttpOperationResponse(options)
     langs:
       - js
-  - uid: 'azure-arm-network.ApplicationGateways#listAvailableSslOptions'
-    id: 'azure-arm-network.ApplicationGateways#listAvailableSslOptions'
+  - uid: 'azure-arm-network.ApplicationGateways#availableSslOptions'
+    id: 'azure-arm-network.ApplicationGateways#availableSslOptions'
     parent: azure-arm-network.ApplicationGateways
-    name: 'listAvailableSslOptions(options, optionalCallback)'
+    name: 'availableSslOptions(options, optionalCallback)'
     summary: Lists available Ssl options for configuring Ssl policy.
     fullName: >-
-      azure-arm-network.ApplicationGateways.listAvailableSslOptions(options,
+      azure-arm-network.ApplicationGateways.availableSslOptions(options,
       optionalCallback)
     tags:
       - originalTitle: resolve
@@ -1424,7 +1424,7 @@ items:
           - function
           - Promise
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: 'function listAvailableSslOptions(options, optionalCallback)'
+      content: 'function availableSslOptions(options, optionalCallback)'
     langs:
       - js
   - uid: >-
@@ -1523,13 +1523,10 @@ items:
     id: >-
       azure-arm-network.ApplicationGateways#getSslPredefinedPolicyWithHttpOperationResponse
     parent: azure-arm-network.ApplicationGateways
-    name: >-
-      getSslPredefinedPolicyWithHttpOperationResponse(predefinedPolicyName,
-      options)
+    name: getSslPredefinedPolicyWithHttpOperationResponse(options)
     summary: Gets Ssl predefined policy with the specified policy name.
     fullName: >-
-      azure-arm-network.ApplicationGateways.getSslPredefinedPolicyWithHttpOperationResponse(predefinedPolicyName,
-      options)
+      azure-arm-network.ApplicationGateways.getSslPredefinedPolicyWithHttpOperationResponse(options)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -1546,10 +1543,6 @@ items:
     type: Function
     syntax:
       parameters:
-        - id: predefinedPolicyName
-          type:
-            - string
-          description: Name of Ssl predefined policy.
         - id: options
           type:
             - object
@@ -1564,20 +1557,17 @@ items:
         type:
           - Promise
         description: A promise is returned
-      content: >-
-        function
-        getSslPredefinedPolicyWithHttpOperationResponse(predefinedPolicyName,
-        options)
+      content: function getSslPredefinedPolicyWithHttpOperationResponse(options)
     langs:
       - js
   - uid: 'azure-arm-network.ApplicationGateways#getSslPredefinedPolicy'
     id: 'azure-arm-network.ApplicationGateways#getSslPredefinedPolicy'
     parent: azure-arm-network.ApplicationGateways
-    name: 'getSslPredefinedPolicy(predefinedPolicyName, options, optionalCallback)'
+    name: 'getSslPredefinedPolicy(options, optionalCallback)'
     summary: Gets Ssl predefined policy with the specified policy name.
     fullName: >-
-      azure-arm-network.ApplicationGateways.getSslPredefinedPolicy(predefinedPolicyName,
-      options, optionalCallback)
+      azure-arm-network.ApplicationGateways.getSslPredefinedPolicy(options,
+      optionalCallback)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -1594,10 +1584,6 @@ items:
     type: Function
     syntax:
       parameters:
-        - id: predefinedPolicyName
-          type:
-            - string
-          description: Name of Ssl predefined policy.
         - id: options
           type:
             - object
@@ -1618,9 +1604,7 @@ items:
           - function
           - Promise
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: >-
-        function getSslPredefinedPolicy(predefinedPolicyName, options,
-        optionalCallback)
+      content: 'function getSslPredefinedPolicy(options, optionalCallback)'
     langs:
       - js
   - uid: >-

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-powerbiembedded.AzureSku
     id: azure-arm-powerbiembedded.AzureSku
     name: AzureSku
-    summary: Initializes a new instance of the AzureSku class.
+    summary: Class representing a AzureSku.
     fullName: azure-arm-powerbiembedded.AzureSku
     source:
       id: azure-arm-powerbiembedded.AzureSku
       path: lib\services\powerbiembedded\lib\models\azureSku.js
-      startLine: 18
+      startLine: 16
       remote:
         branch: jsdoc
         path: lib\services\powerbiembedded\lib\models\azureSku.js
@@ -24,7 +24,7 @@ items:
     parent: azure-arm-powerbiembedded.AzureSku
     name: AzureSku()
     fullName: azure-arm-powerbiembedded.AzureSku.AzureSku()
-    summary: ''
+    summary: Create a AzureSku.
     type: Constructor
     syntax:
       content: new AzureSku()

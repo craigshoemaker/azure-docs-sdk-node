@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-website.Domains
     id: azure-arm-website.Domains
     name: Domains
-    summary: "Domains\r__NOTE__: An instance of this class is automatically created for an\rinstance of the WebSiteManagementClient.\rInitializes a new instance of the Domains class."
+    summary: Class representing a Domains.
     fullName: azure-arm-website.Domains
     source:
       id: azure-arm-website.Domains
       path: lib\services\webSiteManagement2\lib\operations\domains.js
-      startLine: 2907
+      startLine: 2898
       remote:
         branch: jsdoc
         path: lib\services\webSiteManagement2\lib\operations\domains.js
@@ -68,7 +68,7 @@ items:
     parent: azure-arm-website.Domains
     name: Domains(client)
     fullName: azure-arm-website.Domains.Domains(client)
-    summary: ''
+    summary: Create a Domains.
     type: Constructor
     syntax:
       parameters:
@@ -763,11 +763,6 @@ items:
           type:
             - string
           description: Phone number.
-        - id: domain.nameServers
-          type:
-            - array
-          description: Name servers.
-          optional: true
         - id: domain.privacy
           type:
             - boolean
@@ -777,11 +772,6 @@ items:
           type:
             - boolean
           description: "<code>true</code> if the domain should\rbe automatically renewed; otherwise, <code>false</code>."
-          optional: true
-        - id: domain.managedHostNames
-          type:
-            - array
-          description: "All hostnames derived from the\rdomain and assigned to Azure resources."
           optional: true
         - id: domain.consent
           type:
@@ -803,10 +793,20 @@ items:
             - date
           description: "Timestamp when the agreements were\raccepted."
           optional: true
-        - id: domain.domainNotRenewableReasons
+        - id: domain.dnsType
           type:
-            - array
-          description: "Reasons why domain is not\rrenewable."
+            - string
+          description: "Current DNS type. Possible values include:\r'AzureDns', 'DefaultDomainRegistrarDns'"
+          optional: true
+        - id: domain.dnsZoneId
+          type:
+            - string
+          description: Azure DNS Zone to use
+          optional: true
+        - id: domain.targetDnsType
+          type:
+            - string
+          description: "Target DNS type (would be used for\rmigration). Possible values include: 'AzureDns', 'DefaultDomainRegistrarDns'"
           optional: true
         - id: domain.name
           type:
@@ -971,11 +971,6 @@ items:
           type:
             - string
           description: Phone number.
-        - id: domain.nameServers
-          type:
-            - array
-          description: Name servers.
-          optional: true
         - id: domain.privacy
           type:
             - boolean
@@ -985,11 +980,6 @@ items:
           type:
             - boolean
           description: "<code>true</code> if the domain should\rbe automatically renewed; otherwise, <code>false</code>."
-          optional: true
-        - id: domain.managedHostNames
-          type:
-            - array
-          description: "All hostnames derived from the\rdomain and assigned to Azure resources."
           optional: true
         - id: domain.consent
           type:
@@ -1011,10 +1001,20 @@ items:
             - date
           description: "Timestamp when the agreements were\raccepted."
           optional: true
-        - id: domain.domainNotRenewableReasons
+        - id: domain.dnsType
           type:
-            - array
-          description: "Reasons why domain is not\rrenewable."
+            - string
+          description: "Current DNS type. Possible values include:\r'AzureDns', 'DefaultDomainRegistrarDns'"
+          optional: true
+        - id: domain.dnsZoneId
+          type:
+            - string
+          description: Azure DNS Zone to use
+          optional: true
+        - id: domain.targetDnsType
+          type:
+            - string
+          description: "Target DNS type (would be used for\rmigration). Possible values include: 'AzureDns', 'DefaultDomainRegistrarDns'"
           optional: true
         - id: domain.name
           type:
@@ -2014,11 +2014,6 @@ items:
           type:
             - string
           description: Phone number.
-        - id: domain.nameServers
-          type:
-            - array
-          description: Name servers.
-          optional: true
         - id: domain.privacy
           type:
             - boolean
@@ -2028,11 +2023,6 @@ items:
           type:
             - boolean
           description: "<code>true</code> if the domain should\rbe automatically renewed; otherwise, <code>false</code>."
-          optional: true
-        - id: domain.managedHostNames
-          type:
-            - array
-          description: "All hostnames derived from the\rdomain and assigned to Azure resources."
           optional: true
         - id: domain.consent
           type:
@@ -2054,10 +2044,20 @@ items:
             - date
           description: "Timestamp when the agreements were\raccepted."
           optional: true
-        - id: domain.domainNotRenewableReasons
+        - id: domain.dnsType
           type:
-            - array
-          description: "Reasons why domain is not\rrenewable."
+            - string
+          description: "Current DNS type. Possible values include:\r'AzureDns', 'DefaultDomainRegistrarDns'"
+          optional: true
+        - id: domain.dnsZoneId
+          type:
+            - string
+          description: Azure DNS Zone to use
+          optional: true
+        - id: domain.targetDnsType
+          type:
+            - string
+          description: "Target DNS type (would be used for\rmigration). Possible values include: 'AzureDns', 'DefaultDomainRegistrarDns'"
           optional: true
         - id: domain.name
           type:
@@ -2222,11 +2222,6 @@ items:
           type:
             - string
           description: Phone number.
-        - id: domain.nameServers
-          type:
-            - array
-          description: Name servers.
-          optional: true
         - id: domain.privacy
           type:
             - boolean
@@ -2236,11 +2231,6 @@ items:
           type:
             - boolean
           description: "<code>true</code> if the domain should\rbe automatically renewed; otherwise, <code>false</code>."
-          optional: true
-        - id: domain.managedHostNames
-          type:
-            - array
-          description: "All hostnames derived from the\rdomain and assigned to Azure resources."
           optional: true
         - id: domain.consent
           type:
@@ -2262,10 +2252,20 @@ items:
             - date
           description: "Timestamp when the agreements were\raccepted."
           optional: true
-        - id: domain.domainNotRenewableReasons
+        - id: domain.dnsType
           type:
-            - array
-          description: "Reasons why domain is not\rrenewable."
+            - string
+          description: "Current DNS type. Possible values include:\r'AzureDns', 'DefaultDomainRegistrarDns'"
+          optional: true
+        - id: domain.dnsZoneId
+          type:
+            - string
+          description: Azure DNS Zone to use
+          optional: true
+        - id: domain.targetDnsType
+          type:
+            - string
+          description: "Target DNS type (would be used for\rmigration). Possible values include: 'AzureDns', 'DefaultDomainRegistrarDns'"
           optional: true
         - id: domain.name
           type:

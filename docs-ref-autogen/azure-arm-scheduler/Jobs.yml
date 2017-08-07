@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-scheduler.Jobs
     id: azure-arm-scheduler.Jobs
     name: Jobs
-    summary: "Jobs\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SchedulerManagementClient.\rInitializes a new instance of the Jobs class."
+    summary: Class representing a Jobs.
     fullName: azure-arm-scheduler.Jobs
     source:
       id: azure-arm-scheduler.Jobs
       path: lib\services\schedulerManagement2\lib\operations\jobs.js
-      startLine: 1929
+      startLine: 1920
       remote:
         branch: jsdoc
         path: lib\services\schedulerManagement2\lib\operations\jobs.js
@@ -41,7 +41,7 @@ items:
     parent: azure-arm-scheduler.Jobs
     name: Jobs(client)
     fullName: azure-arm-scheduler.Jobs.Jobs(client)
-    summary: ''
+    summary: Create a Jobs.
     type: Constructor
     syntax:
       parameters:

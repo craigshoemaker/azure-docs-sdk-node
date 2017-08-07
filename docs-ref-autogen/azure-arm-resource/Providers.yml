@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.Providers
     id: azure-arm-resource.Providers
     name: Providers
-    summary: "Providers\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ResourceManagementClient.\rInitializes a new instance of the Providers class."
+    summary: Class representing a Providers.
     fullName: azure-arm-resource.Providers
     source:
       id: azure-arm-resource.Providers
       path: lib\services\resourceManagement\lib\resource\operations\providers.js
-      startLine: 739
+      startLine: 730
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\resource\operations\providers.js
@@ -33,7 +33,7 @@ items:
     parent: azure-arm-resource.Providers
     name: Providers(client)
     fullName: azure-arm-resource.Providers.Providers(client)
-    summary: ''
+    summary: Create a Providers.
     type: Constructor
     syntax:
       parameters:

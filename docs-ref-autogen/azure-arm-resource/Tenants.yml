@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.Tenants
     id: azure-arm-resource.Tenants
     name: Tenants
-    summary: "Tenants\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SubscriptionClient.\rInitializes a new instance of the Tenants class."
+    summary: Class representing a Tenants.
     fullName: azure-arm-resource.Tenants
     source:
       id: azure-arm-resource.Tenants
       path: lib\services\resourceManagement\lib\subscription\operations\tenants.js
-      startLine: 283
+      startLine: 274
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\subscription\operations\tenants.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-resource.Tenants
     name: Tenants(client)
     fullName: azure-arm-resource.Tenants.Tenants(client)
-    summary: ''
+    summary: Create a Tenants.
     type: Constructor
     syntax:
       parameters:

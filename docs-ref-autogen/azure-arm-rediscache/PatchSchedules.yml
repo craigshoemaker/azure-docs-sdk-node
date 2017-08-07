@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-rediscache.PatchSchedules
     id: azure-arm-rediscache.PatchSchedules
     name: PatchSchedules
-    summary: "PatchSchedules\r__NOTE__: An instance of this class is automatically created for an\rinstance of the RedisManagementClient.\rInitializes a new instance of the PatchSchedules class."
+    summary: Class representing a PatchSchedules.
     fullName: azure-arm-rediscache.PatchSchedules
     source:
       id: azure-arm-rediscache.PatchSchedules
       path: lib\services\rediscachemanagement\lib\operations\patchSchedules.js
-      startLine: 487
+      startLine: 478
       remote:
         branch: jsdoc
         path: lib\services\rediscachemanagement\lib\operations\patchSchedules.js
@@ -31,7 +31,7 @@ items:
     parent: azure-arm-rediscache.PatchSchedules
     name: PatchSchedules(client)
     fullName: azure-arm-rediscache.PatchSchedules.PatchSchedules(client)
-    summary: ''
+    summary: Create a PatchSchedules.
     type: Constructor
     syntax:
       parameters:

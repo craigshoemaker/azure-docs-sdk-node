@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servermanagement.PowerShell
     id: azure-arm-servermanagement.PowerShell
     name: PowerShell
-    summary: "PowerShell\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServerManagement.\rInitializes a new instance of the PowerShell class."
+    summary: Class representing a PowerShell.
     fullName: azure-arm-servermanagement.PowerShell
     source:
       id: azure-arm-servermanagement.PowerShell
       path: lib\services\servermanagement\lib\operations\powerShell.js
-      startLine: 1710
+      startLine: 1701
       remote:
         branch: jsdoc
         path: lib\services\servermanagement\lib\operations\powerShell.js
@@ -56,7 +56,7 @@ items:
     parent: azure-arm-servermanagement.PowerShell
     name: PowerShell(client)
     fullName: azure-arm-servermanagement.PowerShell.PowerShell(client)
-    summary: ''
+    summary: Create a PowerShell.
     type: Constructor
     syntax:
       parameters:

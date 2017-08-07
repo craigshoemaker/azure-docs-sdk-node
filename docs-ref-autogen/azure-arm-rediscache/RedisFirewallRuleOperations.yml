@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-rediscache.RedisFirewallRuleOperations
     id: azure-arm-rediscache.RedisFirewallRuleOperations
     name: RedisFirewallRuleOperations
-    summary: "RedisFirewallRuleOperations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the RedisManagementClient.\rInitializes a new instance of the RedisFirewallRuleOperations class."
+    summary: Class representing a RedisFirewallRuleOperations.
     fullName: azure-arm-rediscache.RedisFirewallRuleOperations
     source:
       id: azure-arm-rediscache.RedisFirewallRuleOperations
       path: >-
         lib\services\rediscachemanagement\lib\operations\redisFirewallRuleOperations.js
-      startLine: 503
+      startLine: 494
       remote:
         branch: jsdoc
         path: >-
@@ -35,7 +35,7 @@ items:
     name: RedisFirewallRuleOperations(client)
     fullName: >-
       azure-arm-rediscache.RedisFirewallRuleOperations.RedisFirewallRuleOperations(client)
-    summary: ''
+    summary: Create a RedisFirewallRuleOperations.
     type: Constructor
     syntax:
       parameters:

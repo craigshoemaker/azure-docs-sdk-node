@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-compute.AvailabilitySets
     id: azure-arm-compute.AvailabilitySets
     name: AvailabilitySets
-    summary: "AvailabilitySets\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ComputeManagementClient.\rInitializes a new instance of the AvailabilitySets class."
+    summary: Class representing a AvailabilitySets.
     fullName: azure-arm-compute.AvailabilitySets
     source:
       id: azure-arm-compute.AvailabilitySets
       path: lib\services\computeManagement2\lib\operations\availabilitySets.js
-      startLine: 779
+      startLine: 770
       remote:
         branch: jsdoc
         path: lib\services\computeManagement2\lib\operations\availabilitySets.js
@@ -35,7 +35,7 @@ items:
     parent: azure-arm-compute.AvailabilitySets
     name: AvailabilitySets(client)
     fullName: azure-arm-compute.AvailabilitySets.AvailabilitySets(client)
-    summary: ''
+    summary: Create a AvailabilitySets.
     type: Constructor
     syntax:
       parameters:

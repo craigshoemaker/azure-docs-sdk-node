@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.ManagementLockClient
     id: azure-arm-resource.ManagementLockClient
     name: ManagementLockClient
-    summary: Initializes a new instance of the ManagementLockClient class.
+    summary: Class representing a ManagementLockClient.
     fullName: azure-arm-resource.ManagementLockClient
     source:
       id: azure-arm-resource.ManagementLockClient
       path: lib\services\resourceManagement\lib\lock\managementLockClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\lock\managementLockClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-resource.ManagementLockClient.ManagementLockClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a ManagementLockClient.
     type: Constructor
     syntax:
       parameters:

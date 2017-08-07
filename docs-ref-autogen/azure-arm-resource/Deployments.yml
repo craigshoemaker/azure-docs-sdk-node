@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.Deployments
     id: azure-arm-resource.Deployments
     name: Deployments
-    summary: "Deployments\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ResourceManagementClient.\rInitializes a new instance of the Deployments class."
+    summary: Class representing a Deployments.
     fullName: azure-arm-resource.Deployments
     source:
       id: azure-arm-resource.Deployments
       path: lib\services\resourceManagement\lib\resource\operations\deployments.js
-      startLine: 1917
+      startLine: 1908
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\resource\operations\deployments.js
@@ -47,7 +47,7 @@ items:
     parent: azure-arm-resource.Deployments
     name: Deployments(client)
     fullName: azure-arm-resource.Deployments.Deployments(client)
-    summary: ''
+    summary: Create a Deployments.
     type: Constructor
     syntax:
       parameters:

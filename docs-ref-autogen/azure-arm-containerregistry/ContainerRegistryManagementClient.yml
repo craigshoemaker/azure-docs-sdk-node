@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-containerregistry.ContainerRegistryManagementClient
     id: azure-arm-containerregistry.ContainerRegistryManagementClient
     name: ContainerRegistryManagementClient
-    summary: Initializes a new instance of the ContainerRegistryManagementClient class.
+    summary: Class representing a ContainerRegistryManagementClient.
     fullName: azure-arm-containerregistry.ContainerRegistryManagementClient
     source:
       id: azure-arm-containerregistry.ContainerRegistryManagementClient
       path: >-
         lib\services\containerRegistryManagement\lib\containerRegistryManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: >-
@@ -29,7 +29,7 @@ items:
     fullName: >-
       azure-arm-containerregistry.ContainerRegistryManagementClient.ContainerRegistryManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a ContainerRegistryManagementClient.
     type: Constructor
     syntax:
       parameters:

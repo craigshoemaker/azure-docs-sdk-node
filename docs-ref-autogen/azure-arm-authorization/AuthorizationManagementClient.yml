@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-authorization.AuthorizationManagementClient
     id: azure-arm-authorization.AuthorizationManagementClient
     name: AuthorizationManagementClient
-    summary: Initializes a new instance of the AuthorizationManagementClient class.
+    summary: Class representing a AuthorizationManagementClient.
     fullName: azure-arm-authorization.AuthorizationManagementClient
     source:
       id: azure-arm-authorization.AuthorizationManagementClient
       path: >-
         lib\services\authorizationManagement\lib\authorizationManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: >-
@@ -29,7 +29,7 @@ items:
     fullName: >-
       azure-arm-authorization.AuthorizationManagementClient.AuthorizationManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a AuthorizationManagementClient.
     type: Constructor
     syntax:
       parameters:

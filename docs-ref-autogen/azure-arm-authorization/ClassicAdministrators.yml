@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-authorization.ClassicAdministrators
     id: azure-arm-authorization.ClassicAdministrators
     name: ClassicAdministrators
-    summary: "ClassicAdministrators\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AuthorizationManagementClient.\rInitializes a new instance of the ClassicAdministrators class."
+    summary: Class representing a ClassicAdministrators.
     fullName: azure-arm-authorization.ClassicAdministrators
     source:
       id: azure-arm-authorization.ClassicAdministrators
       path: >-
         lib\services\authorizationManagement\lib\operations\classicAdministrators.js
-      startLine: 293
+      startLine: 284
       remote:
         branch: jsdoc
         path: >-
@@ -32,7 +32,7 @@ items:
     name: ClassicAdministrators(client)
     fullName: >-
       azure-arm-authorization.ClassicAdministrators.ClassicAdministrators(client)
-    summary: ''
+    summary: Create a ClassicAdministrators.
     type: Constructor
     syntax:
       parameters:

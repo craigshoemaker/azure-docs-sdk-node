@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-logic.IntegrationAccounts
     id: azure-arm-logic.IntegrationAccounts
     name: IntegrationAccounts
-    summary: "IntegrationAccounts\r__NOTE__: An instance of this class is automatically created for an\rinstance of the LogicManagementClient.\rInitializes a new instance of the IntegrationAccounts class."
+    summary: Class representing a IntegrationAccounts.
     fullName: azure-arm-logic.IntegrationAccounts
     source:
       id: azure-arm-logic.IntegrationAccounts
       path: lib\services\logicManagement\lib\operations\integrationAccounts.js
-      startLine: 1387
+      startLine: 1378
       remote:
         branch: jsdoc
         path: lib\services\logicManagement\lib\operations\integrationAccounts.js
@@ -48,7 +48,7 @@ items:
     parent: azure-arm-logic.IntegrationAccounts
     name: IntegrationAccounts(client)
     fullName: azure-arm-logic.IntegrationAccounts.IntegrationAccounts(client)
-    summary: ''
+    summary: Create a IntegrationAccounts.
     type: Constructor
     syntax:
       parameters:

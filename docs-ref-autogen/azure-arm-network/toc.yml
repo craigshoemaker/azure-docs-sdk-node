@@ -1,3 +1,144 @@
+- uid: azure-arm-network.AddressSpace
+  name: AddressSpace
+  items:
+    - uid: 'azure-arm-network.AddressSpace#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGateway
+  name: ApplicationGateway
+  items:
+    - uid: 'azure-arm-network.ApplicationGateway#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayAuthenticationCertificate
+  name: ApplicationGatewayAuthenticationCertificate
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayAuthenticationCertificate#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayAvailableSslOptions
+  name: ApplicationGatewayAvailableSslOptions
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayAvailableSslOptions#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayAvailableSslPredefinedPolicies
+  name: ApplicationGatewayAvailableSslPredefinedPolicies
+  items:
+    - uid: >-
+        azure-arm-network.ApplicationGatewayAvailableSslPredefinedPolicies#mapper
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayAvailableWafRuleSetsResult
+  name: ApplicationGatewayAvailableWafRuleSetsResult
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayAvailableWafRuleSetsResult#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendAddress
+  name: ApplicationGatewayBackendAddress
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendAddress#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendAddressPool
+  name: ApplicationGatewayBackendAddressPool
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendAddressPool#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendHealth
+  name: ApplicationGatewayBackendHealth
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendHealth#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendHealthHttpSettings
+  name: ApplicationGatewayBackendHealthHttpSettings
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendHealthHttpSettings#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendHealthPool
+  name: ApplicationGatewayBackendHealthPool
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendHealthPool#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendHealthServer
+  name: ApplicationGatewayBackendHealthServer
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendHealthServer#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayBackendHttpSettings
+  name: ApplicationGatewayBackendHttpSettings
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayBackendHttpSettings#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayConnectionDraining
+  name: ApplicationGatewayConnectionDraining
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayConnectionDraining#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayFirewallDisabledRuleGroup
+  name: ApplicationGatewayFirewallDisabledRuleGroup
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayFirewallDisabledRuleGroup#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayFirewallRule
+  name: ApplicationGatewayFirewallRule
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayFirewallRule#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayFirewallRuleGroup
+  name: ApplicationGatewayFirewallRuleGroup
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayFirewallRuleGroup#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayFirewallRuleSet
+  name: ApplicationGatewayFirewallRuleSet
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayFirewallRuleSet#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayFrontendIPConfiguration
+  name: ApplicationGatewayFrontendIPConfiguration
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayFrontendIPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayFrontendPort
+  name: ApplicationGatewayFrontendPort
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayFrontendPort#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayHttpListener
+  name: ApplicationGatewayHttpListener
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayHttpListener#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayIPConfiguration
+  name: ApplicationGatewayIPConfiguration
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayIPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayListResult
+  name: ApplicationGatewayListResult
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayPathRule
+  name: ApplicationGatewayPathRule
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayPathRule#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayProbe
+  name: ApplicationGatewayProbe
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayProbe#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayProbeHealthResponseMatch
+  name: ApplicationGatewayProbeHealthResponseMatch
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayProbeHealthResponseMatch#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayRedirectConfiguration
+  name: ApplicationGatewayRedirectConfiguration
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayRedirectConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayRequestRoutingRule
+  name: ApplicationGatewayRequestRoutingRule
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayRequestRoutingRule#mapper'
+      name: mapper
 - uid: azure-arm-network.ApplicationGateways
   name: ApplicationGateways
   items:
@@ -42,10 +183,10 @@
     - uid: 'azure-arm-network.ApplicationGateways#listAvailableWafRuleSets'
       name: listAvailableWafRuleSets
     - uid: >-
-        azure-arm-network.ApplicationGateways#listAvailableSslOptionsWithHttpOperationResponse
-      name: listAvailableSslOptionsWithHttpOperationResponse
-    - uid: 'azure-arm-network.ApplicationGateways#listAvailableSslOptions'
-      name: listAvailableSslOptions
+        azure-arm-network.ApplicationGateways#availableSslOptionsWithHttpOperationResponse
+      name: availableSslOptionsWithHttpOperationResponse
+    - uid: 'azure-arm-network.ApplicationGateways#availableSslOptions'
+      name: availableSslOptions
     - uid: >-
         azure-arm-network.ApplicationGateways#listAvailableSslPredefinedPoliciesWithHttpOperationResponse
       name: listAvailableSslPredefinedPoliciesWithHttpOperationResponse
@@ -95,19 +236,67 @@
     - uid: >-
         azure-arm-network.ApplicationGateways#listAvailableSslPredefinedPoliciesNext
       name: listAvailableSslPredefinedPoliciesNext
-- uid: azure-arm-network.AvailablePrivateAccessServices
-  name: AvailablePrivateAccessServices
+- uid: azure-arm-network.ApplicationGatewaySku
+  name: ApplicationGatewaySku
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewaySku#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewaySslCertificate
+  name: ApplicationGatewaySslCertificate
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewaySslCertificate#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewaySslPolicy
+  name: ApplicationGatewaySslPolicy
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewaySslPolicy#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewaySslPredefinedPolicy
+  name: ApplicationGatewaySslPredefinedPolicy
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewaySslPredefinedPolicy#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayUrlPathMap
+  name: ApplicationGatewayUrlPathMap
+  items:
+    - uid: 'azure-arm-network.ApplicationGatewayUrlPathMap#mapper'
+      name: mapper
+- uid: azure-arm-network.ApplicationGatewayWebApplicationFirewallConfiguration
+  name: ApplicationGatewayWebApplicationFirewallConfiguration
   items:
     - uid: >-
-        azure-arm-network.AvailablePrivateAccessServices#listWithHttpOperationResponse
-      name: listWithHttpOperationResponse
-    - uid: 'azure-arm-network.AvailablePrivateAccessServices#list'
-      name: list
-    - uid: >-
-        azure-arm-network.AvailablePrivateAccessServices#listNextWithHttpOperationResponse
-      name: listNextWithHttpOperationResponse
-    - uid: 'azure-arm-network.AvailablePrivateAccessServices#listNext'
-      name: listNext
+        azure-arm-network.ApplicationGatewayWebApplicationFirewallConfiguration#mapper
+      name: mapper
+- uid: azure-arm-network.AuthorizationListResult
+  name: AuthorizationListResult
+  items:
+    - uid: 'azure-arm-network.AuthorizationListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.AzureAsyncOperationResult
+  name: AzureAsyncOperationResult
+  items:
+    - uid: 'azure-arm-network.AzureAsyncOperationResult#mapper'
+      name: mapper
+- uid: azure-arm-network.BackendAddressPool
+  name: BackendAddressPool
+  items:
+    - uid: 'azure-arm-network.BackendAddressPool#mapper'
+      name: mapper
+- uid: azure-arm-network.BGPCommunity
+  name: BGPCommunity
+  items:
+    - uid: 'azure-arm-network.BGPCommunity#mapper'
+      name: mapper
+- uid: azure-arm-network.BgpPeerStatus
+  name: BgpPeerStatus
+  items:
+    - uid: 'azure-arm-network.BgpPeerStatus#mapper'
+      name: mapper
+- uid: azure-arm-network.BgpPeerStatusListResult
+  name: BgpPeerStatusListResult
+  items:
+    - uid: 'azure-arm-network.BgpPeerStatusListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.BgpServiceCommunities
   name: BgpServiceCommunities
   items:
@@ -120,6 +309,126 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.BgpServiceCommunities#listNext'
       name: listNext
+- uid: azure-arm-network.BgpServiceCommunity
+  name: BgpServiceCommunity
+  items:
+    - uid: 'azure-arm-network.BgpServiceCommunity#mapper'
+      name: mapper
+- uid: azure-arm-network.BgpServiceCommunityListResult
+  name: BgpServiceCommunityListResult
+  items:
+    - uid: 'azure-arm-network.BgpServiceCommunityListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.BgpSettings
+  name: BgpSettings
+  items:
+    - uid: 'azure-arm-network.BgpSettings#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectionResetSharedKey
+  name: ConnectionResetSharedKey
+  items:
+    - uid: 'azure-arm-network.ConnectionResetSharedKey#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectionSharedKey
+  name: ConnectionSharedKey
+  items:
+    - uid: 'azure-arm-network.ConnectionSharedKey#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectivityDestination
+  name: ConnectivityDestination
+  items:
+    - uid: 'azure-arm-network.ConnectivityDestination#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectivityHop
+  name: ConnectivityHop
+  items:
+    - uid: 'azure-arm-network.ConnectivityHop#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectivityInformation
+  name: ConnectivityInformation
+  items:
+    - uid: 'azure-arm-network.ConnectivityInformation#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectivityIssue
+  name: ConnectivityIssue
+  items:
+    - uid: 'azure-arm-network.ConnectivityIssue#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectivityParameters
+  name: ConnectivityParameters
+  items:
+    - uid: 'azure-arm-network.ConnectivityParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.ConnectivitySource
+  name: ConnectivitySource
+  items:
+    - uid: 'azure-arm-network.ConnectivitySource#mapper'
+      name: mapper
+- uid: azure-arm-network.DhcpOptions
+  name: DhcpOptions
+  items:
+    - uid: 'azure-arm-network.DhcpOptions#mapper'
+      name: mapper
+- uid: azure-arm-network.DnsNameAvailabilityResult
+  name: DnsNameAvailabilityResult
+  items:
+    - uid: 'azure-arm-network.DnsNameAvailabilityResult#mapper'
+      name: mapper
+- uid: azure-arm-network.EffectiveNetworkSecurityGroup
+  name: EffectiveNetworkSecurityGroup
+  items:
+    - uid: 'azure-arm-network.EffectiveNetworkSecurityGroup#mapper'
+      name: mapper
+- uid: azure-arm-network.EffectiveNetworkSecurityGroupAssociation
+  name: EffectiveNetworkSecurityGroupAssociation
+  items:
+    - uid: 'azure-arm-network.EffectiveNetworkSecurityGroupAssociation#mapper'
+      name: mapper
+- uid: azure-arm-network.EffectiveNetworkSecurityGroupListResult
+  name: EffectiveNetworkSecurityGroupListResult
+  items:
+    - uid: 'azure-arm-network.EffectiveNetworkSecurityGroupListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.EffectiveNetworkSecurityRule
+  name: EffectiveNetworkSecurityRule
+  items:
+    - uid: 'azure-arm-network.EffectiveNetworkSecurityRule#mapper'
+      name: mapper
+- uid: azure-arm-network.EffectiveRoute
+  name: EffectiveRoute
+  items:
+    - uid: 'azure-arm-network.EffectiveRoute#mapper'
+      name: mapper
+- uid: azure-arm-network.EffectiveRouteListResult
+  name: EffectiveRouteListResult
+  items:
+    - uid: 'azure-arm-network.EffectiveRouteListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.ErrorDetails
+  name: ErrorDetails
+  items:
+    - uid: 'azure-arm-network.ErrorDetails#mapper'
+      name: mapper
+- uid: azure-arm-network.ErrorModel
+  name: ErrorModel
+  items:
+    - uid: 'azure-arm-network.ErrorModel#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuit
+  name: ExpressRouteCircuit
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuit#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitArpTable
+  name: ExpressRouteCircuitArpTable
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitArpTable#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitAuthorization
+  name: ExpressRouteCircuitAuthorization
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitAuthorization#mapper'
+      name: mapper
 - uid: azure-arm-network.ExpressRouteCircuitAuthorizations
   name: ExpressRouteCircuitAuthorizations
   items:
@@ -158,6 +467,26 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.ExpressRouteCircuitAuthorizations#listNext'
       name: listNext
+- uid: azure-arm-network.ExpressRouteCircuitListResult
+  name: ExpressRouteCircuitListResult
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitPeering
+  name: ExpressRouteCircuitPeering
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitPeering#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitPeeringConfig
+  name: ExpressRouteCircuitPeeringConfig
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitPeeringConfig#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitPeeringListResult
+  name: ExpressRouteCircuitPeeringListResult
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitPeeringListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.ExpressRouteCircuitPeerings
   name: ExpressRouteCircuitPeerings
   items:
@@ -196,6 +525,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.ExpressRouteCircuitPeerings#listNext'
       name: listNext
+- uid: azure-arm-network.ExpressRouteCircuitRoutesTable
+  name: ExpressRouteCircuitRoutesTable
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitRoutesTable#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitRoutesTableSummary
+  name: ExpressRouteCircuitRoutesTableSummary
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitRoutesTableSummary#mapper'
+      name: mapper
 - uid: azure-arm-network.ExpressRouteCircuits
   name: ExpressRouteCircuits
   items:
@@ -279,6 +618,52 @@
       name: listAllNextWithHttpOperationResponse
     - uid: 'azure-arm-network.ExpressRouteCircuits#listAllNext'
       name: listAllNext
+- uid: azure-arm-network.ExpressRouteCircuitsArpTableListResult
+  name: ExpressRouteCircuitsArpTableListResult
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitsArpTableListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitServiceProviderProperties
+  name: ExpressRouteCircuitServiceProviderProperties
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitServiceProviderProperties#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitSku
+  name: ExpressRouteCircuitSku
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitSku#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitsRoutesTableListResult
+  name: ExpressRouteCircuitsRoutesTableListResult
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitsRoutesTableListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitsRoutesTableSummaryListResult
+  name: ExpressRouteCircuitsRoutesTableSummaryListResult
+  items:
+    - uid: >-
+        azure-arm-network.ExpressRouteCircuitsRoutesTableSummaryListResult#mapper
+      name: mapper
+- uid: azure-arm-network.ExpressRouteCircuitStats
+  name: ExpressRouteCircuitStats
+  items:
+    - uid: 'azure-arm-network.ExpressRouteCircuitStats#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteServiceProvider
+  name: ExpressRouteServiceProvider
+  items:
+    - uid: 'azure-arm-network.ExpressRouteServiceProvider#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteServiceProviderBandwidthsOffered
+  name: ExpressRouteServiceProviderBandwidthsOffered
+  items:
+    - uid: 'azure-arm-network.ExpressRouteServiceProviderBandwidthsOffered#mapper'
+      name: mapper
+- uid: azure-arm-network.ExpressRouteServiceProviderListResult
+  name: ExpressRouteServiceProviderListResult
+  items:
+    - uid: 'azure-arm-network.ExpressRouteServiceProviderListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.ExpressRouteServiceProviders
   name: ExpressRouteServiceProviders
   items:
@@ -292,10 +677,66 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.ExpressRouteServiceProviders#listNext'
       name: listNext
-- uid: azure-arm-network.List of network watcher resources.
-  name: List of network watcher resources.
-- uid: azure-arm-network.List of packet capture sessions.
-  name: List of packet capture sessions.
+- uid: azure-arm-network.FlowLogInformation
+  name: FlowLogInformation
+  items:
+    - uid: 'azure-arm-network.FlowLogInformation#mapper'
+      name: mapper
+- uid: azure-arm-network.FlowLogStatusParameters
+  name: FlowLogStatusParameters
+  items:
+    - uid: 'azure-arm-network.FlowLogStatusParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.FrontendIPConfiguration
+  name: FrontendIPConfiguration
+  items:
+    - uid: 'azure-arm-network.FrontendIPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.GatewayRoute
+  name: GatewayRoute
+  items:
+    - uid: 'azure-arm-network.GatewayRoute#mapper'
+      name: mapper
+- uid: azure-arm-network.GatewayRouteListResult
+  name: GatewayRouteListResult
+  items:
+    - uid: 'azure-arm-network.GatewayRouteListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.InboundNatPool
+  name: InboundNatPool
+  items:
+    - uid: 'azure-arm-network.InboundNatPool#mapper'
+      name: mapper
+- uid: azure-arm-network.InboundNatRule
+  name: InboundNatRule
+  items:
+    - uid: 'azure-arm-network.InboundNatRule#mapper'
+      name: mapper
+- uid: azure-arm-network.IPAddressAvailabilityResult
+  name: IPAddressAvailabilityResult
+  items:
+    - uid: 'azure-arm-network.IPAddressAvailabilityResult#mapper'
+      name: mapper
+- uid: azure-arm-network.IPConfiguration
+  name: IPConfiguration
+  items:
+    - uid: 'azure-arm-network.IPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.IpsecPolicy
+  name: IpsecPolicy
+  items:
+    - uid: 'azure-arm-network.IpsecPolicy#mapper'
+      name: mapper
+- uid: azure-arm-network.LoadBalancer
+  name: LoadBalancer
+  items:
+    - uid: 'azure-arm-network.LoadBalancer#mapper'
+      name: mapper
+- uid: azure-arm-network.LoadBalancerListResult
+  name: LoadBalancerListResult
+  items:
+    - uid: 'azure-arm-network.LoadBalancerListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.LoadBalancers
   name: LoadBalancers
   items:
@@ -337,6 +778,21 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.LoadBalancers#listNext'
       name: listNext
+- uid: azure-arm-network.LoadBalancingRule
+  name: LoadBalancingRule
+  items:
+    - uid: 'azure-arm-network.LoadBalancingRule#mapper'
+      name: mapper
+- uid: azure-arm-network.LocalNetworkGateway
+  name: LocalNetworkGateway
+  items:
+    - uid: 'azure-arm-network.LocalNetworkGateway#mapper'
+      name: mapper
+- uid: azure-arm-network.LocalNetworkGatewayListResult
+  name: LocalNetworkGatewayListResult
+  items:
+    - uid: 'azure-arm-network.LocalNetworkGatewayListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.LocalNetworkGateways
   name: LocalNetworkGateways
   items:
@@ -372,6 +828,31 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.LocalNetworkGateways#listNext'
       name: listNext
+- uid: azure-arm-network.NetworkInterface
+  name: NetworkInterface
+  items:
+    - uid: 'azure-arm-network.NetworkInterface#mapper'
+      name: mapper
+- uid: azure-arm-network.NetworkInterfaceAssociation
+  name: NetworkInterfaceAssociation
+  items:
+    - uid: 'azure-arm-network.NetworkInterfaceAssociation#mapper'
+      name: mapper
+- uid: azure-arm-network.NetworkInterfaceDnsSettings
+  name: NetworkInterfaceDnsSettings
+  items:
+    - uid: 'azure-arm-network.NetworkInterfaceDnsSettings#mapper'
+      name: mapper
+- uid: azure-arm-network.NetworkInterfaceIPConfiguration
+  name: NetworkInterfaceIPConfiguration
+  items:
+    - uid: 'azure-arm-network.NetworkInterfaceIPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.NetworkInterfaceListResult
+  name: NetworkInterfaceListResult
+  items:
+    - uid: 'azure-arm-network.NetworkInterfaceListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.NetworkInterfaces
   name: NetworkInterfaces
   items:
@@ -475,6 +956,16 @@
       name: checkDnsNameAvailabilityWithHttpOperationResponse
     - uid: 'azure-arm-network.NetworkManagementClient#checkDnsNameAvailability'
       name: checkDnsNameAvailability
+- uid: azure-arm-network.NetworkSecurityGroup
+  name: NetworkSecurityGroup
+  items:
+    - uid: 'azure-arm-network.NetworkSecurityGroup#mapper'
+      name: mapper
+- uid: azure-arm-network.NetworkSecurityGroupListResult
+  name: NetworkSecurityGroupListResult
+  items:
+    - uid: 'azure-arm-network.NetworkSecurityGroupListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.NetworkSecurityGroups
   name: NetworkSecurityGroups
   items:
@@ -520,6 +1011,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.NetworkSecurityGroups#listNext'
       name: listNext
+- uid: azure-arm-network.NetworkWatcher
+  name: NetworkWatcher
+  items:
+    - uid: 'azure-arm-network.NetworkWatcher#mapper'
+      name: mapper
+- uid: azure-arm-network.NetworkWatcherListResult
+  name: NetworkWatcherListResult
+  items:
+    - uid: 'azure-arm-network.NetworkWatcherListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.NetworkWatchers
   name: NetworkWatchers
   items:
@@ -631,6 +1132,51 @@
       name: beginCheckConnectivityWithHttpOperationResponse
     - uid: 'azure-arm-network.NetworkWatchers#beginCheckConnectivity'
       name: beginCheckConnectivity
+- uid: azure-arm-network.NextHopParameters
+  name: NextHopParameters
+  items:
+    - uid: 'azure-arm-network.NextHopParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.NextHopResult
+  name: NextHopResult
+  items:
+    - uid: 'azure-arm-network.NextHopResult#mapper'
+      name: mapper
+- uid: azure-arm-network.OutboundNatRule
+  name: OutboundNatRule
+  items:
+    - uid: 'azure-arm-network.OutboundNatRule#mapper'
+      name: mapper
+- uid: azure-arm-network.PacketCapture
+  name: PacketCapture
+  items:
+    - uid: 'azure-arm-network.PacketCapture#mapper'
+      name: mapper
+- uid: azure-arm-network.PacketCaptureFilter
+  name: PacketCaptureFilter
+  items:
+    - uid: 'azure-arm-network.PacketCaptureFilter#mapper'
+      name: mapper
+- uid: azure-arm-network.PacketCaptureListResult
+  name: PacketCaptureListResult
+  items:
+    - uid: 'azure-arm-network.PacketCaptureListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.PacketCaptureParameters
+  name: PacketCaptureParameters
+  items:
+    - uid: 'azure-arm-network.PacketCaptureParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.PacketCaptureQueryStatusResult
+  name: PacketCaptureQueryStatusResult
+  items:
+    - uid: 'azure-arm-network.PacketCaptureQueryStatusResult#mapper'
+      name: mapper
+- uid: azure-arm-network.PacketCaptureResult
+  name: PacketCaptureResult
+  items:
+    - uid: 'azure-arm-network.PacketCaptureResult#mapper'
+      name: mapper
 - uid: azure-arm-network.PacketCaptures
   name: PacketCaptures
   items:
@@ -675,6 +1221,36 @@
       name: beginGetStatusWithHttpOperationResponse
     - uid: 'azure-arm-network.PacketCaptures#beginGetStatus'
       name: beginGetStatus
+- uid: azure-arm-network.PacketCaptureStorageLocation
+  name: PacketCaptureStorageLocation
+  items:
+    - uid: 'azure-arm-network.PacketCaptureStorageLocation#mapper'
+      name: mapper
+- uid: azure-arm-network.PatchRouteFilter
+  name: PatchRouteFilter
+  items:
+    - uid: 'azure-arm-network.PatchRouteFilter#mapper'
+      name: mapper
+- uid: azure-arm-network.PatchRouteFilterRule
+  name: PatchRouteFilterRule
+  items:
+    - uid: 'azure-arm-network.PatchRouteFilterRule#mapper'
+      name: mapper
+- uid: azure-arm-network.Probe
+  name: Probe
+  items:
+    - uid: 'azure-arm-network.Probe#mapper'
+      name: mapper
+- uid: azure-arm-network.PublicIPAddress
+  name: PublicIPAddress
+  items:
+    - uid: 'azure-arm-network.PublicIPAddress#mapper'
+      name: mapper
+- uid: azure-arm-network.PublicIPAddressDnsSettings
+  name: PublicIPAddressDnsSettings
+  items:
+    - uid: 'azure-arm-network.PublicIPAddressDnsSettings#mapper'
+      name: mapper
 - uid: azure-arm-network.PublicIPAddresses
   name: PublicIPAddresses
   items:
@@ -701,24 +1277,6 @@
     - uid: 'azure-arm-network.PublicIPAddresses#list'
       name: list
     - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetPublicIPAddressesWithHttpOperationResponse
-      name: listVirtualMachineScaleSetPublicIPAddressesWithHttpOperationResponse
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetPublicIPAddresses
-      name: listVirtualMachineScaleSetPublicIPAddresses
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetVMPublicIPAddressesWithHttpOperationResponse
-      name: listVirtualMachineScaleSetVMPublicIPAddressesWithHttpOperationResponse
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetVMPublicIPAddresses
-      name: listVirtualMachineScaleSetVMPublicIPAddresses
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#getVirtualMachineScaleSetPublicIPAddressWithHttpOperationResponse
-      name: getVirtualMachineScaleSetPublicIPAddressWithHttpOperationResponse
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#getVirtualMachineScaleSetPublicIPAddress
-      name: getVirtualMachineScaleSetPublicIPAddress
-    - uid: >-
         azure-arm-network.PublicIPAddresses#beginDeleteMethodWithHttpOperationResponse
       name: beginDeleteMethodWithHttpOperationResponse
     - uid: 'azure-arm-network.PublicIPAddresses#beginDeleteMethod'
@@ -736,19 +1294,56 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.PublicIPAddresses#listNext'
       name: listNext
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetPublicIPAddressesNextWithHttpOperationResponse
-      name: listVirtualMachineScaleSetPublicIPAddressesNextWithHttpOperationResponse
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetPublicIPAddressesNext
-      name: listVirtualMachineScaleSetPublicIPAddressesNext
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetVMPublicIPAddressesNextWithHttpOperationResponse
-      name: >-
-        listVirtualMachineScaleSetVMPublicIPAddressesNextWithHttpOperationResponse
-    - uid: >-
-        azure-arm-network.PublicIPAddresses#listVirtualMachineScaleSetVMPublicIPAddressesNext
-      name: listVirtualMachineScaleSetVMPublicIPAddressesNext
+- uid: azure-arm-network.PublicIPAddressListResult
+  name: PublicIPAddressListResult
+  items:
+    - uid: 'azure-arm-network.PublicIPAddressListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.QueryTroubleshootingParameters
+  name: QueryTroubleshootingParameters
+  items:
+    - uid: 'azure-arm-network.QueryTroubleshootingParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-network.Resource#mapper'
+      name: mapper
+- uid: azure-arm-network.ResourceNavigationLink
+  name: ResourceNavigationLink
+  items:
+    - uid: 'azure-arm-network.ResourceNavigationLink#mapper'
+      name: mapper
+- uid: azure-arm-network.RetentionPolicyParameters
+  name: RetentionPolicyParameters
+  items:
+    - uid: 'azure-arm-network.RetentionPolicyParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.Route
+  name: Route
+  items:
+    - uid: 'azure-arm-network.Route#mapper'
+      name: mapper
+- uid: azure-arm-network.RouteFilter
+  name: RouteFilter
+  items:
+    - uid: 'azure-arm-network.RouteFilter#mapper'
+      name: mapper
+- uid: azure-arm-network.RouteFilterListResult
+  name: RouteFilterListResult
+  items:
+    - uid: 'azure-arm-network.RouteFilterListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.RouteFilterRule
+  name: RouteFilterRule
+  items:
+    - uid: 'azure-arm-network.RouteFilterRule#mapper'
+      name: mapper
+- uid: azure-arm-network.RouteFilterRuleListResult
+  name: RouteFilterRuleListResult
+  items:
+    - uid: 'azure-arm-network.RouteFilterRuleListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.RouteFilterRules
   name: RouteFilterRules
   items:
@@ -844,6 +1439,11 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.RouteFilters#listNext'
       name: listNext
+- uid: azure-arm-network.RouteListResult
+  name: RouteListResult
+  items:
+    - uid: 'azure-arm-network.RouteListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.Routes
   name: Routes
   items:
@@ -875,6 +1475,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.Routes#listNext'
       name: listNext
+- uid: azure-arm-network.RouteTable
+  name: RouteTable
+  items:
+    - uid: 'azure-arm-network.RouteTable#mapper'
+      name: mapper
+- uid: azure-arm-network.RouteTableListResult
+  name: RouteTableListResult
+  items:
+    - uid: 'azure-arm-network.RouteTableListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.RouteTables
   name: RouteTables
   items:
@@ -915,6 +1525,36 @@
       name: listAllNextWithHttpOperationResponse
     - uid: 'azure-arm-network.RouteTables#listAllNext'
       name: listAllNext
+- uid: azure-arm-network.SecurityGroupNetworkInterface
+  name: SecurityGroupNetworkInterface
+  items:
+    - uid: 'azure-arm-network.SecurityGroupNetworkInterface#mapper'
+      name: mapper
+- uid: azure-arm-network.SecurityGroupViewParameters
+  name: SecurityGroupViewParameters
+  items:
+    - uid: 'azure-arm-network.SecurityGroupViewParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.SecurityGroupViewResult
+  name: SecurityGroupViewResult
+  items:
+    - uid: 'azure-arm-network.SecurityGroupViewResult#mapper'
+      name: mapper
+- uid: azure-arm-network.SecurityRule
+  name: SecurityRule
+  items:
+    - uid: 'azure-arm-network.SecurityRule#mapper'
+      name: mapper
+- uid: azure-arm-network.SecurityRuleAssociations
+  name: SecurityRuleAssociations
+  items:
+    - uid: 'azure-arm-network.SecurityRuleAssociations#mapper'
+      name: mapper
+- uid: azure-arm-network.SecurityRuleListResult
+  name: SecurityRuleListResult
+  items:
+    - uid: 'azure-arm-network.SecurityRuleListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.SecurityRules
   name: SecurityRules
   items:
@@ -948,6 +1588,21 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.SecurityRules#listNext'
       name: listNext
+- uid: azure-arm-network.Subnet
+  name: Subnet
+  items:
+    - uid: 'azure-arm-network.Subnet#mapper'
+      name: mapper
+- uid: azure-arm-network.SubnetAssociation
+  name: SubnetAssociation
+  items:
+    - uid: 'azure-arm-network.SubnetAssociation#mapper'
+      name: mapper
+- uid: azure-arm-network.SubnetListResult
+  name: SubnetListResult
+  items:
+    - uid: 'azure-arm-network.SubnetListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.Subnets
   name: Subnets
   items:
@@ -979,6 +1634,66 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.Subnets#listNext'
       name: listNext
+- uid: azure-arm-network.SubResource
+  name: SubResource
+  items:
+    - uid: 'azure-arm-network.SubResource#mapper'
+      name: mapper
+- uid: azure-arm-network.Topology
+  name: Topology
+  items:
+    - uid: 'azure-arm-network.Topology#mapper'
+      name: mapper
+- uid: azure-arm-network.TopologyAssociation
+  name: TopologyAssociation
+  items:
+    - uid: 'azure-arm-network.TopologyAssociation#mapper'
+      name: mapper
+- uid: azure-arm-network.TopologyParameters
+  name: TopologyParameters
+  items:
+    - uid: 'azure-arm-network.TopologyParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.TopologyResource
+  name: TopologyResource
+  items:
+    - uid: 'azure-arm-network.TopologyResource#mapper'
+      name: mapper
+- uid: azure-arm-network.TroubleshootingDetails
+  name: TroubleshootingDetails
+  items:
+    - uid: 'azure-arm-network.TroubleshootingDetails#mapper'
+      name: mapper
+- uid: azure-arm-network.TroubleshootingParameters
+  name: TroubleshootingParameters
+  items:
+    - uid: 'azure-arm-network.TroubleshootingParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.TroubleshootingRecommendedActions
+  name: TroubleshootingRecommendedActions
+  items:
+    - uid: 'azure-arm-network.TroubleshootingRecommendedActions#mapper'
+      name: mapper
+- uid: azure-arm-network.TroubleshootingResult
+  name: TroubleshootingResult
+  items:
+    - uid: 'azure-arm-network.TroubleshootingResult#mapper'
+      name: mapper
+- uid: azure-arm-network.TunnelConnectionHealth
+  name: TunnelConnectionHealth
+  items:
+    - uid: 'azure-arm-network.TunnelConnectionHealth#mapper'
+      name: mapper
+- uid: azure-arm-network.Usage
+  name: Usage
+  items:
+    - uid: 'azure-arm-network.Usage#mapper'
+      name: mapper
+- uid: azure-arm-network.UsageName
+  name: UsageName
+  items:
+    - uid: 'azure-arm-network.UsageName#mapper'
+      name: mapper
 - uid: azure-arm-network.Usages
   name: Usages
   items:
@@ -990,6 +1705,41 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.Usages#listNext'
       name: listNext
+- uid: azure-arm-network.UsagesListResult
+  name: UsagesListResult
+  items:
+    - uid: 'azure-arm-network.UsagesListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.VerificationIPFlowParameters
+  name: VerificationIPFlowParameters
+  items:
+    - uid: 'azure-arm-network.VerificationIPFlowParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.VerificationIPFlowResult
+  name: VerificationIPFlowResult
+  items:
+    - uid: 'azure-arm-network.VerificationIPFlowResult#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetwork
+  name: VirtualNetwork
+  items:
+    - uid: 'azure-arm-network.VirtualNetwork#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkGateway
+  name: VirtualNetworkGateway
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkGateway#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkGatewayConnection
+  name: VirtualNetworkGatewayConnection
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkGatewayConnection#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkGatewayConnectionListResult
+  name: VirtualNetworkGatewayConnectionListResult
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkGatewayConnectionListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.VirtualNetworkGatewayConnections
   name: VirtualNetworkGatewayConnections
   items:
@@ -1053,6 +1803,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.VirtualNetworkGatewayConnections#listNext'
       name: listNext
+- uid: azure-arm-network.VirtualNetworkGatewayIPConfiguration
+  name: VirtualNetworkGatewayIPConfiguration
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkGatewayIPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkGatewayListResult
+  name: VirtualNetworkGatewayListResult
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkGatewayListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.VirtualNetworkGateways
   name: VirtualNetworkGateways
   items:
@@ -1084,11 +1844,6 @@
     - uid: 'azure-arm-network.VirtualNetworkGateways#generatevpnclientpackage'
       name: generatevpnclientpackage
     - uid: >-
-        azure-arm-network.VirtualNetworkGateways#generateVpnProfileWithHttpOperationResponse
-      name: generateVpnProfileWithHttpOperationResponse
-    - uid: 'azure-arm-network.VirtualNetworkGateways#generateVpnProfile'
-      name: generateVpnProfile
-    - uid: >-
         azure-arm-network.VirtualNetworkGateways#getBgpPeerStatusWithHttpOperationResponse
       name: getBgpPeerStatusWithHttpOperationResponse
     - uid: 'azure-arm-network.VirtualNetworkGateways#getBgpPeerStatus'
@@ -1119,16 +1874,6 @@
     - uid: 'azure-arm-network.VirtualNetworkGateways#beginReset'
       name: beginReset
     - uid: >-
-        azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackageWithHttpOperationResponse
-      name: beginGeneratevpnclientpackageWithHttpOperationResponse
-    - uid: 'azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackage'
-      name: beginGeneratevpnclientpackage
-    - uid: >-
-        azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfileWithHttpOperationResponse
-      name: beginGenerateVpnProfileWithHttpOperationResponse
-    - uid: 'azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfile'
-      name: beginGenerateVpnProfile
-    - uid: >-
         azure-arm-network.VirtualNetworkGateways#beginGetBgpPeerStatusWithHttpOperationResponse
       name: beginGetBgpPeerStatusWithHttpOperationResponse
     - uid: 'azure-arm-network.VirtualNetworkGateways#beginGetBgpPeerStatus'
@@ -1148,6 +1893,31 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-network.VirtualNetworkGateways#listNext'
       name: listNext
+- uid: azure-arm-network.VirtualNetworkGatewaySku
+  name: VirtualNetworkGatewaySku
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkGatewaySku#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkListResult
+  name: VirtualNetworkListResult
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkListResult#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkListUsageResult
+  name: VirtualNetworkListUsageResult
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkListUsageResult#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkPeering
+  name: VirtualNetworkPeering
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkPeering#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkPeeringListResult
+  name: VirtualNetworkPeeringListResult
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkPeeringListResult#mapper'
+      name: mapper
 - uid: azure-arm-network.VirtualNetworkPeerings
   name: VirtualNetworkPeerings
   items:
@@ -1239,3 +2009,33 @@
       name: listUsageNextWithHttpOperationResponse
     - uid: 'azure-arm-network.VirtualNetworks#listUsageNext'
       name: listUsageNext
+- uid: azure-arm-network.VirtualNetworkUsage
+  name: VirtualNetworkUsage
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkUsage#mapper'
+      name: mapper
+- uid: azure-arm-network.VirtualNetworkUsageName
+  name: VirtualNetworkUsageName
+  items:
+    - uid: 'azure-arm-network.VirtualNetworkUsageName#mapper'
+      name: mapper
+- uid: azure-arm-network.VpnClientConfiguration
+  name: VpnClientConfiguration
+  items:
+    - uid: 'azure-arm-network.VpnClientConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-network.VpnClientParameters
+  name: VpnClientParameters
+  items:
+    - uid: 'azure-arm-network.VpnClientParameters#mapper'
+      name: mapper
+- uid: azure-arm-network.VpnClientRevokedCertificate
+  name: VpnClientRevokedCertificate
+  items:
+    - uid: 'azure-arm-network.VpnClientRevokedCertificate#mapper'
+      name: mapper
+- uid: azure-arm-network.VpnClientRootCertificate
+  name: VpnClientRootCertificate
+  items:
+    - uid: 'azure-arm-network.VpnClientRootCertificate#mapper'
+      name: mapper

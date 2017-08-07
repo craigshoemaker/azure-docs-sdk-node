@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-resource.PolicyDefinitions
     id: azure-arm-resource.PolicyDefinitions
     name: PolicyDefinitions
-    summary: "PolicyDefinitions\r__NOTE__: An instance of this class is automatically created for an\rinstance of the PolicyClient.\rInitializes a new instance of the PolicyDefinitions class."
+    summary: Class representing a PolicyDefinitions.
     fullName: azure-arm-resource.PolicyDefinitions
     source:
       id: azure-arm-resource.PolicyDefinitions
       path: >-
         lib\services\resourceManagement\lib\policy\operations\policyDefinitions.js
-      startLine: 739
+      startLine: 730
       remote:
         branch: jsdoc
         path: >-
@@ -37,7 +37,7 @@ items:
     parent: azure-arm-resource.PolicyDefinitions
     name: PolicyDefinitions(client)
     fullName: azure-arm-resource.PolicyDefinitions.PolicyDefinitions(client)
-    summary: ''
+    summary: Create a PolicyDefinitions.
     type: Constructor
     syntax:
       parameters:

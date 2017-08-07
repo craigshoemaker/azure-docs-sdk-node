@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-sb.Namespaces
     id: azure-arm-sb.Namespaces
     name: Namespaces
-    summary: "Namespaces\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServiceBusManagementClient.\rInitializes a new instance of the Namespaces class."
+    summary: Class representing a Namespaces.
     fullName: azure-arm-sb.Namespaces
     source:
       id: azure-arm-sb.Namespaces
       path: lib\services\serviceBusManagement2\lib\operations\namespaces.js
-      startLine: 2888
+      startLine: 2879
       remote:
         branch: jsdoc
         path: lib\services\serviceBusManagement2\lib\operations\namespaces.js
@@ -62,7 +62,7 @@ items:
     parent: azure-arm-sb.Namespaces
     name: Namespaces(client)
     fullName: azure-arm-sb.Namespaces.Namespaces(client)
-    summary: ''
+    summary: Create a Namespaces.
     type: Constructor
     syntax:
       parameters:

@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-trafficmanager.GeographicHierarchies
     id: azure-arm-trafficmanager.GeographicHierarchies
     name: GeographicHierarchies
-    summary: "GeographicHierarchies\r__NOTE__: An instance of this class is automatically created for an\rinstance of the TrafficManagerManagementClient.\rInitializes a new instance of the GeographicHierarchies class."
+    summary: Class representing a GeographicHierarchies.
     fullName: azure-arm-trafficmanager.GeographicHierarchies
     source:
       id: azure-arm-trafficmanager.GeographicHierarchies
       path: >-
         lib\services\trafficManagerManagement2\lib\operations\geographicHierarchies.js
-      startLine: 158
+      startLine: 149
       remote:
         branch: jsdoc
         path: >-
@@ -29,7 +29,7 @@ items:
     name: GeographicHierarchies(client)
     fullName: >-
       azure-arm-trafficmanager.GeographicHierarchies.GeographicHierarchies(client)
-    summary: ''
+    summary: Create a GeographicHierarchies.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-datalake-analytics.Recurrence
     id: azure-arm-datalake-analytics.Recurrence
     name: Recurrence
-    summary: "Recurrence\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsJobManagementClient.\rInitializes a new instance of the Recurrence class."
+    summary: Class representing a Recurrence.
     fullName: azure-arm-datalake-analytics.Recurrence
     source:
       id: azure-arm-datalake-analytics.Recurrence
       path: lib\services\dataLake.Analytics\lib\job\operations\recurrence.js
-      startLine: 491
+      startLine: 482
       remote:
         branch: jsdoc
         path: lib\services\dataLake.Analytics\lib\job\operations\recurrence.js
@@ -30,7 +30,7 @@ items:
     parent: azure-arm-datalake-analytics.Recurrence
     name: Recurrence(client)
     fullName: azure-arm-datalake-analytics.Recurrence.Recurrence(client)
-    summary: ''
+    summary: Create a Recurrence.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-notificationhubs.Name
     id: azure-arm-notificationhubs.Name
     name: Name
-    summary: "Name\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NotificationHubsManagementClient.\rInitializes a new instance of the Name class."
+    summary: Class representing a Name.
     fullName: azure-arm-notificationhubs.Name
     source:
       id: azure-arm-notificationhubs.Name
       path: lib\services\notificationHubsManagement\lib\operations\name.js
-      startLine: 184
+      startLine: 175
       remote:
         branch: jsdoc
         path: lib\services\notificationHubsManagement\lib\operations\name.js
@@ -26,7 +26,7 @@ items:
     parent: azure-arm-notificationhubs.Name
     name: Name(client)
     fullName: azure-arm-notificationhubs.Name.Name(client)
-    summary: ''
+    summary: Create a Name.
     type: Constructor
     syntax:
       parameters:

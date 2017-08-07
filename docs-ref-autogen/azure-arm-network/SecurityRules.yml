@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.SecurityRules
     id: azure-arm-network.SecurityRules
     name: SecurityRules
-    summary: "SecurityRules\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the SecurityRules class."
+    summary: Class representing a SecurityRules.
     fullName: azure-arm-network.SecurityRules
     source:
       id: azure-arm-network.SecurityRules
       path: lib\services\networkManagement2\lib\operations\securityRules.js
-      startLine: 1025
+      startLine: 1016
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\securityRules.js
@@ -39,7 +39,7 @@ items:
     parent: azure-arm-network.SecurityRules
     name: SecurityRules(client)
     fullName: azure-arm-network.SecurityRules.SecurityRules(client)
-    summary: ''
+    summary: Create a SecurityRules.
     type: Constructor
     syntax:
       parameters:

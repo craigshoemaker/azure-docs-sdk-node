@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-commerce.UsageAggregates
     id: azure-arm-commerce.UsageAggregates
     name: UsageAggregates
-    summary: "UsageAggregates\r__NOTE__: An instance of this class is automatically created for an\rinstance of the UsageManagementClient.\rInitializes a new instance of the UsageAggregates class."
+    summary: Class representing a UsageAggregates.
     fullName: azure-arm-commerce.UsageAggregates
     source:
       id: azure-arm-commerce.UsageAggregates
       path: lib\services\commerce\lib\operations\usageAggregates.js
-      startLine: 348
+      startLine: 339
       remote:
         branch: jsdoc
         path: lib\services\commerce\lib\operations\usageAggregates.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-commerce.UsageAggregates
     name: UsageAggregates(client)
     fullName: azure-arm-commerce.UsageAggregates.UsageAggregates(client)
-    summary: ''
+    summary: Create a UsageAggregates.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-search.Services
     id: azure-arm-search.Services
     name: Services
-    summary: "Services\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SearchManagementClient.\rInitializes a new instance of the Services class."
+    summary: Class representing a Services.
     fullName: azure-arm-search.Services
     source:
       id: azure-arm-search.Services
       path: lib\services\searchManagement\lib\operations\services.js
-      startLine: 953
+      startLine: 944
       remote:
         branch: jsdoc
         path: lib\services\searchManagement\lib\operations\services.js
@@ -33,7 +33,7 @@ items:
     parent: azure-arm-search.Services
     name: Services(client)
     fullName: azure-arm-search.Services.Services(client)
-    summary: ''
+    summary: Create a Services.
     type: Constructor
     syntax:
       parameters:

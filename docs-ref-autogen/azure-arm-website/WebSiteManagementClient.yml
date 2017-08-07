@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-website.WebSiteManagementClient
     id: azure-arm-website.WebSiteManagementClient
     name: WebSiteManagementClient
-    summary: Initializes a new instance of the WebSiteManagementClient class.
+    summary: Class representing a WebSiteManagementClient.
     fullName: azure-arm-website.WebSiteManagementClient
     source:
       id: azure-arm-website.WebSiteManagementClient
       path: lib\services\webSiteManagement2\lib\webSiteManagementClient.js
-      startLine: 2156
+      startLine: 2130
       remote:
         branch: jsdoc
         path: lib\services\webSiteManagement2\lib\webSiteManagementClient.js
@@ -66,7 +66,7 @@ items:
     fullName: >-
       azure-arm-website.WebSiteManagementClient.WebSiteManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a WebSiteManagementClient.
     type: Constructor
     syntax:
       parameters:
@@ -840,7 +840,7 @@ items:
         - id: options.sku
           type:
             - string
-          description: "Name of SKU used to filter the regions.\rPossible values include: 'Free', 'Shared', 'Basic', 'Standard', 'Premium',\r'Dynamic'"
+          description: "Name of SKU used to filter the regions.\rPossible values include: 'Free', 'Shared', 'Basic', 'Standard', 'Premium',\r'Dynamic', 'Isolated'"
           optional: true
         - id: options.linuxWorkersEnabled
           type:
@@ -887,7 +887,7 @@ items:
         - id: options.sku
           type:
             - string
-          description: "Name of SKU used to filter the regions.\rPossible values include: 'Free', 'Shared', 'Basic', 'Standard', 'Premium',\r'Dynamic'"
+          description: "Name of SKU used to filter the regions.\rPossible values include: 'Free', 'Shared', 'Basic', 'Standard', 'Premium',\r'Dynamic', 'Isolated'"
           optional: true
         - id: options.linuxWorkersEnabled
           type:

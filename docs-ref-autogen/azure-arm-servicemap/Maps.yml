@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servicemap.Maps
     id: azure-arm-servicemap.Maps
     name: Maps
-    summary: "Maps\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServicemapManagementClient.\rInitializes a new instance of the Maps class."
+    summary: Class representing a Maps.
     fullName: azure-arm-servicemap.Maps
     source:
       id: azure-arm-servicemap.Maps
       path: lib\services\serviceMapManagement\lib\operations\maps.js
-      startLine: 228
+      startLine: 219
       remote:
         branch: jsdoc
         path: lib\services\serviceMapManagement\lib\operations\maps.js
@@ -25,13 +25,13 @@ items:
     parent: azure-arm-servicemap.Maps
     name: Maps(client)
     fullName: azure-arm-servicemap.Maps.Maps(client)
-    summary: ''
+    summary: Create a Maps.
     type: Constructor
     syntax:
       parameters:
         - id: client
           type:
-            - azure-arm-servicemap.ServicemapManagementClient
+            - azure-arm-servicemap.ServiceMap
           description: Reference to the service client.
       content: new Maps(client)
     langs:
@@ -177,7 +177,7 @@ items:
     langs:
       - js
 references:
-  - uid: azure-arm-servicemap.ServicemapManagementClient
-    name: ServicemapManagementClient
-    fullName: azure-arm-servicemap.ServicemapManagementClient
+  - uid: azure-arm-servicemap.ServiceMap
+    name: ServiceMap
+    fullName: azure-arm-servicemap.ServiceMap
     isExternal: false

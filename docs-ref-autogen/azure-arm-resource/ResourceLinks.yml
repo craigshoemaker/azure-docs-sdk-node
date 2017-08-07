@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.ResourceLinks
     id: azure-arm-resource.ResourceLinks
     name: ResourceLinks
-    summary: "ResourceLinks\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ManagementLinkClient.\rInitializes a new instance of the ResourceLinks class."
+    summary: Class representing a ResourceLinks.
     fullName: azure-arm-resource.ResourceLinks
     source:
       id: azure-arm-resource.ResourceLinks
       path: lib\services\resourceManagement\lib\link\operations\resourceLinks.js
-      startLine: 1015
+      startLine: 1006
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\link\operations\resourceLinks.js
@@ -41,7 +41,7 @@ items:
     parent: azure-arm-resource.ResourceLinks
     name: ResourceLinks(client)
     fullName: azure-arm-resource.ResourceLinks.ResourceLinks(client)
-    summary: ''
+    summary: Create a ResourceLinks.
     type: Constructor
     syntax:
       parameters:

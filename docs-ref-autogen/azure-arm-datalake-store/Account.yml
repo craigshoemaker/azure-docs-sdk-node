@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-datalake-store.Account
     id: azure-arm-datalake-store.Account
     name: Account
-    summary: "Account\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeStoreAccountManagementClient.\rInitializes a new instance of the Account class."
+    summary: Class representing a Account.
     fullName: azure-arm-datalake-store.Account
     source:
       id: azure-arm-datalake-store.Account
       path: lib\services\dataLake.Store\lib\account\operations\account.js
-      startLine: 1908
+      startLine: 1899
       remote:
         branch: jsdoc
         path: lib\services\dataLake.Store\lib\account\operations\account.js
@@ -50,7 +50,7 @@ items:
     parent: azure-arm-datalake-store.Account
     name: Account(client)
     fullName: azure-arm-datalake-store.Account.Account(client)
-    summary: ''
+    summary: Create a Account.
     type: Constructor
     syntax:
       parameters:

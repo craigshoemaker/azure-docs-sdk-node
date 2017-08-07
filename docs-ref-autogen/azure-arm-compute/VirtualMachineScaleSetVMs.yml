@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-compute.VirtualMachineScaleSetVMs
     id: azure-arm-compute.VirtualMachineScaleSetVMs
     name: VirtualMachineScaleSetVMs
-    summary: "VirtualMachineScaleSetVMs\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ComputeManagementClient.\rInitializes a new instance of the VirtualMachineScaleSetVMs class."
+    summary: Class representing a VirtualMachineScaleSetVMs.
     fullName: azure-arm-compute.VirtualMachineScaleSetVMs
     source:
       id: azure-arm-compute.VirtualMachineScaleSetVMs
       path: >-
         lib\services\computeManagement2\lib\operations\virtualMachineScaleSetVMs.js
-      startLine: 2258
+      startLine: 2249
       remote:
         branch: jsdoc
         path: >-
@@ -79,7 +79,7 @@ items:
     name: VirtualMachineScaleSetVMs(client)
     fullName: >-
       azure-arm-compute.VirtualMachineScaleSetVMs.VirtualMachineScaleSetVMs(client)
-    summary: ''
+    summary: Create a VirtualMachineScaleSetVMs.
     type: Constructor
     syntax:
       parameters:

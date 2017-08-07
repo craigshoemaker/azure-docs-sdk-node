@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-dns.RecordSets
     id: azure-arm-dns.RecordSets
     name: RecordSets
-    summary: "RecordSets\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DnsManagementClient.\rInitializes a new instance of the RecordSets class."
+    summary: Class representing a RecordSets.
     fullName: azure-arm-dns.RecordSets
     source:
       id: azure-arm-dns.RecordSets
       path: lib\services\dnsManagement\lib\operations\recordSets.js
-      startLine: 1483
+      startLine: 1498
       remote:
         branch: jsdoc
         path: lib\services\dnsManagement\lib\operations\recordSets.js
@@ -39,7 +39,7 @@ items:
     parent: azure-arm-dns.RecordSets
     name: RecordSets(client)
     fullName: azure-arm-dns.RecordSets.RecordSets(client)
-    summary: ''
+    summary: Create a RecordSets.
     type: Constructor
     syntax:
       parameters:
@@ -1095,6 +1095,11 @@ items:
             - number
           description: "The maximum number of record sets to return.\rIf not specified, returns up to 100 record sets."
           optional: true
+        - id: options.recordsetnamesuffix
+          type:
+            - string
+          description: "The suffix label of the record\rset name that has to be used to filter the record set enumerations. If this\rparameter is specified, Enumeration will return only records that end with\r.<recordSetNameSuffix>"
+          optional: true
         - id: options.customHeaders
           type:
             - object
@@ -1152,6 +1157,11 @@ items:
           type:
             - number
           description: "The maximum number of record sets to return.\rIf not specified, returns up to 100 record sets."
+          optional: true
+        - id: options.recordsetnamesuffix
+          type:
+            - string
+          description: "The suffix label of the record\rset name that has to be used to filter the record set enumerations. If this\rparameter is specified, Enumeration will return only records that end with\r.<recordSetNameSuffix>"
           optional: true
         - id: options.customHeaders
           type:
@@ -1217,6 +1227,11 @@ items:
             - number
           description: "The maximum number of record sets to return.\rIf not specified, returns up to 100 record sets."
           optional: true
+        - id: options.recordsetnamesuffix
+          type:
+            - string
+          description: "The suffix label of the record\rset name that has to be used to filter the record set enumerations. If this\rparameter is specified, Enumeration will return only records that end with\r.<recordSetNameSuffix>"
+          optional: true
         - id: options.customHeaders
           type:
             - object
@@ -1268,6 +1283,11 @@ items:
           type:
             - number
           description: "The maximum number of record sets to return.\rIf not specified, returns up to 100 record sets."
+          optional: true
+        - id: options.recordsetnamesuffix
+          type:
+            - string
+          description: "The suffix label of the record\rset name that has to be used to filter the record set enumerations. If this\rparameter is specified, Enumeration will return only records that end with\r.<recordSetNameSuffix>"
           optional: true
         - id: options.customHeaders
           type:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-logic.WorkflowVersions
     id: azure-arm-logic.WorkflowVersions
     name: WorkflowVersions
-    summary: "WorkflowVersions\r__NOTE__: An instance of this class is automatically created for an\rinstance of the LogicManagementClient.\rInitializes a new instance of the WorkflowVersions class."
+    summary: Class representing a WorkflowVersions.
     fullName: azure-arm-logic.WorkflowVersions
     source:
       id: azure-arm-logic.WorkflowVersions
       path: lib\services\logicManagement\lib\operations\workflowVersions.js
-      startLine: 462
+      startLine: 633
       remote:
         branch: jsdoc
         path: lib\services\logicManagement\lib\operations\workflowVersions.js
@@ -20,6 +20,9 @@ items:
       - 'azure-arm-logic.WorkflowVersions#list'
       - 'azure-arm-logic.WorkflowVersions#getWithHttpOperationResponse'
       - 'azure-arm-logic.WorkflowVersions#get'
+      - >-
+        azure-arm-logic.WorkflowVersions#listCallbackUrlWithHttpOperationResponse
+      - 'azure-arm-logic.WorkflowVersions#listCallbackUrl'
       - 'azure-arm-logic.WorkflowVersions#listNextWithHttpOperationResponse'
       - 'azure-arm-logic.WorkflowVersions#listNext'
     langs:
@@ -29,7 +32,7 @@ items:
     parent: azure-arm-logic.WorkflowVersions
     name: WorkflowVersions(client)
     fullName: azure-arm-logic.WorkflowVersions.WorkflowVersions(client)
-    summary: ''
+    summary: Create a WorkflowVersions.
     type: Constructor
     syntax:
       parameters:
@@ -266,6 +269,160 @@ items:
       content: >-
         function get(resourceGroupName, workflowName, versionId, options,
         optionalCallback)
+    langs:
+      - js
+  - uid: 'azure-arm-logic.WorkflowVersions#listCallbackUrlWithHttpOperationResponse'
+    id: 'azure-arm-logic.WorkflowVersions#listCallbackUrlWithHttpOperationResponse'
+    parent: azure-arm-logic.WorkflowVersions
+    name: >-
+      listCallbackUrlWithHttpOperationResponse(resourceGroupName, workflowName,
+      versionId, triggerName, options)
+    summary: Lists the callback URL for a trigger of a workflow version.
+    fullName: >-
+      azure-arm-logic.WorkflowVersions.listCallbackUrlWithHttpOperationResponse(resourceGroupName,
+      workflowName, versionId, triggerName, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<WorkflowTriggerCallbackUrl>} - The deserialized
+          result object.
+        value: >-
+          {HttpOperationResponse<WorkflowTriggerCallbackUrl>} - The deserialized
+          result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: The resource group name.
+        - id: workflowName
+          type:
+            - string
+          description: The workflow name.
+        - id: versionId
+          type:
+            - string
+          description: The workflow versionId.
+        - id: triggerName
+          type:
+            - string
+          description: The workflow trigger name.
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.parameters
+          type:
+            - object
+          description: The callback URL parameters.
+          optional: true
+        - id: options.parameters.notAfter
+          type:
+            - date
+          description: The expiry time.
+          optional: true
+        - id: options.parameters.keyType
+          type:
+            - string
+          description: "The key type. Possible values\rinclude: 'NotSpecified', 'Primary', 'Secondary'"
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function listCallbackUrlWithHttpOperationResponse(resourceGroupName,
+        workflowName, versionId, triggerName, options)
+    langs:
+      - js
+  - uid: 'azure-arm-logic.WorkflowVersions#listCallbackUrl'
+    id: 'azure-arm-logic.WorkflowVersions#listCallbackUrl'
+    parent: azure-arm-logic.WorkflowVersions
+    name: >-
+      listCallbackUrl(resourceGroupName, workflowName, versionId, triggerName,
+      options, optionalCallback)
+    summary: Lists the callback URL for a trigger of a workflow version.
+    fullName: >-
+      azure-arm-logic.WorkflowVersions.listCallbackUrl(resourceGroupName,
+      workflowName, versionId, triggerName, options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{WorkflowTriggerCallbackUrl} - The deserialized result object.'
+        value: '{WorkflowTriggerCallbackUrl} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link WorkflowTriggerCallbackUrl} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link WorkflowTriggerCallbackUrl} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: The resource group name.
+        - id: workflowName
+          type:
+            - string
+          description: The workflow name.
+        - id: versionId
+          type:
+            - string
+          description: The workflow versionId.
+        - id: triggerName
+          type:
+            - string
+          description: The workflow trigger name.
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.parameters
+          type:
+            - object
+          description: The callback URL parameters.
+          optional: true
+        - id: options.parameters.notAfter
+          type:
+            - date
+          description: The expiry time.
+          optional: true
+        - id: options.parameters.keyType
+          type:
+            - string
+          description: "The key type. Possible values\rinclude: 'NotSpecified', 'Primary', 'Secondary'"
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function listCallbackUrl(resourceGroupName, workflowName, versionId,
+        triggerName, options, optionalCallback)
     langs:
       - js
   - uid: 'azure-arm-logic.WorkflowVersions#listNextWithHttpOperationResponse'

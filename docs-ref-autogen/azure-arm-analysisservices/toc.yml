@@ -1,7 +1,40 @@
-- uid: azure-arm-analysisservices.An array of Analysis Services resources.
-  name: An array of Analysis Services resources.
 - uid: azure-arm-analysisservices.AnalysisServicesManagementClient
   name: AnalysisServicesManagementClient
+- uid: azure-arm-analysisservices.AnalysisServicesServer
+  name: AnalysisServicesServer
+  items:
+    - uid: 'azure-arm-analysisservices.AnalysisServicesServer#mapper'
+      name: mapper
+- uid: azure-arm-analysisservices.AnalysisServicesServers
+  name: AnalysisServicesServers
+  items:
+    - uid: 'azure-arm-analysisservices.AnalysisServicesServers#mapper'
+      name: mapper
+- uid: azure-arm-analysisservices.AnalysisServicesServerUpdateParameters
+  name: AnalysisServicesServerUpdateParameters
+  items:
+    - uid: 'azure-arm-analysisservices.AnalysisServicesServerUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-analysisservices.BackupConfiguration
+  name: BackupConfiguration
+  items:
+    - uid: 'azure-arm-analysisservices.BackupConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-analysisservices.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-analysisservices.Resource#mapper'
+      name: mapper
+- uid: azure-arm-analysisservices.ResourceSku
+  name: ResourceSku
+  items:
+    - uid: 'azure-arm-analysisservices.ResourceSku#mapper'
+      name: mapper
+- uid: azure-arm-analysisservices.ServerAdministrators
+  name: ServerAdministrators
+  items:
+    - uid: 'azure-arm-analysisservices.ServerAdministrators#mapper'
+      name: mapper
 - uid: azure-arm-analysisservices.Servers
   name: Servers
   items:
@@ -47,6 +80,10 @@
       name: beginDeleteMethodWithHttpOperationResponse
     - uid: 'azure-arm-analysisservices.Servers#beginDeleteMethod'
       name: beginDeleteMethod
+    - uid: 'azure-arm-analysisservices.Servers#beginUpdateWithHttpOperationResponse'
+      name: beginUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-analysisservices.Servers#beginUpdate'
+      name: beginUpdate
     - uid: 'azure-arm-analysisservices.Servers#beginSuspendWithHttpOperationResponse'
       name: beginSuspendWithHttpOperationResponse
     - uid: 'azure-arm-analysisservices.Servers#beginSuspend'

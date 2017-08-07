@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-iothub.IotHubResource
     id: azure-arm-iothub.IotHubResource
     name: IotHubResource
-    summary: "IotHubResource\r__NOTE__: An instance of this class is automatically created for an\rinstance of the IotHubClient.\rInitializes a new instance of the IotHubResource class."
+    summary: Class representing a IotHubResource.
     fullName: azure-arm-iothub.IotHubResource
     source:
       id: azure-arm-iothub.IotHubResource
       path: lib\services\iothub\lib\operations\iotHubResource.js
-      startLine: 4432
+      startLine: 4423
       remote:
         branch: jsdoc
         path: lib\services\iothub\lib\operations\iotHubResource.js
@@ -94,7 +94,7 @@ items:
     parent: azure-arm-iothub.IotHubResource
     name: IotHubResource(client)
     fullName: azure-arm-iothub.IotHubResource.IotHubResource(client)
-    summary: ''
+    summary: Create a IotHubResource.
     type: Constructor
     syntax:
       parameters:

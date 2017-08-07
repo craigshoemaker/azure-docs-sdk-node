@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-search.AdminKeys
     id: azure-arm-search.AdminKeys
     name: AdminKeys
-    summary: "AdminKeys\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SearchManagementClient.\rInitializes a new instance of the AdminKeys class."
+    summary: Class representing a AdminKeys.
     fullName: azure-arm-search.AdminKeys
     source:
       id: azure-arm-search.AdminKeys
       path: lib\services\searchManagement\lib\operations\adminKeys.js
-      startLine: 384
+      startLine: 375
       remote:
         branch: jsdoc
         path: lib\services\searchManagement\lib\operations\adminKeys.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-search.AdminKeys
     name: AdminKeys(client)
     fullName: azure-arm-search.AdminKeys.AdminKeys(client)
-    summary: ''
+    summary: Create a AdminKeys.
     type: Constructor
     syntax:
       parameters:

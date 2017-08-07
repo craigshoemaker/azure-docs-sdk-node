@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-resource.Subscriptions
     id: azure-arm-resource.Subscriptions
     name: Subscriptions
-    summary: "Subscriptions\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SubscriptionClient.\rInitializes a new instance of the Subscriptions class."
+    summary: Class representing a Subscriptions.
     fullName: azure-arm-resource.Subscriptions
     source:
       id: azure-arm-resource.Subscriptions
       path: >-
         lib\services\resourceManagement\lib\subscription\operations\subscriptions.js
-      startLine: 559
+      startLine: 550
       remote:
         branch: jsdoc
         path: >-
@@ -33,7 +33,7 @@ items:
     parent: azure-arm-resource.Subscriptions
     name: Subscriptions(client)
     fullName: azure-arm-resource.Subscriptions.Subscriptions(client)
-    summary: ''
+    summary: Create a Subscriptions.
     type: Constructor
     syntax:
       parameters:

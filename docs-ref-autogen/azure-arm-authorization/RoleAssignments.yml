@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-authorization.RoleAssignments
     id: azure-arm-authorization.RoleAssignments
     name: RoleAssignments
-    summary: "RoleAssignments\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AuthorizationManagementClient.\rInitializes a new instance of the RoleAssignments class."
+    summary: Class representing a RoleAssignments.
     fullName: azure-arm-authorization.RoleAssignments
     source:
       id: azure-arm-authorization.RoleAssignments
       path: lib\services\authorizationManagement\lib\operations\roleAssignments.js
-      startLine: 2057
+      startLine: 2048
       remote:
         branch: jsdoc
         path: lib\services\authorizationManagement\lib\operations\roleAssignments.js
@@ -61,7 +61,7 @@ items:
     parent: azure-arm-authorization.RoleAssignments
     name: RoleAssignments(client)
     fullName: azure-arm-authorization.RoleAssignments.RoleAssignments(client)
-    summary: ''
+    summary: Create a RoleAssignments.
     type: Constructor
     syntax:
       parameters:

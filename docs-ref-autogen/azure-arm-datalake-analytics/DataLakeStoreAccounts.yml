@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-datalake-analytics.DataLakeStoreAccounts
     id: azure-arm-datalake-analytics.DataLakeStoreAccounts
     name: DataLakeStoreAccounts
-    summary: "DataLakeStoreAccounts\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsAccountManagementClient.\rInitializes a new instance of the DataLakeStoreAccounts class."
+    summary: Class representing a DataLakeStoreAccounts.
     fullName: azure-arm-datalake-analytics.DataLakeStoreAccounts
     source:
       id: azure-arm-datalake-analytics.DataLakeStoreAccounts
       path: >-
         lib\services\dataLake.Analytics\lib\account\operations\dataLakeStoreAccounts.js
-      startLine: 834
+      startLine: 825
       remote:
         branch: jsdoc
         path: >-
@@ -41,7 +41,7 @@ items:
     name: DataLakeStoreAccounts(client)
     fullName: >-
       azure-arm-datalake-analytics.DataLakeStoreAccounts.DataLakeStoreAccounts(client)
-    summary: ''
+    summary: Create a DataLakeStoreAccounts.
     type: Constructor
     syntax:
       parameters:

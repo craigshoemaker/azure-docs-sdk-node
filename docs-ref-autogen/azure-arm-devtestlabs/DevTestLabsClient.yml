@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-devtestlabs.DevTestLabsClient
     id: azure-arm-devtestlabs.DevTestLabsClient
     name: DevTestLabsClient
-    summary: Initializes a new instance of the DevTestLabsClient class.
+    summary: Class representing a DevTestLabsClient.
     fullName: azure-arm-devtestlabs.DevTestLabsClient
     source:
       id: azure-arm-devtestlabs.DevTestLabsClient
       path: lib\services\devTestLabs\lib\devTestLabsClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\devTestLabs\lib\devTestLabsClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-devtestlabs.DevTestLabsClient.DevTestLabsClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a DevTestLabsClient.
     type: Constructor
     syntax:
       parameters:

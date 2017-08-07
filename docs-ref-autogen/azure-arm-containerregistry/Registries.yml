@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-containerregistry.Registries
     id: azure-arm-containerregistry.Registries
     name: Registries
-    summary: "Registries\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ContainerRegistryManagementClient.\rInitializes a new instance of the Registries class."
+    summary: Class representing a Registries.
     fullName: azure-arm-containerregistry.Registries
     source:
       id: azure-arm-containerregistry.Registries
       path: lib\services\containerRegistryManagement\lib\operations\registries.js
-      startLine: 1873
+      startLine: 1864
       remote:
         branch: jsdoc
         path: lib\services\containerRegistryManagement\lib\operations\registries.js
@@ -54,7 +54,7 @@ items:
     parent: azure-arm-containerregistry.Registries
     name: Registries(client)
     fullName: azure-arm-containerregistry.Registries.Registries(client)
-    summary: ''
+    summary: Create a Registries.
     type: Constructor
     syntax:
       parameters:

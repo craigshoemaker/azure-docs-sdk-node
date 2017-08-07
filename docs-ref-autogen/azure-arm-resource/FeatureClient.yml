@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.FeatureClient
     id: azure-arm-resource.FeatureClient
     name: FeatureClient
-    summary: Initializes a new instance of the FeatureClient class.
+    summary: Class representing a FeatureClient.
     fullName: azure-arm-resource.FeatureClient
     source:
       id: azure-arm-resource.FeatureClient
       path: lib\services\resourceManagement\lib\feature\featureClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\feature\featureClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-resource.FeatureClient.FeatureClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a FeatureClient.
     type: Constructor
     syntax:
       parameters:

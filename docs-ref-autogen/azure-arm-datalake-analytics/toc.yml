@@ -1,59 +1,3 @@
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL assembly
-    CLR item list.
-  name: A Data Lake Analytics catalog U-SQL assembly CLR item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL credential
-    item list.
-  name: A Data Lake Analytics catalog U-SQL credential item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL database
-    item list.
-  name: A Data Lake Analytics catalog U-SQL database item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL external
-    datasource item list.
-  name: A Data Lake Analytics catalog U-SQL external datasource item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL package
-    item list.
-  name: A Data Lake Analytics catalog U-SQL package item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL procedure
-    item list.
-  name: A Data Lake Analytics catalog U-SQL procedure item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL schema item
-    list.
-  name: A Data Lake Analytics catalog U-SQL schema item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL table item
-    list.
-  name: A Data Lake Analytics catalog U-SQL table item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL table
-    partition item list.
-  name: A Data Lake Analytics catalog U-SQL table partition item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL table
-    statistics item list.
-  name: A Data Lake Analytics catalog U-SQL table statistics item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL table type
-    item list.
-  name: A Data Lake Analytics catalog U-SQL table type item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL table
-    valued function item list.
-  name: A Data Lake Analytics catalog U-SQL table valued function item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL type item
-    list.
-  name: A Data Lake Analytics catalog U-SQL type item list.
-- uid: >-
-    azure-arm-datalake-analytics.A Data Lake Analytics catalog U-SQL view item
-    list.
-  name: A Data Lake Analytics catalog U-SQL view item list.
 - uid: azure-arm-datalake-analytics.Account
   name: Account
   items:
@@ -107,6 +51,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.Account#listNext'
       name: listNext
+- uid: azure-arm-datalake-analytics.AddDataLakeStoreParameters
+  name: AddDataLakeStoreParameters
+  items:
+    - uid: 'azure-arm-datalake-analytics.AddDataLakeStoreParameters#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.AddStorageAccountParameters
+  name: AddStorageAccountParameters
+  items:
+    - uid: 'azure-arm-datalake-analytics.AddStorageAccountParameters#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.Catalog
   name: Catalog
   items:
@@ -400,6 +354,16 @@
       name: listDatabasesNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.Catalog#listDatabasesNext'
       name: listDatabasesNext
+- uid: azure-arm-datalake-analytics.CatalogItem
+  name: CatalogItem
+  items:
+    - uid: 'azure-arm-datalake-analytics.CatalogItem#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.CatalogItemList
+  name: CatalogItemList
+  items:
+    - uid: 'azure-arm-datalake-analytics.CatalogItemList#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.ComputePolicies
   name: ComputePolicies
   items:
@@ -433,12 +397,101 @@
       name: listByAccountNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.ComputePolicies#listByAccountNext'
       name: listByAccountNext
+- uid: azure-arm-datalake-analytics.ComputePolicy
+  name: ComputePolicy
+  items:
+    - uid: 'azure-arm-datalake-analytics.ComputePolicy#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.ComputePolicyAccountCreateParameters
+  name: ComputePolicyAccountCreateParameters
+  items:
+    - uid: 'azure-arm-datalake-analytics.ComputePolicyAccountCreateParameters#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.ComputePolicyCreateOrUpdateParameters
+  name: ComputePolicyCreateOrUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.ComputePolicyCreateOrUpdateParameters#mapper
+      name: mapper
+- uid: azure-arm-datalake-analytics.ComputePolicyListResult
+  name: ComputePolicyListResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.ComputePolicyListResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.DataLakeAnalyticsAccount
+  name: DataLakeAnalyticsAccount
+  items:
+    - uid: 'azure-arm-datalake-analytics.DataLakeAnalyticsAccount#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.DataLakeAnalyticsAccountListDataLakeStoreResult
+  name: DataLakeAnalyticsAccountListDataLakeStoreResult
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsAccountListDataLakeStoreResult#mapper
+      name: mapper
+- uid: azure-arm-datalake-analytics.DataLakeAnalyticsAccountListResult
+  name: DataLakeAnalyticsAccountListResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.DataLakeAnalyticsAccountListResult#mapper'
+      name: mapper
+- uid: >-
+    azure-arm-datalake-analytics.DataLakeAnalyticsAccountListStorageAccountsResult
+  name: DataLakeAnalyticsAccountListStorageAccountsResult
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsAccountListStorageAccountsResult#mapper
+      name: mapper
 - uid: azure-arm-datalake-analytics.DataLakeAnalyticsAccountManagementClient
   name: DataLakeAnalyticsAccountManagementClient
+- uid: azure-arm-datalake-analytics.DataLakeAnalyticsAccountUpdateParameters
+  name: DataLakeAnalyticsAccountUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsAccountUpdateParameters#mapper
+      name: mapper
+- uid: >-
+    azure-arm-datalake-analytics.DataLakeAnalyticsCatalogCredentialCreateParameters
+  name: DataLakeAnalyticsCatalogCredentialCreateParameters
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsCatalogCredentialCreateParameters#mapper
+      name: mapper
+- uid: >-
+    azure-arm-datalake-analytics.DataLakeAnalyticsCatalogCredentialDeleteParameters
+  name: DataLakeAnalyticsCatalogCredentialDeleteParameters
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsCatalogCredentialDeleteParameters#mapper
+      name: mapper
+- uid: >-
+    azure-arm-datalake-analytics.DataLakeAnalyticsCatalogCredentialUpdateParameters
+  name: DataLakeAnalyticsCatalogCredentialUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsCatalogCredentialUpdateParameters#mapper
+      name: mapper
 - uid: azure-arm-datalake-analytics.DataLakeAnalyticsCatalogManagementClient
   name: DataLakeAnalyticsCatalogManagementClient
+- uid: >-
+    azure-arm-datalake-analytics.DataLakeAnalyticsCatalogSecretCreateOrUpdateParameters
+  name: DataLakeAnalyticsCatalogSecretCreateOrUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsCatalogSecretCreateOrUpdateParameters#mapper
+      name: mapper
+- uid: azure-arm-datalake-analytics.DataLakeAnalyticsFirewallRuleListResult
+  name: DataLakeAnalyticsFirewallRuleListResult
+  items:
+    - uid: >-
+        azure-arm-datalake-analytics.DataLakeAnalyticsFirewallRuleListResult#mapper
+      name: mapper
 - uid: azure-arm-datalake-analytics.DataLakeAnalyticsJobManagementClient
   name: DataLakeAnalyticsJobManagementClient
+- uid: azure-arm-datalake-analytics.DataLakeStoreAccountInfo
+  name: DataLakeStoreAccountInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.DataLakeStoreAccountInfo#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.DataLakeStoreAccounts
   name: DataLakeStoreAccounts
   items:
@@ -467,6 +520,31 @@
       name: listByAccountNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.DataLakeStoreAccounts#listByAccountNext'
       name: listByAccountNext
+- uid: azure-arm-datalake-analytics.DdlName
+  name: DdlName
+  items:
+    - uid: 'azure-arm-datalake-analytics.DdlName#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.Diagnostics
+  name: Diagnostics
+  items:
+    - uid: 'azure-arm-datalake-analytics.Diagnostics#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.EntityId
+  name: EntityId
+  items:
+    - uid: 'azure-arm-datalake-analytics.EntityId#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.ExternalTable
+  name: ExternalTable
+  items:
+    - uid: 'azure-arm-datalake-analytics.ExternalTable#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.FirewallRule
+  name: FirewallRule
+  items:
+    - uid: 'azure-arm-datalake-analytics.FirewallRule#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.FirewallRules
   name: FirewallRules
   items:
@@ -499,6 +577,11 @@
       name: listByAccountNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.FirewallRules#listByAccountNext'
       name: listByAccountNext
+- uid: azure-arm-datalake-analytics.HiveJobProperties
+  name: HiveJobProperties
+  items:
+    - uid: 'azure-arm-datalake-analytics.HiveJobProperties#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.Job
   name: Job
   items:
@@ -535,6 +618,101 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.Job#listNext'
       name: listNext
+- uid: azure-arm-datalake-analytics.JobDataPath
+  name: JobDataPath
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobDataPath#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobErrorDetails
+  name: JobErrorDetails
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobErrorDetails#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobInfoListResult
+  name: JobInfoListResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobInfoListResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobInformation
+  name: JobInformation
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobInformation#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobInnerError
+  name: JobInnerError
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobInnerError#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobPipelineInformation
+  name: JobPipelineInformation
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobPipelineInformation#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobPipelineInformationListResult
+  name: JobPipelineInformationListResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobPipelineInformationListResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobPipelineRunInformation
+  name: JobPipelineRunInformation
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobPipelineRunInformation#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobProperties
+  name: JobProperties
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobProperties#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobRecurrenceInformation
+  name: JobRecurrenceInformation
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobRecurrenceInformation#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobRecurrenceInformationListResult
+  name: JobRecurrenceInformationListResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobRecurrenceInformationListResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobRelationshipProperties
+  name: JobRelationshipProperties
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobRelationshipProperties#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobResource
+  name: JobResource
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobResource#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobStateAuditRecord
+  name: JobStateAuditRecord
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobStateAuditRecord#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobStatistics
+  name: JobStatistics
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobStatistics#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.JobStatisticsVertexStage
+  name: JobStatisticsVertexStage
+  items:
+    - uid: 'azure-arm-datalake-analytics.JobStatisticsVertexStage#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.ListSasTokensResult
+  name: ListSasTokensResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.ListSasTokensResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.ListStorageContainersResult
+  name: ListStorageContainersResult
+  items:
+    - uid: 'azure-arm-datalake-analytics.ListStorageContainersResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.OptionalSubResource
+  name: OptionalSubResource
+  items:
+    - uid: 'azure-arm-datalake-analytics.OptionalSubResource#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.Pipeline
   name: Pipeline
   items:
@@ -566,6 +744,21 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.Recurrence#listNext'
       name: listNext
+- uid: azure-arm-datalake-analytics.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-datalake-analytics.Resource#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.SasTokenInfo
+  name: SasTokenInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.SasTokenInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.StorageAccountInfo
+  name: StorageAccountInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.StorageAccountInfo#mapper'
+      name: mapper
 - uid: azure-arm-datalake-analytics.StorageAccounts
   name: StorageAccounts
   items:
@@ -624,3 +817,213 @@
       name: listByAccountNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-analytics.StorageAccounts#listByAccountNext'
       name: listByAccountNext
+- uid: azure-arm-datalake-analytics.StorageContainer
+  name: StorageContainer
+  items:
+    - uid: 'azure-arm-datalake-analytics.StorageContainer#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.SubResource
+  name: SubResource
+  items:
+    - uid: 'azure-arm-datalake-analytics.SubResource#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.TypeFieldInfo
+  name: TypeFieldInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.TypeFieldInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.UpdateFirewallRuleParameters
+  name: UpdateFirewallRuleParameters
+  items:
+    - uid: 'azure-arm-datalake-analytics.UpdateFirewallRuleParameters#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.UpdateStorageAccountParameters
+  name: UpdateStorageAccountParameters
+  items:
+    - uid: 'azure-arm-datalake-analytics.UpdateStorageAccountParameters#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlAssembly
+  name: USqlAssembly
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlAssembly#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlAssemblyClr
+  name: USqlAssemblyClr
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlAssemblyClr#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlAssemblyDependencyInfo
+  name: USqlAssemblyDependencyInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlAssemblyDependencyInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlAssemblyFileInfo
+  name: USqlAssemblyFileInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlAssemblyFileInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlAssemblyList
+  name: USqlAssemblyList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlAssemblyList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlCredential
+  name: USqlCredential
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlCredential#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlCredentialList
+  name: USqlCredentialList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlCredentialList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlDatabase
+  name: USqlDatabase
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlDatabase#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlDatabaseList
+  name: USqlDatabaseList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlDatabaseList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlDirectedColumn
+  name: USqlDirectedColumn
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlDirectedColumn#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlDistributionInfo
+  name: USqlDistributionInfo
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlDistributionInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlExternalDataSource
+  name: USqlExternalDataSource
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlExternalDataSource#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlExternalDataSourceList
+  name: USqlExternalDataSourceList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlExternalDataSourceList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlIndex
+  name: USqlIndex
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlIndex#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlJobProperties
+  name: USqlJobProperties
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlJobProperties#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlPackage
+  name: USqlPackage
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlPackage#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlPackageList
+  name: USqlPackageList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlPackageList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlProcedure
+  name: USqlProcedure
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlProcedure#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlProcedureList
+  name: USqlProcedureList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlProcedureList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlSchema
+  name: USqlSchema
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlSchema#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlSchemaList
+  name: USqlSchemaList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlSchemaList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlSecret
+  name: USqlSecret
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlSecret#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTable
+  name: USqlTable
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTable#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableColumn
+  name: USqlTableColumn
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableColumn#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableList
+  name: USqlTableList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTablePartition
+  name: USqlTablePartition
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTablePartition#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTablePartitionList
+  name: USqlTablePartitionList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTablePartitionList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableStatistics
+  name: USqlTableStatistics
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableStatistics#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableStatisticsList
+  name: USqlTableStatisticsList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableStatisticsList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableType
+  name: USqlTableType
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableType#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableTypeList
+  name: USqlTableTypeList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableTypeList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableValuedFunction
+  name: USqlTableValuedFunction
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableValuedFunction#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTableValuedFunctionList
+  name: USqlTableValuedFunctionList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTableValuedFunctionList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlType
+  name: USqlType
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlType#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlTypeList
+  name: USqlTypeList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlTypeList#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlView
+  name: USqlView
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlView#mapper'
+      name: mapper
+- uid: azure-arm-datalake-analytics.USqlViewList
+  name: USqlViewList
+  items:
+    - uid: 'azure-arm-datalake-analytics.USqlViewList#mapper'
+      name: mapper

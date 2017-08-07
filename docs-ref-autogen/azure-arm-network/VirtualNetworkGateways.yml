@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.VirtualNetworkGateways
     id: azure-arm-network.VirtualNetworkGateways
     name: VirtualNetworkGateways
-    summary: "VirtualNetworkGateways\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the VirtualNetworkGateways class."
+    summary: Class representing a VirtualNetworkGateways.
     fullName: azure-arm-network.VirtualNetworkGateways
     source:
       id: azure-arm-network.VirtualNetworkGateways
       path: lib\services\networkManagement2\lib\operations\virtualNetworkGateways.js
-      startLine: 2590
+      startLine: 2153
       remote:
         branch: jsdoc
         path: >-
@@ -33,9 +33,6 @@ items:
         azure-arm-network.VirtualNetworkGateways#generatevpnclientpackageWithHttpOperationResponse
       - 'azure-arm-network.VirtualNetworkGateways#generatevpnclientpackage'
       - >-
-        azure-arm-network.VirtualNetworkGateways#generateVpnProfileWithHttpOperationResponse
-      - 'azure-arm-network.VirtualNetworkGateways#generateVpnProfile'
-      - >-
         azure-arm-network.VirtualNetworkGateways#getBgpPeerStatusWithHttpOperationResponse
       - 'azure-arm-network.VirtualNetworkGateways#getBgpPeerStatus'
       - >-
@@ -53,12 +50,6 @@ items:
       - >-
         azure-arm-network.VirtualNetworkGateways#beginResetWithHttpOperationResponse
       - 'azure-arm-network.VirtualNetworkGateways#beginReset'
-      - >-
-        azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackageWithHttpOperationResponse
-      - 'azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackage'
-      - >-
-        azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfileWithHttpOperationResponse
-      - 'azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfile'
       - >-
         azure-arm-network.VirtualNetworkGateways#beginGetBgpPeerStatusWithHttpOperationResponse
       - 'azure-arm-network.VirtualNetworkGateways#beginGetBgpPeerStatus'
@@ -78,7 +69,7 @@ items:
     parent: azure-arm-network.VirtualNetworkGateways
     name: VirtualNetworkGateways(client)
     fullName: azure-arm-network.VirtualNetworkGateways.VirtualNetworkGateways(client)
-    summary: ''
+    summary: Create a VirtualNetworkGateways.
     type: Constructor
     syntax:
       parameters:
@@ -210,11 +201,6 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: parameters.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.bgpSettings
           type:
             - object
@@ -234,16 +220,6 @@ items:
           type:
             - number
           description: "The weight added to\rroutes learned from this BGP speaker."
-          optional: true
-        - id: parameters.radiusServer
-          type:
-            - string
-          description: "The radius server address property\rof the VirtualNetworkGateway resource for vpn client connection."
-          optional: true
-        - id: parameters.radiusSecret
-          type:
-            - string
-          description: "The radius secret property of the\rVirtualNetworkGateway resource for vpn client connection."
           optional: true
         - id: parameters.resourceGuid
           type:
@@ -404,11 +380,6 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: parameters.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.bgpSettings
           type:
             - object
@@ -428,16 +399,6 @@ items:
           type:
             - number
           description: "The weight added to\rroutes learned from this BGP speaker."
-          optional: true
-        - id: parameters.radiusServer
-          type:
-            - string
-          description: "The radius server address property\rof the VirtualNetworkGateway resource for vpn client connection."
-          optional: true
-        - id: parameters.radiusSecret
-          type:
-            - string
-          description: "The radius secret property of the\rVirtualNetworkGateway resource for vpn client connection."
           optional: true
         - id: parameters.resourceGuid
           type:
@@ -953,22 +914,6 @@ items:
           type:
             - string
           description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
         - id: options
           type:
             - object
@@ -1027,22 +972,6 @@ items:
           type:
             - string
           description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
         - id: options
           type:
             - object
@@ -1065,160 +994,6 @@ items:
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
       content: >-
         function generatevpnclientpackage(resourceGroupName,
-        virtualNetworkGatewayName, parameters, options, optionalCallback)
-    langs:
-      - js
-  - uid: >-
-      azure-arm-network.VirtualNetworkGateways#generateVpnProfileWithHttpOperationResponse
-    id: >-
-      azure-arm-network.VirtualNetworkGateways#generateVpnProfileWithHttpOperationResponse
-    parent: azure-arm-network.VirtualNetworkGateways
-    name: >-
-      generateVpnProfileWithHttpOperationResponse(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options)
-    summary: "Generates VPN profile for P2S client of the virtual network gateway in the\rspecified resource group. Used for IKEV2 and radius based authentication."
-    fullName: >-
-      azure-arm-network.VirtualNetworkGateways.generateVpnProfileWithHttpOperationResponse(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options)
-    tags:
-      - originalTitle: resolve
-        title: resolve
-        text: '{HttpOperationResponse<String>} - The deserialized result object.'
-        value: '{HttpOperationResponse<String>} - The deserialized result object.'
-      - originalTitle: reject
-        title: reject
-        text: '{Error} - The error object.'
-        value: '{Error} - The error object.'
-    type: Function
-    syntax:
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: The name of the resource group.
-        - id: virtualNetworkGatewayName
-          type:
-            - string
-          description: "The name of the virtual network\rgateway."
-        - id: parameters
-          type:
-            - object
-          description: "Parameters supplied to the generate virtual\rnetwork gateway VPN client package operation."
-        - id: parameters.processorArchitecture
-          type:
-            - string
-          description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
-        - id: options
-          type:
-            - object
-          description: Optional Parameters.
-          optional: true
-        - id: options.customHeaders
-          type:
-            - object
-          description: "Headers that will be added to the\rrequest"
-          optional: true
-      return:
-        type:
-          - Promise
-        description: A promise is returned
-      content: >-
-        function generateVpnProfileWithHttpOperationResponse(resourceGroupName,
-        virtualNetworkGatewayName, parameters, options)
-    langs:
-      - js
-  - uid: 'azure-arm-network.VirtualNetworkGateways#generateVpnProfile'
-    id: 'azure-arm-network.VirtualNetworkGateways#generateVpnProfile'
-    parent: azure-arm-network.VirtualNetworkGateways
-    name: >-
-      generateVpnProfile(resourceGroupName, virtualNetworkGatewayName,
-      parameters, options, optionalCallback)
-    summary: "Generates VPN profile for P2S client of the virtual network gateway in the\rspecified resource group. Used for IKEV2 and radius based authentication."
-    fullName: >-
-      azure-arm-network.VirtualNetworkGateways.generateVpnProfile(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options, optionalCallback)
-    tags:
-      - originalTitle: resolve
-        title: resolve
-        text: '{String} - The deserialized result object.'
-        value: '{String} - The deserialized result object.'
-      - originalTitle: reject
-        title: reject
-        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {string} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
-        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {string} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
-    type: Function
-    syntax:
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: The name of the resource group.
-        - id: virtualNetworkGatewayName
-          type:
-            - string
-          description: "The name of the virtual network\rgateway."
-        - id: parameters
-          type:
-            - object
-          description: "Parameters supplied to the generate virtual\rnetwork gateway VPN client package operation."
-        - id: parameters.processorArchitecture
-          type:
-            - string
-          description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
-        - id: options
-          type:
-            - object
-          description: Optional Parameters.
-          optional: true
-        - id: options.customHeaders
-          type:
-            - object
-          description: "Headers that will be added to the\rrequest"
-          optional: true
-        - id: optionalCallback
-          type:
-            - function
-          description: The optional callback.
-          optional: true
-      return:
-        type:
-          - function
-          - Promise
-        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: >-
-        function generateVpnProfile(resourceGroupName,
         virtualNetworkGatewayName, parameters, options, optionalCallback)
     langs:
       - js
@@ -1691,11 +1466,6 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: parameters.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.bgpSettings
           type:
             - object
@@ -1715,16 +1485,6 @@ items:
           type:
             - number
           description: "The weight added to\rroutes learned from this BGP speaker."
-          optional: true
-        - id: parameters.radiusServer
-          type:
-            - string
-          description: "The radius server address property\rof the VirtualNetworkGateway resource for vpn client connection."
-          optional: true
-        - id: parameters.radiusSecret
-          type:
-            - string
-          description: "The radius secret property of the\rVirtualNetworkGateway resource for vpn client connection."
           optional: true
         - id: parameters.resourceGuid
           type:
@@ -1885,11 +1645,6 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: parameters.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.bgpSettings
           type:
             - object
@@ -1909,16 +1664,6 @@ items:
           type:
             - number
           description: "The weight added to\rroutes learned from this BGP speaker."
-          optional: true
-        - id: parameters.radiusServer
-          type:
-            - string
-          description: "The radius server address property\rof the VirtualNetworkGateway resource for vpn client connection."
-          optional: true
-        - id: parameters.radiusSecret
-          type:
-            - string
-          description: "The radius secret property of the\rVirtualNetworkGateway resource for vpn client connection."
           optional: true
         - id: parameters.resourceGuid
           type:
@@ -2194,316 +1939,6 @@ items:
       content: >-
         function beginReset(resourceGroupName, virtualNetworkGatewayName,
         options, optionalCallback)
-    langs:
-      - js
-  - uid: >-
-      azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackageWithHttpOperationResponse
-    id: >-
-      azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackageWithHttpOperationResponse
-    parent: azure-arm-network.VirtualNetworkGateways
-    name: >-
-      beginGeneratevpnclientpackageWithHttpOperationResponse(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options)
-    summary: "Generates VPN client package for P2S client of the virtual network gateway\rin the specified resource group."
-    fullName: >-
-      azure-arm-network.VirtualNetworkGateways.beginGeneratevpnclientpackageWithHttpOperationResponse(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options)
-    tags:
-      - originalTitle: resolve
-        title: resolve
-        text: '{HttpOperationResponse<String>} - The deserialized result object.'
-        value: '{HttpOperationResponse<String>} - The deserialized result object.'
-      - originalTitle: reject
-        title: reject
-        text: '{Error} - The error object.'
-        value: '{Error} - The error object.'
-    type: Function
-    syntax:
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: The name of the resource group.
-        - id: virtualNetworkGatewayName
-          type:
-            - string
-          description: "The name of the virtual network\rgateway."
-        - id: parameters
-          type:
-            - object
-          description: "Parameters supplied to the generate virtual\rnetwork gateway VPN client package operation."
-        - id: parameters.processorArchitecture
-          type:
-            - string
-          description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
-        - id: options
-          type:
-            - object
-          description: Optional Parameters.
-          optional: true
-        - id: options.customHeaders
-          type:
-            - object
-          description: "Headers that will be added to the\rrequest"
-          optional: true
-      return:
-        type:
-          - Promise
-        description: A promise is returned
-      content: >-
-        function
-        beginGeneratevpnclientpackageWithHttpOperationResponse(resourceGroupName,
-        virtualNetworkGatewayName, parameters, options)
-    langs:
-      - js
-  - uid: 'azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackage'
-    id: 'azure-arm-network.VirtualNetworkGateways#beginGeneratevpnclientpackage'
-    parent: azure-arm-network.VirtualNetworkGateways
-    name: >-
-      beginGeneratevpnclientpackage(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options, optionalCallback)
-    summary: "Generates VPN client package for P2S client of the virtual network gateway\rin the specified resource group."
-    fullName: >-
-      azure-arm-network.VirtualNetworkGateways.beginGeneratevpnclientpackage(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options, optionalCallback)
-    tags:
-      - originalTitle: resolve
-        title: resolve
-        text: '{String} - The deserialized result object.'
-        value: '{String} - The deserialized result object.'
-      - originalTitle: reject
-        title: reject
-        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {string} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
-        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {string} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
-    type: Function
-    syntax:
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: The name of the resource group.
-        - id: virtualNetworkGatewayName
-          type:
-            - string
-          description: "The name of the virtual network\rgateway."
-        - id: parameters
-          type:
-            - object
-          description: "Parameters supplied to the generate virtual\rnetwork gateway VPN client package operation."
-        - id: parameters.processorArchitecture
-          type:
-            - string
-          description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
-        - id: options
-          type:
-            - object
-          description: Optional Parameters.
-          optional: true
-        - id: options.customHeaders
-          type:
-            - object
-          description: "Headers that will be added to the\rrequest"
-          optional: true
-        - id: optionalCallback
-          type:
-            - function
-          description: The optional callback.
-          optional: true
-      return:
-        type:
-          - function
-          - Promise
-        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: >-
-        function beginGeneratevpnclientpackage(resourceGroupName,
-        virtualNetworkGatewayName, parameters, options, optionalCallback)
-    langs:
-      - js
-  - uid: >-
-      azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfileWithHttpOperationResponse
-    id: >-
-      azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfileWithHttpOperationResponse
-    parent: azure-arm-network.VirtualNetworkGateways
-    name: >-
-      beginGenerateVpnProfileWithHttpOperationResponse(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options)
-    summary: "Generates VPN profile for P2S client of the virtual network gateway in the\rspecified resource group. Used for IKEV2 and radius based authentication."
-    fullName: >-
-      azure-arm-network.VirtualNetworkGateways.beginGenerateVpnProfileWithHttpOperationResponse(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options)
-    tags:
-      - originalTitle: resolve
-        title: resolve
-        text: '{HttpOperationResponse<String>} - The deserialized result object.'
-        value: '{HttpOperationResponse<String>} - The deserialized result object.'
-      - originalTitle: reject
-        title: reject
-        text: '{Error} - The error object.'
-        value: '{Error} - The error object.'
-    type: Function
-    syntax:
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: The name of the resource group.
-        - id: virtualNetworkGatewayName
-          type:
-            - string
-          description: "The name of the virtual network\rgateway."
-        - id: parameters
-          type:
-            - object
-          description: "Parameters supplied to the generate virtual\rnetwork gateway VPN client package operation."
-        - id: parameters.processorArchitecture
-          type:
-            - string
-          description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
-        - id: options
-          type:
-            - object
-          description: Optional Parameters.
-          optional: true
-        - id: options.customHeaders
-          type:
-            - object
-          description: "Headers that will be added to the\rrequest"
-          optional: true
-      return:
-        type:
-          - Promise
-        description: A promise is returned
-      content: >-
-        function
-        beginGenerateVpnProfileWithHttpOperationResponse(resourceGroupName,
-        virtualNetworkGatewayName, parameters, options)
-    langs:
-      - js
-  - uid: 'azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfile'
-    id: 'azure-arm-network.VirtualNetworkGateways#beginGenerateVpnProfile'
-    parent: azure-arm-network.VirtualNetworkGateways
-    name: >-
-      beginGenerateVpnProfile(resourceGroupName, virtualNetworkGatewayName,
-      parameters, options, optionalCallback)
-    summary: "Generates VPN profile for P2S client of the virtual network gateway in the\rspecified resource group. Used for IKEV2 and radius based authentication."
-    fullName: >-
-      azure-arm-network.VirtualNetworkGateways.beginGenerateVpnProfile(resourceGroupName,
-      virtualNetworkGatewayName, parameters, options, optionalCallback)
-    tags:
-      - originalTitle: resolve
-        title: resolve
-        text: '{String} - The deserialized result object.'
-        value: '{String} - The deserialized result object.'
-      - originalTitle: reject
-        title: reject
-        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {string} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
-        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {string} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
-    type: Function
-    syntax:
-      parameters:
-        - id: resourceGroupName
-          type:
-            - string
-          description: The name of the resource group.
-        - id: virtualNetworkGatewayName
-          type:
-            - string
-          description: "The name of the virtual network\rgateway."
-        - id: parameters
-          type:
-            - object
-          description: "Parameters supplied to the generate virtual\rnetwork gateway VPN client package operation."
-        - id: parameters.processorArchitecture
-          type:
-            - string
-          description: "VPN client Processor\rArchitecture. Possible values are: 'AMD64' and 'X86'. Possible values\rinclude: 'Amd64', 'X86'"
-          optional: true
-        - id: parameters.authenticationMethod
-          type:
-            - string
-          description: "VPN client Authentication\rMethod. Possible values are: 'EAPTLS' and 'EAPMSCHAPv2'. Possible values\rinclude: 'EAPTLS', 'EAPMSCHAPv2'"
-          optional: true
-        - id: parameters.radiusServerAuthCertificate
-          type:
-            - string
-          description: "The public\rcertificate data for the radius server authentication certificate as a\rBase-64 encoded string. Required only if external radius authentication has\rbeen configured with EAPTLS authentication."
-          optional: true
-        - id: parameters.clientRootCertificates
-          type:
-            - array
-          description: "A list of client root\rcertificates public certificate data encoded as Base-64 strings. Optional\rparameter for external radius based authentication with EAPTLS."
-          optional: true
-        - id: options
-          type:
-            - object
-          description: Optional Parameters.
-          optional: true
-        - id: options.customHeaders
-          type:
-            - object
-          description: "Headers that will be added to the\rrequest"
-          optional: true
-        - id: optionalCallback
-          type:
-            - function
-          description: The optional callback.
-          optional: true
-      return:
-        type:
-          - function
-          - Promise
-        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: >-
-        function beginGenerateVpnProfile(resourceGroupName,
-        virtualNetworkGatewayName, parameters, options, optionalCallback)
     langs:
       - js
   - uid: >-

@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-datalake-analytics.StorageAccounts
     id: azure-arm-datalake-analytics.StorageAccounts
     name: StorageAccounts
-    summary: "StorageAccounts\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsAccountManagementClient.\rInitializes a new instance of the StorageAccounts class."
+    summary: Class representing a StorageAccounts.
     fullName: azure-arm-datalake-analytics.StorageAccounts
     source:
       id: azure-arm-datalake-analytics.StorageAccounts
       path: >-
         lib\services\dataLake.Analytics\lib\account\operations\storageAccounts.js
-      startLine: 1739
+      startLine: 1730
       remote:
         branch: jsdoc
         path: >-
@@ -58,7 +58,7 @@ items:
     parent: azure-arm-datalake-analytics.StorageAccounts
     name: StorageAccounts(client)
     fullName: azure-arm-datalake-analytics.StorageAccounts.StorageAccounts(client)
-    summary: ''
+    summary: Create a StorageAccounts.
     type: Constructor
     syntax:
       parameters:

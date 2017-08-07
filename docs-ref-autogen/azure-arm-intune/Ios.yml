@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-intune.Ios
     id: azure-arm-intune.Ios
     name: Ios
-    summary: "Ios\r__NOTE__: An instance of this class is automatically created for an\rinstance of the IntuneResourceManagementClient.\rInitializes a new instance of the Ios class."
+    summary: Class representing a Ios.
     fullName: azure-arm-intune.Ios
     source:
       id: azure-arm-intune.Ios
       path: lib\services\intune\lib\operations\ios.js
-      startLine: 2155
+      startLine: 2146
       remote:
         branch: jsdoc
         path: lib\services\intune\lib\operations\ios.js
@@ -51,7 +51,7 @@ items:
     parent: azure-arm-intune.Ios
     name: Ios(client)
     fullName: azure-arm-intune.Ios.Ios(client)
-    summary: ''
+    summary: Create a Ios.
     type: Constructor
     syntax:
       parameters:

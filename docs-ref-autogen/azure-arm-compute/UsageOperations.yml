@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-compute.UsageOperations
     id: azure-arm-compute.UsageOperations
     name: UsageOperations
-    summary: "UsageOperations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ComputeManagementClient.\rInitializes a new instance of the UsageOperations class."
+    summary: Class representing a UsageOperations.
     fullName: azure-arm-compute.UsageOperations
     source:
       id: azure-arm-compute.UsageOperations
       path: lib\services\computeManagement2\lib\operations\usageOperations.js
-      startLine: 301
+      startLine: 292
       remote:
         branch: jsdoc
         path: lib\services\computeManagement2\lib\operations\usageOperations.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-compute.UsageOperations
     name: UsageOperations(client)
     fullName: azure-arm-compute.UsageOperations.UsageOperations(client)
-    summary: ''
+    summary: Create a UsageOperations.
     type: Constructor
     syntax:
       parameters:

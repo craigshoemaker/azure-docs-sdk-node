@@ -1,3 +1,43 @@
+- uid: azure-arm-notificationhubs.AdmCredential
+  name: AdmCredential
+  items:
+    - uid: 'azure-arm-notificationhubs.AdmCredential#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.ApnsCredential
+  name: ApnsCredential
+  items:
+    - uid: 'azure-arm-notificationhubs.ApnsCredential#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.BaiduCredential
+  name: BaiduCredential
+  items:
+    - uid: 'azure-arm-notificationhubs.BaiduCredential#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.CheckAvailabilityParameters
+  name: CheckAvailabilityParameters
+  items:
+    - uid: 'azure-arm-notificationhubs.CheckAvailabilityParameters#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.CheckAvailabilityResult
+  name: CheckAvailabilityResult
+  items:
+    - uid: 'azure-arm-notificationhubs.CheckAvailabilityResult#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.CheckNameAvailabilityRequestParameters
+  name: CheckNameAvailabilityRequestParameters
+  items:
+    - uid: 'azure-arm-notificationhubs.CheckNameAvailabilityRequestParameters#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.CheckNameAvailabilityResponse
+  name: CheckNameAvailabilityResponse
+  items:
+    - uid: 'azure-arm-notificationhubs.CheckNameAvailabilityResponse#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.GcmCredential
+  name: GcmCredential
+  items:
+    - uid: 'azure-arm-notificationhubs.GcmCredential#mapper'
+      name: mapper
 - uid: azure-arm-notificationhubs.Hubs
   name: Hubs
   items:
@@ -6,6 +46,11 @@
       name: checkAvailabilityWithHttpOperationResponse
     - uid: 'azure-arm-notificationhubs.Hubs#checkAvailability'
       name: checkAvailability
+- uid: azure-arm-notificationhubs.MpnsCredential
+  name: MpnsCredential
+  items:
+    - uid: 'azure-arm-notificationhubs.MpnsCredential#mapper'
+      name: mapper
 - uid: azure-arm-notificationhubs.Name
   name: Name
   items:
@@ -14,6 +59,26 @@
       name: checkAvailabilityWithHttpOperationResponse
     - uid: 'azure-arm-notificationhubs.Name#checkAvailability'
       name: checkAvailability
+- uid: azure-arm-notificationhubs.NamespaceCreateOrUpdateParameters
+  name: NamespaceCreateOrUpdateParameters
+  items:
+    - uid: 'azure-arm-notificationhubs.NamespaceCreateOrUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.NamespaceListResult
+  name: NamespaceListResult
+  items:
+    - uid: 'azure-arm-notificationhubs.NamespaceListResult#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.NamespacePatchParameters
+  name: NamespacePatchParameters
+  items:
+    - uid: 'azure-arm-notificationhubs.NamespacePatchParameters#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.NamespaceResource
+  name: NamespaceResource
+  items:
+    - uid: 'azure-arm-notificationhubs.NamespaceResource#mapper'
+      name: mapper
 - uid: azure-arm-notificationhubs.Namespaces
   name: Namespaces
   items:
@@ -96,6 +161,22 @@
       name: listAuthorizationRulesNextWithHttpOperationResponse
     - uid: 'azure-arm-notificationhubs.Namespaces#listAuthorizationRulesNext'
       name: listAuthorizationRulesNext
+- uid: azure-arm-notificationhubs.NotificationHubCreateOrUpdateParameters
+  name: NotificationHubCreateOrUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-notificationhubs.NotificationHubCreateOrUpdateParameters#mapper
+      name: mapper
+- uid: azure-arm-notificationhubs.NotificationHubListResult
+  name: NotificationHubListResult
+  items:
+    - uid: 'azure-arm-notificationhubs.NotificationHubListResult#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.NotificationHubResource
+  name: NotificationHubResource
+  items:
+    - uid: 'azure-arm-notificationhubs.NotificationHubResource#mapper'
+      name: mapper
 - uid: azure-arm-notificationhubs.NotificationHubs
   name: NotificationHubs
   items:
@@ -171,3 +252,62 @@
       name: listAuthorizationRulesNext
 - uid: azure-arm-notificationhubs.NotificationHubsManagementClient
   name: NotificationHubsManagementClient
+- uid: azure-arm-notificationhubs.PnsCredentialsResource
+  name: PnsCredentialsResource
+  items:
+    - uid: 'azure-arm-notificationhubs.PnsCredentialsResource#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.PolicykeyResource
+  name: PolicykeyResource
+  items:
+    - uid: 'azure-arm-notificationhubs.PolicykeyResource#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-notificationhubs.Resource#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.ResourceListKeys
+  name: ResourceListKeys
+  items:
+    - uid: 'azure-arm-notificationhubs.ResourceListKeys#mapper'
+      name: mapper
+- uid: >-
+    azure-arm-notificationhubs.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  name: SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-notificationhubs.SharedAccessAuthorizationRuleCreateOrUpdateParameters#mapper
+      name: mapper
+- uid: azure-arm-notificationhubs.SharedAccessAuthorizationRuleListResult
+  name: SharedAccessAuthorizationRuleListResult
+  items:
+    - uid: >-
+        azure-arm-notificationhubs.SharedAccessAuthorizationRuleListResult#mapper
+      name: mapper
+- uid: azure-arm-notificationhubs.SharedAccessAuthorizationRuleProperties
+  name: SharedAccessAuthorizationRuleProperties
+  items:
+    - uid: >-
+        azure-arm-notificationhubs.SharedAccessAuthorizationRuleProperties#mapper
+      name: mapper
+- uid: azure-arm-notificationhubs.SharedAccessAuthorizationRuleResource
+  name: SharedAccessAuthorizationRuleResource
+  items:
+    - uid: 'azure-arm-notificationhubs.SharedAccessAuthorizationRuleResource#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.Sku
+  name: Sku
+  items:
+    - uid: 'azure-arm-notificationhubs.Sku#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.SubResource
+  name: SubResource
+  items:
+    - uid: 'azure-arm-notificationhubs.SubResource#mapper'
+      name: mapper
+- uid: azure-arm-notificationhubs.WnsCredential
+  name: WnsCredential
+  items:
+    - uid: 'azure-arm-notificationhubs.WnsCredential#mapper'
+      name: mapper

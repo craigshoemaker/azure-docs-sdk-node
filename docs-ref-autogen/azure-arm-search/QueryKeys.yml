@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-search.QueryKeys
     id: azure-arm-search.QueryKeys
     name: QueryKeys
-    summary: "QueryKeys\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SearchManagementClient.\rInitializes a new instance of the QueryKeys class."
+    summary: Class representing a QueryKeys.
     fullName: azure-arm-search.QueryKeys
     source:
       id: azure-arm-search.QueryKeys
       path: lib\services\searchManagement\lib\operations\queryKeys.js
-      startLine: 538
+      startLine: 529
       remote:
         branch: jsdoc
         path: lib\services\searchManagement\lib\operations\queryKeys.js
@@ -29,7 +29,7 @@ items:
     parent: azure-arm-search.QueryKeys
     name: QueryKeys(client)
     fullName: azure-arm-search.QueryKeys.QueryKeys(client)
-    summary: ''
+    summary: Create a QueryKeys.
     type: Constructor
     syntax:
       parameters:

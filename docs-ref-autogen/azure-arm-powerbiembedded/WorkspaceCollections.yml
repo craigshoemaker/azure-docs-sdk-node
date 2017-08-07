@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-powerbiembedded.WorkspaceCollections
     id: azure-arm-powerbiembedded.WorkspaceCollections
     name: WorkspaceCollections
-    summary: "WorkspaceCollections\r__NOTE__: An instance of this class is automatically created for an\rinstance of the PowerBIEmbeddedManagementClient.\rInitializes a new instance of the WorkspaceCollections class."
+    summary: Class representing a WorkspaceCollections.
     fullName: azure-arm-powerbiembedded.WorkspaceCollections
     source:
       id: azure-arm-powerbiembedded.WorkspaceCollections
       path: lib\services\powerbiembedded\lib\operations\workspaceCollections.js
-      startLine: 1625
+      startLine: 1616
       remote:
         branch: jsdoc
         path: lib\services\powerbiembedded\lib\operations\workspaceCollections.js
@@ -57,7 +57,7 @@ items:
     name: WorkspaceCollections(client)
     fullName: >-
       azure-arm-powerbiembedded.WorkspaceCollections.WorkspaceCollections(client)
-    summary: ''
+    summary: Create a WorkspaceCollections.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.ExpressRouteCircuits
     id: azure-arm-network.ExpressRouteCircuits
     name: ExpressRouteCircuits
-    summary: "ExpressRouteCircuits\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the ExpressRouteCircuits class."
+    summary: Class representing a ExpressRouteCircuits.
     fullName: azure-arm-network.ExpressRouteCircuits
     source:
       id: azure-arm-network.ExpressRouteCircuits
       path: lib\services\networkManagement2\lib\operations\expressRouteCircuits.js
-      startLine: 2274
+      startLine: 2265
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\expressRouteCircuits.js
@@ -69,7 +69,7 @@ items:
     parent: azure-arm-network.ExpressRouteCircuits
     name: ExpressRouteCircuits(client)
     fullName: azure-arm-network.ExpressRouteCircuits.ExpressRouteCircuits(client)
-    summary: ''
+    summary: Create a ExpressRouteCircuits.
     type: Constructor
     syntax:
       parameters:

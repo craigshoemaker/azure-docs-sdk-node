@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.VirtualNetworks
     id: azure-arm-network.VirtualNetworks
     name: VirtualNetworks
-    summary: "VirtualNetworks\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the VirtualNetworks class."
+    summary: Class representing a VirtualNetworks.
     fullName: azure-arm-network.VirtualNetworks
     source:
       id: azure-arm-network.VirtualNetworks
       path: lib\services\networkManagement2\lib\operations\virtualNetworks.js
-      startLine: 1645
+      startLine: 1636
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\virtualNetworks.js
@@ -51,7 +51,7 @@ items:
     parent: azure-arm-network.VirtualNetworks
     name: VirtualNetworks(client)
     fullName: azure-arm-network.VirtualNetworks.VirtualNetworks(client)
-    summary: ''
+    summary: Create a VirtualNetworks.
     type: Constructor
     syntax:
       parameters:

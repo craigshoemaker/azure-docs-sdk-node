@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-datalake-analytics.FirewallRules
     id: azure-arm-datalake-analytics.FirewallRules
     name: FirewallRules
-    summary: "FirewallRules\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsAccountManagementClient.\rInitializes a new instance of the FirewallRules class."
+    summary: Class representing a FirewallRules.
     fullName: azure-arm-datalake-analytics.FirewallRules
     source:
       id: azure-arm-datalake-analytics.FirewallRules
       path: lib\services\dataLake.Analytics\lib\account\operations\firewallRules.js
-      startLine: 958
+      startLine: 949
       remote:
         branch: jsdoc
         path: >-
@@ -41,7 +41,7 @@ items:
     parent: azure-arm-datalake-analytics.FirewallRules
     name: FirewallRules(client)
     fullName: azure-arm-datalake-analytics.FirewallRules.FirewallRules(client)
-    summary: ''
+    summary: Create a FirewallRules.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-analysisservices.Servers
     id: azure-arm-analysisservices.Servers
     name: Servers
-    summary: "Servers\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AnalysisServicesManagementClient.\rInitializes a new instance of the Servers class."
+    summary: Class representing a Servers.
     fullName: azure-arm-analysisservices.Servers
     source:
       id: azure-arm-analysisservices.Servers
       path: lib\services\analysisServices\lib\operations\servers.js
-      startLine: 1760
+      startLine: 1883
       remote:
         branch: jsdoc
         path: lib\services\analysisServices\lib\operations\servers.js
@@ -38,6 +38,8 @@ items:
       - >-
         azure-arm-analysisservices.Servers#beginDeleteMethodWithHttpOperationResponse
       - 'azure-arm-analysisservices.Servers#beginDeleteMethod'
+      - 'azure-arm-analysisservices.Servers#beginUpdateWithHttpOperationResponse'
+      - 'azure-arm-analysisservices.Servers#beginUpdate'
       - 'azure-arm-analysisservices.Servers#beginSuspendWithHttpOperationResponse'
       - 'azure-arm-analysisservices.Servers#beginSuspend'
       - 'azure-arm-analysisservices.Servers#beginResumeWithHttpOperationResponse'
@@ -49,7 +51,7 @@ items:
     parent: azure-arm-analysisservices.Servers
     name: Servers(client)
     fullName: azure-arm-analysisservices.Servers.Servers(client)
-    summary: ''
+    summary: Create a Servers.
     type: Constructor
     syntax:
       parameters:
@@ -243,11 +245,11 @@ items:
         - id: serverParameters.sku.name
           type:
             - string
-          description: "Name of the SKU level for the\rserver being provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.\rPossible values include: 'S1', 'S2', 'S4', 'D1'"
+          description: "Name of the SKU level for the\rserver being provisioned. Possible values include: 'B1', 'B2', 'S0', 'S1',\r'S2', 'S4', 'D1'"
         - id: serverParameters.sku.tier
           type:
             - string
-          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values are: 'Development' and\r'Standard'. Possible values include: 'Development', 'Standard'"
+          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values include: 'Development',\r'Basic', 'Standard'"
           optional: true
         - id: serverParameters.tags
           type:
@@ -346,11 +348,11 @@ items:
         - id: serverParameters.sku.name
           type:
             - string
-          description: "Name of the SKU level for the\rserver being provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.\rPossible values include: 'S1', 'S2', 'S4', 'D1'"
+          description: "Name of the SKU level for the\rserver being provisioned. Possible values include: 'B1', 'B2', 'S0', 'S1',\r'S2', 'S4', 'D1'"
         - id: serverParameters.sku.tier
           type:
             - string
-          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values are: 'Development' and\r'Standard'. Possible values include: 'Development', 'Standard'"
+          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values include: 'Development',\r'Basic', 'Standard'"
           optional: true
         - id: serverParameters.tags
           type:
@@ -530,11 +532,11 @@ items:
         - id: serverUpdateParameters.sku.name
           type:
             - string
-          description: "Name of the SKU level for\rthe server being provisioned. Possible values are: 'S1', 'S2', 'S4', and\r'D1'. Possible values include: 'S1', 'S2', 'S4', 'D1'"
+          description: "Name of the SKU level for\rthe server being provisioned. Possible values include: 'B1', 'B2', 'S0',\r'S1', 'S2', 'S4', 'D1'"
         - id: serverUpdateParameters.sku.tier
           type:
             - string
-          description: "The name of the Azure\rpricing tier to which the SKU applies. Possible values are: 'Development'\rand 'Standard'. Possible values include: 'Development', 'Standard'"
+          description: "The name of the Azure\rpricing tier to which the SKU applies. Possible values include:\r'Development', 'Basic', 'Standard'"
           optional: true
         - id: serverUpdateParameters.tags
           type:
@@ -630,11 +632,11 @@ items:
         - id: serverUpdateParameters.sku.name
           type:
             - string
-          description: "Name of the SKU level for\rthe server being provisioned. Possible values are: 'S1', 'S2', 'S4', and\r'D1'. Possible values include: 'S1', 'S2', 'S4', 'D1'"
+          description: "Name of the SKU level for\rthe server being provisioned. Possible values include: 'B1', 'B2', 'S0',\r'S1', 'S2', 'S4', 'D1'"
         - id: serverUpdateParameters.sku.tier
           type:
             - string
-          description: "The name of the Azure\rpricing tier to which the SKU applies. Possible values are: 'Development'\rand 'Standard'. Possible values include: 'Development', 'Standard'"
+          description: "The name of the Azure\rpricing tier to which the SKU applies. Possible values include:\r'Development', 'Basic', 'Standard'"
           optional: true
         - id: serverUpdateParameters.tags
           type:
@@ -1149,11 +1151,11 @@ items:
         - id: serverParameters.sku.name
           type:
             - string
-          description: "Name of the SKU level for the\rserver being provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.\rPossible values include: 'S1', 'S2', 'S4', 'D1'"
+          description: "Name of the SKU level for the\rserver being provisioned. Possible values include: 'B1', 'B2', 'S0', 'S1',\r'S2', 'S4', 'D1'"
         - id: serverParameters.sku.tier
           type:
             - string
-          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values are: 'Development' and\r'Standard'. Possible values include: 'Development', 'Standard'"
+          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values include: 'Development',\r'Basic', 'Standard'"
           optional: true
         - id: serverParameters.tags
           type:
@@ -1252,11 +1254,11 @@ items:
         - id: serverParameters.sku.name
           type:
             - string
-          description: "Name of the SKU level for the\rserver being provisioned. Possible values are: 'S1', 'S2', 'S4', and 'D1'.\rPossible values include: 'S1', 'S2', 'S4', 'D1'"
+          description: "Name of the SKU level for the\rserver being provisioned. Possible values include: 'B1', 'B2', 'S0', 'S1',\r'S2', 'S4', 'D1'"
         - id: serverParameters.sku.tier
           type:
             - string
-          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values are: 'Development' and\r'Standard'. Possible values include: 'Development', 'Standard'"
+          description: "The name of the Azure pricing\rtier to which the SKU applies. Possible values include: 'Development',\r'Basic', 'Standard'"
           optional: true
         - id: serverParameters.tags
           type:
@@ -1392,6 +1394,216 @@ items:
       content: >-
         function beginDeleteMethod(resourceGroupName, serverName, options,
         optionalCallback)
+    langs:
+      - js
+  - uid: 'azure-arm-analysisservices.Servers#beginUpdateWithHttpOperationResponse'
+    id: 'azure-arm-analysisservices.Servers#beginUpdateWithHttpOperationResponse'
+    parent: azure-arm-analysisservices.Servers
+    name: >-
+      beginUpdateWithHttpOperationResponse(resourceGroupName, serverName,
+      serverUpdateParameters, options)
+    summary: Updates the current state of the specified Analysis Services server.
+    fullName: >-
+      azure-arm-analysisservices.Servers.beginUpdateWithHttpOperationResponse(resourceGroupName,
+      serverName, serverUpdateParameters, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<AnalysisServicesServer>} - The deserialized
+          result object.
+        value: >-
+          {HttpOperationResponse<AnalysisServicesServer>} - The deserialized
+          result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "The name of the Azure Resource group of\rwhich a given Analysis Services server is part. This name must be at least 1\rcharacter in length, and no more than 90."
+        - id: serverName
+          type:
+            - string
+          description: "The name of the Analysis Services server. It must\rbe at least 3 characters in length, and no more than 63."
+        - id: serverUpdateParameters
+          type:
+            - object
+          description: "Request object that contains the\rupdated information for the server."
+        - id: serverUpdateParameters.sku
+          type:
+            - object
+          description: "The SKU of the Analysis\rServices resource."
+          optional: true
+        - id: serverUpdateParameters.sku.name
+          type:
+            - string
+          description: "Name of the SKU level for\rthe server being provisioned. Possible values include: 'B1', 'B2', 'S0',\r'S1', 'S2', 'S4', 'D1'"
+        - id: serverUpdateParameters.sku.tier
+          type:
+            - string
+          description: "The name of the Azure\rpricing tier to which the SKU applies. Possible values include:\r'Development', 'Basic', 'Standard'"
+          optional: true
+        - id: serverUpdateParameters.tags
+          type:
+            - object
+          description: "Key-value pairs of additional\rprovisioning properties."
+          optional: true
+        - id: serverUpdateParameters.asAdministrators
+          type:
+            - object
+          description: ''
+          optional: true
+        - id: serverUpdateParameters.asAdministrators.members
+          type:
+            - array
+          description: "An array of\radministrator user identities."
+          optional: true
+        - id: serverUpdateParameters.backupConfiguration
+          type:
+            - object
+          description: ''
+          optional: true
+        - id: serverUpdateParameters.backupConfiguration.storageAccount
+          type:
+            - string
+          description: Storage account full resource id for backup configuration
+        - id: serverUpdateParameters.backupConfiguration.blobContainer
+          type:
+            - string
+          description: "The\rname of blob container for backup configuration"
+        - id: serverUpdateParameters.backupConfiguration.accessKey
+          type:
+            - string
+          description: "The\raccess key of storage account used for backup configuration"
+          optional: true
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function beginUpdateWithHttpOperationResponse(resourceGroupName,
+        serverName, serverUpdateParameters, options)
+    langs:
+      - js
+  - uid: 'azure-arm-analysisservices.Servers#beginUpdate'
+    id: 'azure-arm-analysisservices.Servers#beginUpdate'
+    parent: azure-arm-analysisservices.Servers
+    name: >-
+      beginUpdate(resourceGroupName, serverName, serverUpdateParameters,
+      options, optionalCallback)
+    summary: Updates the current state of the specified Analysis Services server.
+    fullName: >-
+      azure-arm-analysisservices.Servers.beginUpdate(resourceGroupName,
+      serverName, serverUpdateParameters, options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{AnalysisServicesServer} - The deserialized result object.'
+        value: '{AnalysisServicesServer} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link AnalysisServicesServer} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link AnalysisServicesServer} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "The name of the Azure Resource group of\rwhich a given Analysis Services server is part. This name must be at least 1\rcharacter in length, and no more than 90."
+        - id: serverName
+          type:
+            - string
+          description: "The name of the Analysis Services server. It must\rbe at least 3 characters in length, and no more than 63."
+        - id: serverUpdateParameters
+          type:
+            - object
+          description: "Request object that contains the\rupdated information for the server."
+        - id: serverUpdateParameters.sku
+          type:
+            - object
+          description: "The SKU of the Analysis\rServices resource."
+          optional: true
+        - id: serverUpdateParameters.sku.name
+          type:
+            - string
+          description: "Name of the SKU level for\rthe server being provisioned. Possible values include: 'B1', 'B2', 'S0',\r'S1', 'S2', 'S4', 'D1'"
+        - id: serverUpdateParameters.sku.tier
+          type:
+            - string
+          description: "The name of the Azure\rpricing tier to which the SKU applies. Possible values include:\r'Development', 'Basic', 'Standard'"
+          optional: true
+        - id: serverUpdateParameters.tags
+          type:
+            - object
+          description: "Key-value pairs of additional\rprovisioning properties."
+          optional: true
+        - id: serverUpdateParameters.asAdministrators
+          type:
+            - object
+          description: ''
+          optional: true
+        - id: serverUpdateParameters.asAdministrators.members
+          type:
+            - array
+          description: "An array of\radministrator user identities."
+          optional: true
+        - id: serverUpdateParameters.backupConfiguration
+          type:
+            - object
+          description: ''
+          optional: true
+        - id: serverUpdateParameters.backupConfiguration.storageAccount
+          type:
+            - string
+          description: Storage account full resource id for backup configuration
+        - id: serverUpdateParameters.backupConfiguration.blobContainer
+          type:
+            - string
+          description: "The\rname of blob container for backup configuration"
+        - id: serverUpdateParameters.backupConfiguration.accessKey
+          type:
+            - string
+          description: "The\raccess key of storage account used for backup configuration"
+          optional: true
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function beginUpdate(resourceGroupName, serverName,
+        serverUpdateParameters, options, optionalCallback)
     langs:
       - js
   - uid: 'azure-arm-analysisservices.Servers#beginSuspendWithHttpOperationResponse'

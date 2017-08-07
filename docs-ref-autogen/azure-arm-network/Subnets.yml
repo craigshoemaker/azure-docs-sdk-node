@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.Subnets
     id: azure-arm-network.Subnets
     name: Subnets
-    summary: "Subnets\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the Subnets class."
+    summary: Class representing a Subnets.
     fullName: azure-arm-network.Subnets
     source:
       id: azure-arm-network.Subnets
       path: lib\services\networkManagement2\lib\operations\subnets.js
-      startLine: 1052
+      startLine: 1037
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\subnets.js
@@ -37,7 +37,7 @@ items:
     parent: azure-arm-network.Subnets
     name: Subnets(client)
     fullName: azure-arm-network.Subnets.Subnets(client)
-    summary: ''
+    summary: Create a Subnets.
     type: Constructor
     syntax:
       parameters:
@@ -405,11 +405,6 @@ items:
             - object
           description: Resource tags.
           optional: true
-        - id: subnetParameters.privateAccessServices
-          type:
-            - array
-          description: "An array of private\raccess services values."
-          optional: true
         - id: subnetParameters.resourceNavigationLinks
           type:
             - array
@@ -577,11 +572,6 @@ items:
           type:
             - object
           description: Resource tags.
-          optional: true
-        - id: subnetParameters.privateAccessServices
-          type:
-            - array
-          description: "An array of private\raccess services values."
           optional: true
         - id: subnetParameters.resourceNavigationLinks
           type:
@@ -974,11 +964,6 @@ items:
             - object
           description: Resource tags.
           optional: true
-        - id: subnetParameters.privateAccessServices
-          type:
-            - array
-          description: "An array of private\raccess services values."
-          optional: true
         - id: subnetParameters.resourceNavigationLinks
           type:
             - array
@@ -1146,11 +1131,6 @@ items:
           type:
             - object
           description: Resource tags.
-          optional: true
-        - id: subnetParameters.privateAccessServices
-          type:
-            - array
-          description: "An array of private\raccess services values."
           optional: true
         - id: subnetParameters.resourceNavigationLinks
           type:

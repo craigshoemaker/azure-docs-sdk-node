@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-datalake-analytics.Pipeline
     id: azure-arm-datalake-analytics.Pipeline
     name: Pipeline
-    summary: "Pipeline\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsJobManagementClient.\rInitializes a new instance of the Pipeline class."
+    summary: Class representing a Pipeline.
     fullName: azure-arm-datalake-analytics.Pipeline
     source:
       id: azure-arm-datalake-analytics.Pipeline
       path: lib\services\dataLake.Analytics\lib\job\operations\pipeline.js
-      startLine: 491
+      startLine: 482
       remote:
         branch: jsdoc
         path: lib\services\dataLake.Analytics\lib\job\operations\pipeline.js
@@ -29,7 +29,7 @@ items:
     parent: azure-arm-datalake-analytics.Pipeline
     name: Pipeline(client)
     fullName: azure-arm-datalake-analytics.Pipeline.Pipeline(client)
-    summary: ''
+    summary: Create a Pipeline.
     type: Constructor
     syntax:
       parameters:

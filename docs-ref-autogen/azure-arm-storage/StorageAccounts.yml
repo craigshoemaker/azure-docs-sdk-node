@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-storage.StorageAccounts
     id: azure-arm-storage.StorageAccounts
     name: StorageAccounts
-    summary: "StorageAccounts\r__NOTE__: An instance of this class is automatically created for an\rinstance of the StorageManagementClient.\rInitializes a new instance of the StorageAccounts class."
+    summary: Class representing a StorageAccounts.
     fullName: azure-arm-storage.StorageAccounts
     source:
       id: azure-arm-storage.StorageAccounts
       path: lib\services\storageManagement2\lib\operations\storageAccounts.js
-      startLine: 2410
+      startLine: 2404
       remote:
         branch: jsdoc
         path: lib\services\storageManagement2\lib\operations\storageAccounts.js
@@ -51,7 +51,7 @@ items:
     parent: azure-arm-storage.StorageAccounts
     name: StorageAccounts(client)
     fullName: azure-arm-storage.StorageAccounts.StorageAccounts(client)
-    summary: ''
+    summary: Create a StorageAccounts.
     type: Constructor
     syntax:
       parameters:
@@ -67,10 +67,10 @@ items:
     id: >-
       azure-arm-storage.StorageAccounts#checkNameAvailabilityWithHttpOperationResponse
     parent: azure-arm-storage.StorageAccounts
-    name: 'checkNameAvailabilityWithHttpOperationResponse(accountName, options)'
+    name: 'checkNameAvailabilityWithHttpOperationResponse(name, options)'
     summary: Checks that the storage account name is valid and is not already in use.
     fullName: >-
-      azure-arm-storage.StorageAccounts.checkNameAvailabilityWithHttpOperationResponse(accountName,
+      azure-arm-storage.StorageAccounts.checkNameAvailabilityWithHttpOperationResponse(name,
       options)
     tags:
       - originalTitle: resolve
@@ -88,11 +88,7 @@ items:
     type: Function
     syntax:
       parameters:
-        - id: accountName
-          type:
-            - object
-          description: "The name of the storage account within the\rspecified resource group. Storage account names must be between 3 and 24\rcharacters in length and use numbers and lower-case letters only."
-        - id: accountName.name
+        - id: name
           type:
             - string
           description: The storage account name.
@@ -110,19 +106,17 @@ items:
         type:
           - Promise
         description: A promise is returned
-      content: >-
-        function checkNameAvailabilityWithHttpOperationResponse(accountName,
-        options)
+      content: 'function checkNameAvailabilityWithHttpOperationResponse(name, options)'
     langs:
       - js
   - uid: 'azure-arm-storage.StorageAccounts#checkNameAvailability'
     id: 'azure-arm-storage.StorageAccounts#checkNameAvailability'
     parent: azure-arm-storage.StorageAccounts
-    name: 'checkNameAvailability(accountName, options, optionalCallback)'
+    name: 'checkNameAvailability(name, options, optionalCallback)'
     summary: Checks that the storage account name is valid and is not already in use.
     fullName: >-
-      azure-arm-storage.StorageAccounts.checkNameAvailability(accountName,
-      options, optionalCallback)
+      azure-arm-storage.StorageAccounts.checkNameAvailability(name, options,
+      optionalCallback)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -135,11 +129,7 @@ items:
     type: Function
     syntax:
       parameters:
-        - id: accountName
-          type:
-            - object
-          description: "The name of the storage account within the\rspecified resource group. Storage account names must be between 3 and 24\rcharacters in length and use numbers and lower-case letters only."
-        - id: accountName.name
+        - id: name
           type:
             - string
           description: The storage account name.
@@ -163,7 +153,7 @@ items:
           - function
           - Promise
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: 'function checkNameAvailability(accountName, options, optionalCallback)'
+      content: 'function checkNameAvailability(name, options, optionalCallback)'
     langs:
       - js
   - uid: 'azure-arm-storage.StorageAccounts#createWithHttpOperationResponse'
@@ -1371,11 +1361,11 @@ items:
     parent: azure-arm-storage.StorageAccounts
     name: >-
       regenerateKeyWithHttpOperationResponse(resourceGroupName, accountName,
-      regenerateKeyParameter, options)
+      keyName, options)
     summary: Regenerates one of the access keys for the specified storage account.
     fullName: >-
       azure-arm-storage.StorageAccounts.regenerateKeyWithHttpOperationResponse(resourceGroupName,
-      accountName, regenerateKeyParameter, options)
+      accountName, keyName, options)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -1400,14 +1390,10 @@ items:
           type:
             - string
           description: "The name of the storage account within the\rspecified resource group. Storage account names must be between 3 and 24\rcharacters in length and use numbers and lower-case letters only."
-        - id: regenerateKeyParameter
-          type:
-            - object
-          description: "Specifies name of the key which\rshould be regenerated -- key1 or key2."
-        - id: regenerateKeyParameter.keyName
+        - id: keyName
           type:
             - string
-          description: "The name of storage keys that\rwant to be regenerated, possible vaules are key1, key2."
+          description: "The name of storage keys that want to be\rregenerated, possible vaules are key1, key2."
         - id: options
           type:
             - object
@@ -1424,19 +1410,19 @@ items:
         description: A promise is returned
       content: >-
         function regenerateKeyWithHttpOperationResponse(resourceGroupName,
-        accountName, regenerateKeyParameter, options)
+        accountName, keyName, options)
     langs:
       - js
   - uid: 'azure-arm-storage.StorageAccounts#regenerateKey'
     id: 'azure-arm-storage.StorageAccounts#regenerateKey'
     parent: azure-arm-storage.StorageAccounts
     name: >-
-      regenerateKey(resourceGroupName, accountName, regenerateKeyParameter,
-      options, optionalCallback)
+      regenerateKey(resourceGroupName, accountName, keyName, options,
+      optionalCallback)
     summary: Regenerates one of the access keys for the specified storage account.
     fullName: >-
       azure-arm-storage.StorageAccounts.regenerateKey(resourceGroupName,
-      accountName, regenerateKeyParameter, options, optionalCallback)
+      accountName, keyName, options, optionalCallback)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -1457,14 +1443,10 @@ items:
           type:
             - string
           description: "The name of the storage account within the\rspecified resource group. Storage account names must be between 3 and 24\rcharacters in length and use numbers and lower-case letters only."
-        - id: regenerateKeyParameter
-          type:
-            - object
-          description: "Specifies name of the key which\rshould be regenerated -- key1 or key2."
-        - id: regenerateKeyParameter.keyName
+        - id: keyName
           type:
             - string
-          description: "The name of storage keys that\rwant to be regenerated, possible vaules are key1, key2."
+          description: "The name of storage keys that want to be\rregenerated, possible vaules are key1, key2."
         - id: options
           type:
             - object
@@ -1486,8 +1468,8 @@ items:
           - Promise
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
       content: >-
-        function regenerateKey(resourceGroupName, accountName,
-        regenerateKeyParameter, options, optionalCallback)
+        function regenerateKey(resourceGroupName, accountName, keyName, options,
+        optionalCallback)
     langs:
       - js
   - uid: 'azure-arm-storage.StorageAccounts#listAccountSASWithHttpOperationResponse'

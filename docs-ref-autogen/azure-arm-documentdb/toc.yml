@@ -1,3 +1,48 @@
+- uid: azure-arm-documentdb.ConsistencyPolicy
+  name: ConsistencyPolicy
+  items:
+    - uid: 'azure-arm-documentdb.ConsistencyPolicy#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccount
+  name: DatabaseAccount
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccount#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountConnectionString
+  name: DatabaseAccountConnectionString
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountConnectionString#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountCreateUpdateParameters
+  name: DatabaseAccountCreateUpdateParameters
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountCreateUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountListConnectionStringsResult
+  name: DatabaseAccountListConnectionStringsResult
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountListConnectionStringsResult#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountListKeysResult
+  name: DatabaseAccountListKeysResult
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountListKeysResult#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountListReadOnlyKeysResult
+  name: DatabaseAccountListReadOnlyKeysResult
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountListReadOnlyKeysResult#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountPatchParameters
+  name: DatabaseAccountPatchParameters
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountPatchParameters#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DatabaseAccountRegenerateKeyParameters
+  name: DatabaseAccountRegenerateKeyParameters
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountRegenerateKeyParameters#mapper'
+      name: mapper
 - uid: azure-arm-documentdb.DatabaseAccounts
   name: DatabaseAccounts
   items:
@@ -82,7 +127,32 @@
       name: beginRegenerateKeyWithHttpOperationResponse
     - uid: 'azure-arm-documentdb.DatabaseAccounts#beginRegenerateKey'
       name: beginRegenerateKey
+- uid: azure-arm-documentdb.DatabaseAccountsListResult
+  name: DatabaseAccountsListResult
+  items:
+    - uid: 'azure-arm-documentdb.DatabaseAccountsListResult#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.DocumentDB
+  name: DocumentDB
 - uid: azure-arm-documentdb.DocumentdbManagementClient
   name: DocumentdbManagementClient
-- uid: "azure-arm-documentdb.The List operation response, that contains the database accounts and their\rproperties."
-  name: "The List operation response, that contains the database accounts and their\rproperties."
+- uid: azure-arm-documentdb.FailoverPolicies
+  name: FailoverPolicies
+  items:
+    - uid: 'azure-arm-documentdb.FailoverPolicies#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.FailoverPolicy
+  name: FailoverPolicy
+  items:
+    - uid: 'azure-arm-documentdb.FailoverPolicy#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.Location
+  name: Location
+  items:
+    - uid: 'azure-arm-documentdb.Location#mapper'
+      name: mapper
+- uid: azure-arm-documentdb.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-documentdb.Resource#mapper'
+      name: mapper

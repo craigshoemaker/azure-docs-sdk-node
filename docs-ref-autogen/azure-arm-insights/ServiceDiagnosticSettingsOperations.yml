@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-insights.ServiceDiagnosticSettingsOperations
     id: azure-arm-insights.ServiceDiagnosticSettingsOperations
     name: ServiceDiagnosticSettingsOperations
-    summary: "ServiceDiagnosticSettingsOperations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the InsightsManagementClient.\rInitializes a new instance of the ServiceDiagnosticSettingsOperations class."
+    summary: Class representing a ServiceDiagnosticSettingsOperations.
     fullName: azure-arm-insights.ServiceDiagnosticSettingsOperations
     source:
       id: azure-arm-insights.ServiceDiagnosticSettingsOperations
       path: >-
         lib\services\insightsManagement\lib\operations\serviceDiagnosticSettingsOperations.js
-      startLine: 337
+      startLine: 328
       remote:
         branch: jsdoc
         path: >-
@@ -32,7 +32,7 @@ items:
     name: ServiceDiagnosticSettingsOperations(client)
     fullName: >-
       azure-arm-insights.ServiceDiagnosticSettingsOperations.ServiceDiagnosticSettingsOperations(client)
-    summary: ''
+    summary: Create a ServiceDiagnosticSettingsOperations.
     type: Constructor
     syntax:
       parameters:

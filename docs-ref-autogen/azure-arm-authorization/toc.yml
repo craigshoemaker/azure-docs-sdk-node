@@ -1,5 +1,20 @@
 - uid: azure-arm-authorization.AuthorizationManagementClient
   name: AuthorizationManagementClient
+- uid: azure-arm-authorization.ClassicAdministrator
+  name: ClassicAdministrator
+  items:
+    - uid: 'azure-arm-authorization.ClassicAdministrator#mapper'
+      name: mapper
+- uid: azure-arm-authorization.ClassicAdministratorListResult
+  name: ClassicAdministratorListResult
+  items:
+    - uid: 'azure-arm-authorization.ClassicAdministratorListResult#mapper'
+      name: mapper
+- uid: azure-arm-authorization.ClassicAdministratorProperties
+  name: ClassicAdministratorProperties
+  items:
+    - uid: 'azure-arm-authorization.ClassicAdministratorProperties#mapper'
+      name: mapper
 - uid: azure-arm-authorization.ClassicAdministrators
   name: ClassicAdministrators
   items:
@@ -13,6 +28,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-authorization.ClassicAdministrators#listNext'
       name: listNext
+- uid: azure-arm-authorization.Permission
+  name: Permission
+  items:
+    - uid: 'azure-arm-authorization.Permission#mapper'
+      name: mapper
+- uid: azure-arm-authorization.PermissionGetResult
+  name: PermissionGetResult
+  items:
+    - uid: 'azure-arm-authorization.PermissionGetResult#mapper'
+      name: mapper
 - uid: azure-arm-authorization.Permissions
   name: Permissions
   items:
@@ -36,6 +61,21 @@
       name: listForResourceNextWithHttpOperationResponse
     - uid: 'azure-arm-authorization.Permissions#listForResourceNext'
       name: listForResourceNext
+- uid: azure-arm-authorization.ProviderOperation
+  name: ProviderOperation
+  items:
+    - uid: 'azure-arm-authorization.ProviderOperation#mapper'
+      name: mapper
+- uid: azure-arm-authorization.ProviderOperationsMetadata
+  name: ProviderOperationsMetadata
+  items:
+    - uid: 'azure-arm-authorization.ProviderOperationsMetadata#mapper'
+      name: mapper
+- uid: azure-arm-authorization.ProviderOperationsMetadataListResult
+  name: ProviderOperationsMetadataListResult
+  items:
+    - uid: 'azure-arm-authorization.ProviderOperationsMetadataListResult#mapper'
+      name: mapper
 - uid: azure-arm-authorization.ProviderOperationsMetadataOperations
   name: ProviderOperationsMetadataOperations
   items:
@@ -54,6 +94,41 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-authorization.ProviderOperationsMetadataOperations#listNext'
       name: listNext
+- uid: azure-arm-authorization.ResourceType
+  name: ResourceType
+  items:
+    - uid: 'azure-arm-authorization.ResourceType#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleAssignment
+  name: RoleAssignment
+  items:
+    - uid: 'azure-arm-authorization.RoleAssignment#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleAssignmentCreateParameters
+  name: RoleAssignmentCreateParameters
+  items:
+    - uid: 'azure-arm-authorization.RoleAssignmentCreateParameters#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleAssignmentFilter
+  name: RoleAssignmentFilter
+  items:
+    - uid: 'azure-arm-authorization.RoleAssignmentFilter#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleAssignmentListResult
+  name: RoleAssignmentListResult
+  items:
+    - uid: 'azure-arm-authorization.RoleAssignmentListResult#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleAssignmentProperties
+  name: RoleAssignmentProperties
+  items:
+    - uid: 'azure-arm-authorization.RoleAssignmentProperties#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleAssignmentPropertiesWithScope
+  name: RoleAssignmentPropertiesWithScope
+  items:
+    - uid: 'azure-arm-authorization.RoleAssignmentPropertiesWithScope#mapper'
+      name: mapper
 - uid: azure-arm-authorization.RoleAssignments
   name: RoleAssignments
   items:
@@ -123,6 +198,26 @@
       name: listForScopeNextWithHttpOperationResponse
     - uid: 'azure-arm-authorization.RoleAssignments#listForScopeNext'
       name: listForScopeNext
+- uid: azure-arm-authorization.RoleDefinition
+  name: RoleDefinition
+  items:
+    - uid: 'azure-arm-authorization.RoleDefinition#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleDefinitionFilter
+  name: RoleDefinitionFilter
+  items:
+    - uid: 'azure-arm-authorization.RoleDefinitionFilter#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleDefinitionListResult
+  name: RoleDefinitionListResult
+  items:
+    - uid: 'azure-arm-authorization.RoleDefinitionListResult#mapper'
+      name: mapper
+- uid: azure-arm-authorization.RoleDefinitionProperties
+  name: RoleDefinitionProperties
+  items:
+    - uid: 'azure-arm-authorization.RoleDefinitionProperties#mapper'
+      name: mapper
 - uid: azure-arm-authorization.RoleDefinitions
   name: RoleDefinitions
   items:

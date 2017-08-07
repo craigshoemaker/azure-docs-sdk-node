@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-sql.RecommendedElasticPools
     id: azure-arm-sql.RecommendedElasticPools
     name: RecommendedElasticPools
-    summary: "RecommendedElasticPools\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SqlManagementClient.\rInitializes a new instance of the RecommendedElasticPools class."
+    summary: Class representing a RecommendedElasticPools.
     fullName: azure-arm-sql.RecommendedElasticPools
     source:
       id: azure-arm-sql.RecommendedElasticPools
       path: lib\services\sqlManagement2\lib\operations\recommendedElasticPools.js
-      startLine: 789
+      startLine: 780
       remote:
         branch: jsdoc
         path: lib\services\sqlManagement2\lib\operations\recommendedElasticPools.js
@@ -37,7 +37,7 @@ items:
     parent: azure-arm-sql.RecommendedElasticPools
     name: RecommendedElasticPools(client)
     fullName: azure-arm-sql.RecommendedElasticPools.RecommendedElasticPools(client)
-    summary: ''
+    summary: Create a RecommendedElasticPools.
     type: Constructor
     syntax:
       parameters:

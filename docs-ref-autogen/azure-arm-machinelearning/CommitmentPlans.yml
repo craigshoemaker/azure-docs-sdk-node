@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-machinelearning.CommitmentPlans
     id: azure-arm-machinelearning.CommitmentPlans
     name: CommitmentPlans
-    summary: "CommitmentPlans\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AzureMLCommitmentPlansManagementClient.\rInitializes a new instance of the CommitmentPlans class."
+    summary: Class representing a CommitmentPlans.
     fullName: azure-arm-machinelearning.CommitmentPlans
     source:
       id: azure-arm-machinelearning.CommitmentPlans
       path: >-
         lib\services\machinelearning\lib\commitmentPlan\operations\commitmentPlans.js
-      startLine: 1231
+      startLine: 1222
       remote:
         branch: jsdoc
         path: >-
@@ -46,7 +46,7 @@ items:
     parent: azure-arm-machinelearning.CommitmentPlans
     name: CommitmentPlans(client)
     fullName: azure-arm-machinelearning.CommitmentPlans.CommitmentPlans(client)
-    summary: ''
+    summary: Create a CommitmentPlans.
     type: Constructor
     syntax:
       parameters:

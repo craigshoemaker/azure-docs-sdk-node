@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-scheduler.JobCollections
     id: azure-arm-scheduler.JobCollections
     name: JobCollections
-    summary: "JobCollections\r__NOTE__: An instance of this class is automatically created for an\rinstance of the SchedulerManagementClient.\rInitializes a new instance of the JobCollections class."
+    summary: Class representing a JobCollections.
     fullName: azure-arm-scheduler.JobCollections
     source:
       id: azure-arm-scheduler.JobCollections
       path: lib\services\schedulerManagement2\lib\operations\jobCollections.js
-      startLine: 1696
+      startLine: 1687
       remote:
         branch: jsdoc
         path: lib\services\schedulerManagement2\lib\operations\jobCollections.js
@@ -55,7 +55,7 @@ items:
     parent: azure-arm-scheduler.JobCollections
     name: JobCollections(client)
     fullName: azure-arm-scheduler.JobCollections.JobCollections(client)
-    summary: ''
+    summary: Create a JobCollections.
     type: Constructor
     syntax:
       parameters:

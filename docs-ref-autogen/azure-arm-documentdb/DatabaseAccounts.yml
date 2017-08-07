@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-documentdb.DatabaseAccounts
     id: azure-arm-documentdb.DatabaseAccounts
     name: DatabaseAccounts
-    summary: "DatabaseAccounts\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DocumentdbManagementClient.\rInitializes a new instance of the DatabaseAccounts class."
+    summary: Class representing a DatabaseAccounts.
     fullName: azure-arm-documentdb.DatabaseAccounts
     source:
       id: azure-arm-documentdb.DatabaseAccounts
       path: lib\services\documentdbManagement\lib\operations\databaseAccounts.js
-      startLine: 2464
+      startLine: 2469
       remote:
         branch: jsdoc
         path: lib\services\documentdbManagement\lib\operations\databaseAccounts.js
@@ -70,13 +70,13 @@ items:
     parent: azure-arm-documentdb.DatabaseAccounts
     name: DatabaseAccounts(client)
     fullName: azure-arm-documentdb.DatabaseAccounts.DatabaseAccounts(client)
-    summary: ''
+    summary: Create a DatabaseAccounts.
     type: Constructor
     syntax:
       parameters:
         - id: client
           type:
-            - azure-arm-documentdb.DocumentdbManagementClient
+            - azure-arm-documentdb.DocumentDB
           description: Reference to the service client.
       content: new DatabaseAccounts(client)
     langs:
@@ -360,7 +360,7 @@ items:
         - id: createUpdateParameters.consistencyPolicy.defaultConsistencyLevel
           type:
             - string
-          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness', 'Strong'"
+          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness',\r'Strong', 'ConsistentPrefix'"
         - id: createUpdateParameters.consistencyPolicy.maxStalenessPrefix
           type:
             - number
@@ -379,6 +379,11 @@ items:
           type:
             - string
           description: "DocumentDB Firewall\rSupport: This value specifies the set of IP addresses or IP address ranges\rin CIDR form to be included as the allowed list of client IPs for a given\rdatabase account. IP addresses/ranges must be comma separated and must not\rcontain any spaces."
+          optional: true
+        - id: createUpdateParameters.enableAutomaticFailover
+          type:
+            - boolean
+          description: "Enables\rautomatic failover of the write region in the rare event that the region is\runavailable due to an outage. Automatic failover will result in a new write\rregion for the account and is chosen based on the failover priorities\rconfigured for the account."
           optional: true
         - id: createUpdateParameters.location
           type:
@@ -455,7 +460,7 @@ items:
         - id: createUpdateParameters.consistencyPolicy.defaultConsistencyLevel
           type:
             - string
-          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness', 'Strong'"
+          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness',\r'Strong', 'ConsistentPrefix'"
         - id: createUpdateParameters.consistencyPolicy.maxStalenessPrefix
           type:
             - number
@@ -474,6 +479,11 @@ items:
           type:
             - string
           description: "DocumentDB Firewall\rSupport: This value specifies the set of IP addresses or IP address ranges\rin CIDR form to be included as the allowed list of client IPs for a given\rdatabase account. IP addresses/ranges must be comma separated and must not\rcontain any spaces."
+          optional: true
+        - id: createUpdateParameters.enableAutomaticFailover
+          type:
+            - boolean
+          description: "Enables\rautomatic failover of the write region in the rare event that the region is\runavailable due to an outage. Automatic failover will result in a new write\rregion for the account and is chosen based on the failover priorities\rconfigured for the account."
           optional: true
         - id: createUpdateParameters.location
           type:
@@ -1639,7 +1649,7 @@ items:
         - id: createUpdateParameters.consistencyPolicy.defaultConsistencyLevel
           type:
             - string
-          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness', 'Strong'"
+          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness',\r'Strong', 'ConsistentPrefix'"
         - id: createUpdateParameters.consistencyPolicy.maxStalenessPrefix
           type:
             - number
@@ -1658,6 +1668,11 @@ items:
           type:
             - string
           description: "DocumentDB Firewall\rSupport: This value specifies the set of IP addresses or IP address ranges\rin CIDR form to be included as the allowed list of client IPs for a given\rdatabase account. IP addresses/ranges must be comma separated and must not\rcontain any spaces."
+          optional: true
+        - id: createUpdateParameters.enableAutomaticFailover
+          type:
+            - boolean
+          description: "Enables\rautomatic failover of the write region in the rare event that the region is\runavailable due to an outage. Automatic failover will result in a new write\rregion for the account and is chosen based on the failover priorities\rconfigured for the account."
           optional: true
         - id: createUpdateParameters.location
           type:
@@ -1734,7 +1749,7 @@ items:
         - id: createUpdateParameters.consistencyPolicy.defaultConsistencyLevel
           type:
             - string
-          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness', 'Strong'"
+          description: "The default\rconsistency level and configuration settings of the DocumentDB account.\rPossible values include: 'Eventual', 'Session', 'BoundedStaleness',\r'Strong', 'ConsistentPrefix'"
         - id: createUpdateParameters.consistencyPolicy.maxStalenessPrefix
           type:
             - number
@@ -1753,6 +1768,11 @@ items:
           type:
             - string
           description: "DocumentDB Firewall\rSupport: This value specifies the set of IP addresses or IP address ranges\rin CIDR form to be included as the allowed list of client IPs for a given\rdatabase account. IP addresses/ranges must be comma separated and must not\rcontain any spaces."
+          optional: true
+        - id: createUpdateParameters.enableAutomaticFailover
+          type:
+            - boolean
+          description: "Enables\rautomatic failover of the write region in the rare event that the region is\runavailable due to an outage. Automatic failover will result in a new write\rregion for the account and is chosen based on the failover priorities\rconfigured for the account."
           optional: true
         - id: createUpdateParameters.location
           type:
@@ -2142,7 +2162,7 @@ items:
     langs:
       - js
 references:
-  - uid: azure-arm-documentdb.DocumentdbManagementClient
-    name: DocumentdbManagementClient
-    fullName: azure-arm-documentdb.DocumentdbManagementClient
+  - uid: azure-arm-documentdb.DocumentDB
+    name: DocumentDB
+    fullName: azure-arm-documentdb.DocumentDB
     isExternal: false

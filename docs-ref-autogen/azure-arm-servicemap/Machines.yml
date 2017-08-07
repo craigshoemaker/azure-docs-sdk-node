@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servicemap.Machines
     id: azure-arm-servicemap.Machines
     name: Machines
-    summary: "Machines\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServicemapManagementClient.\rInitializes a new instance of the Machines class."
+    summary: Class representing a Machines.
     fullName: azure-arm-servicemap.Machines
     source:
       id: azure-arm-servicemap.Machines
       path: lib\services\serviceMapManagement\lib\operations\machines.js
-      startLine: 2219
+      startLine: 2210
       remote:
         branch: jsdoc
         path: lib\services\serviceMapManagement\lib\operations\machines.js
@@ -51,13 +51,13 @@ items:
     parent: azure-arm-servicemap.Machines
     name: Machines(client)
     fullName: azure-arm-servicemap.Machines.Machines(client)
-    summary: ''
+    summary: Create a Machines.
     type: Constructor
     syntax:
       parameters:
         - id: client
           type:
-            - azure-arm-servicemap.ServicemapManagementClient
+            - azure-arm-servicemap.ServiceMap
           description: Reference to the service client.
       content: new Machines(client)
     langs:
@@ -1497,7 +1497,7 @@ items:
     langs:
       - js
 references:
-  - uid: azure-arm-servicemap.ServicemapManagementClient
-    name: ServicemapManagementClient
-    fullName: azure-arm-servicemap.ServicemapManagementClient
+  - uid: azure-arm-servicemap.ServiceMap
+    name: ServiceMap
+    fullName: azure-arm-servicemap.ServiceMap
     isExternal: false

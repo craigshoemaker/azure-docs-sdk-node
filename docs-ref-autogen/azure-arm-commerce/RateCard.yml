@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-commerce.RateCard
     id: azure-arm-commerce.RateCard
     name: RateCard
-    summary: "RateCard\r__NOTE__: An instance of this class is automatically created for an\rinstance of the UsageManagementClient.\rInitializes a new instance of the RateCard class."
+    summary: Class representing a RateCard.
     fullName: azure-arm-commerce.RateCard
     source:
       id: azure-arm-commerce.RateCard
       path: lib\services\commerce\lib\operations\rateCard.js
-      startLine: 178
+      startLine: 169
       remote:
         branch: jsdoc
         path: lib\services\commerce\lib\operations\rateCard.js
@@ -25,7 +25,7 @@ items:
     parent: azure-arm-commerce.RateCard
     name: RateCard(client)
     fullName: azure-arm-commerce.RateCard.RateCard(client)
-    summary: ''
+    summary: Create a RateCard.
     type: Constructor
     syntax:
       parameters:

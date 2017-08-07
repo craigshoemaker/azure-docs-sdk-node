@@ -1,3 +1,63 @@
+- uid: azure-arm-resource.AliasPathType
+  name: AliasPathType
+  items:
+    - uid: 'azure-arm-resource.AliasPathType#mapper'
+      name: mapper
+- uid: azure-arm-resource.AliasType
+  name: AliasType
+  items:
+    - uid: 'azure-arm-resource.AliasType#mapper'
+      name: mapper
+- uid: azure-arm-resource.BasicDependency
+  name: BasicDependency
+  items:
+    - uid: 'azure-arm-resource.BasicDependency#mapper'
+      name: mapper
+- uid: azure-arm-resource.DebugSetting
+  name: DebugSetting
+  items:
+    - uid: 'azure-arm-resource.DebugSetting#mapper'
+      name: mapper
+- uid: azure-arm-resource.Dependency
+  name: Dependency
+  items:
+    - uid: 'azure-arm-resource.Dependency#mapper'
+      name: mapper
+- uid: azure-arm-resource.Deployment
+  name: Deployment
+  items:
+    - uid: 'azure-arm-resource.Deployment#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentExportResult
+  name: DeploymentExportResult
+  items:
+    - uid: 'azure-arm-resource.DeploymentExportResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentExtended
+  name: DeploymentExtended
+  items:
+    - uid: 'azure-arm-resource.DeploymentExtended#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentExtendedFilter
+  name: DeploymentExtendedFilter
+  items:
+    - uid: 'azure-arm-resource.DeploymentExtendedFilter#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentListResult
+  name: DeploymentListResult
+  items:
+    - uid: 'azure-arm-resource.DeploymentListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentOperation
+  name: DeploymentOperation
+  items:
+    - uid: 'azure-arm-resource.DeploymentOperation#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentOperationProperties
+  name: DeploymentOperationProperties
+  items:
+    - uid: 'azure-arm-resource.DeploymentOperationProperties#mapper'
+      name: mapper
 - uid: azure-arm-resource.DeploymentOperations
   name: DeploymentOperations
   items:
@@ -14,6 +74,21 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.DeploymentOperations#listNext'
       name: listNext
+- uid: azure-arm-resource.DeploymentOperationsListResult
+  name: DeploymentOperationsListResult
+  items:
+    - uid: 'azure-arm-resource.DeploymentOperationsListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentProperties
+  name: DeploymentProperties
+  items:
+    - uid: 'azure-arm-resource.DeploymentProperties#mapper'
+      name: mapper
+- uid: azure-arm-resource.DeploymentPropertiesExtended
+  name: DeploymentPropertiesExtended
+  items:
+    - uid: 'azure-arm-resource.DeploymentPropertiesExtended#mapper'
+      name: mapper
 - uid: azure-arm-resource.Deployments
   name: Deployments
   items:
@@ -63,8 +138,33 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.Deployments#listNext'
       name: listNext
+- uid: azure-arm-resource.DeploymentValidateResult
+  name: DeploymentValidateResult
+  items:
+    - uid: 'azure-arm-resource.DeploymentValidateResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.ExportTemplateRequest
+  name: ExportTemplateRequest
+  items:
+    - uid: 'azure-arm-resource.ExportTemplateRequest#mapper'
+      name: mapper
 - uid: azure-arm-resource.FeatureClient
   name: FeatureClient
+- uid: azure-arm-resource.FeatureOperationsListResult
+  name: FeatureOperationsListResult
+  items:
+    - uid: 'azure-arm-resource.FeatureOperationsListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.FeatureProperties
+  name: FeatureProperties
+  items:
+    - uid: 'azure-arm-resource.FeatureProperties#mapper'
+      name: mapper
+- uid: azure-arm-resource.FeatureResult
+  name: FeatureResult
+  items:
+    - uid: 'azure-arm-resource.FeatureResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.Features
   name: Features
   items:
@@ -92,12 +192,55 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.Features#listNext'
       name: listNext
-- uid: azure-arm-resource.Location list operation response.
-  name: Location list operation response.
+- uid: azure-arm-resource.GenericResource
+  name: GenericResource
+  items:
+    - uid: 'azure-arm-resource.GenericResource#mapper'
+      name: mapper
+- uid: azure-arm-resource.GenericResourceFilter
+  name: GenericResourceFilter
+  items:
+    - uid: 'azure-arm-resource.GenericResourceFilter#mapper'
+      name: mapper
+- uid: azure-arm-resource.HttpMessage
+  name: HttpMessage
+  items:
+    - uid: 'azure-arm-resource.HttpMessage#mapper'
+      name: mapper
+- uid: azure-arm-resource.Identity
+  name: Identity
+  items:
+    - uid: 'azure-arm-resource.Identity#mapper'
+      name: mapper
+- uid: azure-arm-resource.Location
+  name: Location
+  items:
+    - uid: 'azure-arm-resource.Location#mapper'
+      name: mapper
+- uid: azure-arm-resource.LocationListResult
+  name: LocationListResult
+  items:
+    - uid: 'azure-arm-resource.LocationListResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.ManagementLinkClient
   name: ManagementLinkClient
 - uid: azure-arm-resource.ManagementLockClient
   name: ManagementLockClient
+- uid: azure-arm-resource.ManagementLockListResult
+  name: ManagementLockListResult
+  items:
+    - uid: 'azure-arm-resource.ManagementLockListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.ManagementLockObject
+  name: ManagementLockObject
+  items:
+    - uid: 'azure-arm-resource.ManagementLockObject#mapper'
+      name: mapper
+- uid: azure-arm-resource.ManagementLockOwner
+  name: ManagementLockOwner
+  items:
+    - uid: 'azure-arm-resource.ManagementLockOwner#mapper'
+      name: mapper
 - uid: azure-arm-resource.ManagementLocks
   name: ManagementLocks
   items:
@@ -190,6 +333,26 @@
       name: listAtSubscriptionLevelNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.ManagementLocks#listAtSubscriptionLevelNext'
       name: listAtSubscriptionLevelNext
+- uid: azure-arm-resource.ParametersLink
+  name: ParametersLink
+  items:
+    - uid: 'azure-arm-resource.ParametersLink#mapper'
+      name: mapper
+- uid: azure-arm-resource.Plan
+  name: Plan
+  items:
+    - uid: 'azure-arm-resource.Plan#mapper'
+      name: mapper
+- uid: azure-arm-resource.PolicyAssignment
+  name: PolicyAssignment
+  items:
+    - uid: 'azure-arm-resource.PolicyAssignment#mapper'
+      name: mapper
+- uid: azure-arm-resource.PolicyAssignmentListResult
+  name: PolicyAssignmentListResult
+  items:
+    - uid: 'azure-arm-resource.PolicyAssignmentListResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.PolicyAssignments
   name: PolicyAssignments
   items:
@@ -248,6 +411,16 @@
       name: listNext
 - uid: azure-arm-resource.PolicyClient
   name: PolicyClient
+- uid: azure-arm-resource.PolicyDefinition
+  name: PolicyDefinition
+  items:
+    - uid: 'azure-arm-resource.PolicyDefinition#mapper'
+      name: mapper
+- uid: azure-arm-resource.PolicyDefinitionListResult
+  name: PolicyDefinitionListResult
+  items:
+    - uid: 'azure-arm-resource.PolicyDefinitionListResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.PolicyDefinitions
   name: PolicyDefinitions
   items:
@@ -273,6 +446,21 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.PolicyDefinitions#listNext'
       name: listNext
+- uid: azure-arm-resource.Provider
+  name: Provider
+  items:
+    - uid: 'azure-arm-resource.Provider#mapper'
+      name: mapper
+- uid: azure-arm-resource.ProviderListResult
+  name: ProviderListResult
+  items:
+    - uid: 'azure-arm-resource.ProviderListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.ProviderResourceType
+  name: ProviderResourceType
+  items:
+    - uid: 'azure-arm-resource.ProviderResourceType#mapper'
+      name: mapper
 - uid: azure-arm-resource.Providers
   name: Providers
   items:
@@ -296,6 +484,36 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.Providers#listNext'
       name: listNext
+- uid: azure-arm-resource.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-resource.Resource#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceGroup
+  name: ResourceGroup
+  items:
+    - uid: 'azure-arm-resource.ResourceGroup#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceGroupExportResult
+  name: ResourceGroupExportResult
+  items:
+    - uid: 'azure-arm-resource.ResourceGroupExportResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceGroupFilter
+  name: ResourceGroupFilter
+  items:
+    - uid: 'azure-arm-resource.ResourceGroupFilter#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceGroupListResult
+  name: ResourceGroupListResult
+  items:
+    - uid: 'azure-arm-resource.ResourceGroupListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceGroupProperties
+  name: ResourceGroupProperties
+  items:
+    - uid: 'azure-arm-resource.ResourceGroupProperties#mapper'
+      name: mapper
 - uid: azure-arm-resource.ResourceGroups
   name: ResourceGroups
   items:
@@ -348,6 +566,26 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.ResourceGroups#listNext'
       name: listNext
+- uid: azure-arm-resource.ResourceLink
+  name: ResourceLink
+  items:
+    - uid: 'azure-arm-resource.ResourceLink#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceLinkFilter
+  name: ResourceLinkFilter
+  items:
+    - uid: 'azure-arm-resource.ResourceLinkFilter#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceLinkProperties
+  name: ResourceLinkProperties
+  items:
+    - uid: 'azure-arm-resource.ResourceLinkProperties#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceLinkResult
+  name: ResourceLinkResult
+  items:
+    - uid: 'azure-arm-resource.ResourceLinkResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.ResourceLinks
   name: ResourceLinks
   items:
@@ -383,8 +621,23 @@
       name: listAtSourceScopeNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.ResourceLinks#listAtSourceScopeNext'
       name: listAtSourceScopeNext
+- uid: azure-arm-resource.ResourceListResult
+  name: ResourceListResult
+  items:
+    - uid: 'azure-arm-resource.ResourceListResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.ResourceManagementClient
   name: ResourceManagementClient
+- uid: azure-arm-resource.ResourceManagementErrorWithDetails
+  name: ResourceManagementErrorWithDetails
+  items:
+    - uid: 'azure-arm-resource.ResourceManagementErrorWithDetails#mapper'
+      name: mapper
+- uid: azure-arm-resource.ResourceProviderOperationDisplayProperties
+  name: ResourceProviderOperationDisplayProperties
+  items:
+    - uid: 'azure-arm-resource.ResourceProviderOperationDisplayProperties#mapper'
+      name: mapper
 - uid: azure-arm-resource.Resources
   name: Resources
   items:
@@ -454,8 +707,38 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.Resources#listNext'
       name: listNext
+- uid: azure-arm-resource.ResourcesMoveInfo
+  name: ResourcesMoveInfo
+  items:
+    - uid: 'azure-arm-resource.ResourcesMoveInfo#mapper'
+      name: mapper
+- uid: azure-arm-resource.Sku
+  name: Sku
+  items:
+    - uid: 'azure-arm-resource.Sku#mapper'
+      name: mapper
+- uid: azure-arm-resource.SubResource
+  name: SubResource
+  items:
+    - uid: 'azure-arm-resource.SubResource#mapper'
+      name: mapper
+- uid: azure-arm-resource.Subscription
+  name: Subscription
+  items:
+    - uid: 'azure-arm-resource.Subscription#mapper'
+      name: mapper
 - uid: azure-arm-resource.SubscriptionClient
   name: SubscriptionClient
+- uid: azure-arm-resource.SubscriptionListResult
+  name: SubscriptionListResult
+  items:
+    - uid: 'azure-arm-resource.SubscriptionListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.SubscriptionPolicies
+  name: SubscriptionPolicies
+  items:
+    - uid: 'azure-arm-resource.SubscriptionPolicies#mapper'
+      name: mapper
 - uid: azure-arm-resource.Subscriptions
   name: Subscriptions
   items:
@@ -475,6 +758,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.Subscriptions#listNext'
       name: listNext
+- uid: azure-arm-resource.TagCount
+  name: TagCount
+  items:
+    - uid: 'azure-arm-resource.TagCount#mapper'
+      name: mapper
+- uid: azure-arm-resource.TagDetails
+  name: TagDetails
+  items:
+    - uid: 'azure-arm-resource.TagDetails#mapper'
+      name: mapper
 - uid: azure-arm-resource.Tags
   name: Tags
   items:
@@ -502,6 +795,36 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-resource.Tags#listNext'
       name: listNext
+- uid: azure-arm-resource.TagsListResult
+  name: TagsListResult
+  items:
+    - uid: 'azure-arm-resource.TagsListResult#mapper'
+      name: mapper
+- uid: azure-arm-resource.TagValue
+  name: TagValue
+  items:
+    - uid: 'azure-arm-resource.TagValue#mapper'
+      name: mapper
+- uid: azure-arm-resource.TargetResource
+  name: TargetResource
+  items:
+    - uid: 'azure-arm-resource.TargetResource#mapper'
+      name: mapper
+- uid: azure-arm-resource.TemplateLink
+  name: TemplateLink
+  items:
+    - uid: 'azure-arm-resource.TemplateLink#mapper'
+      name: mapper
+- uid: azure-arm-resource.TenantIdDescription
+  name: TenantIdDescription
+  items:
+    - uid: 'azure-arm-resource.TenantIdDescription#mapper'
+      name: mapper
+- uid: azure-arm-resource.TenantListResult
+  name: TenantListResult
+  items:
+    - uid: 'azure-arm-resource.TenantListResult#mapper'
+      name: mapper
 - uid: azure-arm-resource.Tenants
   name: Tenants
   items:

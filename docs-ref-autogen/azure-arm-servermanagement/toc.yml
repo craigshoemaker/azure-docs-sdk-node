@@ -1,3 +1,13 @@
+- uid: azure-arm-servermanagement.EncryptionJwkResource
+  name: EncryptionJwkResource
+  items:
+    - uid: 'azure-arm-servermanagement.EncryptionJwkResource#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.ErrorModel
+  name: ErrorModel
+  items:
+    - uid: 'azure-arm-servermanagement.ErrorModel#mapper'
+      name: mapper
 - uid: azure-arm-servermanagement.Gateway
   name: Gateway
   items:
@@ -70,6 +80,31 @@
       name: listForResourceGroupNextWithHttpOperationResponse
     - uid: 'azure-arm-servermanagement.Gateway#listForResourceGroupNext'
       name: listForResourceGroupNext
+- uid: azure-arm-servermanagement.GatewayParameters
+  name: GatewayParameters
+  items:
+    - uid: 'azure-arm-servermanagement.GatewayParameters#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.GatewayProfile
+  name: GatewayProfile
+  items:
+    - uid: 'azure-arm-servermanagement.GatewayProfile#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.GatewayResource
+  name: GatewayResource
+  items:
+    - uid: 'azure-arm-servermanagement.GatewayResource#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.GatewayResources
+  name: GatewayResources
+  items:
+    - uid: 'azure-arm-servermanagement.GatewayResources#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.GatewayStatus
+  name: GatewayStatus
+  items:
+    - uid: 'azure-arm-servermanagement.GatewayStatus#mapper'
+      name: mapper
 - uid: azure-arm-servermanagement.Node
   name: Node
   items:
@@ -115,6 +150,21 @@
       name: listForResourceGroupNextWithHttpOperationResponse
     - uid: 'azure-arm-servermanagement.Node#listForResourceGroupNext'
       name: listForResourceGroupNext
+- uid: azure-arm-servermanagement.NodeParameters
+  name: NodeParameters
+  items:
+    - uid: 'azure-arm-servermanagement.NodeParameters#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.NodeResource
+  name: NodeResource
+  items:
+    - uid: 'azure-arm-servermanagement.NodeResource#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.NodeResources
+  name: NodeResources
+  items:
+    - uid: 'azure-arm-servermanagement.NodeResources#mapper'
+      name: mapper
 - uid: azure-arm-servermanagement.PowerShell
   name: PowerShell
   items:
@@ -173,6 +223,61 @@
       name: beginCancelCommandWithHttpOperationResponse
     - uid: 'azure-arm-servermanagement.PowerShell#beginCancelCommand'
       name: beginCancelCommand
+- uid: azure-arm-servermanagement.PowerShellCommandParameters
+  name: PowerShellCommandParameters
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellCommandParameters#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellCommandResult
+  name: PowerShellCommandResult
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellCommandResult#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellCommandResults
+  name: PowerShellCommandResults
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellCommandResults#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellCommandStatus
+  name: PowerShellCommandStatus
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellCommandStatus#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellSessionResource
+  name: PowerShellSessionResource
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellSessionResource#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellSessionResources
+  name: PowerShellSessionResources
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellSessionResources#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellTabCompletionParameters
+  name: PowerShellTabCompletionParameters
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellTabCompletionParameters#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PowerShellTabCompletionResults
+  name: PowerShellTabCompletionResults
+  items:
+    - uid: 'azure-arm-servermanagement.PowerShellTabCompletionResults#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PromptFieldDescription
+  name: PromptFieldDescription
+  items:
+    - uid: 'azure-arm-servermanagement.PromptFieldDescription#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.PromptMessageResponse
+  name: PromptMessageResponse
+  items:
+    - uid: 'azure-arm-servermanagement.PromptMessageResponse#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-servermanagement.Resource#mapper'
+      name: mapper
 - uid: azure-arm-servermanagement.ServerManagement
   name: ServerManagement
 - uid: azure-arm-servermanagement.Session
@@ -194,3 +299,18 @@
       name: beginCreateWithHttpOperationResponse
     - uid: 'azure-arm-servermanagement.Session#beginCreate'
       name: beginCreate
+- uid: azure-arm-servermanagement.SessionParameters
+  name: SessionParameters
+  items:
+    - uid: 'azure-arm-servermanagement.SessionParameters#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.SessionResource
+  name: SessionResource
+  items:
+    - uid: 'azure-arm-servermanagement.SessionResource#mapper'
+      name: mapper
+- uid: azure-arm-servermanagement.Version
+  name: Version
+  items:
+    - uid: 'azure-arm-servermanagement.Version#mapper'
+      name: mapper

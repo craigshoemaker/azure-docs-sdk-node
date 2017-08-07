@@ -60,6 +60,76 @@
       name: getGroupsForMAMPolicyNextWithHttpOperationResponse
     - uid: 'azure-arm-intune.Android#getGroupsForMAMPolicyNext'
       name: getGroupsForMAMPolicyNext
+- uid: azure-arm-intune.AndroidMAMPolicy
+  name: AndroidMAMPolicy
+  items:
+    - uid: 'azure-arm-intune.AndroidMAMPolicy#mapper'
+      name: mapper
+- uid: azure-arm-intune.AndroidMAMPolicyCollection
+  name: AndroidMAMPolicyCollection
+  items:
+    - uid: 'azure-arm-intune.AndroidMAMPolicyCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.Application
+  name: Application
+  items:
+    - uid: 'azure-arm-intune.Application#mapper'
+      name: mapper
+- uid: azure-arm-intune.ApplicationCollection
+  name: ApplicationCollection
+  items:
+    - uid: 'azure-arm-intune.ApplicationCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.Device
+  name: Device
+  items:
+    - uid: 'azure-arm-intune.Device#mapper'
+      name: mapper
+- uid: azure-arm-intune.DeviceCollection
+  name: DeviceCollection
+  items:
+    - uid: 'azure-arm-intune.DeviceCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.ErrorModel
+  name: ErrorModel
+  items:
+    - uid: 'azure-arm-intune.ErrorModel#mapper'
+      name: mapper
+- uid: azure-arm-intune.FlaggedEnrolledApp
+  name: FlaggedEnrolledApp
+  items:
+    - uid: 'azure-arm-intune.FlaggedEnrolledApp#mapper'
+      name: mapper
+- uid: azure-arm-intune.FlaggedEnrolledAppCollection
+  name: FlaggedEnrolledAppCollection
+  items:
+    - uid: 'azure-arm-intune.FlaggedEnrolledAppCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.FlaggedEnrolledAppError
+  name: FlaggedEnrolledAppError
+  items:
+    - uid: 'azure-arm-intune.FlaggedEnrolledAppError#mapper'
+      name: mapper
+- uid: azure-arm-intune.FlaggedUser
+  name: FlaggedUser
+  items:
+    - uid: 'azure-arm-intune.FlaggedUser#mapper'
+      name: mapper
+- uid: azure-arm-intune.FlaggedUserCollection
+  name: FlaggedUserCollection
+  items:
+    - uid: 'azure-arm-intune.FlaggedUserCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.GroupItem
+  name: GroupItem
+  items:
+    - uid: 'azure-arm-intune.GroupItem#mapper'
+      name: mapper
+- uid: azure-arm-intune.GroupsCollection
+  name: GroupsCollection
+  items:
+    - uid: 'azure-arm-intune.GroupsCollection#mapper'
+      name: mapper
 - uid: azure-arm-intune.IntuneResourceManagementClient
   name: IntuneResourceManagementClient
   items:
@@ -215,3 +285,68 @@
       name: getGroupsForMAMPolicyNextWithHttpOperationResponse
     - uid: 'azure-arm-intune.Ios#getGroupsForMAMPolicyNext'
       name: getGroupsForMAMPolicyNext
+- uid: azure-arm-intune.IOSMAMPolicy
+  name: IOSMAMPolicy
+  items:
+    - uid: 'azure-arm-intune.IOSMAMPolicy#mapper'
+      name: mapper
+- uid: azure-arm-intune.IOSMAMPolicyCollection
+  name: IOSMAMPolicyCollection
+  items:
+    - uid: 'azure-arm-intune.IOSMAMPolicyCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.Location
+  name: Location
+  items:
+    - uid: 'azure-arm-intune.Location#mapper'
+      name: mapper
+- uid: azure-arm-intune.LocationCollection
+  name: LocationCollection
+  items:
+    - uid: 'azure-arm-intune.LocationCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.MAMPolicyAppIdOrGroupIdPayload
+  name: MAMPolicyAppIdOrGroupIdPayload
+  items:
+    - uid: 'azure-arm-intune.MAMPolicyAppIdOrGroupIdPayload#mapper'
+      name: mapper
+- uid: azure-arm-intune.MAMPolicyAppOrGroupIdProperties
+  name: MAMPolicyAppOrGroupIdProperties
+  items:
+    - uid: 'azure-arm-intune.MAMPolicyAppOrGroupIdProperties#mapper'
+      name: mapper
+- uid: azure-arm-intune.MAMPolicyProperties
+  name: MAMPolicyProperties
+  items:
+    - uid: 'azure-arm-intune.MAMPolicyProperties#mapper'
+      name: mapper
+- uid: azure-arm-intune.OperationMetadataProperties
+  name: OperationMetadataProperties
+  items:
+    - uid: 'azure-arm-intune.OperationMetadataProperties#mapper'
+      name: mapper
+- uid: azure-arm-intune.OperationResult
+  name: OperationResult
+  items:
+    - uid: 'azure-arm-intune.OperationResult#mapper'
+      name: mapper
+- uid: azure-arm-intune.OperationResultCollection
+  name: OperationResultCollection
+  items:
+    - uid: 'azure-arm-intune.OperationResultCollection#mapper'
+      name: mapper
+- uid: azure-arm-intune.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-intune.Resource#mapper'
+      name: mapper
+- uid: azure-arm-intune.StatusesDefault
+  name: StatusesDefault
+  items:
+    - uid: 'azure-arm-intune.StatusesDefault#mapper'
+      name: mapper
+- uid: azure-arm-intune.WipeDeviceOperationResult
+  name: WipeDeviceOperationResult
+  items:
+    - uid: 'azure-arm-intune.WipeDeviceOperationResult#mapper'
+      name: mapper

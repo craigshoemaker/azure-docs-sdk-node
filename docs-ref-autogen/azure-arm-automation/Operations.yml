@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-automation.Operations
     id: azure-arm-automation.Operations
     name: Operations
-    summary: "Operations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the AutomationClient.\rInitializes a new instance of the Operations class."
+    summary: Class representing a Operations.
     fullName: azure-arm-automation.Operations
     source:
       id: azure-arm-automation.Operations
       path: lib\services\automationManagement\lib\operations\operations.js
-      startLine: 155
+      startLine: 146
       remote:
         branch: jsdoc
         path: lib\services\automationManagement\lib\operations\operations.js
@@ -25,7 +25,7 @@ items:
     parent: azure-arm-automation.Operations
     name: Operations(client)
     fullName: azure-arm-automation.Operations.Operations(client)
-    summary: ''
+    summary: Create a Operations.
     type: Constructor
     syntax:
       parameters:

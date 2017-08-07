@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-compute.Disks
     id: azure-arm-compute.Disks
     name: Disks
-    summary: "Disks\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ComputeManagementClient.\rInitializes a new instance of the Disks class."
+    summary: Class representing a Disks.
     fullName: azure-arm-compute.Disks
     source:
       id: azure-arm-compute.Disks
       path: lib\services\computeManagement2\lib\operations\disks.js
-      startLine: 2169
+      startLine: 2160
       remote:
         branch: jsdoc
         path: lib\services\computeManagement2\lib\operations\disks.js
@@ -53,7 +53,7 @@ items:
     parent: azure-arm-compute.Disks
     name: Disks(client)
     fullName: azure-arm-compute.Disks.Disks(client)
-    summary: ''
+    summary: Create a Disks.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-insights.AlertRules
     id: azure-arm-insights.AlertRules
     name: AlertRules
-    summary: "AlertRules\r__NOTE__: An instance of this class is automatically created for an\rinstance of the InsightsManagementClient.\rInitializes a new instance of the AlertRules class."
+    summary: Class representing a AlertRules.
     fullName: azure-arm-insights.AlertRules
     source:
       id: azure-arm-insights.AlertRules
       path: lib\services\insightsManagement\lib\operations\alertRules.js
-      startLine: 647
+      startLine: 638
       remote:
         branch: jsdoc
         path: lib\services\insightsManagement\lib\operations\alertRules.js
@@ -32,7 +32,7 @@ items:
     parent: azure-arm-insights.AlertRules
     name: AlertRules(client)
     fullName: azure-arm-insights.AlertRules.AlertRules(client)
-    summary: ''
+    summary: Create a AlertRules.
     type: Constructor
     syntax:
       parameters:

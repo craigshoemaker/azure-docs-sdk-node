@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servermanagement.Gateway
     id: azure-arm-servermanagement.Gateway
     name: Gateway
-    summary: "Gateway\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServerManagement.\rInitializes a new instance of the Gateway class."
+    summary: Class representing a Gateway.
     fullName: azure-arm-servermanagement.Gateway
     source:
       id: azure-arm-servermanagement.Gateway
       path: lib\services\servermanagement\lib\operations\gateway.js
-      startLine: 2216
+      startLine: 2207
       remote:
         branch: jsdoc
         path: lib\services\servermanagement\lib\operations\gateway.js
@@ -60,7 +60,7 @@ items:
     parent: azure-arm-servermanagement.Gateway
     name: Gateway(client)
     fullName: azure-arm-servermanagement.Gateway.Gateway(client)
-    summary: ''
+    summary: Create a Gateway.
     type: Constructor
     syntax:
       parameters:

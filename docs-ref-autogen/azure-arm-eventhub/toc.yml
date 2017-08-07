@@ -1,3 +1,28 @@
+- uid: azure-arm-eventhub.CheckNameAvailabilityParameter
+  name: CheckNameAvailabilityParameter
+  items:
+    - uid: 'azure-arm-eventhub.CheckNameAvailabilityParameter#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.CheckNameAvailabilityResult
+  name: CheckNameAvailabilityResult
+  items:
+    - uid: 'azure-arm-eventhub.CheckNameAvailabilityResult#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.ConsumerGroupCreateOrUpdateParameters
+  name: ConsumerGroupCreateOrUpdateParameters
+  items:
+    - uid: 'azure-arm-eventhub.ConsumerGroupCreateOrUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.ConsumerGroupListResult
+  name: ConsumerGroupListResult
+  items:
+    - uid: 'azure-arm-eventhub.ConsumerGroupListResult#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.ConsumerGroupResource
+  name: ConsumerGroupResource
+  items:
+    - uid: 'azure-arm-eventhub.ConsumerGroupResource#mapper'
+      name: mapper
 - uid: azure-arm-eventhub.ConsumerGroups
   name: ConsumerGroups
   items:
@@ -14,25 +39,38 @@
       name: getWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.ConsumerGroups#get'
       name: get
-    - uid: >-
-        azure-arm-eventhub.ConsumerGroups#listByEventHubWithHttpOperationResponse
-      name: listByEventHubWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.ConsumerGroups#listByEventHub'
-      name: listByEventHub
-    - uid: >-
-        azure-arm-eventhub.ConsumerGroups#listByEventHubNextWithHttpOperationResponse
-      name: listByEventHubNextWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.ConsumerGroups#listByEventHubNext'
-      name: listByEventHubNext
+    - uid: 'azure-arm-eventhub.ConsumerGroups#listAllWithHttpOperationResponse'
+      name: listAllWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.ConsumerGroups#listAll'
+      name: listAll
+    - uid: 'azure-arm-eventhub.ConsumerGroups#listAllNextWithHttpOperationResponse'
+      name: listAllNextWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.ConsumerGroups#listAllNext'
+      name: listAllNext
+- uid: azure-arm-eventhub.EventHubCreateOrUpdateParameters
+  name: EventHubCreateOrUpdateParameters
+  items:
+    - uid: 'azure-arm-eventhub.EventHubCreateOrUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.EventHubListResult
+  name: EventHubListResult
+  items:
+    - uid: 'azure-arm-eventhub.EventHubListResult#mapper'
+      name: mapper
 - uid: azure-arm-eventhub.EventHubManagementClient
   name: EventHubManagementClient
+- uid: azure-arm-eventhub.EventHubResource
+  name: EventHubResource
+  items:
+    - uid: 'azure-arm-eventhub.EventHubResource#mapper'
+      name: mapper
 - uid: azure-arm-eventhub.EventHubs
   name: EventHubs
   items:
-    - uid: 'azure-arm-eventhub.EventHubs#listByNamespaceWithHttpOperationResponse'
-      name: listByNamespaceWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.EventHubs#listByNamespace'
-      name: listByNamespace
+    - uid: 'azure-arm-eventhub.EventHubs#listAllWithHttpOperationResponse'
+      name: listAllWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.EventHubs#listAll'
+      name: listAll
     - uid: 'azure-arm-eventhub.EventHubs#createOrUpdateWithHttpOperationResponse'
       name: createOrUpdateWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.EventHubs#createOrUpdate'
@@ -73,28 +111,43 @@
       name: regenerateKeysWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.EventHubs#regenerateKeys'
       name: regenerateKeys
-    - uid: >-
-        azure-arm-eventhub.EventHubs#listByNamespaceNextWithHttpOperationResponse
-      name: listByNamespaceNextWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.EventHubs#listByNamespaceNext'
-      name: listByNamespaceNext
+    - uid: 'azure-arm-eventhub.EventHubs#listAllNextWithHttpOperationResponse'
+      name: listAllNextWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.EventHubs#listAllNext'
+      name: listAllNext
     - uid: >-
         azure-arm-eventhub.EventHubs#listAuthorizationRulesNextWithHttpOperationResponse
       name: listAuthorizationRulesNextWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.EventHubs#listAuthorizationRulesNext'
       name: listAuthorizationRulesNext
+- uid: azure-arm-eventhub.NamespaceCreateOrUpdateParameters
+  name: NamespaceCreateOrUpdateParameters
+  items:
+    - uid: 'azure-arm-eventhub.NamespaceCreateOrUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.NamespaceListResult
+  name: NamespaceListResult
+  items:
+    - uid: 'azure-arm-eventhub.NamespaceListResult#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.NamespaceResource
+  name: NamespaceResource
+  items:
+    - uid: 'azure-arm-eventhub.NamespaceResource#mapper'
+      name: mapper
 - uid: azure-arm-eventhub.Namespaces
   name: Namespaces
   items:
     - uid: >-
-        azure-arm-eventhub.Namespaces#checkNameAvailabilityMethodWithHttpOperationResponse
-      name: checkNameAvailabilityMethodWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.Namespaces#checkNameAvailabilityMethod'
-      name: checkNameAvailabilityMethod
-    - uid: 'azure-arm-eventhub.Namespaces#listWithHttpOperationResponse'
-      name: listWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.Namespaces#list'
-      name: list
+        azure-arm-eventhub.Namespaces#checkNameAvailabilityWithHttpOperationResponse
+      name: checkNameAvailabilityWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.Namespaces#checkNameAvailability'
+      name: checkNameAvailability
+    - uid: >-
+        azure-arm-eventhub.Namespaces#listBySubscriptionWithHttpOperationResponse
+      name: listBySubscriptionWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.Namespaces#listBySubscription'
+      name: listBySubscription
     - uid: >-
         azure-arm-eventhub.Namespaces#listByResourceGroupWithHttpOperationResponse
       name: listByResourceGroupWithHttpOperationResponse
@@ -153,10 +206,11 @@
       name: beginDeleteMethodWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.Namespaces#beginDeleteMethod'
       name: beginDeleteMethod
-    - uid: 'azure-arm-eventhub.Namespaces#listNextWithHttpOperationResponse'
-      name: listNextWithHttpOperationResponse
-    - uid: 'azure-arm-eventhub.Namespaces#listNext'
-      name: listNext
+    - uid: >-
+        azure-arm-eventhub.Namespaces#listBySubscriptionNextWithHttpOperationResponse
+      name: listBySubscriptionNextWithHttpOperationResponse
+    - uid: 'azure-arm-eventhub.Namespaces#listBySubscriptionNext'
+      name: listBySubscriptionNext
     - uid: >-
         azure-arm-eventhub.Namespaces#listByResourceGroupNextWithHttpOperationResponse
       name: listByResourceGroupNextWithHttpOperationResponse
@@ -167,6 +221,26 @@
       name: listAuthorizationRulesNextWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.Namespaces#listAuthorizationRulesNext'
       name: listAuthorizationRulesNext
+- uid: azure-arm-eventhub.NamespaceUpdateParameter
+  name: NamespaceUpdateParameter
+  items:
+    - uid: 'azure-arm-eventhub.NamespaceUpdateParameter#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.Operation
+  name: Operation
+  items:
+    - uid: 'azure-arm-eventhub.Operation#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.OperationDisplay
+  name: OperationDisplay
+  items:
+    - uid: 'azure-arm-eventhub.OperationDisplay#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.OperationListResult
+  name: OperationListResult
+  items:
+    - uid: 'azure-arm-eventhub.OperationListResult#mapper'
+      name: mapper
 - uid: azure-arm-eventhub.Operations
   name: Operations
   items:
@@ -178,3 +252,44 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-eventhub.Operations#listNext'
       name: listNext
+- uid: azure-arm-eventhub.RegenerateKeysParameters
+  name: RegenerateKeysParameters
+  items:
+    - uid: 'azure-arm-eventhub.RegenerateKeysParameters#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-eventhub.Resource#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.ResourceListKeys
+  name: ResourceListKeys
+  items:
+    - uid: 'azure-arm-eventhub.ResourceListKeys#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  name: SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  items:
+    - uid: >-
+        azure-arm-eventhub.SharedAccessAuthorizationRuleCreateOrUpdateParameters#mapper
+      name: mapper
+- uid: azure-arm-eventhub.SharedAccessAuthorizationRuleListResult
+  name: SharedAccessAuthorizationRuleListResult
+  items:
+    - uid: 'azure-arm-eventhub.SharedAccessAuthorizationRuleListResult#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.SharedAccessAuthorizationRuleResource
+  name: SharedAccessAuthorizationRuleResource
+  items:
+    - uid: 'azure-arm-eventhub.SharedAccessAuthorizationRuleResource#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.Sku
+  name: Sku
+  items:
+    - uid: 'azure-arm-eventhub.Sku#mapper'
+      name: mapper
+- uid: azure-arm-eventhub.TrackedResource
+  name: TrackedResource
+  items:
+    - uid: 'azure-arm-eventhub.TrackedResource#mapper'
+      name: mapper

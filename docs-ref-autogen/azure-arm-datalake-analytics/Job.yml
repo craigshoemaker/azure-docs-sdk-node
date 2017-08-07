@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-datalake-analytics.Job
     id: azure-arm-datalake-analytics.Job
     name: Job
-    summary: "Job\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DataLakeAnalyticsJobManagementClient.\rInitializes a new instance of the Job class."
+    summary: Class representing a Job.
     fullName: azure-arm-datalake-analytics.Job
     source:
       id: azure-arm-datalake-analytics.Job
       path: lib\services\dataLake.Analytics\lib\job\operations\job.js
-      startLine: 1359
+      startLine: 1350
       remote:
         branch: jsdoc
         path: lib\services\dataLake.Analytics\lib\job\operations\job.js
@@ -40,7 +40,7 @@ items:
     parent: azure-arm-datalake-analytics.Job
     name: Job(client)
     fullName: azure-arm-datalake-analytics.Job.Job(client)
-    summary: ''
+    summary: Create a Job.
     type: Constructor
     syntax:
       parameters:

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-dns.Zones
     id: azure-arm-dns.Zones
     name: Zones
-    summary: "Zones\r__NOTE__: An instance of this class is automatically created for an\rinstance of the DnsManagementClient.\rInitializes a new instance of the Zones class."
+    summary: Class representing a Zones.
     fullName: azure-arm-dns.Zones
     source:
       id: azure-arm-dns.Zones
       path: lib\services\dnsManagement\lib\operations\zones.js
-      startLine: 1181
+      startLine: 1172
       remote:
         branch: jsdoc
         path: lib\services\dnsManagement\lib\operations\zones.js
@@ -39,7 +39,7 @@ items:
     parent: azure-arm-dns.Zones
     name: Zones(client)
     fullName: azure-arm-dns.Zones.Zones(client)
-    summary: ''
+    summary: Create a Zones.
     type: Constructor
     syntax:
       parameters:

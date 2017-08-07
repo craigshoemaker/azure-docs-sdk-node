@@ -1,5 +1,20 @@
 - uid: azure-arm-advisor.AdvisorManagementClient
   name: AdvisorManagementClient
+- uid: azure-arm-advisor.OperationDisplayInfo
+  name: OperationDisplayInfo
+  items:
+    - uid: 'azure-arm-advisor.OperationDisplayInfo#mapper'
+      name: mapper
+- uid: azure-arm-advisor.OperationEntity
+  name: OperationEntity
+  items:
+    - uid: 'azure-arm-advisor.OperationEntity#mapper'
+      name: mapper
+- uid: azure-arm-advisor.OperationEntityListResult
+  name: OperationEntityListResult
+  items:
+    - uid: 'azure-arm-advisor.OperationEntityListResult#mapper'
+      name: mapper
 - uid: azure-arm-advisor.Operations
   name: Operations
   items:
@@ -35,6 +50,31 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-advisor.Recommendations#listNext'
       name: listNext
+- uid: azure-arm-advisor.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-advisor.Resource#mapper'
+      name: mapper
+- uid: azure-arm-advisor.ResourceRecommendationBase
+  name: ResourceRecommendationBase
+  items:
+    - uid: 'azure-arm-advisor.ResourceRecommendationBase#mapper'
+      name: mapper
+- uid: azure-arm-advisor.ResourceRecommendationBaseListResult
+  name: ResourceRecommendationBaseListResult
+  items:
+    - uid: 'azure-arm-advisor.ResourceRecommendationBaseListResult#mapper'
+      name: mapper
+- uid: azure-arm-advisor.ShortDescription
+  name: ShortDescription
+  items:
+    - uid: 'azure-arm-advisor.ShortDescription#mapper'
+      name: mapper
+- uid: azure-arm-advisor.SuppressionContract
+  name: SuppressionContract
+  items:
+    - uid: 'azure-arm-advisor.SuppressionContract#mapper'
+      name: mapper
 - uid: azure-arm-advisor.Suppressions
   name: Suppressions
   items:

@@ -1,3 +1,33 @@
+- uid: azure-arm-mediaservices.ApiEndpoint
+  name: ApiEndpoint
+  items:
+    - uid: 'azure-arm-mediaservices.ApiEndpoint#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.ApiError
+  name: ApiError
+  items:
+    - uid: 'azure-arm-mediaservices.ApiError#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.CheckNameAvailabilityInput
+  name: CheckNameAvailabilityInput
+  items:
+    - uid: 'azure-arm-mediaservices.CheckNameAvailabilityInput#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.CheckNameAvailabilityOutput
+  name: CheckNameAvailabilityOutput
+  items:
+    - uid: 'azure-arm-mediaservices.CheckNameAvailabilityOutput#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.MediaService
+  name: MediaService
+  items:
+    - uid: 'azure-arm-mediaservices.MediaService#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.MediaServiceCollection
+  name: MediaServiceCollection
+  items:
+    - uid: 'azure-arm-mediaservices.MediaServiceCollection#mapper'
+      name: mapper
 - uid: azure-arm-mediaservices.MediaServiceOperations
   name: MediaServiceOperations
   items:
@@ -48,5 +78,33 @@
       name: syncStorageKeys
 - uid: azure-arm-mediaservices.MediaServicesManagementClient
   name: MediaServicesManagementClient
-- uid: azure-arm-mediaservices.The collection of Media Service resources.
-  name: The collection of Media Service resources.
+- uid: azure-arm-mediaservices.RegenerateKeyInput
+  name: RegenerateKeyInput
+  items:
+    - uid: 'azure-arm-mediaservices.RegenerateKeyInput#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.RegenerateKeyOutput
+  name: RegenerateKeyOutput
+  items:
+    - uid: 'azure-arm-mediaservices.RegenerateKeyOutput#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-mediaservices.Resource#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.ServiceKeys
+  name: ServiceKeys
+  items:
+    - uid: 'azure-arm-mediaservices.ServiceKeys#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.StorageAccount
+  name: StorageAccount
+  items:
+    - uid: 'azure-arm-mediaservices.StorageAccount#mapper'
+      name: mapper
+- uid: azure-arm-mediaservices.SyncStorageKeysInput
+  name: SyncStorageKeysInput
+  items:
+    - uid: 'azure-arm-mediaservices.SyncStorageKeysInput#mapper'
+      name: mapper

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-website.TopLevelDomains
     id: azure-arm-website.TopLevelDomains
     name: TopLevelDomains
-    summary: "TopLevelDomains\r__NOTE__: An instance of this class is automatically created for an\rinstance of the WebSiteManagementClient.\rInitializes a new instance of the TopLevelDomains class."
+    summary: Class representing a TopLevelDomains.
     fullName: azure-arm-website.TopLevelDomains
     source:
       id: azure-arm-website.TopLevelDomains
       path: lib\services\webSiteManagement2\lib\operations\topLevelDomains.js
-      startLine: 731
+      startLine: 722
       remote:
         branch: jsdoc
         path: lib\services\webSiteManagement2\lib\operations\topLevelDomains.js
@@ -35,7 +35,7 @@ items:
     parent: azure-arm-website.TopLevelDomains
     name: TopLevelDomains(client)
     fullName: azure-arm-website.TopLevelDomains.TopLevelDomains(client)
-    summary: ''
+    summary: Create a TopLevelDomains.
     type: Constructor
     syntax:
       parameters:
@@ -219,11 +219,11 @@ items:
   - uid: 'azure-arm-website.TopLevelDomains#listAgreementsWithHttpOperationResponse'
     id: 'azure-arm-website.TopLevelDomains#listAgreementsWithHttpOperationResponse'
     parent: azure-arm-website.TopLevelDomains
-    name: 'listAgreementsWithHttpOperationResponse(name, options)'
+    name: 'listAgreementsWithHttpOperationResponse(name, agreementOption, options)'
     summary: "Gets all legal agreements that user needs to accept before\rpurchasing a domain.\r\rGets all legal agreements that user needs to accept before purchasing a\rdomain."
     fullName: >-
       azure-arm-website.TopLevelDomains.listAgreementsWithHttpOperationResponse(name,
-      options)
+      agreementOption, options)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -244,15 +244,24 @@ items:
           type:
             - string
           description: Name of the top-level domain.
+        - id: agreementOption
+          type:
+            - object
+          description: Domain agreement options.
+        - id: agreementOption.includePrivacy
+          type:
+            - boolean
+          description: "If <code>true</code>, then\rthe list of agreements will include agreements for domain privacy as well;\rotherwise, <code>false</code>."
+          optional: true
+        - id: agreementOption.forTransfer
+          type:
+            - boolean
+          description: "If <code>true</code>, then\rthe list of agreements will include agreements for domain transfer as well;\rotherwise, <code>false</code>."
+          optional: true
         - id: options
           type:
             - object
           description: Optional Parameters.
-          optional: true
-        - id: options.includePrivacy
-          type:
-            - boolean
-          description: "If <code>true</code>, then the\rlist of agreements will include agreements for domain privacy as well;\rotherwise, <code>false</code>."
           optional: true
         - id: options.customHeaders
           type:
@@ -263,17 +272,19 @@ items:
         type:
           - Promise
         description: A promise is returned
-      content: 'function listAgreementsWithHttpOperationResponse(name, options)'
+      content: >-
+        function listAgreementsWithHttpOperationResponse(name, agreementOption,
+        options)
     langs:
       - js
   - uid: 'azure-arm-website.TopLevelDomains#listAgreements'
     id: 'azure-arm-website.TopLevelDomains#listAgreements'
     parent: azure-arm-website.TopLevelDomains
-    name: 'listAgreements(name, options, optionalCallback)'
+    name: 'listAgreements(name, agreementOption, options, optionalCallback)'
     summary: "Gets all legal agreements that user needs to accept before\rpurchasing a domain.\r\rGets all legal agreements that user needs to accept before purchasing a\rdomain."
     fullName: >-
-      azure-arm-website.TopLevelDomains.listAgreements(name, options,
-      optionalCallback)
+      azure-arm-website.TopLevelDomains.listAgreements(name, agreementOption,
+      options, optionalCallback)
     tags:
       - originalTitle: resolve
         title: resolve
@@ -290,15 +301,24 @@ items:
           type:
             - string
           description: Name of the top-level domain.
+        - id: agreementOption
+          type:
+            - object
+          description: Domain agreement options.
+        - id: agreementOption.includePrivacy
+          type:
+            - boolean
+          description: "If <code>true</code>, then\rthe list of agreements will include agreements for domain privacy as well;\rotherwise, <code>false</code>."
+          optional: true
+        - id: agreementOption.forTransfer
+          type:
+            - boolean
+          description: "If <code>true</code>, then\rthe list of agreements will include agreements for domain transfer as well;\rotherwise, <code>false</code>."
+          optional: true
         - id: options
           type:
             - object
           description: Optional Parameters.
-          optional: true
-        - id: options.includePrivacy
-          type:
-            - boolean
-          description: "If <code>true</code>, then the\rlist of agreements will include agreements for domain privacy as well;\rotherwise, <code>false</code>."
           optional: true
         - id: options.customHeaders
           type:
@@ -315,7 +335,9 @@ items:
           - function
           - Promise
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
-      content: 'function listAgreements(name, options, optionalCallback)'
+      content: >-
+        function listAgreements(name, agreementOption, options,
+        optionalCallback)
     langs:
       - js
   - uid: 'azure-arm-website.TopLevelDomains#listNextWithHttpOperationResponse'

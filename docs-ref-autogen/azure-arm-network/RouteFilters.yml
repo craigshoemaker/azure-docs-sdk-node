@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.RouteFilters
     id: azure-arm-network.RouteFilters
     name: RouteFilters
-    summary: "RouteFilters\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the RouteFilters class."
+    summary: Class representing a RouteFilters.
     fullName: azure-arm-network.RouteFilters
     source:
       id: azure-arm-network.RouteFilters
       path: lib\services\networkManagement2\lib\operations\routeFilters.js
-      startLine: 1427
+      startLine: 1418
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\routeFilters.js
@@ -49,7 +49,7 @@ items:
     parent: azure-arm-network.RouteFilters
     name: RouteFilters(client)
     fullName: azure-arm-network.RouteFilters.RouteFilters(client)
-    summary: ''
+    summary: Create a RouteFilters.
     type: Constructor
     syntax:
       parameters:

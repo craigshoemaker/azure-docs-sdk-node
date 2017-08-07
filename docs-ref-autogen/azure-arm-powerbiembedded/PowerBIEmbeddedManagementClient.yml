@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient
     id: azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient
     name: PowerBIEmbeddedManagementClient
-    summary: Initializes a new instance of the PowerBIEmbeddedManagementClient class.
+    summary: Class representing a PowerBIEmbeddedManagementClient.
     fullName: azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient
     source:
       id: azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient
       path: lib\services\powerbiembedded\lib\powerBIEmbeddedManagementClient.js
-      startLine: 186
+      startLine: 158
       remote:
         branch: jsdoc
         path: lib\services\powerbiembedded\lib\powerBIEmbeddedManagementClient.js
@@ -31,7 +31,7 @@ items:
     fullName: >-
       azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient.PowerBIEmbeddedManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a PowerBIEmbeddedManagementClient.
     type: Constructor
     syntax:
       parameters:

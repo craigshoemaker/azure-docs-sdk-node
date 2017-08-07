@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-website.WebApps
     id: azure-arm-website.WebApps
     name: WebApps
-    summary: "WebApps\r__NOTE__: An instance of this class is automatically created for an\rinstance of the WebSiteManagementClient.\rInitializes a new instance of the WebApps class."
+    summary: Class representing a WebApps.
     fullName: azure-arm-website.WebApps
     source:
       id: azure-arm-website.WebApps
       path: lib\services\webSiteManagement2\lib\operations\webApps.js
-      startLine: 44245
+      startLine: 45459
       remote:
         branch: jsdoc
         path: lib\services\webSiteManagement2\lib\operations\webApps.js
@@ -46,6 +46,8 @@ items:
       - 'azure-arm-website.WebApps#listBackupStatusSecrets'
       - 'azure-arm-website.WebApps#restoreWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#restore'
+      - 'azure-arm-website.WebApps#listConfigurationsWithHttpOperationResponse'
+      - 'azure-arm-website.WebApps#listConfigurations'
       - >-
         azure-arm-website.WebApps#updateApplicationSettingsWithHttpOperationResponse
       - 'azure-arm-website.WebApps#updateApplicationSettings'
@@ -231,6 +233,9 @@ items:
       - >-
         azure-arm-website.WebApps#resetProductionSlotConfigWithHttpOperationResponse
       - 'azure-arm-website.WebApps#resetProductionSlotConfig'
+      - >-
+        azure-arm-website.WebApps#getResourceHealthMetadataWithHttpOperationResponse
+      - 'azure-arm-website.WebApps#getResourceHealthMetadata'
       - 'azure-arm-website.WebApps#restartWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#restart'
       - 'azure-arm-website.WebApps#listSlotsWithHttpOperationResponse'
@@ -262,6 +267,9 @@ items:
       - 'azure-arm-website.WebApps#listBackupStatusSecretsSlot'
       - 'azure-arm-website.WebApps#restoreSlotWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#restoreSlot'
+      - >-
+        azure-arm-website.WebApps#listConfigurationsSlotWithHttpOperationResponse
+      - 'azure-arm-website.WebApps#listConfigurationsSlot'
       - >-
         azure-arm-website.WebApps#updateApplicationSettingsSlotWithHttpOperationResponse
       - 'azure-arm-website.WebApps#updateApplicationSettingsSlot'
@@ -452,6 +460,9 @@ items:
       - >-
         azure-arm-website.WebApps#resetSlotConfigurationSlotWithHttpOperationResponse
       - 'azure-arm-website.WebApps#resetSlotConfigurationSlot'
+      - >-
+        azure-arm-website.WebApps#getResourceHealthMetadataSlotWithHttpOperationResponse
+      - 'azure-arm-website.WebApps#getResourceHealthMetadataSlot'
       - 'azure-arm-website.WebApps#restartSlotWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#restartSlot'
       - >-
@@ -475,6 +486,9 @@ items:
       - 'azure-arm-website.WebApps#stopSlot'
       - 'azure-arm-website.WebApps#syncRepositorySlotWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#syncRepositorySlot'
+      - >-
+        azure-arm-website.WebApps#syncFunctionTriggersSlotWithHttpOperationResponse
+      - 'azure-arm-website.WebApps#syncFunctionTriggersSlot'
       - 'azure-arm-website.WebApps#listUsagesSlotWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#listUsagesSlot'
       - >-
@@ -521,6 +535,8 @@ items:
       - 'azure-arm-website.WebApps#stop'
       - 'azure-arm-website.WebApps#syncRepositoryWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#syncRepository'
+      - 'azure-arm-website.WebApps#syncFunctionTriggersWithHttpOperationResponse'
+      - 'azure-arm-website.WebApps#syncFunctionTriggers'
       - 'azure-arm-website.WebApps#listUsagesWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#listUsages'
       - 'azure-arm-website.WebApps#listVnetConnectionsWithHttpOperationResponse'
@@ -584,6 +600,9 @@ items:
       - 'azure-arm-website.WebApps#listByResourceGroupNext'
       - 'azure-arm-website.WebApps#listBackupsNextWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#listBackupsNext'
+      - >-
+        azure-arm-website.WebApps#listConfigurationsNextWithHttpOperationResponse
+      - 'azure-arm-website.WebApps#listConfigurationsNext'
       - 'azure-arm-website.WebApps#listDeploymentsNextWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#listDeploymentsNext'
       - >-
@@ -610,6 +629,9 @@ items:
       - 'azure-arm-website.WebApps#listSlotsNext'
       - 'azure-arm-website.WebApps#listBackupsSlotNextWithHttpOperationResponse'
       - 'azure-arm-website.WebApps#listBackupsSlotNext'
+      - >-
+        azure-arm-website.WebApps#listConfigurationsSlotNextWithHttpOperationResponse
+      - 'azure-arm-website.WebApps#listConfigurationsSlotNext'
       - >-
         azure-arm-website.WebApps#listDeploymentsSlotNextWithHttpOperationResponse
       - 'azure-arm-website.WebApps#listDeploymentsSlotNext'
@@ -654,7 +676,7 @@ items:
     parent: azure-arm-website.WebApps
     name: WebApps(client)
     fullName: azure-arm-website.WebApps.WebApps(client)
-    summary: ''
+    summary: Create a WebApps.
     type: Constructor
     syntax:
       parameters:
@@ -1459,6 +1481,11 @@ items:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
           optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
+          optional: true
         - id: siteEnvelope.name
           type:
             - string
@@ -2034,6 +2061,11 @@ items:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
           optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
+          optional: true
         - id: siteEnvelope.name
           type:
             - string
@@ -2536,11 +2568,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -2662,11 +2694,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -3378,11 +3410,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -3511,11 +3543,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -3847,6 +3879,112 @@ items:
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
       content: >-
         function restore(resourceGroupName, name, backupId, request, options,
+        optionalCallback)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#listConfigurationsWithHttpOperationResponse'
+    id: 'azure-arm-website.WebApps#listConfigurationsWithHttpOperationResponse'
+    parent: azure-arm-website.WebApps
+    name: >-
+      listConfigurationsWithHttpOperationResponse(resourceGroupName, name,
+      options)
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsWithHttpOperationResponse(resourceGroupName,
+      name, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+        value: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function listConfigurationsWithHttpOperationResponse(resourceGroupName,
+        name, options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#listConfigurations'
+    id: 'azure-arm-website.WebApps#listConfigurations'
+    parent: azure-arm-website.WebApps
+    name: 'listConfigurations(resourceGroupName, name, options, optionalCallback)'
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurations(resourceGroupName, name,
+      options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{SiteConfigResourceCollection} - The deserialized result object.'
+        value: '{SiteConfigResourceCollection} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function listConfigurations(resourceGroupName, name, options,
         optionalCallback)
     langs:
       - js
@@ -4697,11 +4835,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -4826,11 +4964,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -15918,6 +16056,117 @@ items:
         optionalCallback)
     langs:
       - js
+  - uid: >-
+      azure-arm-website.WebApps#getResourceHealthMetadataWithHttpOperationResponse
+    id: >-
+      azure-arm-website.WebApps#getResourceHealthMetadataWithHttpOperationResponse
+    parent: azure-arm-website.WebApps
+    name: >-
+      getResourceHealthMetadataWithHttpOperationResponse(resourceGroupName,
+      name, options)
+    summary: "Gets the category of ResourceHealthMetadata to use for the given\rsite\r\rGets the category of ResourceHealthMetadata to use for the given site"
+    fullName: >-
+      azure-arm-website.WebApps.getResourceHealthMetadataWithHttpOperationResponse(resourceGroupName,
+      name, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<ResourceHealthMetadata>} - The deserialized
+          result object.
+        value: >-
+          {HttpOperationResponse<ResourceHealthMetadata>} - The deserialized
+          result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of web app
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function
+        getResourceHealthMetadataWithHttpOperationResponse(resourceGroupName,
+        name, options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#getResourceHealthMetadata'
+    id: 'azure-arm-website.WebApps#getResourceHealthMetadata'
+    parent: azure-arm-website.WebApps
+    name: >-
+      getResourceHealthMetadata(resourceGroupName, name, options,
+      optionalCallback)
+    summary: "Gets the category of ResourceHealthMetadata to use for the given\rsite\r\rGets the category of ResourceHealthMetadata to use for the given site"
+    fullName: >-
+      azure-arm-website.WebApps.getResourceHealthMetadata(resourceGroupName,
+      name, options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{ResourceHealthMetadata} - The deserialized result object.'
+        value: '{ResourceHealthMetadata} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceHealthMetadata} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceHealthMetadata} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of web app
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function getResourceHealthMetadata(resourceGroupName, name, options,
+        optionalCallback)
+    langs:
+      - js
   - uid: 'azure-arm-website.WebApps#restartWithHttpOperationResponse'
     id: 'azure-arm-website.WebApps#restartWithHttpOperationResponse'
     parent: azure-arm-website.WebApps
@@ -16758,6 +17007,11 @@ items:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
           optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
+          optional: true
         - id: siteEnvelope.name
           type:
             - string
@@ -17337,6 +17591,11 @@ items:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
           optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
+          optional: true
         - id: siteEnvelope.name
           type:
             - string
@@ -17875,11 +18134,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -18007,11 +18266,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -18767,11 +19026,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -18904,11 +19163,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -19253,6 +19512,123 @@ items:
       content: >-
         function restoreSlot(resourceGroupName, name, backupId, request, slot,
         options, optionalCallback)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#listConfigurationsSlotWithHttpOperationResponse'
+    id: 'azure-arm-website.WebApps#listConfigurationsSlotWithHttpOperationResponse'
+    parent: azure-arm-website.WebApps
+    name: >-
+      listConfigurationsSlotWithHttpOperationResponse(resourceGroupName, name,
+      slot, options)
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsSlotWithHttpOperationResponse(resourceGroupName,
+      name, slot, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+        value: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: slot
+          type:
+            - string
+          description: "Name of the deployment slot. If a slot is not\rspecified, the API will return configuration for the production slot."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function
+        listConfigurationsSlotWithHttpOperationResponse(resourceGroupName, name,
+        slot, options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#listConfigurationsSlot'
+    id: 'azure-arm-website.WebApps#listConfigurationsSlot'
+    parent: azure-arm-website.WebApps
+    name: >-
+      listConfigurationsSlot(resourceGroupName, name, slot, options,
+      optionalCallback)
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsSlot(resourceGroupName, name,
+      slot, options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{SiteConfigResourceCollection} - The deserialized result object.'
+        value: '{SiteConfigResourceCollection} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: slot
+          type:
+            - string
+          description: "Name of the deployment slot. If a slot is not\rspecified, the API will return configuration for the production slot."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function listConfigurationsSlot(resourceGroupName, name, slot, options,
+        optionalCallback)
     langs:
       - js
   - uid: >-
@@ -20141,11 +20517,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -20274,11 +20650,11 @@ items:
         - id: request.backupSchedule.frequencyInterval
           type:
             - number
-          description: "How often should be\rthe backup executed (e.g. for weekly backup, this should be set to 7 and\rFrequencyUnit should be set to Day)"
+          description: "How often the\rbackup should be executed (e.g. for weekly backup, this should be set to 7\rand FrequencyUnit should be set to Day)"
         - id: request.backupSchedule.frequencyUnit
           type:
             - string
-          description: "The unit of time for\rhow often should be the backup executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
+          description: "The unit of time for\rhow often the backup should be executed (e.g. for weekly backup, this should\rbe set to Day and FrequencyInterval should be set to 7). Possible values\rinclude: 'Day', 'Hour'"
         - id: request.backupSchedule.keepAtLeastOneBackup
           type:
             - boolean
@@ -31287,6 +31663,125 @@ items:
         options, optionalCallback)
     langs:
       - js
+  - uid: >-
+      azure-arm-website.WebApps#getResourceHealthMetadataSlotWithHttpOperationResponse
+    id: >-
+      azure-arm-website.WebApps#getResourceHealthMetadataSlotWithHttpOperationResponse
+    parent: azure-arm-website.WebApps
+    name: >-
+      getResourceHealthMetadataSlotWithHttpOperationResponse(resourceGroupName,
+      name, slot, options)
+    summary: "Gets the category of ResourceHealthMetadata to use for the given\rsite\r\rGets the category of ResourceHealthMetadata to use for the given site"
+    fullName: >-
+      azure-arm-website.WebApps.getResourceHealthMetadataSlotWithHttpOperationResponse(resourceGroupName,
+      name, slot, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<ResourceHealthMetadata>} - The deserialized
+          result object.
+        value: >-
+          {HttpOperationResponse<ResourceHealthMetadata>} - The deserialized
+          result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of web app
+        - id: slot
+          type:
+            - string
+          description: "Name of web app slot. If not specified then will\rdefault to production slot."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function
+        getResourceHealthMetadataSlotWithHttpOperationResponse(resourceGroupName,
+        name, slot, options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#getResourceHealthMetadataSlot'
+    id: 'azure-arm-website.WebApps#getResourceHealthMetadataSlot'
+    parent: azure-arm-website.WebApps
+    name: >-
+      getResourceHealthMetadataSlot(resourceGroupName, name, slot, options,
+      optionalCallback)
+    summary: "Gets the category of ResourceHealthMetadata to use for the given\rsite\r\rGets the category of ResourceHealthMetadata to use for the given site"
+    fullName: >-
+      azure-arm-website.WebApps.getResourceHealthMetadataSlot(resourceGroupName,
+      name, slot, options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{ResourceHealthMetadata} - The deserialized result object.'
+        value: '{ResourceHealthMetadata} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceHealthMetadata} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link ResourceHealthMetadata} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of web app
+        - id: slot
+          type:
+            - string
+          description: "Name of web app slot. If not specified then will\rdefault to production slot."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function getResourceHealthMetadataSlot(resourceGroupName, name, slot,
+        options, optionalCallback)
+    langs:
+      - js
   - uid: 'azure-arm-website.WebApps#restartSlotWithHttpOperationResponse'
     id: 'azure-arm-website.WebApps#restartSlotWithHttpOperationResponse'
     parent: azure-arm-website.WebApps
@@ -32591,6 +33086,121 @@ items:
       content: >-
         function syncRepositorySlot(resourceGroupName, name, slot, options,
         optionalCallback)
+    langs:
+      - js
+  - uid: >-
+      azure-arm-website.WebApps#syncFunctionTriggersSlotWithHttpOperationResponse
+    id: >-
+      azure-arm-website.WebApps#syncFunctionTriggersSlotWithHttpOperationResponse
+    parent: azure-arm-website.WebApps
+    name: >-
+      syncFunctionTriggersSlotWithHttpOperationResponse(resourceGroupName, name,
+      slot, options)
+    summary: "Syncs function trigger metadata to the scale controller\r\rSyncs function trigger metadata to the scale controller"
+    fullName: >-
+      azure-arm-website.WebApps.syncFunctionTriggersSlotWithHttpOperationResponse(resourceGroupName,
+      name, slot, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{HttpOperationResponse<null>} - The deserialized result object.'
+        value: '{HttpOperationResponse<null>} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: slot
+          type:
+            - string
+          description: "Name of the deployment slot. If a slot is not\rspecified, the API will restore a backup of the production slot."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function
+        syncFunctionTriggersSlotWithHttpOperationResponse(resourceGroupName,
+        name, slot, options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#syncFunctionTriggersSlot'
+    id: 'azure-arm-website.WebApps#syncFunctionTriggersSlot'
+    parent: azure-arm-website.WebApps
+    name: >-
+      syncFunctionTriggersSlot(resourceGroupName, name, slot, options,
+      optionalCallback)
+    summary: "Syncs function trigger metadata to the scale controller\r\rSyncs function trigger metadata to the scale controller"
+    fullName: >-
+      azure-arm-website.WebApps.syncFunctionTriggersSlot(resourceGroupName,
+      name, slot, options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{null} - The deserialized result object.'
+        value: '{null} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: slot
+          type:
+            - string
+          description: "Name of the deployment slot. If a slot is not\rspecified, the API will restore a backup of the production slot."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function syncFunctionTriggersSlot(resourceGroupName, name, slot,
+        options, optionalCallback)
     langs:
       - js
   - uid: 'azure-arm-website.WebApps#listUsagesSlotWithHttpOperationResponse'
@@ -35032,6 +35642,109 @@ items:
         optionalCallback)
     langs:
       - js
+  - uid: 'azure-arm-website.WebApps#syncFunctionTriggersWithHttpOperationResponse'
+    id: 'azure-arm-website.WebApps#syncFunctionTriggersWithHttpOperationResponse'
+    parent: azure-arm-website.WebApps
+    name: >-
+      syncFunctionTriggersWithHttpOperationResponse(resourceGroupName, name,
+      options)
+    summary: "Syncs function trigger metadata to the scale controller\r\rSyncs function trigger metadata to the scale controller"
+    fullName: >-
+      azure-arm-website.WebApps.syncFunctionTriggersWithHttpOperationResponse(resourceGroupName,
+      name, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{HttpOperationResponse<null>} - The deserialized result object.'
+        value: '{HttpOperationResponse<null>} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function
+        syncFunctionTriggersWithHttpOperationResponse(resourceGroupName, name,
+        options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#syncFunctionTriggers'
+    id: 'azure-arm-website.WebApps#syncFunctionTriggers'
+    parent: azure-arm-website.WebApps
+    name: 'syncFunctionTriggers(resourceGroupName, name, options, optionalCallback)'
+    summary: "Syncs function trigger metadata to the scale controller\r\rSyncs function trigger metadata to the scale controller"
+    fullName: >-
+      azure-arm-website.WebApps.syncFunctionTriggers(resourceGroupName, name,
+      options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{null} - The deserialized result object.'
+        value: '{null} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {null} [result]   - The deserialized result object if an error did not occur.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: resourceGroupName
+          type:
+            - string
+          description: "Name of the resource group to which the\rresource belongs."
+        - id: name
+          type:
+            - string
+          description: Name of the app.
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function syncFunctionTriggers(resourceGroupName, name, options,
+        optionalCallback)
+    langs:
+      - js
   - uid: 'azure-arm-website.WebApps#listUsagesWithHttpOperationResponse'
     id: 'azure-arm-website.WebApps#listUsagesWithHttpOperationResponse'
     parent: azure-arm-website.WebApps
@@ -36810,6 +37523,11 @@ items:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
           optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
+          optional: true
         - id: siteEnvelope.name
           type:
             - string
@@ -37384,6 +38102,11 @@ items:
           type:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
+          optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
           optional: true
         - id: siteEnvelope.name
           type:
@@ -38863,6 +39586,11 @@ items:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
           optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
+          optional: true
         - id: siteEnvelope.name
           type:
             - string
@@ -39442,6 +40170,11 @@ items:
           type:
             - string
           description: "Name of\rTraffic Manager profile to create. This is only needed if Traffic Manager\rprofile does not already exist."
+          optional: true
+        - id: siteEnvelope.cloningInfo.ignoreQuotas
+          type:
+            - boolean
+          description: "<code>true</code>\rif quotas should be ignored; otherwise, <code>false</code>."
           optional: true
         - id: siteEnvelope.name
           type:
@@ -41044,6 +41777,100 @@ items:
       content: 'function listBackupsNext(nextPageLink, options, optionalCallback)'
     langs:
       - js
+  - uid: 'azure-arm-website.WebApps#listConfigurationsNextWithHttpOperationResponse'
+    id: 'azure-arm-website.WebApps#listConfigurationsNextWithHttpOperationResponse'
+    parent: azure-arm-website.WebApps
+    name: 'listConfigurationsNextWithHttpOperationResponse(nextPageLink, options)'
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsNextWithHttpOperationResponse(nextPageLink,
+      options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+        value: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: nextPageLink
+          type:
+            - string
+          description: "The NextLink from the previous successful call\rto List operation."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function listConfigurationsNextWithHttpOperationResponse(nextPageLink,
+        options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#listConfigurationsNext'
+    id: 'azure-arm-website.WebApps#listConfigurationsNext'
+    parent: azure-arm-website.WebApps
+    name: 'listConfigurationsNext(nextPageLink, options, optionalCallback)'
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsNext(nextPageLink, options,
+      optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{SiteConfigResourceCollection} - The deserialized result object.'
+        value: '{SiteConfigResourceCollection} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: nextPageLink
+          type:
+            - string
+          description: "The NextLink from the previous successful call\rto List operation."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: 'function listConfigurationsNext(nextPageLink, options, optionalCallback)'
+    langs:
+      - js
   - uid: 'azure-arm-website.WebApps#listDeploymentsNextWithHttpOperationResponse'
     id: 'azure-arm-website.WebApps#listDeploymentsNextWithHttpOperationResponse'
     parent: azure-arm-website.WebApps
@@ -42012,6 +42839,105 @@ items:
           - Promise
         description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
       content: 'function listBackupsSlotNext(nextPageLink, options, optionalCallback)'
+    langs:
+      - js
+  - uid: >-
+      azure-arm-website.WebApps#listConfigurationsSlotNextWithHttpOperationResponse
+    id: >-
+      azure-arm-website.WebApps#listConfigurationsSlotNextWithHttpOperationResponse
+    parent: azure-arm-website.WebApps
+    name: 'listConfigurationsSlotNextWithHttpOperationResponse(nextPageLink, options)'
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsSlotNextWithHttpOperationResponse(nextPageLink,
+      options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+        value: >-
+          {HttpOperationResponse<SiteConfigResourceCollection>} - The
+          deserialized result object.
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: nextPageLink
+          type:
+            - string
+          description: "The NextLink from the previous successful call\rto List operation."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function
+        listConfigurationsSlotNextWithHttpOperationResponse(nextPageLink,
+        options)
+    langs:
+      - js
+  - uid: 'azure-arm-website.WebApps#listConfigurationsSlotNext'
+    id: 'azure-arm-website.WebApps#listConfigurationsSlotNext'
+    parent: azure-arm-website.WebApps
+    name: 'listConfigurationsSlotNext(nextPageLink, options, optionalCallback)'
+    summary: "List the configurations of an app\r\rList the configurations of an app"
+    fullName: >-
+      azure-arm-website.WebApps.listConfigurationsSlotNext(nextPageLink,
+      options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{SiteConfigResourceCollection} - The deserialized result object.'
+        value: '{SiteConfigResourceCollection} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+        value: "{Error} - The error object.\r\r{function} optionalCallback(err, result, request, response)\r\r                     {Error}  err        - The Error object if an error occurred, null otherwise.\r\r                     {object} [result]   - The deserialized result object if an error did not occur.\r                     See {@link SiteConfigResourceCollection} for more\r                     information.\r\r                     {object} [request]  - The HTTP Request object if an error did not occur.\r\r                     {stream} [response] - The HTTP Response stream if an error did not occur."
+    type: Function
+    syntax:
+      parameters:
+        - id: nextPageLink
+          type:
+            - string
+          description: "The NextLink from the previous successful call\rto List operation."
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: "Headers that will be added to the\rrequest"
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: "If a callback was passed as the last parameter\rthen it returns the callback else returns a Promise.\r\r{Promise} A promise is returned"
+      content: >-
+        function listConfigurationsSlotNext(nextPageLink, options,
+        optionalCallback)
     langs:
       - js
   - uid: 'azure-arm-website.WebApps#listDeploymentsSlotNextWithHttpOperationResponse'

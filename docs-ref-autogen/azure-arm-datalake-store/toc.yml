@@ -52,10 +52,155 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-store.Account#listNext'
       name: listNext
+- uid: azure-arm-datalake-store.AclStatus
+  name: AclStatus
+  items:
+    - uid: 'azure-arm-datalake-store.AclStatus#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AclStatusResult
+  name: AclStatusResult
+  items:
+    - uid: 'azure-arm-datalake-store.AclStatusResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsAccessControlException
+  name: AdlsAccessControlException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsAccessControlException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsBadOffsetException
+  name: AdlsBadOffsetException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsBadOffsetException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsError
+  name: AdlsError
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsError#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsFileAlreadyExistsException
+  name: AdlsFileAlreadyExistsException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsFileAlreadyExistsException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsFileNotFoundException
+  name: AdlsFileNotFoundException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsFileNotFoundException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsIllegalArgumentException
+  name: AdlsIllegalArgumentException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsIllegalArgumentException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsIOException
+  name: AdlsIOException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsIOException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsRemoteException
+  name: AdlsRemoteException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsRemoteException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsRuntimeException
+  name: AdlsRuntimeException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsRuntimeException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsSecurityException
+  name: AdlsSecurityException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsSecurityException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsThrottledException
+  name: AdlsThrottledException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsThrottledException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.AdlsUnsupportedOperationException
+  name: AdlsUnsupportedOperationException
+  items:
+    - uid: 'azure-arm-datalake-store.AdlsUnsupportedOperationException#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.ContentSummary
+  name: ContentSummary
+  items:
+    - uid: 'azure-arm-datalake-store.ContentSummary#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.ContentSummaryResult
+  name: ContentSummaryResult
+  items:
+    - uid: 'azure-arm-datalake-store.ContentSummaryResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.DataLakeStoreAccount
+  name: DataLakeStoreAccount
+  items:
+    - uid: 'azure-arm-datalake-store.DataLakeStoreAccount#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.DataLakeStoreAccountListResult
+  name: DataLakeStoreAccountListResult
+  items:
+    - uid: 'azure-arm-datalake-store.DataLakeStoreAccountListResult#mapper'
+      name: mapper
 - uid: azure-arm-datalake-store.DataLakeStoreAccountManagementClient
   name: DataLakeStoreAccountManagementClient
+- uid: azure-arm-datalake-store.DataLakeStoreAccountUpdateParameters
+  name: DataLakeStoreAccountUpdateParameters
+  items:
+    - uid: 'azure-arm-datalake-store.DataLakeStoreAccountUpdateParameters#mapper'
+      name: mapper
 - uid: azure-arm-datalake-store.DataLakeStoreFileSystemManagementClient
   name: DataLakeStoreFileSystemManagementClient
+- uid: azure-arm-datalake-store.DataLakeStoreFirewallRuleListResult
+  name: DataLakeStoreFirewallRuleListResult
+  items:
+    - uid: 'azure-arm-datalake-store.DataLakeStoreFirewallRuleListResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.DataLakeStoreTrustedIdProviderListResult
+  name: DataLakeStoreTrustedIdProviderListResult
+  items:
+    - uid: 'azure-arm-datalake-store.DataLakeStoreTrustedIdProviderListResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.EncryptionConfig
+  name: EncryptionConfig
+  items:
+    - uid: 'azure-arm-datalake-store.EncryptionConfig#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.EncryptionIdentity
+  name: EncryptionIdentity
+  items:
+    - uid: 'azure-arm-datalake-store.EncryptionIdentity#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.ErrorDetails
+  name: ErrorDetails
+  items:
+    - uid: 'azure-arm-datalake-store.ErrorDetails#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.FileOperationResult
+  name: FileOperationResult
+  items:
+    - uid: 'azure-arm-datalake-store.FileOperationResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.FileStatuses
+  name: FileStatuses
+  items:
+    - uid: 'azure-arm-datalake-store.FileStatuses#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.FileStatusesResult
+  name: FileStatusesResult
+  items:
+    - uid: 'azure-arm-datalake-store.FileStatusesResult#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.FileStatusProperties
+  name: FileStatusProperties
+  items:
+    - uid: 'azure-arm-datalake-store.FileStatusProperties#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.FileStatusResult
+  name: FileStatusResult
+  items:
+    - uid: 'azure-arm-datalake-store.FileStatusResult#mapper'
+      name: mapper
 - uid: azure-arm-datalake-store.FileSystem
   name: FileSystem
   items:
@@ -158,6 +303,11 @@
       name: setPermissionWithHttpOperationResponse
     - uid: 'azure-arm-datalake-store.FileSystem#setPermission'
       name: setPermission
+- uid: azure-arm-datalake-store.FirewallRule
+  name: FirewallRule
+  items:
+    - uid: 'azure-arm-datalake-store.FirewallRule#mapper'
+      name: mapper
 - uid: azure-arm-datalake-store.FirewallRules
   name: FirewallRules
   items:
@@ -189,6 +339,26 @@
       name: listByAccountNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-store.FirewallRules#listByAccountNext'
       name: listByAccountNext
+- uid: azure-arm-datalake-store.KeyVaultMetaInfo
+  name: KeyVaultMetaInfo
+  items:
+    - uid: 'azure-arm-datalake-store.KeyVaultMetaInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-datalake-store.Resource#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.SubResource
+  name: SubResource
+  items:
+    - uid: 'azure-arm-datalake-store.SubResource#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.TrustedIdProvider
+  name: TrustedIdProvider
+  items:
+    - uid: 'azure-arm-datalake-store.TrustedIdProvider#mapper'
+      name: mapper
 - uid: azure-arm-datalake-store.TrustedIdProviders
   name: TrustedIdProviders
   items:
@@ -221,3 +391,23 @@
       name: listByAccountNextWithHttpOperationResponse
     - uid: 'azure-arm-datalake-store.TrustedIdProviders#listByAccountNext'
       name: listByAccountNext
+- uid: azure-arm-datalake-store.UpdateEncryptionConfig
+  name: UpdateEncryptionConfig
+  items:
+    - uid: 'azure-arm-datalake-store.UpdateEncryptionConfig#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.UpdateFirewallRuleParameters
+  name: UpdateFirewallRuleParameters
+  items:
+    - uid: 'azure-arm-datalake-store.UpdateFirewallRuleParameters#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.UpdateKeyVaultMetaInfo
+  name: UpdateKeyVaultMetaInfo
+  items:
+    - uid: 'azure-arm-datalake-store.UpdateKeyVaultMetaInfo#mapper'
+      name: mapper
+- uid: azure-arm-datalake-store.UpdateTrustedIdProviderParameters
+  name: UpdateTrustedIdProviderParameters
+  items:
+    - uid: 'azure-arm-datalake-store.UpdateTrustedIdProviderParameters#mapper'
+      name: mapper

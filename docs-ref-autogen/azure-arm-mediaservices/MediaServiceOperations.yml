@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-mediaservices.MediaServiceOperations
     id: azure-arm-mediaservices.MediaServiceOperations
     name: MediaServiceOperations
-    summary: "MediaServiceOperations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the MediaServicesManagementClient.\rInitializes a new instance of the MediaServiceOperations class."
+    summary: Class representing a MediaServiceOperations.
     fullName: azure-arm-mediaservices.MediaServiceOperations
     source:
       id: azure-arm-mediaservices.MediaServiceOperations
       path: >-
         lib\services\mediaServicesManagement\lib\operations\mediaServiceOperations.js
-      startLine: 1529
+      startLine: 1520
       remote:
         branch: jsdoc
         path: >-
@@ -53,7 +53,7 @@ items:
     name: MediaServiceOperations(client)
     fullName: >-
       azure-arm-mediaservices.MediaServiceOperations.MediaServiceOperations(client)
-    summary: ''
+    summary: Create a MediaServiceOperations.
     type: Constructor
     syntax:
       parameters:

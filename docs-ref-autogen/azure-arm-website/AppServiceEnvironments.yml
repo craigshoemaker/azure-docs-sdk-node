@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-website.AppServiceEnvironments
     id: azure-arm-website.AppServiceEnvironments
     name: AppServiceEnvironments
-    summary: "AppServiceEnvironments\r__NOTE__: An instance of this class is automatically created for an\rinstance of the WebSiteManagementClient.\rInitializes a new instance of the AppServiceEnvironments class."
+    summary: Class representing a AppServiceEnvironments.
     fullName: azure-arm-website.AppServiceEnvironments
     source:
       id: azure-arm-website.AppServiceEnvironments
       path: lib\services\webSiteManagement2\lib\operations\appServiceEnvironments.js
-      startLine: 10230
+      startLine: 10213
       remote:
         branch: jsdoc
         path: >-
@@ -231,7 +231,7 @@ items:
     parent: azure-arm-website.AppServiceEnvironments
     name: AppServiceEnvironments(client)
     fullName: azure-arm-website.AppServiceEnvironments.AppServiceEnvironments(client)
-    summary: ''
+    summary: Create a AppServiceEnvironments.
     type: Constructor
     syntax:
       parameters:
@@ -632,11 +632,6 @@ items:
             - array
           description: "Access\rcontrol list for controlling traffic to the App Service Environment."
           optional: true
-        - id: hostingEnvironmentEnvelope.appServiceEnvironmentResourceKind
-          type:
-            - string
-          description: "Kind of the\rapp service environment"
-          optional: true
         - id: hostingEnvironmentEnvelope.frontEndScaleFactor
           type:
             - number
@@ -809,11 +804,6 @@ items:
           type:
             - array
           description: "Access\rcontrol list for controlling traffic to the App Service Environment."
-          optional: true
-        - id: hostingEnvironmentEnvelope.appServiceEnvironmentResourceKind
-          type:
-            - string
-          description: "Kind of the\rapp service environment"
           optional: true
         - id: hostingEnvironmentEnvelope.frontEndScaleFactor
           type:
@@ -5142,11 +5132,6 @@ items:
             - array
           description: "Access\rcontrol list for controlling traffic to the App Service Environment."
           optional: true
-        - id: hostingEnvironmentEnvelope.appServiceEnvironmentResourceKind
-          type:
-            - string
-          description: "Kind of the\rapp service environment"
-          optional: true
         - id: hostingEnvironmentEnvelope.frontEndScaleFactor
           type:
             - number
@@ -5319,11 +5304,6 @@ items:
           type:
             - array
           description: "Access\rcontrol list for controlling traffic to the App Service Environment."
-          optional: true
-        - id: hostingEnvironmentEnvelope.appServiceEnvironmentResourceKind
-          type:
-            - string
-          description: "Kind of the\rapp service environment"
           optional: true
         - id: hostingEnvironmentEnvelope.frontEndScaleFactor
           type:

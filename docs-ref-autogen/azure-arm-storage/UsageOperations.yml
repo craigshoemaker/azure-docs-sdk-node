@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-storage.UsageOperations
     id: azure-arm-storage.UsageOperations
     name: UsageOperations
-    summary: "UsageOperations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the StorageManagementClient.\rInitializes a new instance of the UsageOperations class."
+    summary: Class representing a UsageOperations.
     fullName: azure-arm-storage.UsageOperations
     source:
       id: azure-arm-storage.UsageOperations
       path: lib\services\storageManagement2\lib\operations\usageOperations.js
-      startLine: 161
+      startLine: 152
       remote:
         branch: jsdoc
         path: lib\services\storageManagement2\lib\operations\usageOperations.js
@@ -25,7 +25,7 @@ items:
     parent: azure-arm-storage.UsageOperations
     name: UsageOperations(client)
     fullName: azure-arm-storage.UsageOperations.UsageOperations(client)
-    summary: ''
+    summary: Create a UsageOperations.
     type: Constructor
     syntax:
       parameters:

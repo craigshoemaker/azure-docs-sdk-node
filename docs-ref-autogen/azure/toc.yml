@@ -111,10 +111,6 @@
       name: createInsightsManagementClient
     - uid: azure._global.createInsightsClient
       name: createInsightsClient
-    - uid: azure._global.createMonitorManagementClient
-      name: createMonitorManagementClient
-    - uid: azure._global.createMonitorClient
-      name: createMonitorClient
     - uid: azure._global.createDataLakeAnalyticsJobManagementClient
       name: createDataLakeAnalyticsJobManagementClient
     - uid: azure._global.createDataLakeAnalyticsCatalogManagementClient

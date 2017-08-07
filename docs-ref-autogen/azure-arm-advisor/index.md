@@ -2,7 +2,15 @@
 ## Classes
 | Class Name | Description |
 |---|---|
-| @azure-arm-advisor.Suppressions |Suppressions __NOTE__: An instance of this class is automatically created for an instance of the AdvisorManagementClient. Initializes a new instance of the Suppressions class.|
-| @azure-arm-advisor.Recommendations |Recommendations __NOTE__: An instance of this class is automatically created for an instance of the AdvisorManagementClient. Initializes a new instance of the Recommendations class.|
-| @azure-arm-advisor.Operations |Operations __NOTE__: An instance of this class is automatically created for an instance of the AdvisorManagementClient. Initializes a new instance of the Operations class.|
-| @azure-arm-advisor.AdvisorManagementClient |Initializes a new instance of the AdvisorManagementClient class.|
+| @azure-arm-advisor.Suppressions |Class representing a Suppressions.|
+| @azure-arm-advisor.Recommendations |Class representing a Recommendations.|
+| @azure-arm-advisor.Operations |Class representing a Operations.|
+| @azure-arm-advisor.SuppressionContract |The details of the snoozed or dismissed rule; for example, the duration, name, and GUID associated with the rule.|
+| @azure-arm-advisor.ShortDescription |A summary of the recommendation.|
+| @azure-arm-advisor.ResourceRecommendationBaseListResult |The list of Advisor recommendations.|
+| @azure-arm-advisor.ResourceRecommendationBase |Advisor Recommendation.|
+| @azure-arm-advisor.Resource |An Azure resource.|
+| @azure-arm-advisor.OperationEntityListResult |The list of Advisor operations.|
+| @azure-arm-advisor.OperationEntity |The operation supported by Advisor.|
+| @azure-arm-advisor.OperationDisplayInfo |The operation supported by Advisor.|
+| @azure-arm-advisor.AdvisorManagementClient |Class representing a AdvisorManagementClient.|

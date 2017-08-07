@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.Resources
     id: azure-arm-resource.Resources
     name: Resources
-    summary: "Resources\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ResourceManagementClient.\rInitializes a new instance of the Resources class."
+    summary: Class representing a Resources.
     fullName: azure-arm-resource.Resources
     source:
       id: azure-arm-resource.Resources
       path: lib\services\resourceManagement\lib\resource\operations\resources.js
-      startLine: 2307
+      startLine: 2298
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\resource\operations\resources.js
@@ -57,7 +57,7 @@ items:
     parent: azure-arm-resource.Resources
     name: Resources(client)
     fullName: azure-arm-resource.Resources.Resources(client)
-    summary: ''
+    summary: Create a Resources.
     type: Constructor
     syntax:
       parameters:

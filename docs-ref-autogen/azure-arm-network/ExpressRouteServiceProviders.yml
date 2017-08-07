@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-network.ExpressRouteServiceProviders
     id: azure-arm-network.ExpressRouteServiceProviders
     name: ExpressRouteServiceProviders
-    summary: "ExpressRouteServiceProviders\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the ExpressRouteServiceProviders class."
+    summary: Class representing a ExpressRouteServiceProviders.
     fullName: azure-arm-network.ExpressRouteServiceProviders
     source:
       id: azure-arm-network.ExpressRouteServiceProviders
       path: >-
         lib\services\networkManagement2\lib\operations\expressRouteServiceProviders.js
-      startLine: 287
+      startLine: 278
       remote:
         branch: jsdoc
         path: >-
@@ -32,7 +32,7 @@ items:
     name: ExpressRouteServiceProviders(client)
     fullName: >-
       azure-arm-network.ExpressRouteServiceProviders.ExpressRouteServiceProviders(client)
-    summary: ''
+    summary: Create a ExpressRouteServiceProviders.
     type: Constructor
     syntax:
       parameters:

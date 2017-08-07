@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-compute.VirtualMachineScaleSetExtensions
     id: azure-arm-compute.VirtualMachineScaleSetExtensions
     name: VirtualMachineScaleSetExtensions
-    summary: "VirtualMachineScaleSetExtensions\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ComputeManagementClient.\rInitializes a new instance of the VirtualMachineScaleSetExtensions class."
+    summary: Class representing a VirtualMachineScaleSetExtensions.
     fullName: azure-arm-compute.VirtualMachineScaleSetExtensions
     source:
       id: azure-arm-compute.VirtualMachineScaleSetExtensions
       path: >-
         lib\services\computeManagement2\lib\operations\virtualMachineScaleSetExtensions.js
-      startLine: 1007
+      startLine: 998
       remote:
         branch: jsdoc
         path: >-
@@ -47,7 +47,7 @@ items:
     name: VirtualMachineScaleSetExtensions(client)
     fullName: >-
       azure-arm-compute.VirtualMachineScaleSetExtensions.VirtualMachineScaleSetExtensions(client)
-    summary: ''
+    summary: Create a VirtualMachineScaleSetExtensions.
     type: Constructor
     syntax:
       parameters:

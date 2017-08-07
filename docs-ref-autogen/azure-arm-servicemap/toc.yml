@@ -1,5 +1,33 @@
-- uid: azure-arm-servicemap.Base for all resource summaries.
-  name: Base for all resource summaries.
+- uid: azure-arm-servicemap.Acceptor
+  name: Acceptor
+  items:
+    - uid: 'azure-arm-servicemap.Acceptor#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.AgentConfiguration
+  name: AgentConfiguration
+  items:
+    - uid: 'azure-arm-servicemap.AgentConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ClientGroup
+  name: ClientGroup
+  items:
+    - uid: 'azure-arm-servicemap.ClientGroup#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ClientGroupMember
+  name: ClientGroupMember
+  items:
+    - uid: 'azure-arm-servicemap.ClientGroupMember#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ClientGroupMembersCollection
+  name: ClientGroupMembersCollection
+  items:
+    - uid: 'azure-arm-servicemap.ClientGroupMembersCollection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ClientGroupMembersCount
+  name: ClientGroupMembersCount
+  items:
+    - uid: 'azure-arm-servicemap.ClientGroupMembersCount#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.ClientGroups
   name: ClientGroups
   items:
@@ -21,6 +49,81 @@
       name: listMembersNextWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.ClientGroups#listMembersNext'
       name: listMembersNext
+- uid: azure-arm-servicemap.Connection
+  name: Connection
+  items:
+    - uid: 'azure-arm-servicemap.Connection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ConnectionCollection
+  name: ConnectionCollection
+  items:
+    - uid: 'azure-arm-servicemap.ConnectionCollection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.CoreResource
+  name: CoreResource
+  items:
+    - uid: 'azure-arm-servicemap.CoreResource#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ErrorModel
+  name: ErrorModel
+  items:
+    - uid: 'azure-arm-servicemap.ErrorModel#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ErrorResponse
+  name: ErrorResponse
+  items:
+    - uid: 'azure-arm-servicemap.ErrorResponse#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.HypervisorConfiguration
+  name: HypervisorConfiguration
+  items:
+    - uid: 'azure-arm-servicemap.HypervisorConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Ipv4NetworkInterface
+  name: Ipv4NetworkInterface
+  items:
+    - uid: 'azure-arm-servicemap.Ipv4NetworkInterface#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Ipv6NetworkInterface
+  name: Ipv6NetworkInterface
+  items:
+    - uid: 'azure-arm-servicemap.Ipv6NetworkInterface#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Liveness
+  name: Liveness
+  items:
+    - uid: 'azure-arm-servicemap.Liveness#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Machine
+  name: Machine
+  items:
+    - uid: 'azure-arm-servicemap.Machine#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineCollection
+  name: MachineCollection
+  items:
+    - uid: 'azure-arm-servicemap.MachineCollection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineCountsByOperatingSystem
+  name: MachineCountsByOperatingSystem
+  items:
+    - uid: 'azure-arm-servicemap.MachineCountsByOperatingSystem#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineGroup
+  name: MachineGroup
+  items:
+    - uid: 'azure-arm-servicemap.MachineGroup#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineGroupCollection
+  name: MachineGroupCollection
+  items:
+    - uid: 'azure-arm-servicemap.MachineGroupCollection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineGroupMapRequest
+  name: MachineGroupMapRequest
+  items:
+    - uid: 'azure-arm-servicemap.MachineGroupMapRequest#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.MachineGroups
   name: MachineGroups
   items:
@@ -50,6 +153,21 @@
       name: listByWorkspaceNextWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.MachineGroups#listByWorkspaceNext'
       name: listByWorkspaceNext
+- uid: azure-arm-servicemap.MachineReference
+  name: MachineReference
+  items:
+    - uid: 'azure-arm-servicemap.MachineReference#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineReferenceWithHints
+  name: MachineReferenceWithHints
+  items:
+    - uid: 'azure-arm-servicemap.MachineReferenceWithHints#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MachineResourcesConfiguration
+  name: MachineResourcesConfiguration
+  items:
+    - uid: 'azure-arm-servicemap.MachineResourcesConfiguration#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.Machines
   name: Machines
   items:
@@ -105,6 +223,36 @@
       name: listMachineGroupMembershipNextWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.Machines#listMachineGroupMembershipNext'
       name: listMachineGroupMembershipNext
+- uid: azure-arm-servicemap.MachinesSummary
+  name: MachinesSummary
+  items:
+    - uid: 'azure-arm-servicemap.MachinesSummary#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Map
+  name: Map
+  items:
+    - uid: 'azure-arm-servicemap.Map#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MapEdges
+  name: MapEdges
+  items:
+    - uid: 'azure-arm-servicemap.MapEdges#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MapNodes
+  name: MapNodes
+  items:
+    - uid: 'azure-arm-servicemap.MapNodes#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MapRequest
+  name: MapRequest
+  items:
+    - uid: 'azure-arm-servicemap.MapRequest#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.MapResponse
+  name: MapResponse
+  items:
+    - uid: 'azure-arm-servicemap.MapResponse#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.Maps
   name: Maps
   items:
@@ -112,6 +260,31 @@
       name: generateWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.Maps#generate'
       name: generate
+- uid: azure-arm-servicemap.NetworkConfiguration
+  name: NetworkConfiguration
+  items:
+    - uid: 'azure-arm-servicemap.NetworkConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.OperatingSystemConfiguration
+  name: OperatingSystemConfiguration
+  items:
+    - uid: 'azure-arm-servicemap.OperatingSystemConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Port
+  name: Port
+  items:
+    - uid: 'azure-arm-servicemap.Port#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.PortCollection
+  name: PortCollection
+  items:
+    - uid: 'azure-arm-servicemap.PortCollection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.PortReference
+  name: PortReference
+  items:
+    - uid: 'azure-arm-servicemap.PortReference#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.Ports
   name: Ports
   items:
@@ -141,6 +314,21 @@
       name: listConnectionsNextWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.Ports#listConnectionsNext'
       name: listConnectionsNext
+- uid: azure-arm-servicemap.Process
+  name: Process
+  items:
+    - uid: 'azure-arm-servicemap.Process#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ProcessCollection
+  name: ProcessCollection
+  items:
+    - uid: 'azure-arm-servicemap.ProcessCollection#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ProcessDetails
+  name: ProcessDetails
+  items:
+    - uid: 'azure-arm-servicemap.ProcessDetails#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.Processes
   name: Processes
   items:
@@ -171,10 +359,45 @@
       name: listConnectionsNextWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.Processes#listConnectionsNext'
       name: listConnectionsNext
-- uid: azure-arm-servicemap.Reference to a machine.
-  name: Reference to a machine.
+- uid: azure-arm-servicemap.ProcessReference
+  name: ProcessReference
+  items:
+    - uid: 'azure-arm-servicemap.ProcessReference#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ProcessUser
+  name: ProcessUser
+  items:
+    - uid: 'azure-arm-servicemap.ProcessUser#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Relationship
+  name: Relationship
+  items:
+    - uid: 'azure-arm-servicemap.Relationship#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.RelationshipProperties
+  name: RelationshipProperties
+  items:
+    - uid: 'azure-arm-servicemap.RelationshipProperties#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-servicemap.Resource#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ResourceReference
+  name: ResourceReference
+  items:
+    - uid: 'azure-arm-servicemap.ResourceReference#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.ServiceMap
+  name: ServiceMap
 - uid: azure-arm-servicemap.ServicemapManagementClient
   name: ServicemapManagementClient
+- uid: azure-arm-servicemap.SingleMachineDependencyMapRequest
+  name: SingleMachineDependencyMapRequest
+  items:
+    - uid: 'azure-arm-servicemap.SingleMachineDependencyMapRequest#mapper'
+      name: mapper
 - uid: azure-arm-servicemap.Summaries
   name: Summaries
   items:
@@ -182,3 +405,23 @@
       name: getMachinesWithHttpOperationResponse
     - uid: 'azure-arm-servicemap.Summaries#getMachines'
       name: getMachines
+- uid: azure-arm-servicemap.Summary
+  name: Summary
+  items:
+    - uid: 'azure-arm-servicemap.Summary#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.SummaryProperties
+  name: SummaryProperties
+  items:
+    - uid: 'azure-arm-servicemap.SummaryProperties#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.Timezone
+  name: Timezone
+  items:
+    - uid: 'azure-arm-servicemap.Timezone#mapper'
+      name: mapper
+- uid: azure-arm-servicemap.VirtualMachineConfiguration
+  name: VirtualMachineConfiguration
+  items:
+    - uid: 'azure-arm-servicemap.VirtualMachineConfiguration#mapper'
+      name: mapper

@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-resource.PolicyAssignments
     id: azure-arm-resource.PolicyAssignments
     name: PolicyAssignments
-    summary: "PolicyAssignments\r__NOTE__: An instance of this class is automatically created for an\rinstance of the PolicyClient.\rInitializes a new instance of the PolicyAssignments class."
+    summary: Class representing a PolicyAssignments.
     fullName: azure-arm-resource.PolicyAssignments
     source:
       id: azure-arm-resource.PolicyAssignments
       path: >-
         lib\services\resourceManagement\lib\policy\operations\policyAssignments.js
-      startLine: 1849
+      startLine: 1840
       remote:
         branch: jsdoc
         path: >-
@@ -54,7 +54,7 @@ items:
     parent: azure-arm-resource.PolicyAssignments
     name: PolicyAssignments(client)
     fullName: azure-arm-resource.PolicyAssignments.PolicyAssignments(client)
-    summary: ''
+    summary: Create a PolicyAssignments.
     type: Constructor
     syntax:
       parameters:

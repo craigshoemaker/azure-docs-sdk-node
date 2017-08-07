@@ -3,13 +3,13 @@ items:
   - uid: azure-arm-network.VirtualNetworkGatewayConnections
     id: azure-arm-network.VirtualNetworkGatewayConnections
     name: VirtualNetworkGatewayConnections
-    summary: "VirtualNetworkGatewayConnections\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the VirtualNetworkGatewayConnections class."
+    summary: Class representing a VirtualNetworkGatewayConnections.
     fullName: azure-arm-network.VirtualNetworkGatewayConnections
     source:
       id: azure-arm-network.VirtualNetworkGatewayConnections
       path: >-
         lib\services\networkManagement2\lib\operations\virtualNetworkGatewayConnections.js
-      startLine: 1898
+      startLine: 1865
       remote:
         branch: jsdoc
         path: >-
@@ -62,7 +62,7 @@ items:
     name: VirtualNetworkGatewayConnections(client)
     fullName: >-
       azure-arm-network.VirtualNetworkGatewayConnections.VirtualNetworkGatewayConnections(client)
-    summary: ''
+    summary: Create a VirtualNetworkGatewayConnections.
     type: Constructor
     syntax:
       parameters:
@@ -200,26 +200,10 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: >-
-            parameters.virtualNetworkGateway2.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.virtualNetworkGateway2.bgpSettings
           type:
             - object
           description: "Virtual\rnetwork gateway's BGP speaker settings."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusServer
-          type:
-            - string
-          description: "The radius\rserver address property of the VirtualNetworkGateway resource for vpn client\rconnection."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusSecret
-          type:
-            - string
-          description: "The radius\rsecret property of the VirtualNetworkGateway resource for vpn client\rconnection."
           optional: true
         - id: parameters.virtualNetworkGateway2.resourceGuid
           type:
@@ -517,26 +501,10 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: >-
-            parameters.virtualNetworkGateway2.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.virtualNetworkGateway2.bgpSettings
           type:
             - object
           description: "Virtual\rnetwork gateway's BGP speaker settings."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusServer
-          type:
-            - string
-          description: "The radius\rserver address property of the VirtualNetworkGateway resource for vpn client\rconnection."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusSecret
-          type:
-            - string
-          description: "The radius\rsecret property of the VirtualNetworkGateway resource for vpn client\rconnection."
           optional: true
         - id: parameters.virtualNetworkGateway2.resourceGuid
           type:
@@ -1526,26 +1494,10 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: >-
-            parameters.virtualNetworkGateway2.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.virtualNetworkGateway2.bgpSettings
           type:
             - object
           description: "Virtual\rnetwork gateway's BGP speaker settings."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusServer
-          type:
-            - string
-          description: "The radius\rserver address property of the VirtualNetworkGateway resource for vpn client\rconnection."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusSecret
-          type:
-            - string
-          description: "The radius\rsecret property of the VirtualNetworkGateway resource for vpn client\rconnection."
           optional: true
         - id: parameters.virtualNetworkGateway2.resourceGuid
           type:
@@ -1844,26 +1796,10 @@ items:
             - array
           description: VpnClientRevokedCertificate for Virtual network gateway.
           optional: true
-        - id: >-
-            parameters.virtualNetworkGateway2.vpnClientConfiguration.vpnClientProtocols
-          type:
-            - array
-          description: VpnClientProtocols for Virtual network gateway.
-          optional: true
         - id: parameters.virtualNetworkGateway2.bgpSettings
           type:
             - object
           description: "Virtual\rnetwork gateway's BGP speaker settings."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusServer
-          type:
-            - string
-          description: "The radius\rserver address property of the VirtualNetworkGateway resource for vpn client\rconnection."
-          optional: true
-        - id: parameters.virtualNetworkGateway2.radiusSecret
-          type:
-            - string
-          description: "The radius\rsecret property of the VirtualNetworkGateway resource for vpn client\rconnection."
           optional: true
         - id: parameters.virtualNetworkGateway2.resourceGuid
           type:

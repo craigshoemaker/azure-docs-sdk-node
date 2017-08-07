@@ -2,8 +2,18 @@
 ## Classes
 | Class Name | Description |
 |---|---|
-| @azure-arm-trafficmanager.TrafficManagerManagementClient |Initializes a new instance of the TrafficManagerManagementClient class.|
-| @azure-arm-trafficmanager.Profiles |Profiles __NOTE__: An instance of this class is automatically created for an instance of the TrafficManagerManagementClient. Initializes a new instance of the Profiles class.|
-| @azure-arm-trafficmanager.GeographicHierarchies |GeographicHierarchies __NOTE__: An instance of this class is automatically created for an instance of the TrafficManagerManagementClient. Initializes a new instance of the GeographicHierarchies class.|
-| @azure-arm-trafficmanager.Endpoints |Endpoints __NOTE__: An instance of this class is automatically created for an instance of the TrafficManagerManagementClient. Initializes a new instance of the Endpoints class.|
-| @azure-arm-trafficmanager.The list Traffic Manager profiles operation response. |Initializes a new instance of the ProfileListResult class.|
+| @azure-arm-trafficmanager.TrafficManagerManagementClient |Class representing a TrafficManagerManagementClient.|
+| @azure-arm-trafficmanager.Profiles |Class representing a Profiles.|
+| @azure-arm-trafficmanager.GeographicHierarchies |Class representing a GeographicHierarchies.|
+| @azure-arm-trafficmanager.Endpoints |Class representing a Endpoints.|
+| @azure-arm-trafficmanager.TrafficManagerNameAvailability |Class representing a Traffic Manager Name Availability response.|
+| @azure-arm-trafficmanager.TrafficManagerGeographicHierarchy |Class representing the Geographic hierarchy used with the Geographic traffic routing method.|
+| @azure-arm-trafficmanager.Resource |The Resource model definition.|
+| @azure-arm-trafficmanager.Region |Class representing a region in the Geographic hierarchy used with the Geographic traffic routing method.|
+| @azure-arm-trafficmanager.ProfileListResult |The list Traffic Manager profiles operation response.|
+| @azure-arm-trafficmanager.Profile |Class representing a Traffic Manager profile.|
+| @azure-arm-trafficmanager.MonitorConfig |Class containing endpoint monitoring settings in a Traffic Manager profile.|
+| @azure-arm-trafficmanager.Endpoint |Class representing a Traffic Manager endpoint.|
+| @azure-arm-trafficmanager.DnsConfig |Class containing DNS settings in a Traffic Manager profile.|
+| @azure-arm-trafficmanager.DeleteOperationResult |The result of the request or operation.|
+| @azure-arm-trafficmanager.CheckTrafficManagerRelativeDnsNameAvailabilityParameters |Parameters supplied to check Traffic Manager name operation.|

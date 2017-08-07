@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.ManagementLinkClient
     id: azure-arm-resource.ManagementLinkClient
     name: ManagementLinkClient
-    summary: Initializes a new instance of the ManagementLinkClient class.
+    summary: Class representing a ManagementLinkClient.
     fullName: azure-arm-resource.ManagementLinkClient
     source:
       id: azure-arm-resource.ManagementLinkClient
       path: lib\services\resourceManagement\lib\link\managementLinkClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\link\managementLinkClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-resource.ManagementLinkClient.ManagementLinkClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a ManagementLinkClient.
     type: Constructor
     syntax:
       parameters:

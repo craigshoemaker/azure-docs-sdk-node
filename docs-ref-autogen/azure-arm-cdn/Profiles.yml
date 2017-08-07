@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-cdn.Profiles
     id: azure-arm-cdn.Profiles
     name: Profiles
-    summary: "Profiles\r__NOTE__: An instance of this class is automatically created for an\rinstance of the CdnManagementClient.\rInitializes a new instance of the Profiles class."
+    summary: Class representing a Profiles.
     fullName: azure-arm-cdn.Profiles
     source:
       id: azure-arm-cdn.Profiles
       path: lib\services\cdnManagement\lib\operations\profiles.js
-      startLine: 2020
+      startLine: 2011
       remote:
         branch: jsdoc
         path: lib\services\cdnManagement\lib\operations\profiles.js
@@ -51,7 +51,7 @@ items:
     parent: azure-arm-cdn.Profiles
     name: Profiles(client)
     fullName: azure-arm-cdn.Profiles.Profiles(client)
-    summary: ''
+    summary: Create a Profiles.
     type: Constructor
     syntax:
       parameters:

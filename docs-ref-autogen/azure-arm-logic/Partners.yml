@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-logic.Partners
     id: azure-arm-logic.Partners
     name: Partners
-    summary: "Partners\r__NOTE__: An instance of this class is automatically created for an\rinstance of the LogicManagementClient.\rInitializes a new instance of the Partners class."
+    summary: Class representing a Partners.
     fullName: azure-arm-logic.Partners
     source:
       id: azure-arm-logic.Partners
       path: lib\services\logicManagement\lib\operations\partners.js
-      startLine: 809
+      startLine: 800
       remote:
         branch: jsdoc
         path: lib\services\logicManagement\lib\operations\partners.js
@@ -35,7 +35,7 @@ items:
     parent: azure-arm-logic.Partners
     name: Partners(client)
     fullName: azure-arm-logic.Partners.Partners(client)
-    summary: ''
+    summary: Create a Partners.
     type: Constructor
     syntax:
       parameters:

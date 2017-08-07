@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.Usages
     id: azure-arm-network.Usages
     name: Usages
-    summary: "Usages\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the Usages class."
+    summary: Class representing a Usages.
     fullName: azure-arm-network.Usages
     source:
       id: azure-arm-network.Usages
       path: lib\services\networkManagement2\lib\operations\usages.js
-      startLine: 297
+      startLine: 288
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\usages.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-network.Usages
     name: Usages(client)
     fullName: azure-arm-network.Usages.Usages(client)
-    summary: ''
+    summary: Create a Usages.
     type: Constructor
     syntax:
       parameters:

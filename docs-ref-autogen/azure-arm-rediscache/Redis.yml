@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-rediscache.Redis
     id: azure-arm-rediscache.Redis
     name: Redis
-    summary: "Redis\r__NOTE__: An instance of this class is automatically created for an\rinstance of the RedisManagementClient.\rInitializes a new instance of the Redis class."
+    summary: Class representing a Redis.
     fullName: azure-arm-rediscache.Redis
     source:
       id: azure-arm-rediscache.Redis
       path: lib\services\rediscachemanagement\lib\operations\redis.js
-      startLine: 2364
+      startLine: 2355
       remote:
         branch: jsdoc
         path: lib\services\rediscachemanagement\lib\operations\redis.js
@@ -58,7 +58,7 @@ items:
     parent: azure-arm-rediscache.Redis
     name: Redis(client)
     fullName: azure-arm-rediscache.Redis.Redis(client)
-    summary: ''
+    summary: Create a Redis.
     type: Constructor
     syntax:
       parameters:

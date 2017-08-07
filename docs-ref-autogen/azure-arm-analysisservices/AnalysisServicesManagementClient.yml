@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-analysisservices.AnalysisServicesManagementClient
     id: azure-arm-analysisservices.AnalysisServicesManagementClient
     name: AnalysisServicesManagementClient
-    summary: Initializes a new instance of the AnalysisServicesManagementClient class.
+    summary: Class representing a AnalysisServicesManagementClient.
     fullName: azure-arm-analysisservices.AnalysisServicesManagementClient
     source:
       id: azure-arm-analysisservices.AnalysisServicesManagementClient
       path: lib\services\analysisServices\lib\analysisServicesManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\analysisServices\lib\analysisServicesManagementClient.js
@@ -27,7 +27,7 @@ items:
     fullName: >-
       azure-arm-analysisservices.AnalysisServicesManagementClient.AnalysisServicesManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a AnalysisServicesManagementClient.
     type: Constructor
     syntax:
       parameters:

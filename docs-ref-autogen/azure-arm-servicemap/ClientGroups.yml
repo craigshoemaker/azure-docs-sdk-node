@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servicemap.ClientGroups
     id: azure-arm-servicemap.ClientGroups
     name: ClientGroups
-    summary: "ClientGroups\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServicemapManagementClient.\rInitializes a new instance of the ClientGroups class."
+    summary: Class representing a ClientGroups.
     fullName: azure-arm-servicemap.ClientGroups
     source:
       id: azure-arm-servicemap.ClientGroups
       path: lib\services\serviceMapManagement\lib\operations\clientGroups.js
-      startLine: 823
+      startLine: 814
       remote:
         branch: jsdoc
         path: lib\services\serviceMapManagement\lib\operations\clientGroups.js
@@ -33,13 +33,13 @@ items:
     parent: azure-arm-servicemap.ClientGroups
     name: ClientGroups(client)
     fullName: azure-arm-servicemap.ClientGroups.ClientGroups(client)
-    summary: ''
+    summary: Create a ClientGroups.
     type: Constructor
     syntax:
       parameters:
         - id: client
           type:
-            - azure-arm-servicemap.ServicemapManagementClient
+            - azure-arm-servicemap.ServiceMap
           description: Reference to the service client.
       content: new ClientGroups(client)
     langs:
@@ -559,7 +559,7 @@ items:
     langs:
       - js
 references:
-  - uid: azure-arm-servicemap.ServicemapManagementClient
-    name: ServicemapManagementClient
-    fullName: azure-arm-servicemap.ServicemapManagementClient
+  - uid: azure-arm-servicemap.ServiceMap
+    name: ServiceMap
+    fullName: azure-arm-servicemap.ServiceMap
     isExternal: false

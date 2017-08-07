@@ -1,3 +1,25 @@
+- uid: >-
+    azure-arm-trafficmanager.CheckTrafficManagerRelativeDnsNameAvailabilityParameters
+  name: CheckTrafficManagerRelativeDnsNameAvailabilityParameters
+  items:
+    - uid: >-
+        azure-arm-trafficmanager.CheckTrafficManagerRelativeDnsNameAvailabilityParameters#mapper
+      name: mapper
+- uid: azure-arm-trafficmanager.DeleteOperationResult
+  name: DeleteOperationResult
+  items:
+    - uid: 'azure-arm-trafficmanager.DeleteOperationResult#mapper'
+      name: mapper
+- uid: azure-arm-trafficmanager.DnsConfig
+  name: DnsConfig
+  items:
+    - uid: 'azure-arm-trafficmanager.DnsConfig#mapper'
+      name: mapper
+- uid: azure-arm-trafficmanager.Endpoint
+  name: Endpoint
+  items:
+    - uid: 'azure-arm-trafficmanager.Endpoint#mapper'
+      name: mapper
 - uid: azure-arm-trafficmanager.Endpoints
   name: Endpoints
   items:
@@ -26,6 +48,21 @@
       name: getDefaultWithHttpOperationResponse
     - uid: 'azure-arm-trafficmanager.GeographicHierarchies#getDefault'
       name: getDefault
+- uid: azure-arm-trafficmanager.MonitorConfig
+  name: MonitorConfig
+  items:
+    - uid: 'azure-arm-trafficmanager.MonitorConfig#mapper'
+      name: mapper
+- uid: azure-arm-trafficmanager.Profile
+  name: Profile
+  items:
+    - uid: 'azure-arm-trafficmanager.Profile#mapper'
+      name: mapper
+- uid: azure-arm-trafficmanager.ProfileListResult
+  name: ProfileListResult
+  items:
+    - uid: 'azure-arm-trafficmanager.ProfileListResult#mapper'
+      name: mapper
 - uid: azure-arm-trafficmanager.Profiles
   name: Profiles
   items:
@@ -61,9 +98,25 @@
       name: updateWithHttpOperationResponse
     - uid: 'azure-arm-trafficmanager.Profiles#update'
       name: update
-- uid: >-
-    azure-arm-trafficmanager.The list Traffic Manager profiles operation
-    response.
-  name: The list Traffic Manager profiles operation response.
+- uid: azure-arm-trafficmanager.Region
+  name: Region
+  items:
+    - uid: 'azure-arm-trafficmanager.Region#mapper'
+      name: mapper
+- uid: azure-arm-trafficmanager.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-trafficmanager.Resource#mapper'
+      name: mapper
+- uid: azure-arm-trafficmanager.TrafficManagerGeographicHierarchy
+  name: TrafficManagerGeographicHierarchy
+  items:
+    - uid: 'azure-arm-trafficmanager.TrafficManagerGeographicHierarchy#mapper'
+      name: mapper
 - uid: azure-arm-trafficmanager.TrafficManagerManagementClient
   name: TrafficManagerManagementClient
+- uid: azure-arm-trafficmanager.TrafficManagerNameAvailability
+  name: TrafficManagerNameAvailability
+  items:
+    - uid: 'azure-arm-trafficmanager.TrafficManagerNameAvailability#mapper'
+      name: mapper

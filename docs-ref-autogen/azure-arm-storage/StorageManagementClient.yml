@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-storage.StorageManagementClient
     id: azure-arm-storage.StorageManagementClient
     name: StorageManagementClient
-    summary: Initializes a new instance of the StorageManagementClient class.
+    summary: Class representing a StorageManagementClient.
     fullName: azure-arm-storage.StorageManagementClient
     source:
       id: azure-arm-storage.StorageManagementClient
       path: lib\services\storageManagement2\lib\storageManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\storageManagement2\lib\storageManagementClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-storage.StorageManagementClient.StorageManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a StorageManagementClient.
     type: Constructor
     syntax:
       parameters:

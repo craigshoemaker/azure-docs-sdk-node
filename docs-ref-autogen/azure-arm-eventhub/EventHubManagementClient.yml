@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-eventhub.EventHubManagementClient
     id: azure-arm-eventhub.EventHubManagementClient
     name: EventHubManagementClient
-    summary: Initializes a new instance of the EventHubManagementClient class.
+    summary: Class representing a EventHubManagementClient.
     fullName: azure-arm-eventhub.EventHubManagementClient
     source:
       id: azure-arm-eventhub.EventHubManagementClient
       path: lib\services\eventHubManagement\lib\eventHubManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\eventHubManagement\lib\eventHubManagementClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-eventhub.EventHubManagementClient.EventHubManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a EventHubManagementClient.
     type: Constructor
     syntax:
       parameters:

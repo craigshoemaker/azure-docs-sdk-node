@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-intune.Android
     id: azure-arm-intune.Android
     name: Android
-    summary: "Android\r__NOTE__: An instance of this class is automatically created for an\rinstance of the IntuneResourceManagementClient.\rInitializes a new instance of the Android class."
+    summary: Class representing a Android.
     fullName: azure-arm-intune.Android
     source:
       id: azure-arm-intune.Android
       path: lib\services\intune\lib\operations\android.js
-      startLine: 2153
+      startLine: 2144
       remote:
         branch: jsdoc
         path: lib\services\intune\lib\operations\android.js
@@ -54,7 +54,7 @@ items:
     parent: azure-arm-intune.Android
     name: Android(client)
     fullName: azure-arm-intune.Android.Android(client)
-    summary: ''
+    summary: Create a Android.
     type: Constructor
     syntax:
       parameters:

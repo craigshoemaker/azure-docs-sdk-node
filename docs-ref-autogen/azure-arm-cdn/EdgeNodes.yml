@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-cdn.EdgeNodes
     id: azure-arm-cdn.EdgeNodes
     name: EdgeNodes
-    summary: "EdgeNodes\r__NOTE__: An instance of this class is automatically created for an\rinstance of the CdnManagementClient.\rInitializes a new instance of the EdgeNodes class for Test. Hello automated CI4:45PM!"
+    summary: Class representing a EdgeNodes.
     fullName: azure-arm-cdn.EdgeNodes
     source:
       id: azure-arm-cdn.EdgeNodes
       path: lib\services\cdnManagement\lib\operations\edgeNodes.js
-      startLine: 285
+      startLine: 276
       remote:
         branch: jsdoc
         path: lib\services\cdnManagement\lib\operations\edgeNodes.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-cdn.EdgeNodes
     name: EdgeNodes(client)
     fullName: azure-arm-cdn.EdgeNodes.EdgeNodes(client)
-    summary: ''
+    summary: Create a EdgeNodes.
     type: Constructor
     syntax:
       parameters:

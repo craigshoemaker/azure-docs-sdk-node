@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-eventhub.Operations
     id: azure-arm-eventhub.Operations
     name: Operations
-    summary: "Operations\r__NOTE__: An instance of this class is automatically created for an\rinstance of the EventHubManagementClient.\rInitializes a new instance of the Operations class."
+    summary: Class representing a Operations.
     fullName: azure-arm-eventhub.Operations
     source:
       id: azure-arm-eventhub.Operations
       path: lib\services\eventHubManagement\lib\operations\operations.js
-      startLine: 283
+      startLine: 274
       remote:
         branch: jsdoc
         path: lib\services\eventHubManagement\lib\operations\operations.js
@@ -27,7 +27,7 @@ items:
     parent: azure-arm-eventhub.Operations
     name: Operations(client)
     fullName: azure-arm-eventhub.Operations.Operations(client)
-    summary: ''
+    summary: Create a Operations.
     type: Constructor
     syntax:
       parameters:
@@ -42,7 +42,7 @@ items:
     id: 'azure-arm-eventhub.Operations#listWithHttpOperationResponse'
     parent: azure-arm-eventhub.Operations
     name: listWithHttpOperationResponse(options)
-    summary: Lists all of the available event hub REST API operations.
+    summary: Lists all of the available Event Hub REST API operations.
     fullName: azure-arm-eventhub.Operations.listWithHttpOperationResponse(options)
     tags:
       - originalTitle: resolve
@@ -81,7 +81,7 @@ items:
     id: 'azure-arm-eventhub.Operations#list'
     parent: azure-arm-eventhub.Operations
     name: 'list(options, optionalCallback)'
-    summary: Lists all of the available event hub REST API operations.
+    summary: Lists all of the available Event Hub REST API operations.
     fullName: 'azure-arm-eventhub.Operations.list(options, optionalCallback)'
     tags:
       - originalTitle: resolve
@@ -122,7 +122,7 @@ items:
     id: 'azure-arm-eventhub.Operations#listNextWithHttpOperationResponse'
     parent: azure-arm-eventhub.Operations
     name: 'listNextWithHttpOperationResponse(nextPageLink, options)'
-    summary: Lists all of the available event hub REST API operations.
+    summary: Lists all of the available Event Hub REST API operations.
     fullName: >-
       azure-arm-eventhub.Operations.listNextWithHttpOperationResponse(nextPageLink,
       options)
@@ -167,7 +167,7 @@ items:
     id: 'azure-arm-eventhub.Operations#listNext'
     parent: azure-arm-eventhub.Operations
     name: 'listNext(nextPageLink, options, optionalCallback)'
-    summary: Lists all of the available event hub REST API operations.
+    summary: Lists all of the available Event Hub REST API operations.
     fullName: >-
       azure-arm-eventhub.Operations.listNext(nextPageLink, options,
       optionalCallback)

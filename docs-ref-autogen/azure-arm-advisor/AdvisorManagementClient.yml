@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-advisor.AdvisorManagementClient
     id: azure-arm-advisor.AdvisorManagementClient
     name: AdvisorManagementClient
-    summary: Initializes a new instance of the AdvisorManagementClient class.
+    summary: Class representing a AdvisorManagementClient.
     fullName: azure-arm-advisor.AdvisorManagementClient
     source:
       id: azure-arm-advisor.AdvisorManagementClient
       path: lib\services\advisorManagement\lib\advisorManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\advisorManagement\lib\advisorManagementClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-advisor.AdvisorManagementClient.AdvisorManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a AdvisorManagementClient.
     type: Constructor
     syntax:
       parameters:

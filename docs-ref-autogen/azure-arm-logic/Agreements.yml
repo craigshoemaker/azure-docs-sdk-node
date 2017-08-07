@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-logic.Agreements
     id: azure-arm-logic.Agreements
     name: Agreements
-    summary: "Agreements\r__NOTE__: An instance of this class is automatically created for an\rinstance of the LogicManagementClient.\rInitializes a new instance of the Agreements class."
+    summary: Class representing a Agreements.
     fullName: azure-arm-logic.Agreements
     source:
       id: azure-arm-logic.Agreements
       path: lib\services\logicManagement\lib\operations\agreements.js
-      startLine: 1779
+      startLine: 1780
       remote:
         branch: jsdoc
         path: lib\services\logicManagement\lib\operations\agreements.js
@@ -35,7 +35,7 @@ items:
     parent: azure-arm-logic.Agreements
     name: Agreements(client)
     fullName: azure-arm-logic.Agreements.Agreements(client)
-    summary: ''
+    summary: Create a Agreements.
     type: Constructor
     syntax:
       parameters:
@@ -556,6 +556,12 @@ items:
             - boolean
           description: The value indicating whether to enable NRR for inbound MDN.
         - id: >-
+            agreement.content.aS2.sendAgreement.protocolSettings.securitySettings.sha2AlgorithmFormat
+          type:
+            - string
+          description: "The Sha2 algorithm format. Valid values are Sha2, ShaHashSize,\rShaHyphenHashSize, Sha2UnderscoreHashSize."
+          optional: true
+        - id: >-
             agreement.content.aS2.sendAgreement.protocolSettings.validationSettings
           type:
             - object
@@ -605,6 +611,12 @@ items:
           type:
             - string
           description: "The encryption algorithm. Possible values include: 'NotSpecified', 'None',\r'DES3', 'RC2', 'AES128', 'AES192', 'AES256'"
+        - id: >-
+            agreement.content.aS2.sendAgreement.protocolSettings.validationSettings.signingAlgorithm
+          type:
+            - string
+          description: "The signing algorithm. Possible values include: 'NotSpecified', 'Default',\r'SHA1', 'SHA2256', 'SHA2384', 'SHA2512'"
+          optional: true
         - id: >-
             agreement.content.aS2.sendAgreement.protocolSettings.envelopeSettings
           type:
@@ -1917,6 +1929,12 @@ items:
             - boolean
           description: The value indicating whether to enable NRR for inbound MDN.
         - id: >-
+            agreement.content.aS2.sendAgreement.protocolSettings.securitySettings.sha2AlgorithmFormat
+          type:
+            - string
+          description: "The Sha2 algorithm format. Valid values are Sha2, ShaHashSize,\rShaHyphenHashSize, Sha2UnderscoreHashSize."
+          optional: true
+        - id: >-
             agreement.content.aS2.sendAgreement.protocolSettings.validationSettings
           type:
             - object
@@ -1966,6 +1984,12 @@ items:
           type:
             - string
           description: "The encryption algorithm. Possible values include: 'NotSpecified', 'None',\r'DES3', 'RC2', 'AES128', 'AES192', 'AES256'"
+        - id: >-
+            agreement.content.aS2.sendAgreement.protocolSettings.validationSettings.signingAlgorithm
+          type:
+            - string
+          description: "The signing algorithm. Possible values include: 'NotSpecified', 'Default',\r'SHA1', 'SHA2256', 'SHA2384', 'SHA2512'"
+          optional: true
         - id: >-
             agreement.content.aS2.sendAgreement.protocolSettings.envelopeSettings
           type:

@@ -3,15 +3,13 @@ items:
   - uid: azure-arm-datalake-store.DataLakeStoreFileSystemManagementClient
     id: azure-arm-datalake-store.DataLakeStoreFileSystemManagementClient
     name: DataLakeStoreFileSystemManagementClient
-    summary: >-
-      Initializes a new instance of the DataLakeStoreFileSystemManagementClient
-      class.
+    summary: Class representing a DataLakeStoreFileSystemManagementClient.
     fullName: azure-arm-datalake-store.DataLakeStoreFileSystemManagementClient
     source:
       id: azure-arm-datalake-store.DataLakeStoreFileSystemManagementClient
       path: >-
         lib\services\dataLake.Store\lib\filesystem\dataLakeStoreFileSystemManagementClient.js
-      startLine: 52
+      startLine: 26
       remote:
         branch: jsdoc
         path: >-
@@ -29,7 +27,7 @@ items:
     fullName: >-
       azure-arm-datalake-store.DataLakeStoreFileSystemManagementClient.DataLakeStoreFileSystemManagementClient(credentials,
       options)
-    summary: ''
+    summary: Create a DataLakeStoreFileSystemManagementClient.
     type: Constructor
     syntax:
       parameters:

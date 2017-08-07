@@ -1,5 +1,20 @@
 - uid: azure-arm-containerregistry.ContainerRegistryManagementClient
   name: ContainerRegistryManagementClient
+- uid: azure-arm-containerregistry.OperationDefinition
+  name: OperationDefinition
+  items:
+    - uid: 'azure-arm-containerregistry.OperationDefinition#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.OperationDisplayDefinition
+  name: OperationDisplayDefinition
+  items:
+    - uid: 'azure-arm-containerregistry.OperationDisplayDefinition#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.OperationListResult
+  name: OperationListResult
+  items:
+    - uid: 'azure-arm-containerregistry.OperationListResult#mapper'
+      name: mapper
 - uid: azure-arm-containerregistry.Operations
   name: Operations
   items:
@@ -11,6 +26,11 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-containerregistry.Operations#listNext'
       name: listNext
+- uid: azure-arm-containerregistry.RegenerateCredentialParameters
+  name: RegenerateCredentialParameters
+  items:
+    - uid: 'azure-arm-containerregistry.RegenerateCredentialParameters#mapper'
+      name: mapper
 - uid: azure-arm-containerregistry.Registries
   name: Registries
   items:
@@ -69,3 +89,63 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-containerregistry.Registries#listNext'
       name: listNext
+- uid: azure-arm-containerregistry.Registry
+  name: Registry
+  items:
+    - uid: 'azure-arm-containerregistry.Registry#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryCreateParameters
+  name: RegistryCreateParameters
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryCreateParameters#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryListCredentialsResult
+  name: RegistryListCredentialsResult
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryListCredentialsResult#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryListResult
+  name: RegistryListResult
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryListResult#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryNameCheckRequest
+  name: RegistryNameCheckRequest
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryNameCheckRequest#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryNameStatus
+  name: RegistryNameStatus
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryNameStatus#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryPassword
+  name: RegistryPassword
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryPassword#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.RegistryUpdateParameters
+  name: RegistryUpdateParameters
+  items:
+    - uid: 'azure-arm-containerregistry.RegistryUpdateParameters#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-containerregistry.Resource#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.Sku
+  name: Sku
+  items:
+    - uid: 'azure-arm-containerregistry.Sku#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.StorageAccountParameters
+  name: StorageAccountParameters
+  items:
+    - uid: 'azure-arm-containerregistry.StorageAccountParameters#mapper'
+      name: mapper
+- uid: azure-arm-containerregistry.StorageAccountProperties
+  name: StorageAccountProperties
+  items:
+    - uid: 'azure-arm-containerregistry.StorageAccountProperties#mapper'
+      name: mapper

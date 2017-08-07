@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-compute.VirtualMachineImages
     id: azure-arm-compute.VirtualMachineImages
     name: VirtualMachineImages
-    summary: "VirtualMachineImages\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ComputeManagementClient.\rInitializes a new instance of the VirtualMachineImages class."
+    summary: Class representing a VirtualMachineImages.
     fullName: azure-arm-compute.VirtualMachineImages
     source:
       id: azure-arm-compute.VirtualMachineImages
       path: lib\services\computeManagement2\lib\operations\virtualMachineImages.js
-      startLine: 855
+      startLine: 846
       remote:
         branch: jsdoc
         path: lib\services\computeManagement2\lib\operations\virtualMachineImages.js
@@ -35,7 +35,7 @@ items:
     parent: azure-arm-compute.VirtualMachineImages
     name: VirtualMachineImages(client)
     fullName: azure-arm-compute.VirtualMachineImages.VirtualMachineImages(client)
-    summary: ''
+    summary: Create a VirtualMachineImages.
     type: Constructor
     syntax:
       parameters:

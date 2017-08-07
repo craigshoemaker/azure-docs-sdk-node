@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-network.LocalNetworkGateways
     id: azure-arm-network.LocalNetworkGateways
     name: LocalNetworkGateways
-    summary: "LocalNetworkGateways\r__NOTE__: An instance of this class is automatically created for an\rinstance of the NetworkManagementClient.\rInitializes a new instance of the LocalNetworkGateways class."
+    summary: Class representing a LocalNetworkGateways.
     fullName: azure-arm-network.LocalNetworkGateways
     source:
       id: azure-arm-network.LocalNetworkGateways
       path: lib\services\networkManagement2\lib\operations\localNetworkGateways.js
-      startLine: 972
+      startLine: 963
       remote:
         branch: jsdoc
         path: lib\services\networkManagement2\lib\operations\localNetworkGateways.js
@@ -41,7 +41,7 @@ items:
     parent: azure-arm-network.LocalNetworkGateways
     name: LocalNetworkGateways(client)
     fullName: azure-arm-network.LocalNetworkGateways.LocalNetworkGateways(client)
-    summary: ''
+    summary: Create a LocalNetworkGateways.
     type: Constructor
     syntax:
       parameters:

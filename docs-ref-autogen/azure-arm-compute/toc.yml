@@ -1,3 +1,38 @@
+- uid: azure-arm-compute.AccessUri
+  name: AccessUri
+  items:
+    - uid: 'azure-arm-compute.AccessUri#mapper'
+      name: mapper
+- uid: azure-arm-compute.AdditionalUnattendContent
+  name: AdditionalUnattendContent
+  items:
+    - uid: 'azure-arm-compute.AdditionalUnattendContent#mapper'
+      name: mapper
+- uid: azure-arm-compute.ApiEntityReference
+  name: ApiEntityReference
+  items:
+    - uid: 'azure-arm-compute.ApiEntityReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.ApiError
+  name: ApiError
+  items:
+    - uid: 'azure-arm-compute.ApiError#mapper'
+      name: mapper
+- uid: azure-arm-compute.ApiErrorBase
+  name: ApiErrorBase
+  items:
+    - uid: 'azure-arm-compute.ApiErrorBase#mapper'
+      name: mapper
+- uid: azure-arm-compute.AvailabilitySet
+  name: AvailabilitySet
+  items:
+    - uid: 'azure-arm-compute.AvailabilitySet#mapper'
+      name: mapper
+- uid: azure-arm-compute.AvailabilitySetListResult
+  name: AvailabilitySetListResult
+  items:
+    - uid: 'azure-arm-compute.AvailabilitySetListResult#mapper'
+      name: mapper
 - uid: azure-arm-compute.AvailabilitySets
   name: AvailabilitySets
   items:
@@ -23,8 +58,63 @@
       name: listAvailableSizesWithHttpOperationResponse
     - uid: 'azure-arm-compute.AvailabilitySets#listAvailableSizes'
       name: listAvailableSizes
+- uid: azure-arm-compute.BootDiagnostics
+  name: BootDiagnostics
+  items:
+    - uid: 'azure-arm-compute.BootDiagnostics#mapper'
+      name: mapper
+- uid: azure-arm-compute.BootDiagnosticsInstanceView
+  name: BootDiagnosticsInstanceView
+  items:
+    - uid: 'azure-arm-compute.BootDiagnosticsInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.ComputeLongRunningOperationProperties
+  name: ComputeLongRunningOperationProperties
+  items:
+    - uid: 'azure-arm-compute.ComputeLongRunningOperationProperties#mapper'
+      name: mapper
 - uid: azure-arm-compute.ComputeManagementClient
   name: ComputeManagementClient
+- uid: azure-arm-compute.ContainerService
+  name: ContainerService
+  items:
+    - uid: 'azure-arm-compute.ContainerService#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceAgentPoolProfile
+  name: ContainerServiceAgentPoolProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceAgentPoolProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceCustomProfile
+  name: ContainerServiceCustomProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceCustomProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceDiagnosticsProfile
+  name: ContainerServiceDiagnosticsProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceDiagnosticsProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceLinuxProfile
+  name: ContainerServiceLinuxProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceLinuxProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceListResult
+  name: ContainerServiceListResult
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceListResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceMasterProfile
+  name: ContainerServiceMasterProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceMasterProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceOrchestratorProfile
+  name: ContainerServiceOrchestratorProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceOrchestratorProfile#mapper'
+      name: mapper
 - uid: azure-arm-compute.ContainerServices
   name: ContainerServices
   items:
@@ -70,6 +160,71 @@
       name: listByResourceGroupNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.ContainerServices#listByResourceGroupNext'
       name: listByResourceGroupNext
+- uid: azure-arm-compute.ContainerServiceServicePrincipalProfile
+  name: ContainerServiceServicePrincipalProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceServicePrincipalProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceSshConfiguration
+  name: ContainerServiceSshConfiguration
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceSshConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceSshPublicKey
+  name: ContainerServiceSshPublicKey
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceSshPublicKey#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceVMDiagnostics
+  name: ContainerServiceVMDiagnostics
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceVMDiagnostics#mapper'
+      name: mapper
+- uid: azure-arm-compute.ContainerServiceWindowsProfile
+  name: ContainerServiceWindowsProfile
+  items:
+    - uid: 'azure-arm-compute.ContainerServiceWindowsProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.CreationData
+  name: CreationData
+  items:
+    - uid: 'azure-arm-compute.CreationData#mapper'
+      name: mapper
+- uid: azure-arm-compute.DataDisk
+  name: DataDisk
+  items:
+    - uid: 'azure-arm-compute.DataDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.DataDiskImage
+  name: DataDiskImage
+  items:
+    - uid: 'azure-arm-compute.DataDiskImage#mapper'
+      name: mapper
+- uid: azure-arm-compute.DiagnosticsProfile
+  name: DiagnosticsProfile
+  items:
+    - uid: 'azure-arm-compute.DiagnosticsProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.Disk
+  name: Disk
+  items:
+    - uid: 'azure-arm-compute.Disk#mapper'
+      name: mapper
+- uid: azure-arm-compute.DiskEncryptionSettings
+  name: DiskEncryptionSettings
+  items:
+    - uid: 'azure-arm-compute.DiskEncryptionSettings#mapper'
+      name: mapper
+- uid: azure-arm-compute.DiskInstanceView
+  name: DiskInstanceView
+  items:
+    - uid: 'azure-arm-compute.DiskInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.DiskList
+  name: DiskList
+  items:
+    - uid: 'azure-arm-compute.DiskList#mapper'
+      name: mapper
 - uid: azure-arm-compute.Disks
   name: Disks
   items:
@@ -133,6 +288,61 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.Disks#listNext'
       name: listNext
+- uid: azure-arm-compute.DiskSku
+  name: DiskSku
+  items:
+    - uid: 'azure-arm-compute.DiskSku#mapper'
+      name: mapper
+- uid: azure-arm-compute.DiskUpdate
+  name: DiskUpdate
+  items:
+    - uid: 'azure-arm-compute.DiskUpdate#mapper'
+      name: mapper
+- uid: azure-arm-compute.EncryptionSettings
+  name: EncryptionSettings
+  items:
+    - uid: 'azure-arm-compute.EncryptionSettings#mapper'
+      name: mapper
+- uid: azure-arm-compute.GrantAccessData
+  name: GrantAccessData
+  items:
+    - uid: 'azure-arm-compute.GrantAccessData#mapper'
+      name: mapper
+- uid: azure-arm-compute.HardwareProfile
+  name: HardwareProfile
+  items:
+    - uid: 'azure-arm-compute.HardwareProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.Image
+  name: Image
+  items:
+    - uid: 'azure-arm-compute.Image#mapper'
+      name: mapper
+- uid: azure-arm-compute.ImageDataDisk
+  name: ImageDataDisk
+  items:
+    - uid: 'azure-arm-compute.ImageDataDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.ImageDiskReference
+  name: ImageDiskReference
+  items:
+    - uid: 'azure-arm-compute.ImageDiskReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.ImageListResult
+  name: ImageListResult
+  items:
+    - uid: 'azure-arm-compute.ImageListResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.ImageOSDisk
+  name: ImageOSDisk
+  items:
+    - uid: 'azure-arm-compute.ImageOSDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.ImageReference
+  name: ImageReference
+  items:
+    - uid: 'azure-arm-compute.ImageReference#mapper'
+      name: mapper
 - uid: azure-arm-compute.Images
   name: Images
   items:
@@ -173,6 +383,136 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.Images#listNext'
       name: listNext
+- uid: azure-arm-compute.ImageStorageProfile
+  name: ImageStorageProfile
+  items:
+    - uid: 'azure-arm-compute.ImageStorageProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.InnerError
+  name: InnerError
+  items:
+    - uid: 'azure-arm-compute.InnerError#mapper'
+      name: mapper
+- uid: azure-arm-compute.InstanceViewStatus
+  name: InstanceViewStatus
+  items:
+    - uid: 'azure-arm-compute.InstanceViewStatus#mapper'
+      name: mapper
+- uid: azure-arm-compute.KeyVaultAndKeyReference
+  name: KeyVaultAndKeyReference
+  items:
+    - uid: 'azure-arm-compute.KeyVaultAndKeyReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.KeyVaultAndSecretReference
+  name: KeyVaultAndSecretReference
+  items:
+    - uid: 'azure-arm-compute.KeyVaultAndSecretReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.KeyVaultKeyReference
+  name: KeyVaultKeyReference
+  items:
+    - uid: 'azure-arm-compute.KeyVaultKeyReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.KeyVaultSecretReference
+  name: KeyVaultSecretReference
+  items:
+    - uid: 'azure-arm-compute.KeyVaultSecretReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.LinuxConfiguration
+  name: LinuxConfiguration
+  items:
+    - uid: 'azure-arm-compute.LinuxConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.ListUsagesResult
+  name: ListUsagesResult
+  items:
+    - uid: 'azure-arm-compute.ListUsagesResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.MaintenanceRedeployStatus
+  name: MaintenanceRedeployStatus
+  items:
+    - uid: 'azure-arm-compute.MaintenanceRedeployStatus#mapper'
+      name: mapper
+- uid: azure-arm-compute.ManagedDiskParameters
+  name: ManagedDiskParameters
+  items:
+    - uid: 'azure-arm-compute.ManagedDiskParameters#mapper'
+      name: mapper
+- uid: azure-arm-compute.NetworkInterfaceReference
+  name: NetworkInterfaceReference
+  items:
+    - uid: 'azure-arm-compute.NetworkInterfaceReference#mapper'
+      name: mapper
+- uid: azure-arm-compute.NetworkProfile
+  name: NetworkProfile
+  items:
+    - uid: 'azure-arm-compute.NetworkProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.OperationStatusResponse
+  name: OperationStatusResponse
+  items:
+    - uid: 'azure-arm-compute.OperationStatusResponse#mapper'
+      name: mapper
+- uid: azure-arm-compute.OSDisk
+  name: OSDisk
+  items:
+    - uid: 'azure-arm-compute.OSDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.OSDiskImage
+  name: OSDiskImage
+  items:
+    - uid: 'azure-arm-compute.OSDiskImage#mapper'
+      name: mapper
+- uid: azure-arm-compute.OSProfile
+  name: OSProfile
+  items:
+    - uid: 'azure-arm-compute.OSProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.Plan
+  name: Plan
+  items:
+    - uid: 'azure-arm-compute.Plan#mapper'
+      name: mapper
+- uid: azure-arm-compute.PurchasePlan
+  name: PurchasePlan
+  items:
+    - uid: 'azure-arm-compute.PurchasePlan#mapper'
+      name: mapper
+- uid: azure-arm-compute.RecoveryPolicy
+  name: RecoveryPolicy
+  items:
+    - uid: 'azure-arm-compute.RecoveryPolicy#mapper'
+      name: mapper
+- uid: azure-arm-compute.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-compute.Resource#mapper'
+      name: mapper
+- uid: azure-arm-compute.ResourceSku
+  name: ResourceSku
+  items:
+    - uid: 'azure-arm-compute.ResourceSku#mapper'
+      name: mapper
+- uid: azure-arm-compute.ResourceSkuCapabilities
+  name: ResourceSkuCapabilities
+  items:
+    - uid: 'azure-arm-compute.ResourceSkuCapabilities#mapper'
+      name: mapper
+- uid: azure-arm-compute.ResourceSkuCapacity
+  name: ResourceSkuCapacity
+  items:
+    - uid: 'azure-arm-compute.ResourceSkuCapacity#mapper'
+      name: mapper
+- uid: azure-arm-compute.ResourceSkuCosts
+  name: ResourceSkuCosts
+  items:
+    - uid: 'azure-arm-compute.ResourceSkuCosts#mapper'
+      name: mapper
+- uid: azure-arm-compute.ResourceSkuRestrictions
+  name: ResourceSkuRestrictions
+  items:
+    - uid: 'azure-arm-compute.ResourceSkuRestrictions#mapper'
+      name: mapper
 - uid: azure-arm-compute.ResourceSkus
   name: ResourceSkus
   items:
@@ -184,6 +524,66 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.ResourceSkus#listNext'
       name: listNext
+- uid: azure-arm-compute.ResourceSkusResult
+  name: ResourceSkusResult
+  items:
+    - uid: 'azure-arm-compute.ResourceSkusResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.ResourceUpdate
+  name: ResourceUpdate
+  items:
+    - uid: 'azure-arm-compute.ResourceUpdate#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandDocument
+  name: RunCommandDocument
+  items:
+    - uid: 'azure-arm-compute.RunCommandDocument#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandDocumentBase
+  name: RunCommandDocumentBase
+  items:
+    - uid: 'azure-arm-compute.RunCommandDocumentBase#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandInput
+  name: RunCommandInput
+  items:
+    - uid: 'azure-arm-compute.RunCommandInput#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandInputParameter
+  name: RunCommandInputParameter
+  items:
+    - uid: 'azure-arm-compute.RunCommandInputParameter#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandListResult
+  name: RunCommandListResult
+  items:
+    - uid: 'azure-arm-compute.RunCommandListResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandParameterDefinition
+  name: RunCommandParameterDefinition
+  items:
+    - uid: 'azure-arm-compute.RunCommandParameterDefinition#mapper'
+      name: mapper
+- uid: azure-arm-compute.RunCommandResult
+  name: RunCommandResult
+  items:
+    - uid: 'azure-arm-compute.RunCommandResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.Sku
+  name: Sku
+  items:
+    - uid: 'azure-arm-compute.Sku#mapper'
+      name: mapper
+- uid: azure-arm-compute.Snapshot
+  name: Snapshot
+  items:
+    - uid: 'azure-arm-compute.Snapshot#mapper'
+      name: mapper
+- uid: azure-arm-compute.SnapshotList
+  name: SnapshotList
+  items:
+    - uid: 'azure-arm-compute.SnapshotList#mapper'
+      name: mapper
 - uid: azure-arm-compute.Snapshots
   name: Snapshots
   items:
@@ -248,10 +648,56 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.Snapshots#listNext'
       name: listNext
-- uid: azure-arm-compute.The List Availability Set operation response.
-  name: The List Availability Set operation response.
-- uid: azure-arm-compute.The List Virtual Machine operation response.
-  name: The List Virtual Machine operation response.
+- uid: azure-arm-compute.SnapshotUpdate
+  name: SnapshotUpdate
+  items:
+    - uid: 'azure-arm-compute.SnapshotUpdate#mapper'
+      name: mapper
+- uid: azure-arm-compute.SourceVault
+  name: SourceVault
+  items:
+    - uid: 'azure-arm-compute.SourceVault#mapper'
+      name: mapper
+- uid: azure-arm-compute.SshConfiguration
+  name: SshConfiguration
+  items:
+    - uid: 'azure-arm-compute.SshConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.SshPublicKey
+  name: SshPublicKey
+  items:
+    - uid: 'azure-arm-compute.SshPublicKey#mapper'
+      name: mapper
+- uid: azure-arm-compute.StorageProfile
+  name: StorageProfile
+  items:
+    - uid: 'azure-arm-compute.StorageProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.SubResource
+  name: SubResource
+  items:
+    - uid: 'azure-arm-compute.SubResource#mapper'
+      name: mapper
+- uid: azure-arm-compute.SubResourceReadOnly
+  name: SubResourceReadOnly
+  items:
+    - uid: 'azure-arm-compute.SubResourceReadOnly#mapper'
+      name: mapper
+- uid: azure-arm-compute.UpgradePolicy
+  name: UpgradePolicy
+  items:
+    - uid: 'azure-arm-compute.UpgradePolicy#mapper'
+      name: mapper
+- uid: azure-arm-compute.Usage
+  name: Usage
+  items:
+    - uid: 'azure-arm-compute.Usage#mapper'
+      name: mapper
+- uid: azure-arm-compute.UsageName
+  name: UsageName
+  items:
+    - uid: 'azure-arm-compute.UsageName#mapper'
+      name: mapper
 - uid: azure-arm-compute.UsageOperations
   name: UsageOperations
   items:
@@ -263,6 +709,56 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.UsageOperations#listNext'
       name: listNext
+- uid: azure-arm-compute.VaultCertificate
+  name: VaultCertificate
+  items:
+    - uid: 'azure-arm-compute.VaultCertificate#mapper'
+      name: mapper
+- uid: azure-arm-compute.VaultSecretGroup
+  name: VaultSecretGroup
+  items:
+    - uid: 'azure-arm-compute.VaultSecretGroup#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualHardDisk
+  name: VirtualHardDisk
+  items:
+    - uid: 'azure-arm-compute.VirtualHardDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachine
+  name: VirtualMachine
+  items:
+    - uid: 'azure-arm-compute.VirtualMachine#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineAgentInstanceView
+  name: VirtualMachineAgentInstanceView
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineAgentInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineCaptureParameters
+  name: VirtualMachineCaptureParameters
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineCaptureParameters#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineCaptureResult
+  name: VirtualMachineCaptureResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineCaptureResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineExtension
+  name: VirtualMachineExtension
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineExtension#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineExtensionHandlerInstanceView
+  name: VirtualMachineExtensionHandlerInstanceView
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineExtensionHandlerInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineExtensionImage
+  name: VirtualMachineExtensionImage
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineExtensionImage#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineExtensionImages
   name: VirtualMachineExtensionImages
   items:
@@ -281,6 +777,11 @@
       name: listVersionsWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineExtensionImages#listVersions'
       name: listVersions
+- uid: azure-arm-compute.VirtualMachineExtensionInstanceView
+  name: VirtualMachineExtensionInstanceView
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineExtensionInstanceView#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineExtensions
   name: VirtualMachineExtensions
   items:
@@ -308,6 +809,21 @@
       name: beginDeleteMethodWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineExtensions#beginDeleteMethod'
       name: beginDeleteMethod
+- uid: azure-arm-compute.VirtualMachineIdentity
+  name: VirtualMachineIdentity
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineIdentity#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineImage
+  name: VirtualMachineImage
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineImage#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineImageResource
+  name: VirtualMachineImageResource
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineImageResource#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineImages
   name: VirtualMachineImages
   items:
@@ -333,6 +849,16 @@
       name: listSkusWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineImages#listSkus'
       name: listSkus
+- uid: azure-arm-compute.VirtualMachineInstanceView
+  name: VirtualMachineInstanceView
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineListResult
+  name: VirtualMachineListResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineListResult#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineRunCommands
   name: VirtualMachineRunCommands
   items:
@@ -479,6 +1005,31 @@
       name: listAllNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachines#listAllNext'
       name: listAllNext
+- uid: azure-arm-compute.VirtualMachineScaleSet
+  name: VirtualMachineScaleSet
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSet#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetDataDisk
+  name: VirtualMachineScaleSetDataDisk
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetDataDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetExtension
+  name: VirtualMachineScaleSetExtension
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetExtension#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetExtensionListResult
+  name: VirtualMachineScaleSetExtensionListResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetExtensionListResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetExtensionProfile
+  name: VirtualMachineScaleSetExtensionProfile
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetExtensionProfile#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineScaleSetExtensions
   name: VirtualMachineScaleSetExtensions
   items:
@@ -517,6 +1068,86 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineScaleSetExtensions#listNext'
       name: listNext
+- uid: azure-arm-compute.VirtualMachineScaleSetIdentity
+  name: VirtualMachineScaleSetIdentity
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetIdentity#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetInstanceView
+  name: VirtualMachineScaleSetInstanceView
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetInstanceViewStatusesSummary
+  name: VirtualMachineScaleSetInstanceViewStatusesSummary
+  items:
+    - uid: >-
+        azure-arm-compute.VirtualMachineScaleSetInstanceViewStatusesSummary#mapper
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetIPConfiguration
+  name: VirtualMachineScaleSetIPConfiguration
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetIPConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetListResult
+  name: VirtualMachineScaleSetListResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetListResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetListSkusResult
+  name: VirtualMachineScaleSetListSkusResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetListSkusResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetListWithLinkResult
+  name: VirtualMachineScaleSetListWithLinkResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetListWithLinkResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetManagedDiskParameters
+  name: VirtualMachineScaleSetManagedDiskParameters
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetManagedDiskParameters#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetNetworkConfiguration
+  name: VirtualMachineScaleSetNetworkConfiguration
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetNetworkConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetNetworkConfigurationDnsSettings
+  name: VirtualMachineScaleSetNetworkConfigurationDnsSettings
+  items:
+    - uid: >-
+        azure-arm-compute.VirtualMachineScaleSetNetworkConfigurationDnsSettings#mapper
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetNetworkProfile
+  name: VirtualMachineScaleSetNetworkProfile
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetNetworkProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetOSDisk
+  name: VirtualMachineScaleSetOSDisk
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetOSDisk#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetOSProfile
+  name: VirtualMachineScaleSetOSProfile
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetOSProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetPublicIPAddressConfiguration
+  name: VirtualMachineScaleSetPublicIPAddressConfiguration
+  items:
+    - uid: >-
+        azure-arm-compute.VirtualMachineScaleSetPublicIPAddressConfiguration#mapper
+      name: mapper
+- uid: >-
+    azure-arm-compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings
+  name: VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings
+  items:
+    - uid: >-
+        azure-arm-compute.VirtualMachineScaleSetPublicIPAddressConfigurationDnsSettings#mapper
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineScaleSets
   name: VirtualMachineScaleSets
   items:
@@ -657,6 +1288,56 @@
       name: listSkusNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineScaleSets#listSkusNext'
       name: listSkusNext
+- uid: azure-arm-compute.VirtualMachineScaleSetSku
+  name: VirtualMachineScaleSetSku
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetSku#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetSkuCapacity
+  name: VirtualMachineScaleSetSkuCapacity
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetSkuCapacity#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetStorageProfile
+  name: VirtualMachineScaleSetStorageProfile
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetStorageProfile#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVM
+  name: VirtualMachineScaleSetVM
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVM#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVMExtensionsSummary
+  name: VirtualMachineScaleSetVMExtensionsSummary
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVMExtensionsSummary#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVMInstanceIDs
+  name: VirtualMachineScaleSetVMInstanceIDs
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVMInstanceIDs#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVMInstanceRequiredIDs
+  name: VirtualMachineScaleSetVMInstanceRequiredIDs
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVMInstanceRequiredIDs#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVMInstanceView
+  name: VirtualMachineScaleSetVMInstanceView
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVMInstanceView#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVMListResult
+  name: VirtualMachineScaleSetVMListResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVMListResult#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineScaleSetVMProfile
+  name: VirtualMachineScaleSetVMProfile
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineScaleSetVMProfile#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineScaleSetVMs
   name: VirtualMachineScaleSetVMs
   items:
@@ -749,6 +1430,16 @@
       name: listNextWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineScaleSetVMs#listNext'
       name: listNext
+- uid: azure-arm-compute.VirtualMachineSize
+  name: VirtualMachineSize
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineSize#mapper'
+      name: mapper
+- uid: azure-arm-compute.VirtualMachineSizeListResult
+  name: VirtualMachineSizeListResult
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineSizeListResult#mapper'
+      name: mapper
 - uid: azure-arm-compute.VirtualMachineSizes
   name: VirtualMachineSizes
   items:
@@ -756,3 +1447,23 @@
       name: listWithHttpOperationResponse
     - uid: 'azure-arm-compute.VirtualMachineSizes#list'
       name: list
+- uid: azure-arm-compute.VirtualMachineStatusCodeCount
+  name: VirtualMachineStatusCodeCount
+  items:
+    - uid: 'azure-arm-compute.VirtualMachineStatusCodeCount#mapper'
+      name: mapper
+- uid: azure-arm-compute.WindowsConfiguration
+  name: WindowsConfiguration
+  items:
+    - uid: 'azure-arm-compute.WindowsConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.WinRMConfiguration
+  name: WinRMConfiguration
+  items:
+    - uid: 'azure-arm-compute.WinRMConfiguration#mapper'
+      name: mapper
+- uid: azure-arm-compute.WinRMListener
+  name: WinRMListener
+  items:
+    - uid: 'azure-arm-compute.WinRMListener#mapper'
+      name: mapper

@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-resource.ManagementLocks
     id: azure-arm-resource.ManagementLocks
     name: ManagementLocks
-    summary: "ManagementLocks\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ManagementLockClient.\rInitializes a new instance of the ManagementLocks class."
+    summary: Class representing a ManagementLocks.
     fullName: azure-arm-resource.ManagementLocks
     source:
       id: azure-arm-resource.ManagementLocks
       path: lib\services\resourceManagement\lib\lock\operations\managementLocks.js
-      startLine: 2957
+      startLine: 2948
       remote:
         branch: jsdoc
         path: lib\services\resourceManagement\lib\lock\operations\managementLocks.js
@@ -76,7 +76,7 @@ items:
     parent: azure-arm-resource.ManagementLocks
     name: ManagementLocks(client)
     fullName: azure-arm-resource.ManagementLocks.ManagementLocks(client)
-    summary: ''
+    summary: Create a ManagementLocks.
     type: Constructor
     syntax:
       parameters:

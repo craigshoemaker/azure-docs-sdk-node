@@ -2,9 +2,17 @@
 ## Classes
 | Class Name | Description |
 |---|---|
-| @azure-arm-search.SearchManagementClient |Initializes a new instance of the SearchManagementClient class.|
-| @azure-arm-search.Services |Services __NOTE__: An instance of this class is automatically created for an instance of the SearchManagementClient. Initializes a new instance of the Services class.|
-| @azure-arm-search.QueryKeys |QueryKeys __NOTE__: An instance of this class is automatically created for an instance of the SearchManagementClient. Initializes a new instance of the QueryKeys class.|
-| @azure-arm-search.AdminKeys |AdminKeys __NOTE__: An instance of this class is automatically created for an instance of the SearchManagementClient. Initializes a new instance of the AdminKeys class.|
-| @azure-arm-search.Response containing a list of Azure Search services. |Initializes a new instance of the SearchServiceListResult class.|
-| @azure-arm-search.Response containing the query API keys for a given Azure Search service. |Initializes a new instance of the ListQueryKeysResult class.|
+| @azure-arm-search.SearchManagementClient |Class representing a SearchManagementClient.|
+| @azure-arm-search.Services |Class representing a Services.|
+| @azure-arm-search.QueryKeys |Class representing a QueryKeys.|
+| @azure-arm-search.AdminKeys |Class representing a AdminKeys.|
+| @azure-arm-search.Sku |Defines the SKU of an Azure Search Service, which determines price tier and capacity limits.|
+| @azure-arm-search.SearchServiceListResult |Response containing a list of Azure Search services.|
+| @azure-arm-search.SearchService |Describes an Azure Search service and its current state.|
+| @azure-arm-search.SearchManagementRequestOptions |Additional parameters for a set of operations.|
+| @azure-arm-search.Resource |Base type for all Azure resources.|
+| @azure-arm-search.QueryKey |Describes an API key for a given Azure Search service that has permissions for query operations only.|
+| @azure-arm-search.ListQueryKeysResult |Response containing the query API keys for a given Azure Search service.|
+| @azure-arm-search.CheckNameAvailabilityOutput |Output of check name availability API.|
+| @azure-arm-search.CheckNameAvailabilityInput |Input of check name availability API.|
+| @azure-arm-search.AdminKeyResult |Response containing the primary and secondary admin API keys for a given Azure Search service.|

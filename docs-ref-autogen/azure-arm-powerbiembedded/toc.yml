@@ -3,6 +3,51 @@
   items:
     - uid: 'azure-arm-powerbiembedded.AzureSku#mapper'
       name: mapper
+- uid: azure-arm-powerbiembedded.CheckNameRequest
+  name: CheckNameRequest
+  items:
+    - uid: 'azure-arm-powerbiembedded.CheckNameRequest#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.CheckNameResponse
+  name: CheckNameResponse
+  items:
+    - uid: 'azure-arm-powerbiembedded.CheckNameResponse#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.CreateWorkspaceCollectionRequest
+  name: CreateWorkspaceCollectionRequest
+  items:
+    - uid: 'azure-arm-powerbiembedded.CreateWorkspaceCollectionRequest#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.Display
+  name: Display
+  items:
+    - uid: 'azure-arm-powerbiembedded.Display#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.ErrorDetail
+  name: ErrorDetail
+  items:
+    - uid: 'azure-arm-powerbiembedded.ErrorDetail#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.ErrorModel
+  name: ErrorModel
+  items:
+    - uid: 'azure-arm-powerbiembedded.ErrorModel#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.MigrateWorkspaceCollectionRequest
+  name: MigrateWorkspaceCollectionRequest
+  items:
+    - uid: 'azure-arm-powerbiembedded.MigrateWorkspaceCollectionRequest#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.Operation
+  name: Operation
+  items:
+    - uid: 'azure-arm-powerbiembedded.Operation#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.OperationList
+  name: OperationList
+  items:
+    - uid: 'azure-arm-powerbiembedded.OperationList#mapper'
+      name: mapper
 - uid: azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient
   name: PowerBIEmbeddedManagementClient
   items:
@@ -12,6 +57,31 @@
     - uid: >-
         azure-arm-powerbiembedded.PowerBIEmbeddedManagementClient#getAvailableOperations
       name: getAvailableOperations
+- uid: azure-arm-powerbiembedded.UpdateWorkspaceCollectionRequest
+  name: UpdateWorkspaceCollectionRequest
+  items:
+    - uid: 'azure-arm-powerbiembedded.UpdateWorkspaceCollectionRequest#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.Workspace
+  name: Workspace
+  items:
+    - uid: 'azure-arm-powerbiembedded.Workspace#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.WorkspaceCollection
+  name: WorkspaceCollection
+  items:
+    - uid: 'azure-arm-powerbiembedded.WorkspaceCollection#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.WorkspaceCollectionAccessKey
+  name: WorkspaceCollectionAccessKey
+  items:
+    - uid: 'azure-arm-powerbiembedded.WorkspaceCollectionAccessKey#mapper'
+      name: mapper
+- uid: azure-arm-powerbiembedded.WorkspaceCollectionAccessKeys
+  name: WorkspaceCollectionAccessKeys
+  items:
+    - uid: 'azure-arm-powerbiembedded.WorkspaceCollectionAccessKeys#mapper'
+      name: mapper
 - uid: azure-arm-powerbiembedded.WorkspaceCollectionList
   name: WorkspaceCollectionList
   items:

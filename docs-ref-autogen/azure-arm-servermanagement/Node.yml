@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-servermanagement.Node
     id: azure-arm-servermanagement.Node
     name: Node
-    summary: "Node\r__NOTE__: An instance of this class is automatically created for an\rinstance of the ServerManagement.\rInitializes a new instance of the Node class."
+    summary: Class representing a Node.
     fullName: azure-arm-servermanagement.Node
     source:
       id: azure-arm-servermanagement.Node
       path: lib\services\servermanagement\lib\operations\node.js
-      startLine: 1553
+      startLine: 1544
       remote:
         branch: jsdoc
         path: lib\services\servermanagement\lib\operations\node.js
@@ -45,7 +45,7 @@ items:
     parent: azure-arm-servermanagement.Node
     name: Node(client)
     fullName: azure-arm-servermanagement.Node.Node(client)
-    summary: ''
+    summary: Create a Node.
     type: Constructor
     syntax:
       parameters:

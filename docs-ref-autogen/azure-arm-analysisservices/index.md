@@ -2,6 +2,12 @@
 ## Classes
 | Class Name | Description |
 |---|---|
-| @azure-arm-analysisservices.Servers |Servers __NOTE__: An instance of this class is automatically created for an instance of the AnalysisServicesManagementClient. Initializes a new instance of the Servers class.|
-| @azure-arm-analysisservices.An array of Analysis Services resources. |Initializes a new instance of the AnalysisServicesServers class.|
-| @azure-arm-analysisservices.AnalysisServicesManagementClient |Initializes a new instance of the AnalysisServicesManagementClient class.|
+| @azure-arm-analysisservices.Servers |Class representing a Servers.|
+| @azure-arm-analysisservices.ServerAdministrators |An array of administrator user identities|
+| @azure-arm-analysisservices.ResourceSku |Represents the SKU name and Azure pricing tier for Analysis Services resource.|
+| @azure-arm-analysisservices.Resource |Represents an instance of an Analysis Services resource.|
+| @azure-arm-analysisservices.BackupConfiguration |An object that represents backup configurations|
+| @azure-arm-analysisservices.AnalysisServicesServerUpdateParameters |Provision request specification|
+| @azure-arm-analysisservices.AnalysisServicesServers |An array of Analysis Services resources.|
+| @azure-arm-analysisservices.AnalysisServicesServer |Represents an instance of an Analysis Services resource.|
+| @azure-arm-analysisservices.AnalysisServicesManagementClient |Class representing a AnalysisServicesManagementClient.|

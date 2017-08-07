@@ -3,12 +3,12 @@ items:
   - uid: azure-arm-dns.DnsManagementClient
     id: azure-arm-dns.DnsManagementClient
     name: DnsManagementClient
-    summary: Initializes a new instance of the DnsManagementClient class.
+    summary: Class representing a DnsManagementClient.
     fullName: azure-arm-dns.DnsManagementClient
     source:
       id: azure-arm-dns.DnsManagementClient
       path: lib\services\dnsManagement\lib\dnsManagementClient.js
-      startLine: 54
+      startLine: 26
       remote:
         branch: jsdoc
         path: lib\services\dnsManagement\lib\dnsManagementClient.js
@@ -25,7 +25,7 @@ items:
     fullName: >-
       azure-arm-dns.DnsManagementClient.DnsManagementClient(credentials,
       subscriptionId, baseUri, options)
-    summary: ''
+    summary: Create a DnsManagementClient.
     type: Constructor
     syntax:
       parameters:
