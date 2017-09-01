@@ -4,6 +4,11 @@
 			"url": "https://github.com/Azure/azure-sdk-for-node",
 			"branch": "jsdoc",
 			"name": "azure-sdk-for-node"
+		},
+		{
+			"url": "https://github.com/Azure/azure-storage-node",
+			"branch": "master",
+			"name": "azure-storage-node"
 		}
 	]
 }
