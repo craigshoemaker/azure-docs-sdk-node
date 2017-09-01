@@ -1,6 +1,6 @@
 branches:
   only:
-    - master
+    - multisource
     
 environment:
   op_build_user: "OpenPublishBuild"
