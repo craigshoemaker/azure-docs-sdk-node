@@ -7,7 +7,8 @@ var glob = require('glob');
 var path = require('path');
 var yaml = require('js-yaml');
 
-var src = 'src/azure-sdk-for-node';
+//var src = 'src/azure-sdk-for-node';
+var src = 'src';
 var packageMappingFileRelativePath = 'package_service_mapping.json';
 var repoRelativePath = 'repo.json';
 var dest = 'docs-ref-autogen';
@@ -45,13 +46,15 @@ function buildTocItems(keys, relativePathToRootFolder) {
   });
 }
 
-function generatePackageDoc(packagePath, configPath, dest, resetInclude, whiteList, repo) {
+function generatePackageDoc(packagePath, configPath, dest, resetInclude, whiteList, repo, repoName) {
   var config = fse.readJsonSync(configPath);
   var dir = path.dirname(packagePath);
   var packageName = fse.readJsonSync(packagePath).name;
+  /*
   if (whiteList && whiteList[packageName] !== true) {
     return;
   }
+  */
   if (resetInclude) {
     config.source.include = [dir];
   }  
@@ -59,7 +62,7 @@ function generatePackageDoc(packagePath, configPath, dest, resetInclude, whiteLi
   config.readme = path.join(dir, 'README.md');
   config.destination = path.join(dest, packageName);
   if (repo) {
-    config.repo = repo;
+    config.repo = [repo[repoName]];
   }
   fse.writeJsonSync(tempConfigPath, config);
   child_process.execFileSync('node', ['node_modules/node2docfx/node2docfx.js', tempConfigPath]);
@@ -86,13 +89,18 @@ if (repoConfig && repoConfig.repo) {
 
 // 2. generate yml and copy readme.md for azure.js
 var rootConfig = fse.readJsonSync(configPath);
-generatePackageDoc(rootConfig.package, configPath, rootConfig.destination, false, whiteList, repo);
+Object.keys(repo).forEach(function (repoName){
+  var packagePath = path.join(src, repoName, 'package.json');
+  generatePackageDoc(packagePath, configPath, rootConfig.destination, false, whiteList, repo, repoName);
+});
 
 // 3. generate yml and copy readme.md for all sub packages
-var packageJsons = glob.sync(path.join(src, 'lib/**/package.json'));
-packageJsons.forEach(function (packagePath) {
-  generatePackageDoc(packagePath, configPath, dest, true, whiteList, repo);
-});
+Object.keys(repo).forEach(function (repoName){
+  var packageJsons = glob.sync(path.join(src, repoName, 'lib/**/package.json'));
+  packageJsons.forEach(function (packagePath) {
+    generatePackageDoc(packagePath, configPath, dest, true, whiteList, repo, repoName);
+  });
+}); 
 fs.unlink(tempConfigPath);
 
 // 4. remove files with too long filename that breaks DocFX
