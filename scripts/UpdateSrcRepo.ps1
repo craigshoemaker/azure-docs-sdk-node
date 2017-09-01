@@ -22,15 +22,13 @@ $src = "src"
 md -Force $rootFolder\$src
 Push-Location $rootFolder\$src
 
-$config = Get-Content $rootFolder\repo.json -Raw | ConvertFrom-Json
-Foreach($repo in $config.repo){
-	CloneOrPull $($repo.url) $($repo.branch) $($repo.name)
-	if ($repo.build_script)
-	{
-		Push-Location $($repo.name)
-		Invoke-Expression $repo.build_script
-		Pop-Location
-	}
-}
+$url = "https://github.com/Azure/azure-sdk-for-node"
+$branch = "jsdoc"
+$name = "azure-sdk-for-node"
+CloneOrPull $($url) $($branch) $($name)
+$url = "https://github.com/Azure/azure-storage-node"
+$branch = "master"
+$name = "azure-storage-node"
+CloneOrPull $($url) $($branch) $($name)
 
 Pop-Location
