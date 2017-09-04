@@ -1,0 +1,198 @@
+- uid: azure-storage.ApplicationTokenCredentials
+  name: ApplicationTokenCredentials
+- uid: azure-storage.AzureServiceClient
+  name: AzureServiceClient
+- uid: azure-storage.BaseResource
+  name: BaseResource
+- uid: azure-storage.createCommerceManagementClient
+  name: createCommerceManagementClient
+- uid: azure-storage.DeviceTokenCredentials
+  name: DeviceTokenCredentials
+- uid: azure-storage.KeyVaultClient
+  name: KeyVaultClient
+- uid: azure-storage.UserTokenCredentials
+  name: UserTokenCredentials
+- uid: azure-storage.global
+  name: GLOBAL
+  items:
+    - uid: azure-storage._global.createTableService
+      name: createTableService
+    - uid: azure-storage._global.createBlobService
+      name: createBlobService
+    - uid: azure-storage._global.createQueueService
+      name: createQueueService
+    - uid: azure-storage._global.createServiceBusService
+      name: createServiceBusService
+    - uid: azure-storage._global.createNotificationHubService
+      name: createNotificationHubService
+    - uid: azure-storage._global.createWrapService
+      name: createWrapService
+    - uid: azure-storage._global.createManagementClient
+      name: createManagementClient
+    - uid: azure-storage._global.createASMSqlManagementService
+      name: createASMSqlManagementService
+    - uid: azure-storage._global.createSqlService
+      name: createSqlService
+    - uid: azure-storage._global.createHDInsightService
+      name: createHDInsightService
+    - uid: azure-storage._global.createServiceBusManagementClient
+      name: createServiceBusManagementClient
+    - uid: azure-storage._global.createASMWebsiteManagementService
+      name: createASMWebsiteManagementService
+    - uid: azure-storage._global.createASMNetworkManagementClient
+      name: createASMNetworkManagementClient
+    - uid: azure-storage._global.createASMSqlManagementClient
+      name: createASMSqlManagementClient
+    - uid: azure-storage._global.createASMStorageManagementClient
+      name: createASMStorageManagementClient
+    - uid: azure-storage._global.createASMStoreManagementClient
+      name: createASMStoreManagementClient
+    - uid: azure-storage._global.createASMSubscriptionClient
+      name: createASMSubscriptionClient
+    - uid: azure-storage._global.createASMWebSiteManagementClient
+      name: createASMWebSiteManagementClient
+    - uid: azure-storage._global.createASMWebSiteExtensionsClient
+      name: createASMWebSiteExtensionsClient
+    - uid: azure-storage._global.createASMScmService
+      name: createASMScmService
+    - uid: azure-storage._global.createASMComputeManagementClient
+      name: createASMComputeManagementClient
+    - uid: azure-storage._global.createARMGalleryClient
+      name: createARMGalleryClient
+    - uid: azure-storage._global.createASMSchedulerManagementClient
+      name: createASMSchedulerManagementClient
+    - uid: azure-storage._global.createSchedulerClient
+      name: createSchedulerClient
+    - uid: azure-storage._global.createEventsClient
+      name: createEventsClient
+    - uid: azure-storage._global.createAutoScaleClient
+      name: createAutoScaleClient
+    - uid: azure-storage._global.createMetricsClient
+      name: createMetricsClient
+    - uid: azure-storage._global.createKeyVaultManagementClient
+      name: createKeyVaultManagementClient
+    - uid: azure-storage._global.createCertificateCloudCredentials
+      name: createCertificateCloudCredentials
+    - uid: azure-storage._global.createBasicAuthenticationCloudCredentials
+      name: createBasicAuthenticationCloudCredentials
+    - uid: azure-storage._global.isEmulated
+      name: isEmulated
+    - uid: azure-storage._global.createResourceManagementClient
+      name: createResourceManagementClient
+    - uid: azure-storage._global.createFeatureManagementClient
+      name: createFeatureManagementClient
+    - uid: azure-storage._global.createSubscriptionManagementClient
+      name: createSubscriptionManagementClient
+    - uid: azure-storage._global.createResourceManagementLockClient
+      name: createResourceManagementLockClient
+    - uid: azure-storage._global.createResourceManagementLinkClient
+      name: createResourceManagementLinkClient
+    - uid: azure-storage._global.createResourcePolicyClient
+      name: createResourcePolicyClient
+    - uid: azure-storage._global.createStorageManagementClient
+      name: createStorageManagementClient
+    - uid: azure-storage._global.createNetworkManagementClient
+      name: createNetworkManagementClient
+    - uid: azure-storage._global.createComputeManagementClient
+      name: createComputeManagementClient
+    - uid: azure-storage._global.createRedisCacheManagementClient
+      name: createRedisCacheManagementClient
+    - uid: azure-storage._global.createWebsiteManagementClient
+      name: createWebsiteManagementClient
+    - uid: azure-storage._global.createGraphManagementClient
+      name: createGraphManagementClient
+    - uid: azure-storage._global.createCdnManagementClient
+      name: createCdnManagementClient
+    - uid: azure-storage._global.createAuthorizationManagementClient
+      name: createAuthorizationManagementClient
+    - uid: azure-storage._global.createDnsManagementClient
+      name: createDnsManagementClient
+    - uid: azure-storage._global.createInsightsManagementClient
+      name: createInsightsManagementClient
+    - uid: azure-storage._global.createInsightsClient
+      name: createInsightsClient
+    - uid: azure-storage._global.createDataLakeAnalyticsJobManagementClient
+      name: createDataLakeAnalyticsJobManagementClient
+    - uid: azure-storage._global.createDataLakeAnalyticsCatalogManagementClient
+      name: createDataLakeAnalyticsCatalogManagementClient
+    - uid: azure-storage._global.createDataLakeAnalyticsAccountManagementClient
+      name: createDataLakeAnalyticsAccountManagementClient
+    - uid: azure-storage._global.createDataLakeStoreAccountManagementClient
+      name: createDataLakeStoreAccountManagementClient
+    - uid: azure-storage._global.createDataLakeStoreFileSystemManagementClient
+      name: createDataLakeStoreFileSystemManagementClient
+    - uid: azure-storage._global.createBatchManagementClient
+      name: createBatchManagementClient
+    - uid: azure-storage._global.createBatchServiceClient
+      name: createBatchServiceClient
+    - uid: azure-storage._global.createServerManagementClient
+      name: createServerManagementClient
+    - uid: azure-storage._global.createPowerBIEmbeddedManagementClient
+      name: createPowerBIEmbeddedManagementClient
+    - uid: azure-storage._global.createNotificationHubsManagementClient
+      name: createNotificationHubsManagementClient
+    - uid: azure-storage._global.createIotHubManagementClient
+      name: createIotHubManagementClient
+    - uid: azure-storage._global.createDevTestLabsClient
+      name: createDevTestLabsClient
+    - uid: azure-storage._global.createTrafficManagerManagementClient
+      name: createTrafficManagerManagementClient
+    - uid: azure-storage._global.createAnalysisServicesManagementClient
+      name: createAnalysisServicesManagementClient
+    - uid: azure-storage._global.createAdvisorManagementClient
+      name: createAdvisorManagementClient
+    - uid: azure-storage._global.createAutomationManagementClient
+      name: createAutomationManagementClient
+    - uid: azure-storage._global.createBillingManagementClient
+      name: createBillingManagementClient
+    - uid: azure-storage._global.createCognitiveServicesManagementClient
+      name: createCognitiveServicesManagementClient
+    - uid: azure-storage._global.createContainerRegistryManagementClient
+      name: createContainerRegistryManagementClient
+    - uid: azure-storage._global.createCustomerInsightsManagementClient
+      name: createCustomerInsightsManagementClient
+    - uid: azure-storage._global.createDocumentdbManagementClient
+      name: createDocumentdbManagementClient
+    - uid: azure-storage._global.createEventHubManagementClient
+      name: createEventHubManagementClient
+    - uid: azure-storage._global.createIntuneManagementClient
+      name: createIntuneManagementClient
+    - uid: azure-storage._global.createLogicManagementClient
+      name: createLogicManagementClient
+    - uid: azure-storage._global.createMachineLearningWebServicesManagementClient
+      name: createMachineLearningWebServicesManagementClient
+    - uid: >-
+        azure-storage._global.createMachineLearningCommitmentPlansManagementClient
+      name: createMachineLearningCommitmentPlansManagementClient
+    - uid: azure-storage._global.createMediaServicesManagementClient
+      name: createMediaServicesManagementClient
+    - uid: azure-storage._global.createMySQLManagementClient
+      name: createMySQLManagementClient
+    - uid: azure-storage._global.createPostgreSQLManagementClient
+      name: createPostgreSQLManagementClient
+    - uid: azure-storage._global.createRecoveryServicesBackupManagementClient
+      name: createRecoveryServicesBackupManagementClient
+    - uid: azure-storage._global.createRecoveryServicesManagementClient
+      name: createRecoveryServicesManagementClient
+    - uid: azure-storage._global.createRelayManagementClient
+      name: createRelayManagementClient
+    - uid: azure-storage._global.createSchedulerManagementClient
+      name: createSchedulerManagementClient
+    - uid: azure-storage._global.createSearchManagementClient
+      name: createSearchManagementClient
+    - uid: azure-storage._global.createSearchIndexClient
+      name: createSearchIndexClient
+    - uid: azure-storage._global.createSearchServiceClient
+      name: createSearchServiceClient
+    - uid: azure-storage._global.createServiceBusManagementClient
+      name: createServiceBusManagementClient
+    - uid: azure-storage._global.createServiceFabricClientt
+      name: createServiceFabricClientt
+    - uid: azure-storage._global.createServiceFabricManagementClient
+      name: createServiceFabricManagementClient
+    - uid: azure-storage._global.createServicemapManagementClient
+      name: createServicemapManagementClient
+    - uid: azure-storage._global.createSqlManagementClient
+      name: createSqlManagementClient
+    - uid: azure-storage._global.createStorageImportExportManagementClient
+      name: createStorageImportExportManagementClient

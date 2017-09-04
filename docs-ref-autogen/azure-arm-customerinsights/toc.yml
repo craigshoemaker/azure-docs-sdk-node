@@ -1,0 +1,795 @@
+- uid: azure-arm-customerinsights.AssignmentPrincipal
+  name: AssignmentPrincipal
+  items:
+    - uid: 'azure-arm-customerinsights.AssignmentPrincipal#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.AuthorizationPolicies
+  name: AuthorizationPolicies
+  items:
+    - uid: >-
+        azure-arm-customerinsights.AuthorizationPolicies#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicies#createOrUpdate'
+      name: createOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.AuthorizationPolicies#getWithHttpOperationResponse
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicies#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.AuthorizationPolicies#listByHubWithHttpOperationResponse
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicies#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.AuthorizationPolicies#regeneratePrimaryKeyWithHttpOperationResponse
+      name: regeneratePrimaryKeyWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicies#regeneratePrimaryKey'
+      name: regeneratePrimaryKey
+    - uid: >-
+        azure-arm-customerinsights.AuthorizationPolicies#regenerateSecondaryKeyWithHttpOperationResponse
+      name: regenerateSecondaryKeyWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicies#regenerateSecondaryKey'
+      name: regenerateSecondaryKey
+    - uid: >-
+        azure-arm-customerinsights.AuthorizationPolicies#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicies#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.AuthorizationPolicy
+  name: AuthorizationPolicy
+  items:
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicy#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.AuthorizationPolicyListResult
+  name: AuthorizationPolicyListResult
+  items:
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicyListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.AuthorizationPolicyResourceFormat
+  name: AuthorizationPolicyResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.AuthorizationPolicyResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.AzureBlobConnectorProperties
+  name: AzureBlobConnectorProperties
+  items:
+    - uid: 'azure-arm-customerinsights.AzureBlobConnectorProperties#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorListResult
+  name: ConnectorListResult
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingAvailability
+  name: ConnectorMappingAvailability
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingAvailability#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingCompleteOperation
+  name: ConnectorMappingCompleteOperation
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingCompleteOperation#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingErrorManagement
+  name: ConnectorMappingErrorManagement
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingErrorManagement#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingFormat
+  name: ConnectorMappingFormat
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingListResult
+  name: ConnectorMappingListResult
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingProperties
+  name: ConnectorMappingProperties
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingProperties#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappingResourceFormat
+  name: ConnectorMappingResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorMappings
+  name: ConnectorMappings
+  items:
+    - uid: >-
+        azure-arm-customerinsights.ConnectorMappings#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.ConnectorMappings#createOrUpdate'
+      name: createOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.ConnectorMappings#getWithHttpOperationResponse
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.ConnectorMappings#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.ConnectorMappings#deleteMethodWithHttpOperationResponse
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.ConnectorMappings#deleteMethod'
+      name: deleteMethod
+    - uid: >-
+        azure-arm-customerinsights.ConnectorMappings#listByConnectorWithHttpOperationResponse
+      name: listByConnectorWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.ConnectorMappings#listByConnector'
+      name: listByConnector
+    - uid: >-
+        azure-arm-customerinsights.ConnectorMappings#listByConnectorNextWithHttpOperationResponse
+      name: listByConnectorNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.ConnectorMappings#listByConnectorNext'
+      name: listByConnectorNext
+- uid: azure-arm-customerinsights.ConnectorMappingStructure
+  name: ConnectorMappingStructure
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorMappingStructure#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ConnectorResourceFormat
+  name: ConnectorResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.ConnectorResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Connectors
+  name: Connectors
+  items:
+    - uid: >-
+        azure-arm-customerinsights.Connectors#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Connectors#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.Connectors#deleteMethodWithHttpOperationResponse
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#deleteMethod'
+      name: deleteMethod
+    - uid: 'azure-arm-customerinsights.Connectors#listByHubWithHttpOperationResponse'
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.Connectors#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.Connectors#beginDeleteMethodWithHttpOperationResponse
+      name: beginDeleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#beginDeleteMethod'
+      name: beginDeleteMethod
+    - uid: >-
+        azure-arm-customerinsights.Connectors#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Connectors#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.CrmConnectorEntities
+  name: CrmConnectorEntities
+  items:
+    - uid: 'azure-arm-customerinsights.CrmConnectorEntities#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.CrmConnectorProperties
+  name: CrmConnectorProperties
+  items:
+    - uid: 'azure-arm-customerinsights.CrmConnectorProperties#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.CustomerInsightsManagementClient
+  name: CustomerInsightsManagementClient
+- uid: azure-arm-customerinsights.DataSource
+  name: DataSource
+  items:
+    - uid: 'azure-arm-customerinsights.DataSource#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.EnrichingKpi
+  name: EnrichingKpi
+  items:
+    - uid: 'azure-arm-customerinsights.EnrichingKpi#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.EntityTypeDefinition
+  name: EntityTypeDefinition
+  items:
+    - uid: 'azure-arm-customerinsights.EntityTypeDefinition#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.GetImageUploadUrlInput
+  name: GetImageUploadUrlInput
+  items:
+    - uid: 'azure-arm-customerinsights.GetImageUploadUrlInput#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Hub
+  name: Hub
+  items:
+    - uid: 'azure-arm-customerinsights.Hub#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.HubBillingInfoFormat
+  name: HubBillingInfoFormat
+  items:
+    - uid: 'azure-arm-customerinsights.HubBillingInfoFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.HubListResult
+  name: HubListResult
+  items:
+    - uid: 'azure-arm-customerinsights.HubListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Hubs
+  name: Hubs
+  items:
+    - uid: 'azure-arm-customerinsights.Hubs#createOrUpdateWithHttpOperationResponse'
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Hubs#updateWithHttpOperationResponse'
+      name: updateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#update'
+      name: update
+    - uid: 'azure-arm-customerinsights.Hubs#deleteMethodWithHttpOperationResponse'
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#deleteMethod'
+      name: deleteMethod
+    - uid: 'azure-arm-customerinsights.Hubs#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.Hubs#listByResourceGroupWithHttpOperationResponse
+      name: listByResourceGroupWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#listByResourceGroup'
+      name: listByResourceGroup
+    - uid: 'azure-arm-customerinsights.Hubs#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#list'
+      name: list
+    - uid: >-
+        azure-arm-customerinsights.Hubs#beginDeleteMethodWithHttpOperationResponse
+      name: beginDeleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#beginDeleteMethod'
+      name: beginDeleteMethod
+    - uid: >-
+        azure-arm-customerinsights.Hubs#listByResourceGroupNextWithHttpOperationResponse
+      name: listByResourceGroupNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#listByResourceGroupNext'
+      name: listByResourceGroupNext
+    - uid: 'azure-arm-customerinsights.Hubs#listNextWithHttpOperationResponse'
+      name: listNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Hubs#listNext'
+      name: listNext
+- uid: azure-arm-customerinsights.ImageDefinition
+  name: ImageDefinition
+  items:
+    - uid: 'azure-arm-customerinsights.ImageDefinition#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Images
+  name: Images
+  items:
+    - uid: >-
+        azure-arm-customerinsights.Images#getUploadUrlForEntityTypeWithHttpOperationResponse
+      name: getUploadUrlForEntityTypeWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Images#getUploadUrlForEntityType'
+      name: getUploadUrlForEntityType
+    - uid: >-
+        azure-arm-customerinsights.Images#getUploadUrlForDataWithHttpOperationResponse
+      name: getUploadUrlForDataWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Images#getUploadUrlForData'
+      name: getUploadUrlForData
+- uid: azure-arm-customerinsights.InteractionListResult
+  name: InteractionListResult
+  items:
+    - uid: 'azure-arm-customerinsights.InteractionListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.InteractionResourceFormat
+  name: InteractionResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.InteractionResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Interactions
+  name: Interactions
+  items:
+    - uid: >-
+        azure-arm-customerinsights.Interactions#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Interactions#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Interactions#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Interactions#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.Interactions#listByHubWithHttpOperationResponse
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Interactions#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.Interactions#suggestRelationshipLinksWithHttpOperationResponse
+      name: suggestRelationshipLinksWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Interactions#suggestRelationshipLinks'
+      name: suggestRelationshipLinks
+    - uid: >-
+        azure-arm-customerinsights.Interactions#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Interactions#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.Interactions#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Interactions#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.Kpi
+  name: Kpi
+  items:
+    - uid: 'azure-arm-customerinsights.Kpi#createOrUpdateWithHttpOperationResponse'
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Kpi#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#get'
+      name: get
+    - uid: 'azure-arm-customerinsights.Kpi#deleteMethodWithHttpOperationResponse'
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#deleteMethod'
+      name: deleteMethod
+    - uid: 'azure-arm-customerinsights.Kpi#reprocessWithHttpOperationResponse'
+      name: reprocessWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#reprocess'
+      name: reprocess
+    - uid: 'azure-arm-customerinsights.Kpi#listByHubWithHttpOperationResponse'
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.Kpi#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.Kpi#beginDeleteMethodWithHttpOperationResponse
+      name: beginDeleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#beginDeleteMethod'
+      name: beginDeleteMethod
+    - uid: 'azure-arm-customerinsights.Kpi#listByHubNextWithHttpOperationResponse'
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Kpi#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.KpiAlias
+  name: KpiAlias
+  items:
+    - uid: 'azure-arm-customerinsights.KpiAlias#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiDefinition
+  name: KpiDefinition
+  items:
+    - uid: 'azure-arm-customerinsights.KpiDefinition#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiExtract
+  name: KpiExtract
+  items:
+    - uid: 'azure-arm-customerinsights.KpiExtract#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiGroupByMetadata
+  name: KpiGroupByMetadata
+  items:
+    - uid: 'azure-arm-customerinsights.KpiGroupByMetadata#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiListResult
+  name: KpiListResult
+  items:
+    - uid: 'azure-arm-customerinsights.KpiListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiParticipantProfilesMetadata
+  name: KpiParticipantProfilesMetadata
+  items:
+    - uid: 'azure-arm-customerinsights.KpiParticipantProfilesMetadata#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiResourceFormat
+  name: KpiResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.KpiResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.KpiThresholds
+  name: KpiThresholds
+  items:
+    - uid: 'azure-arm-customerinsights.KpiThresholds#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.LinkListResult
+  name: LinkListResult
+  items:
+    - uid: 'azure-arm-customerinsights.LinkListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.LinkResourceFormat
+  name: LinkResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.LinkResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Links
+  name: Links
+  items:
+    - uid: 'azure-arm-customerinsights.Links#createOrUpdateWithHttpOperationResponse'
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Links#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Links#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Links#get'
+      name: get
+    - uid: 'azure-arm-customerinsights.Links#deleteMethodWithHttpOperationResponse'
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Links#deleteMethod'
+      name: deleteMethod
+    - uid: 'azure-arm-customerinsights.Links#listByHubWithHttpOperationResponse'
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Links#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.Links#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Links#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: 'azure-arm-customerinsights.Links#listByHubNextWithHttpOperationResponse'
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Links#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.MetadataDefinitionBase
+  name: MetadataDefinitionBase
+  items:
+    - uid: 'azure-arm-customerinsights.MetadataDefinitionBase#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Participant
+  name: Participant
+  items:
+    - uid: 'azure-arm-customerinsights.Participant#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ParticipantPropertyReference
+  name: ParticipantPropertyReference
+  items:
+    - uid: 'azure-arm-customerinsights.ParticipantPropertyReference#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ProfileEnumValidValuesFormat
+  name: ProfileEnumValidValuesFormat
+  items:
+    - uid: 'azure-arm-customerinsights.ProfileEnumValidValuesFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ProfileListResult
+  name: ProfileListResult
+  items:
+    - uid: 'azure-arm-customerinsights.ProfileListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ProfileResourceFormat
+  name: ProfileResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.ProfileResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Profiles
+  name: Profiles
+  items:
+    - uid: >-
+        azure-arm-customerinsights.Profiles#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Profiles#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.Profiles#deleteMethodWithHttpOperationResponse
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#deleteMethod'
+      name: deleteMethod
+    - uid: 'azure-arm-customerinsights.Profiles#listByHubWithHttpOperationResponse'
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.Profiles#getEnrichingKpisWithHttpOperationResponse
+      name: getEnrichingKpisWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#getEnrichingKpis'
+      name: getEnrichingKpis
+    - uid: >-
+        azure-arm-customerinsights.Profiles#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.Profiles#beginDeleteMethodWithHttpOperationResponse
+      name: beginDeleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#beginDeleteMethod'
+      name: beginDeleteMethod
+    - uid: >-
+        azure-arm-customerinsights.Profiles#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Profiles#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.PropertyDefinition
+  name: PropertyDefinition
+  items:
+    - uid: 'azure-arm-customerinsights.PropertyDefinition#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ProxyResource
+  name: ProxyResource
+  items:
+    - uid: 'azure-arm-customerinsights.ProxyResource#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipLinkFieldMapping
+  name: RelationshipLinkFieldMapping
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipLinkFieldMapping#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipLinkListResult
+  name: RelationshipLinkListResult
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipLinkListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipLinkResourceFormat
+  name: RelationshipLinkResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipLinkResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipLinks
+  name: RelationshipLinks
+  items:
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#createOrUpdate'
+      name: createOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#getWithHttpOperationResponse
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#deleteMethodWithHttpOperationResponse
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#deleteMethod'
+      name: deleteMethod
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#listByHubWithHttpOperationResponse
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#beginDeleteMethodWithHttpOperationResponse
+      name: beginDeleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#beginDeleteMethod'
+      name: beginDeleteMethod
+    - uid: >-
+        azure-arm-customerinsights.RelationshipLinks#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RelationshipLinks#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.RelationshipListResult
+  name: RelationshipListResult
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipResourceFormat
+  name: RelationshipResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Relationships
+  name: Relationships
+  items:
+    - uid: >-
+        azure-arm-customerinsights.Relationships#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Relationships#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.Relationships#deleteMethodWithHttpOperationResponse
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#deleteMethod'
+      name: deleteMethod
+    - uid: >-
+        azure-arm-customerinsights.Relationships#listByHubWithHttpOperationResponse
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.Relationships#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.Relationships#beginDeleteMethodWithHttpOperationResponse
+      name: beginDeleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#beginDeleteMethod'
+      name: beginDeleteMethod
+    - uid: >-
+        azure-arm-customerinsights.Relationships#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Relationships#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.RelationshipsLookup
+  name: RelationshipsLookup
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipsLookup#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipTypeFieldMapping
+  name: RelationshipTypeFieldMapping
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipTypeFieldMapping#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RelationshipTypeMapping
+  name: RelationshipTypeMapping
+  items:
+    - uid: 'azure-arm-customerinsights.RelationshipTypeMapping#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Resource
+  name: Resource
+  items:
+    - uid: 'azure-arm-customerinsights.Resource#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ResourceSetDescription
+  name: ResourceSetDescription
+  items:
+    - uid: 'azure-arm-customerinsights.ResourceSetDescription#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RoleAssignmentListResult
+  name: RoleAssignmentListResult
+  items:
+    - uid: 'azure-arm-customerinsights.RoleAssignmentListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RoleAssignmentResourceFormat
+  name: RoleAssignmentResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.RoleAssignmentResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RoleAssignments
+  name: RoleAssignments
+  items:
+    - uid: >-
+        azure-arm-customerinsights.RoleAssignments#listByHubWithHttpOperationResponse
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RoleAssignments#listByHub'
+      name: listByHub
+    - uid: >-
+        azure-arm-customerinsights.RoleAssignments#createOrUpdateWithHttpOperationResponse
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RoleAssignments#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.RoleAssignments#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RoleAssignments#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.RoleAssignments#deleteMethodWithHttpOperationResponse
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RoleAssignments#deleteMethod'
+      name: deleteMethod
+    - uid: >-
+        azure-arm-customerinsights.RoleAssignments#beginCreateOrUpdateWithHttpOperationResponse
+      name: beginCreateOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RoleAssignments#beginCreateOrUpdate'
+      name: beginCreateOrUpdate
+    - uid: >-
+        azure-arm-customerinsights.RoleAssignments#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.RoleAssignments#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.RoleListResult
+  name: RoleListResult
+  items:
+    - uid: 'azure-arm-customerinsights.RoleListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.RoleResourceFormat
+  name: RoleResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.RoleResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Roles
+  name: Roles
+  items:
+    - uid: 'azure-arm-customerinsights.Roles#listByHubWithHttpOperationResponse'
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Roles#listByHub'
+      name: listByHub
+    - uid: 'azure-arm-customerinsights.Roles#listByHubNextWithHttpOperationResponse'
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Roles#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.SalesforceConnectorProperties
+  name: SalesforceConnectorProperties
+  items:
+    - uid: 'azure-arm-customerinsights.SalesforceConnectorProperties#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.SalesforceDiscoverSetting
+  name: SalesforceDiscoverSetting
+  items:
+    - uid: 'azure-arm-customerinsights.SalesforceDiscoverSetting#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.SalesforceTable
+  name: SalesforceTable
+  items:
+    - uid: 'azure-arm-customerinsights.SalesforceTable#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.StrongId
+  name: StrongId
+  items:
+    - uid: 'azure-arm-customerinsights.StrongId#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.SuggestRelationshipLinksResponse
+  name: SuggestRelationshipLinksResponse
+  items:
+    - uid: 'azure-arm-customerinsights.SuggestRelationshipLinksResponse#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.TypePropertiesMapping
+  name: TypePropertiesMapping
+  items:
+    - uid: 'azure-arm-customerinsights.TypePropertiesMapping#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ViewListResult
+  name: ViewListResult
+  items:
+    - uid: 'azure-arm-customerinsights.ViewListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.ViewResourceFormat
+  name: ViewResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.ViewResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.Views
+  name: Views
+  items:
+    - uid: 'azure-arm-customerinsights.Views#listByHubWithHttpOperationResponse'
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Views#listByHub'
+      name: listByHub
+    - uid: 'azure-arm-customerinsights.Views#createOrUpdateWithHttpOperationResponse'
+      name: createOrUpdateWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Views#createOrUpdate'
+      name: createOrUpdate
+    - uid: 'azure-arm-customerinsights.Views#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Views#get'
+      name: get
+    - uid: 'azure-arm-customerinsights.Views#deleteMethodWithHttpOperationResponse'
+      name: deleteMethodWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Views#deleteMethod'
+      name: deleteMethod
+    - uid: 'azure-arm-customerinsights.Views#listByHubNextWithHttpOperationResponse'
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.Views#listByHubNext'
+      name: listByHubNext
+- uid: azure-arm-customerinsights.WidgetTypeListResult
+  name: WidgetTypeListResult
+  items:
+    - uid: 'azure-arm-customerinsights.WidgetTypeListResult#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.WidgetTypeResourceFormat
+  name: WidgetTypeResourceFormat
+  items:
+    - uid: 'azure-arm-customerinsights.WidgetTypeResourceFormat#mapper'
+      name: mapper
+- uid: azure-arm-customerinsights.WidgetTypes
+  name: WidgetTypes
+  items:
+    - uid: >-
+        azure-arm-customerinsights.WidgetTypes#listByHubWithHttpOperationResponse
+      name: listByHubWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.WidgetTypes#listByHub'
+      name: listByHub
+    - uid: 'azure-arm-customerinsights.WidgetTypes#getWithHttpOperationResponse'
+      name: getWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.WidgetTypes#get'
+      name: get
+    - uid: >-
+        azure-arm-customerinsights.WidgetTypes#listByHubNextWithHttpOperationResponse
+      name: listByHubNextWithHttpOperationResponse
+    - uid: 'azure-arm-customerinsights.WidgetTypes#listByHubNext'
+      name: listByHubNext

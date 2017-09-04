@@ -1,0 +1,122 @@
+- uid: azure-insights.EventCategories
+  name: EventCategories
+  items:
+    - uid: 'azure-insights.EventCategories#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-insights.EventCategories#list'
+      name: list
+- uid: azure-insights.EventCategoryCollection
+  name: EventCategoryCollection
+  items:
+    - uid: 'azure-insights.EventCategoryCollection#mapper'
+      name: mapper
+- uid: azure-insights.EventData
+  name: EventData
+  items:
+    - uid: 'azure-insights.EventData#mapper'
+      name: mapper
+- uid: azure-insights.EventDataCollection
+  name: EventDataCollection
+  items:
+    - uid: 'azure-insights.EventDataCollection#mapper'
+      name: mapper
+- uid: azure-insights.Events
+  name: Events
+  items:
+    - uid: 'azure-insights.Events#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-insights.Events#list'
+      name: list
+    - uid: 'azure-insights.Events#listNextWithHttpOperationResponse'
+      name: listNextWithHttpOperationResponse
+    - uid: 'azure-insights.Events#listNext'
+      name: listNext
+- uid: azure-insights.HttpRequestInfo
+  name: HttpRequestInfo
+  items:
+    - uid: 'azure-insights.HttpRequestInfo#mapper'
+      name: mapper
+- uid: azure-insights.InsightsClient
+  name: InsightsClient
+- uid: azure-insights.LocalizableString
+  name: LocalizableString
+  items:
+    - uid: 'azure-insights.LocalizableString#mapper'
+      name: mapper
+- uid: azure-insights.Metric
+  name: Metric
+  items:
+    - uid: 'azure-insights.Metric#mapper'
+      name: mapper
+- uid: azure-insights.MetricAvailability
+  name: MetricAvailability
+  items:
+    - uid: 'azure-insights.MetricAvailability#mapper'
+      name: mapper
+- uid: azure-insights.MetricCollection
+  name: MetricCollection
+  items:
+    - uid: 'azure-insights.MetricCollection#mapper'
+      name: mapper
+- uid: azure-insights.MetricDefinition
+  name: MetricDefinition
+  items:
+    - uid: 'azure-insights.MetricDefinition#mapper'
+      name: mapper
+- uid: azure-insights.MetricDefinitionCollection
+  name: MetricDefinitionCollection
+  items:
+    - uid: 'azure-insights.MetricDefinitionCollection#mapper'
+      name: mapper
+- uid: azure-insights.MetricDefinitions
+  name: MetricDefinitions
+  items:
+    - uid: 'azure-insights.MetricDefinitions#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-insights.MetricDefinitions#list'
+      name: list
+- uid: azure-insights.Metrics
+  name: Metrics
+  items:
+    - uid: 'azure-insights.Metrics#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-insights.Metrics#list'
+      name: list
+- uid: azure-insights.MetricValue
+  name: MetricValue
+  items:
+    - uid: 'azure-insights.MetricValue#mapper'
+      name: mapper
+- uid: azure-insights.SenderAuthorization
+  name: SenderAuthorization
+  items:
+    - uid: 'azure-insights.SenderAuthorization#mapper'
+      name: mapper
+- uid: azure-insights.TenantEvents
+  name: TenantEvents
+  items:
+    - uid: 'azure-insights.TenantEvents#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-insights.TenantEvents#list'
+      name: list
+    - uid: 'azure-insights.TenantEvents#listNextWithHttpOperationResponse'
+      name: listNextWithHttpOperationResponse
+    - uid: 'azure-insights.TenantEvents#listNext'
+      name: listNext
+- uid: azure-insights.UsageMetric
+  name: UsageMetric
+  items:
+    - uid: 'azure-insights.UsageMetric#mapper'
+      name: mapper
+- uid: azure-insights.UsageMetricCollection
+  name: UsageMetricCollection
+  items:
+    - uid: 'azure-insights.UsageMetricCollection#mapper'
+      name: mapper
+- uid: azure-insights.UsageMetrics
+  name: UsageMetrics
+  items:
+    - uid: 'azure-insights.UsageMetrics#listWithHttpOperationResponse'
+      name: listWithHttpOperationResponse
+    - uid: 'azure-insights.UsageMetrics#list'
+      name: list

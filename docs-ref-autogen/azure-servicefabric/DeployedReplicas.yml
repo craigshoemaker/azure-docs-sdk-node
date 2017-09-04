@@ -1,0 +1,171 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-servicefabric.DeployedReplicas
+    id: azure-servicefabric.DeployedReplicas
+    name: DeployedReplicas
+    summary: Class representing a DeployedReplicas.
+    fullName: azure-servicefabric.DeployedReplicas
+    source:
+      id: azure-servicefabric.DeployedReplicas
+      path: lib\services\serviceFabric\lib\operations\deployedReplicas.js
+      startLine: 169
+      remote:
+        branch: jsdoc
+        path: lib\services\serviceFabric\lib\operations\deployedReplicas.js
+        repo: 'https://github.com/Azure/azure-sdk-for-node.git'
+    type: Class
+    children:
+      - 'azure-servicefabric.DeployedReplicas.#ctor'
+      - 'azure-servicefabric.DeployedReplicas#getWithHttpOperationResponse'
+      - 'azure-servicefabric.DeployedReplicas#get'
+    langs:
+      - js
+  - id: 'azure-servicefabric.DeployedReplicas.#ctor'
+    uid: 'azure-servicefabric.DeployedReplicas.#ctor'
+    parent: azure-servicefabric.DeployedReplicas
+    name: DeployedReplicas(client)
+    fullName: azure-servicefabric.DeployedReplicas.DeployedReplicas(client)
+    summary: Create a DeployedReplicas.
+    type: Constructor
+    syntax:
+      parameters:
+        - id: client
+          type:
+            - azure-servicefabric.ServiceFabricClient
+          description: Reference to the service client.
+      content: new DeployedReplicas(client)
+    langs:
+      - js
+  - uid: 'azure-servicefabric.DeployedReplicas#getWithHttpOperationResponse'
+    id: 'azure-servicefabric.DeployedReplicas#getWithHttpOperationResponse'
+    parent: azure-servicefabric.DeployedReplicas
+    name: 'getWithHttpOperationResponse(nodeName, applicationName, options)'
+    summary: Get deployed replicas
+    fullName: >-
+      azure-servicefabric.DeployedReplicas.getWithHttpOperationResponse(nodeName,
+      applicationName, options)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{HttpOperationResponse<Array>} - The deserialized result object.'
+        value: '{HttpOperationResponse<Array>} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: '{Error} - The error object.'
+        value: '{Error} - The error object.'
+    type: Function
+    syntax:
+      parameters:
+        - id: nodeName
+          type:
+            - string
+          description: The name of the node
+        - id: applicationName
+          type:
+            - string
+          description: The name of the application
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: |-
+            Headers that will be added to the
+            request
+          optional: true
+      return:
+        type:
+          - Promise
+        description: A promise is returned
+      content: >-
+        function getWithHttpOperationResponse(nodeName, applicationName,
+        options)
+    langs:
+      - js
+  - uid: 'azure-servicefabric.DeployedReplicas#get'
+    id: 'azure-servicefabric.DeployedReplicas#get'
+    parent: azure-servicefabric.DeployedReplicas
+    name: 'get(nodeName, applicationName, options, optionalCallback)'
+    summary: Get deployed replicas
+    fullName: >-
+      azure-servicefabric.DeployedReplicas.get(nodeName, applicationName,
+      options, optionalCallback)
+    tags:
+      - originalTitle: resolve
+        title: resolve
+        text: '{Array} - The deserialized result object.'
+        value: '{Array} - The deserialized result object.'
+      - originalTitle: reject
+        title: reject
+        text: |-
+          {Error} - The error object.
+
+          {function} optionalCallback(err, result, request, response)
+
+                               {Error}  err        - The Error object if an error occurred, null otherwise.
+
+                               {array} [result]   - The deserialized result object if an error did not occur.
+
+                               {object} [request]  - The HTTP Request object if an error did not occur.
+
+                               {stream} [response] - The HTTP Response stream if an error did not occur.
+        value: |-
+          {Error} - The error object.
+
+          {function} optionalCallback(err, result, request, response)
+
+                               {Error}  err        - The Error object if an error occurred, null otherwise.
+
+                               {array} [result]   - The deserialized result object if an error did not occur.
+
+                               {object} [request]  - The HTTP Request object if an error did not occur.
+
+                               {stream} [response] - The HTTP Response stream if an error did not occur.
+    type: Function
+    syntax:
+      parameters:
+        - id: nodeName
+          type:
+            - string
+          description: The name of the node
+        - id: applicationName
+          type:
+            - string
+          description: The name of the application
+        - id: options
+          type:
+            - object
+          description: Optional Parameters.
+          optional: true
+        - id: options.customHeaders
+          type:
+            - object
+          description: |-
+            Headers that will be added to the
+            request
+          optional: true
+        - id: optionalCallback
+          type:
+            - function
+          description: The optional callback.
+          optional: true
+      return:
+        type:
+          - function
+          - Promise
+        description: |-
+          If a callback was passed as the last parameter
+          then it returns the callback else returns a Promise.
+
+          {Promise} A promise is returned
+      content: 'function get(nodeName, applicationName, options, optionalCallback)'
+    langs:
+      - js
+references:
+  - uid: azure-servicefabric.ServiceFabricClient
+    name: ServiceFabricClient
+    fullName: azure-servicefabric.ServiceFabricClient
+    isExternal: false

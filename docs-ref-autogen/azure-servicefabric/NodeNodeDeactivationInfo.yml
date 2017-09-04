@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-servicefabric.NodeNodeDeactivationInfo
+    id: azure-servicefabric.NodeNodeDeactivationInfo
+    name: NodeNodeDeactivationInfo
+    summary: The info of the deactivation info
+    fullName: azure-servicefabric.NodeNodeDeactivationInfo
+    source:
+      id: azure-servicefabric.NodeNodeDeactivationInfo
+      path: lib\services\serviceFabric\lib\models\nodeNodeDeactivationInfo.js
+      startLine: 17
+      remote:
+        branch: jsdoc
+        path: lib\services\serviceFabric\lib\models\nodeNodeDeactivationInfo.js
+        repo: 'https://github.com/Azure/azure-sdk-for-node.git'
+    type: Class
+    children:
+      - 'azure-servicefabric.NodeNodeDeactivationInfo.#ctor'
+      - 'azure-servicefabric.NodeNodeDeactivationInfo#mapper'
+    langs:
+      - js
+  - id: 'azure-servicefabric.NodeNodeDeactivationInfo.#ctor'
+    uid: 'azure-servicefabric.NodeNodeDeactivationInfo.#ctor'
+    parent: azure-servicefabric.NodeNodeDeactivationInfo
+    name: NodeNodeDeactivationInfo()
+    fullName: azure-servicefabric.NodeNodeDeactivationInfo.NodeNodeDeactivationInfo()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new NodeNodeDeactivationInfo()
+    langs:
+      - js
+  - uid: 'azure-servicefabric.NodeNodeDeactivationInfo#mapper'
+    id: 'azure-servicefabric.NodeNodeDeactivationInfo#mapper'
+    parent: azure-servicefabric.NodeNodeDeactivationInfo
+    name: mapper()
+    summary: Defines the metadata of NodeNodeDeactivationInfo
+    fullName: azure-servicefabric.NodeNodeDeactivationInfo.mapper()
+    type: Function
+    syntax:
+      return:
+        type:
+          - object
+        description: metadata of NodeNodeDeactivationInfo
+      content: function mapper()
+    langs:
+      - js

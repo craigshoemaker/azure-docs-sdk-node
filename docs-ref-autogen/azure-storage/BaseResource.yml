@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: azure-storage.BaseResource
+    id: azure-storage.BaseResource
+    name: BaseResource
+    summary: Initializes a new instance of the Resource class.
+    fullName: azure-storage.BaseResource
+    source:
+      id: azure-storage.BaseResource
+      path: lib\azure.js
+      startLine: 2851
+      remote:
+        branch: master
+        path: lib\azure.js
+        repo: 'https://github.com/Azure/azure-storage-node.git'
+    type: Class
+    children:
+      - 'azure-storage.BaseResource.#ctor'
+    langs:
+      - js
+  - id: 'azure-storage.BaseResource.#ctor'
+    uid: 'azure-storage.BaseResource.#ctor'
+    parent: azure-storage.BaseResource
+    name: BaseResource()
+    fullName: azure-storage.BaseResource.BaseResource()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new BaseResource()
+    langs:
+      - js
