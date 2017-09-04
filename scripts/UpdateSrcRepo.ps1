@@ -2,6 +2,7 @@ function CloneOrPull
 {
       param([string]$gitRepo, [string]$branch, [string]$folderName)
 
+	  Write-Host $gitRepo $branch $folderName
       if (Test-Path $folderName\.git)
       {
           Push-Location $folderName
@@ -22,13 +23,19 @@ $src = "src"
 md -Force $rootFolder\$src
 Push-Location $rootFolder\$src
 
-$url = "https://github.com/Azure/azure-sdk-for-node"
-$branch = "jsdoc"
-$name = "azure-sdk-for-node"
-CloneOrPull $($url) $($branch) $($name)
-$url = "https://github.com/Azure/azure-storage-node"
-$branch = "master"
-$name = "azure-storage-node"
-CloneOrPull $($url) $($branch) $($name)
+[System.Reflection.Assembly]::LoadWithPartialName("System.Web.Extensions")
+$JSON = Get-Content -Path $rootFolder\repo.json -Raw
+$HT = (New-Object System.Web.Script.Serialization.JavaScriptSerializer).Deserialize($JSON, [System.Collections.Hashtable])
+$HT.repo.GetEnumerator() | ForEach-Object {
+    Write-Host $_.Value.url $_.Value.branch $_.Value.name
+	
+	CloneOrPull $($_.Value.url) $($_.Value.branch) $($_.Value.name)
+	if ($_.Value.build_script)
+	{
+		Push-Location $($_.Value.name)
+		Invoke-Expression $_.Value.build_script
+		Pop-Location
+	}
+}
 
 Pop-Location
