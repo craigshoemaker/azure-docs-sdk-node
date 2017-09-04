@@ -80,7 +80,7 @@ function getWhiteListFromPackageMappingFile(sourcePath, packageMappingFileRelati
 
 // 1. prepare
 fse.removeSync(dest);
-//var whiteList = getWhiteListFromPackageMappingFile(src, packageMappingFileRelativePath);
+var whiteList = getWhiteListFromPackageMappingFile('src/azure-sdk-for-node', packageMappingFileRelativePath);
 var repoConfig = fse.readJsonSync(repoRelativePath);
 var repo = null;
 if (repoConfig && repoConfig.repo) {
