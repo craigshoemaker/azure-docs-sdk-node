@@ -1,3 +1,721 @@
+- uid: azure-storage.BatchResult
+  name: BatchResult
+  items:
+    - uid: azure-storage.BatchResult._getBoundary
+      name: _getBoundary
+    - uid: 'azure-storage.BatchResult#constructWebResource'
+      name: constructWebResource
+    - uid: 'azure-storage.BatchResult#serialize'
+      name: serialize
+    - uid: 'azure-storage.BatchResult#_serializeOperation'
+      name: _serializeOperation
+    - uid: 'azure-storage.BatchResult#parse'
+      name: parse
+    - uid: 'azure-storage.BatchResult#_parseOperation'
+      name: _parseOperation
+- uid: azure-storage.BinaryBase64QueueMessageEncoder
+  name: BinaryBase64QueueMessageEncoder
+  items:
+    - uid: 'azure-storage.BinaryBase64QueueMessageEncoder#encode'
+      name: encode
+    - uid: 'azure-storage.BinaryBase64QueueMessageEncoder#decode'
+      name: decode
+- uid: azure-storage.BlobResult
+  name: BlobResult
+  items:
+    - uid: azure-storage.BlobResult.setHeadersFromBlob
+      name: setHeadersFromBlob
+    - uid: azure-storage.BlobResult.setPropertiesFromBlob
+      name: setPropertiesFromBlob
+- uid: azure-storage.BlobService
+  name: BlobService
+  items:
+    - uid: 'azure-storage.BlobService#getServiceStats'
+      name: getServiceStats
+    - uid: 'azure-storage.BlobService#getServiceProperties'
+      name: getServiceProperties
+    - uid: 'azure-storage.BlobService#setServiceProperties'
+      name: setServiceProperties
+    - uid: 'azure-storage.BlobService#setBlobTier'
+      name: setBlobTier
+    - uid: 'azure-storage.BlobService#listContainersSegmented'
+      name: listContainersSegmented
+    - uid: 'azure-storage.BlobService#listContainersSegmentedWithPrefix'
+      name: listContainersSegmentedWithPrefix
+    - uid: 'azure-storage.BlobService#doesContainerExist'
+      name: doesContainerExist
+    - uid: 'azure-storage.BlobService#createContainer'
+      name: createContainer
+    - uid: 'azure-storage.BlobService#createContainerIfNotExists'
+      name: createContainerIfNotExists
+    - uid: 'azure-storage.BlobService#getContainerProperties'
+      name: getContainerProperties
+    - uid: 'azure-storage.BlobService#getContainerMetadata'
+      name: getContainerMetadata
+    - uid: 'azure-storage.BlobService#setContainerMetadata'
+      name: setContainerMetadata
+    - uid: 'azure-storage.BlobService#getContainerAcl'
+      name: getContainerAcl
+    - uid: 'azure-storage.BlobService#setContainerAcl'
+      name: setContainerAcl
+    - uid: 'azure-storage.BlobService#deleteContainer'
+      name: deleteContainer
+    - uid: 'azure-storage.BlobService#deleteContainerIfExists'
+      name: deleteContainerIfExists
+    - uid: 'azure-storage.BlobService#listBlobDirectoriesSegmented'
+      name: listBlobDirectoriesSegmented
+    - uid: 'azure-storage.BlobService#listBlobDirectoriesSegmentedWithPrefix'
+      name: listBlobDirectoriesSegmentedWithPrefix
+    - uid: 'azure-storage.BlobService#listBlobsSegmented'
+      name: listBlobsSegmented
+    - uid: 'azure-storage.BlobService#listBlobsSegmentedWithPrefix'
+      name: listBlobsSegmentedWithPrefix
+    - uid: 'azure-storage.BlobService#acquireLease'
+      name: acquireLease
+    - uid: 'azure-storage.BlobService#renewLease'
+      name: renewLease
+    - uid: 'azure-storage.BlobService#changeLease'
+      name: changeLease
+    - uid: 'azure-storage.BlobService#releaseLease'
+      name: releaseLease
+    - uid: 'azure-storage.BlobService#breakLease'
+      name: breakLease
+    - uid: 'azure-storage.BlobService#getBlobProperties'
+      name: getBlobProperties
+    - uid: 'azure-storage.BlobService#getBlobMetadata'
+      name: getBlobMetadata
+    - uid: 'azure-storage.BlobService#setBlobProperties'
+      name: setBlobProperties
+    - uid: 'azure-storage.BlobService#setBlobMetadata'
+      name: setBlobMetadata
+    - uid: 'azure-storage.BlobService#createReadStream'
+      name: createReadStream
+    - uid: 'azure-storage.BlobService#getBlobToStream'
+      name: getBlobToStream
+    - uid: 'azure-storage.BlobService#getBlobToText'
+      name: getBlobToText
+    - uid: 'azure-storage.BlobService#deleteBlob'
+      name: deleteBlob
+    - uid: 'azure-storage.BlobService#doesBlobExist'
+      name: doesBlobExist
+    - uid: 'azure-storage.BlobService#deleteBlobIfExists'
+      name: deleteBlobIfExists
+    - uid: 'azure-storage.BlobService#createBlobSnapshot'
+      name: createBlobSnapshot
+    - uid: 'azure-storage.BlobService#startCopyBlob'
+      name: startCopyBlob
+    - uid: 'azure-storage.BlobService#abortCopyBlob'
+      name: abortCopyBlob
+    - uid: 'azure-storage.BlobService#generateSharedAccessSignature'
+      name: generateSharedAccessSignature
+    - uid: 'azure-storage.BlobService#getUrl'
+      name: getUrl
+    - uid: 'azure-storage.BlobService#createPageBlob'
+      name: createPageBlob
+    - uid: 'azure-storage.BlobService#createPageBlobFromStream'
+      name: createPageBlobFromStream
+    - uid: 'azure-storage.BlobService#createWriteStreamToExistingPageBlob'
+      name: createWriteStreamToExistingPageBlob
+    - uid: 'azure-storage.BlobService#createWriteStreamToNewPageBlob'
+      name: createWriteStreamToNewPageBlob
+    - uid: 'azure-storage.BlobService#createPagesFromStream'
+      name: createPagesFromStream
+    - uid: 'azure-storage.BlobService#listPageRanges'
+      name: listPageRanges
+    - uid: 'azure-storage.BlobService#getPageRangesDiff'
+      name: getPageRangesDiff
+    - uid: 'azure-storage.BlobService#clearPageRange'
+      name: clearPageRange
+    - uid: 'azure-storage.BlobService#resizePageBlob'
+      name: resizePageBlob
+    - uid: 'azure-storage.BlobService#setPageBlobSequenceNumber'
+      name: setPageBlobSequenceNumber
+    - uid: 'azure-storage.BlobService#createBlockBlobFromStream'
+      name: createBlockBlobFromStream
+    - uid: 'azure-storage.BlobService#createBlockBlobFromText'
+      name: createBlockBlobFromText
+    - uid: 'azure-storage.BlobService#createWriteStreamToBlockBlob'
+      name: createWriteStreamToBlockBlob
+    - uid: 'azure-storage.BlobService#createBlockFromStream'
+      name: createBlockFromStream
+    - uid: 'azure-storage.BlobService#createBlockFromText'
+      name: createBlockFromText
+    - uid: 'azure-storage.BlobService#_createBlock'
+      name: _createBlock
+    - uid: 'azure-storage.BlobService#commitBlocks'
+      name: commitBlocks
+    - uid: 'azure-storage.BlobService#listBlocks'
+      name: listBlocks
+    - uid: 'azure-storage.BlobService#generateBlockIdPrefix'
+      name: generateBlockIdPrefix
+    - uid: 'azure-storage.BlobService#getBlockId'
+      name: getBlockId
+    - uid: 'azure-storage.BlobService#createOrReplaceAppendBlob'
+      name: createOrReplaceAppendBlob
+    - uid: 'azure-storage.BlobService#createAppendBlobFromStream'
+      name: createAppendBlobFromStream
+    - uid: 'azure-storage.BlobService#createAppendBlobFromText'
+      name: createAppendBlobFromText
+    - uid: 'azure-storage.BlobService#createWriteStreamToNewAppendBlob'
+      name: createWriteStreamToNewAppendBlob
+    - uid: 'azure-storage.BlobService#createWriteStreamToExistingAppendBlob'
+      name: createWriteStreamToExistingAppendBlob
+    - uid: 'azure-storage.BlobService#appendFromStream'
+      name: appendFromStream
+    - uid: 'azure-storage.BlobService#appendFromText'
+      name: appendFromText
+    - uid: 'azure-storage.BlobService#appendBlockFromStream'
+      name: appendBlockFromStream
+    - uid: 'azure-storage.BlobService#appendBlockFromText'
+      name: appendBlockFromText
+    - uid: 'azure-storage.BlobService#_createBlobFromStream'
+      name: _createBlobFromStream
+    - uid: 'azure-storage.BlobService#_createBlobFromText'
+      name: _createBlobFromText
+    - uid: 'azure-storage.BlobService#_createWriteStreamToBlob'
+      name: _createWriteStreamToBlob
+    - uid: 'azure-storage.BlobService#_uploadBlobFromStream'
+      name: _uploadBlobFromStream
+    - uid: 'azure-storage.BlobService#_uploadBlobFromText'
+      name: _uploadBlobFromText
+    - uid: 'azure-storage.BlobService#_putBlockBlob'
+      name: _putBlockBlob
+    - uid: 'azure-storage.BlobService#_appendBlock'
+      name: _appendBlock
+    - uid: 'azure-storage.BlobService#_leaseImpl'
+      name: _leaseImpl
+    - uid: 'azure-storage.BlobService#_createPages'
+      name: _createPages
+    - uid: 'azure-storage.BlobService#_updatePageBlobPagesImpl'
+      name: _updatePageBlobPagesImpl
+    - uid: 'azure-storage.BlobService#_uploadContentFromChunkStream'
+      name: _uploadContentFromChunkStream
+    - uid: 'azure-storage.BlobService#_doesContainerExist'
+      name: _doesContainerExist
+    - uid: 'azure-storage.BlobService#_doesBlobExist'
+      name: _doesBlobExist
+    - uid: 'azure-storage.BlobService#_setBlobPropertiesHelper'
+      name: _setBlobPropertiesHelper
+    - uid: 'azure-storage.BlobService#_validateLengthAndMD5'
+      name: _validateLengthAndMD5
+    - uid: 'azure-storage.BlobService#_setRangeContentMD5Header'
+      name: _setRangeContentMD5Header
+    - uid: 'azure-storage.BlobService#_getBlobToRangeStream'
+      name: _getBlobToRangeStream
+    - uid: 'azure-storage.BlobService#_getBlobToStream'
+      name: _getBlobToStream
+    - uid: 'azure-storage.BlobService#_listBlobsOrDircotriesSegmentedWithPrefix'
+      name: _listBlobsOrDircotriesSegmentedWithPrefix
+    - uid: 'azure-storage.BlobService#_createBlob'
+      name: _createBlob
+    - uid: 'azure-storage.BlobService#getBlobToLocalFile'
+      name: getBlobToLocalFile
+    - uid: 'azure-storage.BlobService#createPageBlobFromLocalFile'
+      name: createPageBlobFromLocalFile
+    - uid: 'azure-storage.BlobService#createBlockBlobFromLocalFile'
+      name: createBlockBlobFromLocalFile
+    - uid: 'azure-storage.BlobService#createAppendBlobFromLocalFile'
+      name: createAppendBlobFromLocalFile
+    - uid: 'azure-storage.BlobService#appendFromLocalFile'
+      name: appendFromLocalFile
+    - uid: 'azure-storage.BlobService#_createBlobFromLocalFile'
+      name: _createBlobFromLocalFile
+    - uid: 'azure-storage.BlobService#_getBlobToLocalFile'
+      name: _getBlobToLocalFile
+- uid: azure-storage.ContainerResult
+  name: ContainerResult
+- uid: azure-storage.DirectoryResult
+  name: DirectoryResult
+- uid: azure-storage.ExponentialRetryPolicyFilter
+  name: ExponentialRetryPolicyFilter
+  items:
+    - uid: 'azure-storage.ExponentialRetryPolicyFilter#shouldRetry'
+      name: shouldRetry
+    - uid: 'azure-storage.ExponentialRetryPolicyFilter#handle'
+      name: handle
+- uid: azure-storage.FileResult
+  name: FileResult
+  items:
+    - uid: azure-storage.FileResult.setHeaders
+      name: setHeaders
+    - uid: azure-storage.FileResult.setProperties
+      name: setProperties
+- uid: azure-storage.FileService
+  name: FileService
+  items:
+    - uid: 'azure-storage.FileService#getServiceProperties'
+      name: getServiceProperties
+    - uid: 'azure-storage.FileService#setServiceProperties'
+      name: setServiceProperties
+    - uid: 'azure-storage.FileService#listSharesSegmented'
+      name: listSharesSegmented
+    - uid: 'azure-storage.FileService#listSharesSegmentedWithPrefix'
+      name: listSharesSegmentedWithPrefix
+    - uid: 'azure-storage.FileService#doesShareExist'
+      name: doesShareExist
+    - uid: 'azure-storage.FileService#createShare'
+      name: createShare
+    - uid: 'azure-storage.FileService#createShareIfNotExists'
+      name: createShareIfNotExists
+    - uid: 'azure-storage.FileService#getShareProperties'
+      name: getShareProperties
+    - uid: 'azure-storage.FileService#setShareProperties'
+      name: setShareProperties
+    - uid: 'azure-storage.FileService#getShareStats'
+      name: getShareStats
+    - uid: 'azure-storage.FileService#getShareMetadata'
+      name: getShareMetadata
+    - uid: 'azure-storage.FileService#setShareMetadata'
+      name: setShareMetadata
+    - uid: 'azure-storage.FileService#getShareAcl'
+      name: getShareAcl
+    - uid: 'azure-storage.FileService#setShareAcl'
+      name: setShareAcl
+    - uid: 'azure-storage.FileService#deleteShare'
+      name: deleteShare
+    - uid: 'azure-storage.FileService#deleteShareIfExists'
+      name: deleteShareIfExists
+    - uid: 'azure-storage.FileService#doesDirectoryExist'
+      name: doesDirectoryExist
+    - uid: 'azure-storage.FileService#createDirectory'
+      name: createDirectory
+    - uid: 'azure-storage.FileService#createDirectoryIfNotExists'
+      name: createDirectoryIfNotExists
+    - uid: 'azure-storage.FileService#getDirectoryProperties'
+      name: getDirectoryProperties
+    - uid: 'azure-storage.FileService#deleteDirectory'
+      name: deleteDirectory
+    - uid: 'azure-storage.FileService#deleteDirectoryIfExists'
+      name: deleteDirectoryIfExists
+    - uid: 'azure-storage.FileService#listFilesAndDirectoriesSegmented'
+      name: listFilesAndDirectoriesSegmented
+    - uid: 'azure-storage.FileService#listFilesAndDirectoriesSegmentedWithPrefix'
+      name: listFilesAndDirectoriesSegmentedWithPrefix
+    - uid: 'azure-storage.FileService#getDirectoryMetadata'
+      name: getDirectoryMetadata
+    - uid: 'azure-storage.FileService#setDirectoryMetadata'
+      name: setDirectoryMetadata
+    - uid: 'azure-storage.FileService#generateSharedAccessSignature'
+      name: generateSharedAccessSignature
+    - uid: 'azure-storage.FileService#getUrl'
+      name: getUrl
+    - uid: 'azure-storage.FileService#getFileProperties'
+      name: getFileProperties
+    - uid: 'azure-storage.FileService#getFileMetadata'
+      name: getFileMetadata
+    - uid: 'azure-storage.FileService#setFileProperties'
+      name: setFileProperties
+    - uid: 'azure-storage.FileService#setFileMetadata'
+      name: setFileMetadata
+    - uid: 'azure-storage.FileService#resizeFile'
+      name: resizeFile
+    - uid: 'azure-storage.FileService#doesFileExist'
+      name: doesFileExist
+    - uid: 'azure-storage.FileService#createFile'
+      name: createFile
+    - uid: 'azure-storage.FileService#deleteFile'
+      name: deleteFile
+    - uid: 'azure-storage.FileService#deleteFileIfExists'
+      name: deleteFileIfExists
+    - uid: 'azure-storage.FileService#getFileToText'
+      name: getFileToText
+    - uid: 'azure-storage.FileService#createReadStream'
+      name: createReadStream
+    - uid: 'azure-storage.FileService#getFileToStream'
+      name: getFileToStream
+    - uid: 'azure-storage.FileService#listRanges'
+      name: listRanges
+    - uid: 'azure-storage.FileService#clearRange'
+      name: clearRange
+    - uid: 'azure-storage.FileService#createRangesFromStream'
+      name: createRangesFromStream
+    - uid: 'azure-storage.FileService#createFileFromText'
+      name: createFileFromText
+    - uid: 'azure-storage.FileService#createFileFromStream'
+      name: createFileFromStream
+    - uid: 'azure-storage.FileService#createWriteStreamToExistingFile'
+      name: createWriteStreamToExistingFile
+    - uid: 'azure-storage.FileService#createWriteStreamToNewFile'
+      name: createWriteStreamToNewFile
+    - uid: 'azure-storage.FileService#startCopyFile'
+      name: startCopyFile
+    - uid: 'azure-storage.FileService#abortCopyFile'
+      name: abortCopyFile
+    - uid: 'azure-storage.FileService#_createRanges'
+      name: _createRanges
+    - uid: 'azure-storage.FileService#_createFileFromChunkStream'
+      name: _createFileFromChunkStream
+    - uid: 'azure-storage.FileService#_getFileToStream'
+      name: _getFileToStream
+    - uid: 'azure-storage.FileService#_getFileToRangeStream'
+      name: _getFileToRangeStream
+    - uid: 'azure-storage.FileService#_setRangeContentMD5Header'
+      name: _setRangeContentMD5Header
+    - uid: 'azure-storage.FileService#_updateFilesImpl'
+      name: _updateFilesImpl
+    - uid: 'azure-storage.FileService#_validateLengthAndMD5'
+      name: _validateLengthAndMD5
+    - uid: 'azure-storage.FileService#_doesFileExist'
+      name: _doesFileExist
+    - uid: 'azure-storage.FileService#_doesDirectoryExist'
+      name: _doesDirectoryExist
+    - uid: 'azure-storage.FileService#_doesShareExist'
+      name: _doesShareExist
+    - uid: 'azure-storage.FileService#getFileToLocalFile'
+      name: getFileToLocalFile
+    - uid: 'azure-storage.FileService#createFileFromLocalFile'
+      name: createFileFromLocalFile
+- uid: azure-storage.HmacSha256Sign
+  name: HmacSha256Sign
+  items:
+    - uid: 'azure-storage.HmacSha256Sign#sign'
+      name: sign
+- uid: azure-storage.LeaseResult
+  name: LeaseResult
+- uid: azure-storage.LinearRetryPolicyFilter
+  name: LinearRetryPolicyFilter
+  items:
+    - uid: 'azure-storage.LinearRetryPolicyFilter#shouldRetry'
+      name: shouldRetry
+    - uid: 'azure-storage.LinearRetryPolicyFilter#handle'
+      name: handle
+- uid: azure-storage.Logger
+  name: Logger
+- uid: azure-storage.QueueMessageEncoder
+  name: QueueMessageEncoder
+  items:
+    - uid: 'azure-storage.QueueMessageEncoder#encode'
+      name: encode
+    - uid: 'azure-storage.QueueMessageEncoder#decode'
+      name: decode
+- uid: azure-storage.QueueMessageResult
+  name: QueueMessageResult
+  items:
+    - uid: azure-storage.QueueMessageResult.serialize
+      name: serialize
+    - uid: azure-storage.QueueMessageResult.parse
+      name: parse
+- uid: azure-storage.QueueResult
+  name: QueueResult
+- uid: azure-storage.QueueService
+  name: QueueService
+  items:
+    - uid: 'azure-storage.QueueService#getServiceStats'
+      name: getServiceStats
+    - uid: 'azure-storage.QueueService#getServiceProperties'
+      name: getServiceProperties
+    - uid: 'azure-storage.QueueService#setServiceProperties'
+      name: setServiceProperties
+    - uid: 'azure-storage.QueueService#listQueuesSegmented'
+      name: listQueuesSegmented
+    - uid: 'azure-storage.QueueService#listQueuesSegmentedWithPrefix'
+      name: listQueuesSegmentedWithPrefix
+    - uid: 'azure-storage.QueueService#doesQueueExist'
+      name: doesQueueExist
+    - uid: 'azure-storage.QueueService#createQueue'
+      name: createQueue
+    - uid: 'azure-storage.QueueService#createQueueIfNotExists'
+      name: createQueueIfNotExists
+    - uid: 'azure-storage.QueueService#deleteQueue'
+      name: deleteQueue
+    - uid: 'azure-storage.QueueService#deleteQueueIfExists'
+      name: deleteQueueIfExists
+    - uid: 'azure-storage.QueueService#getQueueMetadata'
+      name: getQueueMetadata
+    - uid: 'azure-storage.QueueService#setQueueMetadata'
+      name: setQueueMetadata
+    - uid: 'azure-storage.QueueService#createMessage'
+      name: createMessage
+    - uid: 'azure-storage.QueueService#getMessages'
+      name: getMessages
+    - uid: 'azure-storage.QueueService#getMessage'
+      name: getMessage
+    - uid: 'azure-storage.QueueService#peekMessages'
+      name: peekMessages
+    - uid: 'azure-storage.QueueService#peekMessage'
+      name: peekMessage
+    - uid: 'azure-storage.QueueService#deleteMessage'
+      name: deleteMessage
+    - uid: 'azure-storage.QueueService#clearMessages'
+      name: clearMessages
+    - uid: 'azure-storage.QueueService#updateMessage'
+      name: updateMessage
+    - uid: 'azure-storage.QueueService#getQueueAcl'
+      name: getQueueAcl
+    - uid: 'azure-storage.QueueService#setQueueAcl'
+      name: setQueueAcl
+    - uid: 'azure-storage.QueueService#generateSharedAccessSignature'
+      name: generateSharedAccessSignature
+    - uid: 'azure-storage.QueueService#_doesQueueExist'
+      name: _doesQueueExist
+    - uid: 'azure-storage.QueueService#_getOrPeekMessages'
+      name: _getOrPeekMessages
+    - uid: 'azure-storage.QueueService#getUrl'
+      name: getUrl
+- uid: azure-storage.Request
+  name: Request
+  items:
+    - uid: 'azure-storage.Request#setHeader'
+      name: setHeader
+    - uid: 'azure-storage.Request#setLocation'
+      name: setLocation
+- uid: azure-storage.RetryPolicyFilter
+  name: RetryPolicyFilter
+  items:
+    - uid: 'azure-storage.RetryPolicyFilter#handle'
+      name: handle
+    - uid: azure-storage.RetryPolicyFilter._handle
+      name: _handle
+- uid: azure-storage.SharedAccessSignature
+  name: SharedAccessSignature
+  items:
+    - uid: 'azure-storage.SharedAccessSignature#signRequest'
+      name: signRequest
+- uid: azure-storage.SharedKey
+  name: SharedKey
+  items:
+    - uid: 'azure-storage.SharedKey#generateAccountSignedQueryString'
+      name: generateAccountSignedQueryString
+    - uid: 'azure-storage.SharedKey#_generateAccountSharedAccessSignature'
+      name: _generateAccountSharedAccessSignature
+    - uid: 'azure-storage.SharedKey#signRequest'
+      name: signRequest
+    - uid: 'azure-storage.SharedKey#generateSignedQueryString'
+      name: generateSignedQueryString
+    - uid: 'azure-storage.SharedKey#_generateSignature'
+      name: _generateSignature
+- uid: azure-storage.SharedKeyTable
+  name: SharedKeyTable
+  items:
+    - uid: 'azure-storage.SharedKeyTable#signRequest'
+      name: signRequest
+- uid: azure-storage.ShareResult
+  name: ShareResult
+- uid: azure-storage.StorageServiceClient
+  name: StorageServiceClient
+  items:
+    - uid: azure-storage.StorageServiceClient._getDefaultXml2jsSettings
+      name: _getDefaultXml2jsSettings
+    - uid: 'azure-storage.StorageServiceClient#setHost'
+      name: setHost
+    - uid: 'azure-storage.StorageServiceClient#performRequest'
+      name: performRequest
+    - uid: 'azure-storage.StorageServiceClient#performRequestOutputStream'
+      name: performRequestOutputStream
+    - uid: 'azure-storage.StorageServiceClient#performRequestInputStream'
+      name: performRequestInputStream
+    - uid: 'azure-storage.StorageServiceClient#_performRequest'
+      name: _performRequest
+    - uid: 'azure-storage.StorageServiceClient#_buildRequestOptions'
+      name: _buildRequestOptions
+    - uid: 'azure-storage.StorageServiceClient#_processResponse'
+      name: _processResponse
+    - uid: 'azure-storage.StorageServiceClient#withFilter'
+      name: withFilter
+    - uid: azure-storage.StorageServiceClient._parseResponse
+      name: _parseResponse
+    - uid: azure-storage.StorageServiceClient.getStorageSettings
+      name: getStorageSettings
+    - uid: 'azure-storage.StorageServiceClient#_setRequestUrl'
+      name: _setRequestUrl
+    - uid: 'azure-storage.StorageServiceClient#_getPath'
+      name: _getPath
+    - uid: 'azure-storage.StorageServiceClient#_getUrl'
+      name: _getUrl
+    - uid: 'azure-storage.StorageServiceClient#_initDefaultFilter'
+      name: _initDefaultFilter
+    - uid: 'azure-storage.StorageServiceClient#parseMetadataHeaders'
+      name: parseMetadataHeaders
+    - uid: 'azure-storage.StorageServiceClient#getAccountServiceProperties'
+      name: getAccountServiceProperties
+    - uid: 'azure-storage.StorageServiceClient#setAccountServiceProperties'
+      name: setAccountServiceProperties
+    - uid: azure-storage.StorageServiceClient._normalizeError
+      name: _normalizeError
+    - uid: 'azure-storage.StorageServiceClient#setProxy'
+      name: setProxy
+    - uid: 'azure-storage.StorageServiceClient#_setDefaultProxy'
+      name: _setDefaultProxy
+    - uid: 'azure-storage.StorageServiceClient#_initializeLocation'
+      name: _initializeLocation
+    - uid: 'azure-storage.StorageServiceClient#_validateLocation'
+      name: _validateLocation
+    - uid: 'azure-storage.StorageServiceClient#_invalidLocationMode'
+      name: _invalidLocationMode
+    - uid: 'azure-storage.StorageServiceClient#_maximumExecutionTimeExceeded'
+      name: _maximumExecutionTimeExceeded
+    - uid: 'azure-storage.StorageServiceClient#_setOperationExpiryTime'
+      name: _setOperationExpiryTime
+- uid: azure-storage.TableBatch
+  name: TableBatch
+  items:
+    - uid: 'azure-storage.TableBatch#clear'
+      name: clear
+    - uid: 'azure-storage.TableBatch#hasOperations'
+      name: hasOperations
+    - uid: 'azure-storage.TableBatch#size'
+      name: size
+    - uid: 'azure-storage.TableBatch#retrieveEntity'
+      name: retrieveEntity
+    - uid: 'azure-storage.TableBatch#insertEntity'
+      name: insertEntity
+    - uid: 'azure-storage.TableBatch#deleteEntity'
+      name: deleteEntity
+    - uid: 'azure-storage.TableBatch#mergeEntity'
+      name: mergeEntity
+    - uid: 'azure-storage.TableBatch#replaceEntity'
+      name: replaceEntity
+    - uid: 'azure-storage.TableBatch#insertOrReplaceEntity'
+      name: insertOrReplaceEntity
+    - uid: 'azure-storage.TableBatch#insertOrMergeEntity'
+      name: insertOrMergeEntity
+    - uid: 'azure-storage.TableBatch#addOperation'
+      name: addOperation
+    - uid: 'azure-storage.TableBatch#getOperation'
+      name: getOperation
+    - uid: 'azure-storage.TableBatch#removeOperation'
+      name: removeOperation
+- uid: azure-storage.TableQuery
+  name: TableQuery
+  items:
+    - uid: 'azure-storage.TableQuery#select'
+      name: select
+    - uid: 'azure-storage.TableQuery#top'
+      name: top
+    - uid: 'azure-storage.TableQuery#where'
+      name: where
+    - uid: azure-storage.TableQuery.int32Filter
+      name: int32Filter
+    - uid: azure-storage.TableQuery.int64Filter
+      name: int64Filter
+    - uid: azure-storage.TableQuery.doubleFilter
+      name: doubleFilter
+    - uid: azure-storage.TableQuery.booleanFilter
+      name: booleanFilter
+    - uid: azure-storage.TableQuery.dateFilter
+      name: dateFilter
+    - uid: azure-storage.TableQuery.guidFilter
+      name: guidFilter
+    - uid: azure-storage.TableQuery.binaryFilter
+      name: binaryFilter
+    - uid: azure-storage.TableQuery.stringFilter
+      name: stringFilter
+    - uid: azure-storage.TableQuery.combineFilters
+      name: combineFilters
+    - uid: 'azure-storage.TableQuery#and'
+      name: and
+    - uid: 'azure-storage.TableQuery#or'
+      name: or
+    - uid: 'azure-storage.TableQuery#toQueryObject'
+      name: toQueryObject
+    - uid: azure-storage.TableQuery._concatFilterString
+      name: _concatFilterString
+    - uid: azure-storage.TableQuery._encodeConditionString
+      name: _encodeConditionString
+    - uid: azure-storage.TableQuery._getEdmType
+      name: _getEdmType
+    - uid: azure-storage.TableQuery._replaceOperators
+      name: _replaceOperators
+- uid: azure-storage.TableService
+  name: TableService
+  items:
+    - uid: 'azure-storage.TableService#getServiceStats'
+      name: getServiceStats
+    - uid: 'azure-storage.TableService#getServiceProperties'
+      name: getServiceProperties
+    - uid: 'azure-storage.TableService#setServiceProperties'
+      name: setServiceProperties
+    - uid: 'azure-storage.TableService#listTablesSegmented'
+      name: listTablesSegmented
+    - uid: 'azure-storage.TableService#listTablesSegmentedWithPrefix'
+      name: listTablesSegmentedWithPrefix
+    - uid: 'azure-storage.TableService#getTableAcl'
+      name: getTableAcl
+    - uid: 'azure-storage.TableService#setTableAcl'
+      name: setTableAcl
+    - uid: 'azure-storage.TableService#generateSharedAccessSignature'
+      name: generateSharedAccessSignature
+    - uid: 'azure-storage.TableService#doesTableExist'
+      name: doesTableExist
+    - uid: 'azure-storage.TableService#createTable'
+      name: createTable
+    - uid: 'azure-storage.TableService#createTableIfNotExists'
+      name: createTableIfNotExists
+    - uid: 'azure-storage.TableService#deleteTable'
+      name: deleteTable
+    - uid: 'azure-storage.TableService#deleteTableIfExists'
+      name: deleteTableIfExists
+    - uid: 'azure-storage.TableService#queryEntities'
+      name: queryEntities
+    - uid: 'azure-storage.TableService#retrieveEntity'
+      name: retrieveEntity
+    - uid: 'azure-storage.TableService#insertEntity'
+      name: insertEntity
+    - uid: 'azure-storage.TableService#insertOrReplaceEntity'
+      name: insertOrReplaceEntity
+    - uid: 'azure-storage.TableService#replaceEntity'
+      name: replaceEntity
+    - uid: 'azure-storage.TableService#mergeEntity'
+      name: mergeEntity
+    - uid: 'azure-storage.TableService#insertOrMergeEntity'
+      name: insertOrMergeEntity
+    - uid: 'azure-storage.TableService#deleteEntity'
+      name: deleteEntity
+    - uid: 'azure-storage.TableService#executeBatch'
+      name: executeBatch
+    - uid: 'azure-storage.TableService#_doesTableExist'
+      name: _doesTableExist
+    - uid: 'azure-storage.TableService#_performEntityOperation'
+      name: _performEntityOperation
+    - uid: 'azure-storage.TableService#getUrl'
+      name: getUrl
+- uid: azure-storage.TextBase64QueueMessageEncoder
+  name: TextBase64QueueMessageEncoder
+  items:
+    - uid: 'azure-storage.TextBase64QueueMessageEncoder#encode'
+      name: encode
+    - uid: 'azure-storage.TextBase64QueueMessageEncoder#decode'
+      name: decode
+- uid: azure-storage.TextXmlQueueMessageEncoder
+  name: TextXmlQueueMessageEncoder
+  items:
+    - uid: 'azure-storage.TextXmlQueueMessageEncoder#encode'
+      name: encode
+    - uid: 'azure-storage.TextXmlQueueMessageEncoder#decode'
+      name: decode
+- uid: azure-storage.WebResource
+  name: WebResource
+  items:
+    - uid: azure-storage.WebResource.put
+      name: put
+    - uid: azure-storage.WebResource.get
+      name: get
+    - uid: azure-storage.WebResource.head
+      name: head
+    - uid: azure-storage.WebResource.del
+      name: del
+    - uid: azure-storage.WebResource.post
+      name: post
+    - uid: azure-storage.WebResource.merge
+      name: merge
+    - uid: 'azure-storage.WebResource#withProperty'
+      name: withProperty
+    - uid: 'azure-storage.WebResource#withRawResponse'
+      name: withRawResponse
+    - uid: 'azure-storage.WebResource#withQueryOption'
+      name: withQueryOption
+    - uid: 'azure-storage.WebResource#withQueryOptions'
+      name: withQueryOptions
+    - uid: 'azure-storage.WebResource#withHeader'
+      name: withHeader
+    - uid: 'azure-storage.WebResource#withBody'
+      name: withBody
+    - uid: 'azure-storage.WebResource#withHeaders'
+      name: withHeaders
+    - uid: azure-storage.WebResource.validResponse
+      name: validResponse
+    - uid: 'azure-storage.WebResource#pipeInput'
+      name: pipeInput
 - uid: azure-storage.global
   name: GLOBAL
   items:
@@ -23,3 +741,159 @@
       name: createQueueServiceWithSas
     - uid: azure-storage._global.generateAccountSharedAccessSignature
       name: generateAccountSharedAccessSignature
+    - uid: azure-storage._global.serialize
+      name: serialize
+    - uid: azure-storage._global.noMatchConnectionString
+      name: noMatchConnectionString
+    - uid: azure-storage._global.noMatchSettings
+      name: noMatchSettings
+    - uid: azure-storage._global.parseAndValidateKeys
+      name: parseAndValidateKeys
+    - uid: azure-storage._global.getValidator
+      name: getValidator
+    - uid: azure-storage._global.setting
+      name: setting
+    - uid: azure-storage._global.atLeastOne
+      name: atLeastOne
+    - uid: azure-storage._global.optional
+      name: optional
+    - uid: azure-storage._global.allRequired
+      name: allRequired
+    - uid: azure-storage._global.settingWithFunc
+      name: settingWithFunc
+    - uid: azure-storage._global.matchedSpecification
+      name: matchedSpecification
+    - uid: azure-storage._global.generateEmptyCondition
+      name: generateEmptyCondition
+    - uid: azure-storage._global.generateIfNotExistsCondition
+      name: generateIfNotExistsCondition
+    - uid: azure-storage._global.generateIfExistsCondition
+      name: generateIfExistsCondition
+    - uid: azure-storage._global.generateIfNoneMatchCondition
+      name: generateIfNoneMatchCondition
+    - uid: azure-storage._global.generateIfMatchCondition
+      name: generateIfMatchCondition
+    - uid: azure-storage._global.generateIfModifiedSinceCondition
+      name: generateIfModifiedSinceCondition
+    - uid: azure-storage._global.generateIfNotModifiedSinceCondition
+      name: generateIfNotModifiedSinceCondition
+    - uid: azure-storage._global.generateSequenceNumberEqualCondition
+      name: generateSequenceNumberEqualCondition
+    - uid: azure-storage._global.generateSequenceNumberLessThanCondition
+      name: generateSequenceNumberLessThanCondition
+    - uid: azure-storage._global.generateSequenceNumberLessThanOrEqualCondition
+      name: generateSequenceNumberLessThanOrEqualCondition
+    - uid: azure-storage._global.format
+      name: format
+    - uid: azure-storage._global.parse
+      name: parse
+    - uid: azure-storage._global.trimPortFromUri
+      name: trimPortFromUri
+    - uid: azure-storage._global.objectKeysLength
+      name: objectKeysLength
+    - uid: azure-storage._global.isBrowser
+      name: isBrowser
+    - uid: azure-storage._global.isIE
+      name: isIE
+    - uid: azure-storage._global.is32
+      name: is32
+    - uid: azure-storage._global.objectIsNull
+      name: objectIsNull
+    - uid: azure-storage._global.objectIsEmpty
+      name: objectIsEmpty
+    - uid: azure-storage._global.objectIsInt
+      name: objectIsInt
+    - uid: azure-storage._global.objectIsNaN
+      name: objectIsNaN
+    - uid: azure-storage._global.objectIsString
+      name: objectIsString
+    - uid: azure-storage._global.objectIsFunction
+      name: objectIsFunction
+    - uid: azure-storage._global.zeroPaddingString
+      name: zeroPaddingString
+    - uid: azure-storage._global.stringIsEmpty
+      name: stringIsEmpty
+    - uid: azure-storage._global.IsNullOrEmptyOrUndefinedOrWhiteSpace
+      name: IsNullOrEmptyOrUndefinedOrWhiteSpace
+    - uid: azure-storage._global.stringFormat
+      name: stringFormat
+    - uid: azure-storage._global.stringStartsWith
+      name: stringStartsWith
+    - uid: azure-storage._global.stringEndsWith
+      name: stringEndsWith
+    - uid: azure-storage._global.removeBOM
+      name: removeBOM
+    - uid: azure-storage._global.merge
+      name: merge
+    - uid: azure-storage._global.inArrayInsensitive
+      name: inArrayInsensitive
+    - uid: azure-storage._global.tryGetValueInsensitive
+      name: tryGetValueInsensitive
+    - uid: azure-storage._global.tryGetValueChain
+      name: tryGetValueChain
+    - uid: azure-storage._global.setObjectInnerPropertyValue
+      name: setObjectInnerPropertyValue
+    - uid: azure-storage._global.truncatedISO8061Date
+      name: truncatedISO8061Date
+    - uid: azure-storage._global.calculateMD5
+      name: calculateMD5
+    - uid: azure-storage._global.isBufferAllZero
+      name: isBufferAllZero
+    - uid: azure-storage._global.getContentMd5
+      name: getContentMd5
+    - uid: azure-storage._global.parseCopyProgress
+      name: parseCopyProgress
+    - uid: azure-storage._global.normalizePropertyNameFromXML
+      name: normalizePropertyNameFromXML
+    - uid: azure-storage._global.setPropertyValueFromXML
+      name: setPropertyValueFromXML
+    - uid: azure-storage._global.filterOutNonReservedProperties
+      name: filterOutNonReservedProperties
+    - uid: azure-storage._global.isValidEnumValue
+      name: isValidEnumValue
+    - uid: azure-storage._global.isValidUri
+      name: isValidUri
+    - uid: azure-storage._global.isValidHost
+      name: isValidHost
+    - uid: azure-storage._global.isValidUuid
+      name: isValidUuid
+    - uid: azure-storage._global.isBase64Encoded
+      name: isBase64Encoded
+    - uid: azure-storage._global.isValidFunction
+      name: isValidFunction
+    - uid: azure-storage._global.containerNameIsValid
+      name: containerNameIsValid
+    - uid: azure-storage._global.blobNameIsValid
+      name: blobNameIsValid
+    - uid: azure-storage._global.blobTierNameIsValid
+      name: blobTierNameIsValid
+    - uid: azure-storage._global.shareNameIsValid
+      name: shareNameIsValid
+    - uid: azure-storage._global.queueNameIsValid
+      name: queueNameIsValid
+    - uid: azure-storage._global.tableNameIsValid
+      name: tableNameIsValid
+    - uid: azure-storage._global.browserFileIsValid
+      name: browserFileIsValid
+    - uid: azure-storage._global.pageRangesAreValid
+      name: pageRangesAreValid
+    - uid: azure-storage._global.blobTypeIsValid
+      name: blobTypeIsValid
+    - uid: azure-storage._global.shareACLIsValid
+      name: shareACLIsValid
+    - uid: azure-storage._global.shareQuotaIsValid
+      name: shareQuotaIsValid
+    - uid: azure-storage._global.serialize
+      name: serialize
+    - uid: azure-storage._global.propertyType
+      name: propertyType
+    - uid: azure-storage._global.deserializeValueFromJson
+      name: deserializeValueFromJson
+    - uid: azure-storage._global.serializeValue
+      name: serializeValue
+    - uid: azure-storage._global.serializeQueryValue
+      name: serializeQueryValue
+    - uid: azure-storage._global.constructEntityWebResource
+      name: constructEntityWebResource
+    - uid: azure-storage._global.setTableRequestHeadersAndBody
+      name: setTableRequestHeadersAndBody

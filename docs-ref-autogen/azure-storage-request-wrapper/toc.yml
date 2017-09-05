@@ -1,7 +1,0 @@
-- uid: azure-storage-request-wrapper.Request
-  name: Request
-  items:
-    - uid: 'azure-storage-request-wrapper.Request#setHeader'
-      name: setHeader
-    - uid: 'azure-storage-request-wrapper.Request#setLocation'
-      name: setLocation
