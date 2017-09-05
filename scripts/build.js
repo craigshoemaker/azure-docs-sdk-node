@@ -46,7 +46,7 @@ function buildTocItems(keys, relativePathToRootFolder) {
   });
 }
 
-function generatePackageDoc(packagePath, configPath, dest, resetInclude, whiteList, repo, repoName) {
+function generatePackageDoc(packagePath, configPath, dest, rootPackage, whiteList, repo, repoName) {
   var config = fse.readJsonSync(configPath);
   var dir = path.dirname(packagePath);
   var packageName = fse.readJsonSync(packagePath).name;
@@ -55,9 +55,12 @@ function generatePackageDoc(packagePath, configPath, dest, resetInclude, whiteLi
     return;
   }
   */
-  if (resetInclude) {
-    config.source.include = [dir];
+  if (rootPackage) {
+    config.source.include = path.join(dir, 'lib', packageName + '.js')
   }  
+  else{
+    config.source.include = [dir];
+  }
   config.package = packagePath;
   config.readme = path.join(dir, 'README.md');
   config.destination = path.join(dest, packageName);
@@ -91,14 +94,14 @@ if (repoConfig && repoConfig.repo) {
 var rootConfig = fse.readJsonSync(configPath);
 Object.keys(repo).forEach(function (repoName){
   var packagePath = path.join(src, repoName, 'package.json');
-  generatePackageDoc(packagePath, configPath, rootConfig.destination, false, whiteList, repo, repoName);
+  generatePackageDoc(packagePath, configPath, rootConfig.destination, true, whiteList, repo, repoName);
 });
 
 // 3. generate yml and copy readme.md for all sub packages
 Object.keys(repo).forEach(function (repoName){
   var packageJsons = glob.sync(path.join(src, repoName, 'lib/**/package.json'));
   packageJsons.forEach(function (packagePath) {
-    generatePackageDoc(packagePath, configPath, dest, true, whiteList, repo, repoName);
+    generatePackageDoc(packagePath, configPath, dest, false, whiteList, repo, repoName);
   });
 }); 
 fs.unlink(tempConfigPath);
