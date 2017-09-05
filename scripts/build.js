@@ -50,13 +50,19 @@ function generatePackageDoc(packagePath, configPath, dest, rootPackage, whiteLis
   var config = fse.readJsonSync(configPath);
   var dir = path.dirname(packagePath);
   var packageName = fse.readJsonSync(packagePath).name;
-  /*
+  
   if (whiteList && whiteList[packageName] !== true) {
     return;
   }
-  */
+  
   if (rootPackage) {
-    config.source.include = path.join(dir, 'lib', packageName + '.js')
+    if (whiteList){
+      config.source.include = path.join(dir, 'lib', packageName + '.js');
+    }
+    else{
+      // null whiteList means this root package is the only one package
+      config.source.include = path.join(dir, 'lib');
+    }
   }  
   else{
     config.source.include = [dir];
@@ -83,7 +89,8 @@ function getWhiteListFromPackageMappingFile(sourcePath, packageMappingFileRelati
 
 // 1. prepare
 fse.removeSync(dest);
-var whiteList = getWhiteListFromPackageMappingFile('src/azure-sdk-for-node', packageMappingFileRelativePath);
+// Now only support package_service_mapping.json for azure-sdk-for-node repo
+var globalWhiteList = getWhiteListFromPackageMappingFile('src/azure-sdk-for-node', packageMappingFileRelativePath);
 var repoConfig = fse.readJsonSync(repoRelativePath);
 var repo = null;
 if (repoConfig && repoConfig.repo) {
@@ -94,15 +101,21 @@ if (repoConfig && repoConfig.repo) {
 var rootConfig = fse.readJsonSync(configPath);
 Object.keys(repo).forEach(function (repoName){
   var packagePath = path.join(src, repoName, 'package.json');
+  var whiteList = globalWhiteList;
+  if(repo[repoName]['onePackage'] && repo[repoName]['onePackage'] === 'true'){
+    whiteList = null;
+  }
   generatePackageDoc(packagePath, configPath, rootConfig.destination, true, whiteList, repo, repoName);
 });
 
 // 3. generate yml and copy readme.md for all sub packages
 Object.keys(repo).forEach(function (repoName){
-  var packageJsons = glob.sync(path.join(src, repoName, 'lib/**/package.json'));
-  packageJsons.forEach(function (packagePath) {
-    generatePackageDoc(packagePath, configPath, dest, false, whiteList, repo, repoName);
-  });
+  if (!repo[repoName]['onePackage']){
+    var packageJsons = glob.sync(path.join(src, repoName, 'lib/**/package.json'));
+    packageJsons.forEach(function (packagePath) {
+      generatePackageDoc(packagePath, configPath, dest, false, globalWhiteList, repo, repoName);
+    });
+  }
 }); 
 fs.unlink(tempConfigPath);
 
