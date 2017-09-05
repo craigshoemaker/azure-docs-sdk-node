@@ -8,7 +8,8 @@
 		"azure-storage-node": {
 			"url": "https://github.com/Azure/azure-storage-node",
 			"branch": "master",
-			"name": "azure-storage-node"
+			"name": "azure-storage-node",
+			"onePackage": "true"
 		}
 	}
 }
