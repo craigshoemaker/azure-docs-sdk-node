@@ -51,7 +51,7 @@ function generatePackageDoc(packagePath, configPath, dest, rootPackage, whiteLis
   var dir = path.dirname(packagePath);
   var packageName = fse.readJsonSync(packagePath).name;
   
-  if (whiteList && whiteList[packageName] !== true) {
+  if (whiteList && whiteList.indexOf(packageName) == -1) {
     return;
   }
   
@@ -80,22 +80,28 @@ function generatePackageDoc(packagePath, configPath, dest, rootPackage, whiteLis
 
 function getWhiteListFromPackageMappingFile(sourcePath, packageMappingFileRelativePath) {
   var mapping = fse.readJsonSync(sourcePath + '/' + packageMappingFileRelativePath);
-  var whiteList = {};
+  var whiteList = [];
   Object.keys(mapping).forEach(function(element) {
-    whiteList[element] = true;
+    whiteList.push(element);
   }, this);
   return whiteList; 
 }
 
 // 1. prepare
 fse.removeSync(dest);
-// Now only support package_service_mapping.json for azure-sdk-for-node repo
-var globalWhiteList = getWhiteListFromPackageMappingFile('src/azure-sdk-for-node', packageMappingFileRelativePath);
 var repoConfig = fse.readJsonSync(repoRelativePath);
 var repo = null;
 if (repoConfig && repoConfig.repo) {
   repo = repoConfig.repo;
 }
+// get globalWhiteList from all repo package_service_mapping files, except one package repo
+var globalWhiteList = [];
+Object.keys(repo).forEach(function (repoName){
+  if(!repo[repoName]['onePackage']){
+    var whiteList = getWhiteListFromPackageMappingFile(src + '/' + repoName, packageMappingFileRelativePath);
+    globalWhiteList.concat(whiteList);
+  }
+});
 
 // 2. generate yml and copy readme.md for azure.js
 var rootConfig = fse.readJsonSync(configPath);
