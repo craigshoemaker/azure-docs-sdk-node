@@ -2,7 +2,6 @@ function CloneOrPull
 {
       param([string]$gitRepo, [string]$branch, [string]$folderName)
 
-	  Write-Host $gitRepo $branch $folderName
       if (Test-Path $folderName\.git)
       {
           Push-Location $folderName
@@ -27,9 +26,8 @@ Push-Location $rootFolder\$src
 $JSON = Get-Content -Path $rootFolder\repo.json -Raw
 $HT = (New-Object System.Web.Script.Serialization.JavaScriptSerializer).Deserialize($JSON, [System.Collections.Hashtable])
 $HT.repo.GetEnumerator() | ForEach-Object {
-    Write-Host $_.Value.url $_.Value.branch $_.Value.name
-	
 	CloneOrPull $($_.Value.url) $($_.Value.branch) $($_.Value.name)
+
 	if ($_.Value.build_script)
 	{
 		Push-Location $($_.Value.name)
