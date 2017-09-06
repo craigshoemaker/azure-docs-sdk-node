@@ -7,7 +7,6 @@ var glob = require('glob');
 var path = require('path');
 var yaml = require('js-yaml');
 
-//var src = 'src/azure-sdk-for-node';
 var src = 'src';
 var packageMappingFileRelativePath = 'package_service_mapping.json';
 var repoRelativePath = 'repo.json';
@@ -103,7 +102,7 @@ Object.keys(repo).forEach(function (repoName){
   }
 });
 
-// 2. generate yml and copy readme.md for azure.js
+// 2. generate yml and copy readme.md for root package of repo
 var rootConfig = fse.readJsonSync(configPath);
 Object.keys(repo).forEach(function (repoName){
   var packagePath = path.join(src, repoName, 'package.json');
@@ -113,7 +112,7 @@ Object.keys(repo).forEach(function (repoName){
   }
   generatePackageDoc(packagePath, configPath, rootConfig.destination, true, whiteList, repo, repoName);
 });
-console.log("2 finished");
+
 // 3. generate yml and copy readme.md for all sub packages
 Object.keys(repo).forEach(function (repoName){
   if (!repo[repoName]['onePackage']){
@@ -124,7 +123,7 @@ Object.keys(repo).forEach(function (repoName){
   }
 }); 
 fs.unlink(tempConfigPath);
-console.log("3 finished");
+
 // 4. remove files with too long filename that breaks DocFX
 packagesToFilter.forEach(function (p) {
   var uidsToFilter = [];
