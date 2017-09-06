@@ -113,7 +113,7 @@ Object.keys(repo).forEach(function (repoName){
   }
   generatePackageDoc(packagePath, configPath, rootConfig.destination, true, whiteList, repo, repoName);
 });
-
+console.log("2 finished");
 // 3. generate yml and copy readme.md for all sub packages
 Object.keys(repo).forEach(function (repoName){
   if (!repo[repoName]['onePackage']){
@@ -124,7 +124,7 @@ Object.keys(repo).forEach(function (repoName){
   }
 }); 
 fs.unlink(tempConfigPath);
-
+console.log("3 finished");
 // 4. remove files with too long filename that breaks DocFX
 packagesToFilter.forEach(function (p) {
   var uidsToFilter = [];
