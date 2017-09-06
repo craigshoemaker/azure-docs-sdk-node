@@ -99,7 +99,7 @@ var globalWhiteList = [];
 Object.keys(repo).forEach(function (repoName){
   if(!repo[repoName]['onePackage']){
     var whiteList = getWhiteListFromPackageMappingFile(src + '/' + repoName, packageMappingFileRelativePath);
-    globalWhiteList.concat(whiteList);
+    globalWhiteList = globalWhiteList.concat(whiteList);
   }
 });
 
