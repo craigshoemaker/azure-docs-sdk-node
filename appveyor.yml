@@ -1,6 +1,6 @@
 branches:
   only:
-    - skipmethod
+    - master
     
 environment:
   op_build_user: "OpenPublishBuild"
