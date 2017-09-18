@@ -1,6 +1,6 @@
 branches:
   only:
-    - testforci
+    - master
     
 environment:
   op_build_user: "OpenPublishBuild"
